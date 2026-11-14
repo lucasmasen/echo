@@ -116,7 +116,7 @@ How the repo maps to the judging criteria: [docs/JUDGES.md](docs/JUDGES.md).
 
 Echo traces a claim through the pages that repeat it, groups pages making the same assertion, judges likely source relationships, and synthesizes an answer from root pages only. Each result can be copied or downloaded as a text report with the query audit, review prompts, source URLs, proposed relationships, evidence notes, and an explicit answer citation key with saved passages (**More → Copy report** or **Download report**; **Print report**, or the browser's own print, gives a one-page summary with the verdict, plain-search line, origins, copies with what Echo saw on each link, the answer, the caveats and the trace date; the result toolbar keeps **Present**, **Copy link** and **New trace** on its first row). It can also be saved as a portable `.echo.json` snapshot and reopened offline in another browser.
 
-## What's new on Nov 13
+## Earlier development: Nov 13
 
 Each item is described in detail further down. Figures are from single live runs or from offline replays, as marked.
 
@@ -363,7 +363,7 @@ Then start the app:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The Ghost and Zombie slots open real captured live traces (see Saved live demo traces below), falling back to clearly labeled synthetic rehearsal snapshots only if those files cannot load. Their banners, edge labels, and confidence displays say they are samples; their pages and edges are not live research results. Enter a claim and choose **Trace sources** to run the Tavily + Claude pipeline. Backup chips fill the input for a manual live check; they are not marked as tested.
+Open [http://localhost:3000](http://localhost:3000). The primary showcase link opens the sixteen Nov 14 Telem runs. The Ghost and Zombie slots open earlier real captures (see Historical saved demo traces below), falling back to clearly labeled synthetic rehearsal snapshots only if those files cannot load. Their banners, edge labels, and confidence displays say they are samples; their pages and edges are not live research results. Enter a claim and choose **Trace sources** to run the Tavily + Claude pipeline. Backup chips fill the input for a manual live check; they are not marked as tested.
 
 See [DEMO_PRETEST.md](./DEMO_PRETEST.md) for the current claim candidates, pre-test coverage, backup pool, and rehearsal checklist. The chosen claims are still candidates: repeat their live traces with the current build before using their trees as stage evidence.
 
@@ -419,7 +419,7 @@ Each Tavily request reserves its credit cost before it is sent (1 credit per bas
 
 The supported lower-cost model is `claude-haiku-5-5`. To use it for all Claude stages, change `ANTHROPIC_MODEL` in `.env.local` and restart `npm run dev`; Echo's budget guard uses Haiku's separate token rates, including its higher price tier for prompts over 100,000 tokens. Current published rates for prompts under that threshold are $0.10/$0.50 per million input/output tokens for Haiku 5.5 versus $2/$10 for Sonnet 5.5. This lowers the price per token; it does not necessarily reduce token count. As a middle ground, set `ANTHROPIC_CLASSIFIER_MODEL=claude-haiku-5-5` and `ANTHROPIC_ANSWER_MODEL=claude-sonnet-5-5` to use Haiku for claim grouping and source judgments while keeping Sonnet for the final answer. Compare the same claims before freezing a stage demo because source-dependence quality has not yet been benchmarked here.
 
-## Saved live demo traces
+## Historical saved demo traces (Nov 10–13)
 
 `public/demo-traces/` holds five real live runs saved with the app: slot 02 (captured 2026-11-10), slot 01 and the goldfish backup (2026-11-11), the head-heat backup (2026-11-12) and the saved Check these sources run (2026-11-13). Demo slots 01 and 02, the two backups and **Saved check: 5 links → 1 origin** open them directly, tagged "SAVED LIVE RUN · captured <date>", and the service worker caches them for offline use. The bundled run always opens, even after a live run of the same claim in this browser; that browser run is only a fallback when the bundled file cannot load (and it stays in Recent live traces). They can also be opened with **More → Open trace file** (no keys or credits needed):
 

@@ -60,6 +60,8 @@ a { color: inherit; }
 .hero h1 em { color: var(--teal-deep); font-style: normal; font-weight: 660; }
 .hero-description { max-width: 670px; margin: 18px 0 0; color: #62736d; font-size: 14px; line-height: 1.75; }
 .hero-how-link { display: inline-block; margin-top: 10px; color: var(--teal-deep); font-size: 13px; font-weight: 700; text-decoration: none; }
+.hero-showcase-link { display: inline-flex; align-items: center; gap: 16px; margin: 18px 18px 0 0; padding: 11px 15px; border-radius: 7px; color: #183331; background: var(--lime); font-size: 12px; font-weight: 750; text-decoration: none; }
+.hero-showcase-link:hover { background: #cbe66a; }
 .hero-how-link:hover, .result-origins-link:hover { text-decoration: underline; }
 .hero-copy .hero-how-link:not(:last-child) { margin-right: 22px; }
 .result-origins-link { color: var(--teal-deep); font-size: 10px; font-weight: 700; text-decoration: none; }
@@ -95,6 +97,7 @@ a { color: inherit; }
 .claim-slot-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
 .preset-list { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; }
 .preset-label { margin-right: 5px; color: #96a49d; font-size: 8px; font-weight: 800; letter-spacing: 1.2px; }
+.preset-era { color: #96a49d; font-size: 8px; font-weight: 650; letter-spacing: .7px; }
 .preset-chip { display: inline-flex; align-items: center; gap: 7px; min-height: 28px; padding: 0 9px; color: #556d65; border: 1px solid #e1e9e2; border-radius: 5px; background: #fff; font-size: 10px; font-weight: 630; cursor: pointer; transition: background 120ms ease, border-color 120ms ease, color 120ms ease; }
 .preset-chip:hover:not(:disabled) { color: var(--teal-deep); border-color: #a8c8b9; background: #f2f8f2; }
 .preset-chip:disabled { opacity: .55; cursor: not-allowed; }

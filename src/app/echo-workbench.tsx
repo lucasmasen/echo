@@ -3388,8 +3388,8 @@ export default function EchoWorkbench({ embed = false }: { embed?: boolean } = {
           <p className="eyebrow hero-eyebrow">SOURCE INTELLIGENCE / 01</p>
           <h1>Many pages can still be <em>one rumor.</em></h1>
           <p className="hero-description">Echo traces a claim through the pages that repeat it, or checks the links an AI answer cites, then finds the independent origins and answers from those origins only.</p>
+          <Link className="hero-showcase-link" href="/origins">Explore 16 claims traced on Nov 14 <span aria-hidden="true">↗</span></Link>
           <Link className="hero-how-link" href="/how">How Echo works, in four steps →</Link>
-          <Link className="hero-how-link" href="/origins">See the origin layer: saved live Telem runs →</Link>
         </div>
         <div className="hero-stamp" aria-hidden="true"><span>TRACE</span><BrandMark /><span>THE ORIGIN</span></div>
       </section>
@@ -3462,7 +3462,7 @@ export default function EchoWorkbench({ embed = false }: { embed?: boolean } = {
           <div className="claim-footer">
             <div className="claim-slot-row">
               <div className="preset-list">
-                <span className="preset-label">DEMO SLOTS</span>
+                <span className="preset-label">EARLIER DEMO SLOTS · NOV 10–11</span>
                 {PRESETS.map((preset) => (
                   <button aria-keyshortcuts={String(Number(preset.slot))} className={`preset-chip preset-${preset.id}`} disabled={isRunning} key={preset.id} onClick={() => void runDemo(preset.id)} title={`Open slot ${preset.slot} (press ${Number(preset.slot)})`} type="button">
                     <span className="preset-number">{preset.slot}</span>{preset.label}<span className="preset-arrow">↗</span>
@@ -3491,7 +3491,7 @@ export default function EchoWorkbench({ embed = false }: { embed?: boolean } = {
               </span>
             </div>
             <div className="backup-row">
-              <span className="preset-label">MORE SAVED RUNS</span>
+              <span className="preset-label">MORE SAVED RUNS</span><span className="preset-era">CAPTURED NOV 11–13</span>
               {BACKUP_POOL.map((backup) => (
                 <button className="preset-chip backup-chip" disabled={isRunning} key={backup.claim} onClick={() => void selectBackup(backup.claim)} title={backup.capturedTrace ? `${backup.claim} (saved live run)` : `${backup.claim} (untested: fills the claim box for a live run)`} type="button">
                   {backup.label}<span className="preset-arrow">{backup.capturedTrace ? "↗" : "＋"}</span>
