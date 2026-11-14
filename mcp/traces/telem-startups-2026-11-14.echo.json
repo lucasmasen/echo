@@ -1,0 +1,787 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T20:33:52.901Z",
+  "analysis": {
+    "claim": "90% of startups fail",
+    "createdAt": "2026-11-14T20:33:52.901Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Is It True That 90% of Startups Fail?",
+        "url": "https://nanoglobals.com/startup-failure-rate-myths-origin",
+        "domain": "nanoglobals.com",
+        "publishedDate": "2021-06-29",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://nanoglobals.com/assets/images/favicons/favicon.ico",
+        "text": "## Generalizations versus specifics For an ideation phase business that meets the definition of a startup, a roughly 90% failure rate is in line with recent stats from Startup Genome, a reputable published source. For general new companies with linear growth models, the failure rate is less than this, even over five years. However, in terms of scaleups that have received VC funding, the statistic improves again thanks to the infusion of cash and expertise from advisors. [...] Across all industries, Census Bureau data shows business success rates ranging from 30–50%. The failure rate across all business formations by the Bureau of Labor Statistics is just over 50%, accounting for a five-year timeline.4 Most measures of business failure rates consider anything short of closure to be a success, including scenarios traditionally frowned upon in the venture capital ecosystem like linear growth trends and “acqui-hire” exits. | Business Type | Failure Rate | Time Frame | --- | New Business | 70% | 10 years | | Startup | 90% | 10 years | | Scaleup | 75% | 10 years | | Unicorn | 99.9% | 10 years | ## Startup vs Business definitions impact the success rate Depending on where you look, you will get different definitions of what a startup is.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Own synthesis of Startup Genome, BLS and Census figures into a failure rate table, with no dependence on cluster pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes figures from secondary sources."
+      },
+      {
+        "id": "page-2",
+        "title": "What Percentage of Startups Fail? The Real Data",
+        "url": "https://www.sesamers.com/startups/startup-failure-rate",
+        "domain": "sesamers.com",
+        "publishedDate": "2026-08-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.sesamers.com/wp-content/uploads/2026/08/favicon-512-150x150.png",
+        "text": "### Is it true that 90% of startups fail? The figure is untraceable to any primary source and blends different company types, timeframes and definitions of failure. The strongest broad data – US BLS figures covering all new businesses, not just startups – shows about 65% failing within ten years, and no rigorous dataset produces a clean 90%. ### What percentage of new businesses fail in the first years? Per US BLS data – US, all business types, not only startups – roughly 20% of new businesses fail within two years and about 45% within five. Comparable pan-European cohort statistics of that rigour do not really exist, which is itself worth knowing. ### How many startups make it to Series A? [...] Latest Latest Latest Latest Latest # What percentage of startups fail? What the data actually says The \"90% of startups fail\" figure is untraceable - here is what the BLS and Dealroom data actually show, and why high attrition is the venture model working as designed. A closed sign hanging in a business window, the image behind startup failure-rate folklore Also see more startups coverage: /startups/ There is no single percentage of startups that fail – the honest answer depends on how you define “startup”, how you define “fail” and over what period – and the famous “90% of startups fail” figure is untraceable to any primary source.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Summarizes BLS and Dealroom data without its own data; no real wording overlap with the other pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Cites BLS figures only."
+      },
+      {
+        "id": "page-3",
+        "title": "Why Do 90% of Startups Fail?",
+        "url": "https://www.indinero.com/faq/startup/why-do-90-of-startups-fail",
+        "domain": "indinero.com",
+        "publishedDate": "2026-07-17",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.indinero.com/wp-content/uploads/2023/04/cropped-favicon-purple-1-180x180.png",
+        "text": "[Skip to footer](#brx-footer) [![Indinero](https://www.indinero.com/wp-content/uploads/2023/06/logo.svg)](https://www.indinero.com) [Log In](https://exchange.indinero.com/login/)[Talk to an Expert](https://www.indinero.com/talk-to-an-expert/) # Why Do 90% of Startups Fail? * Startup ![]('https://www.indinero.com/wp-content/uploads/backup/2023/03/AdobeStock_573940051.jpg) The statistic varies; but common reasons include: poor market fit (solving a problem nobody needs solved); running out of cash (inadequate funding or poor budgeting); weak team dynamics; inability to adapt to market feedback; and excessive competition. Many founders spend too much too fast without validating their idea first. Others lack business fundamentals like accounting and cash flow management. Poor financial tracking can hide problems until it’s too late. Success requires a viable product; paying customers; and disciplined spending. ## Your privacy choices We use necessary cookies to operate this website. With your permission, we also use analytics cookies to understand site usage and marketing cookies to measure and improve campaigns. [Read our Cookie Policy](https://www.indinero.com/cookie-policy/). Privacy center ## Cookie preferences Choose which optional technologies may run on this website. Necessary technologies are always enabled because the website cannot function correctly without them. Your browser is sending a Global Privacy Control signal, so marketing technologies will remain disabled. ### Necessary Required for core website functions, security, and saving your privacy choices. Always active [Cookie Policy](https://www.indinero.com/cookie-policy/) [Privacy Policy](https://www.indinero.com/privacy-policy/)",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Asserts the 90% claim generically with no source, data or reporting of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Generic reasons with no data or record."
+      },
+      {
+        "id": "page-4",
+        "title": "Busting the \"90% failure rate\" myth with Carta | Nathan Beckord posted on the topic | LinkedIn",
+        "url": "https://www.linkedin.com/posts/nathanbeckord_your-favorite-startup-stat-needs-to-die-activity-7320161466936872960-Jo2n",
+        "domain": "linkedin.com",
+        "publishedDate": "2025-04-21",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca",
+        "text": "Your favorite startup stat needs to die 🔪 The \"90% failure rate\" is a myth. Check Carta's Class of 2018 (4,369 companies) 32.2% are still alive and kicking in 2025 5.5% got acquired 0.34% went IPO 1.3% joined the unicorn club Over HALF of these companies raised seed funding. Which means the funding journey is less a death march and more a natural filter that tests your resolve and business viability. Being a founder is challenging. Yes, raising capital is getting tougher - that's just market evolution. Which is why: 𝘌𝘷𝘦𝘳𝘺 𝘧𝘶𝘯𝘥𝘪𝘯𝘨 𝘳𝘰𝘶𝘯𝘥 𝘪𝘴 𝘢 𝘤𝘭𝘪𝘧𝘧. Each one demands a higher level of execution, traction, and market validation. But that's not \"failure,\" it's 𝘦𝘷𝘰𝘭𝘶𝘵𝘪𝘰𝘯. What other startup myths need fact-checking? Source: Carta P.S. Want to be in that 32.2%? Foundersuite helps [...] 6mo Report this comment This post clears the air with data, not drama and I love it. The “90% failure” stat has long been used to scare founders rather than inspire informed action. What the Carta data actually shows is that startups aren’t doomed they’re filtered. Founding is less about luck and more about resilience, adaptability, and clarity of execution at every stage. Each round is a cliff, and the climb is real but calling it failure misses the nuance. It’s growth, pressure tested. More of this energy, please. Let’s retire fear driven narratives and focus on informed optimism. Curious what’s one startup myth you think we should leave behind for good? Like Reply 1 Reaction 2 Reactions Luxury Stores International, Inc. 6mo Report this comment Insightful 🤔",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "Presents Carta Class of 2018 cohort figures (4,369 companies) with specific outcome numbers."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Cohort outcome data shown from Carta, though it is relayed by the poster."
+      },
+      {
+        "id": "page-5",
+        "title": "[PDF] Before You Launch",
+        "url": "https://neaman.org.il/wp-content/uploads/2025/03/Report_Before-You-Launch.pdf",
+        "domain": "neaman.org.il",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Some 90% or more of startups fail. Is this high failure rate inevitable? ... In this study, we argue that the failure rate can be significantly reduced by the intelligent use of a pre-launch protocol -- a list of sixty-four \"$64 questions”, that ask startup entrepreneurs to consider in advance the challenges and pitfalls they may face in future – in order to anticipate and prepare. ... Some 90% or more of all startups fail. The statistics for the US, for example, are daunting: “About one in five startups will fail in the first year. Eventually, 90% will close shop. Even unicorns, startups that manage to reach stratospheric valuations, eventually go bust 99% of the time. And only 1% of startups are valued at $1 billion or more. Disruptive companies that threaten to take their industry by storm also have a ninety-plus percent failure rate. 30% of startups fail within three years. 50% don’t make it past five years. 70% close down in 10 years. Only 40% manage to turn a profit. Those…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-7",
+          "confidence": 40,
+          "evidence": "Snippet from a Neaman Institute paper that repeats the 90% claim and quotes a statistics listing; page-7 is a related Neaman survey but the date is missing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-6",
+        "title": "INDICATORS OF STARTUP FAILURE",
+        "url": "https://stumejournals.com/journals/i4/2017/5/238.full.pdf",
+        "domain": "stumejournals.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://stumejournals.com/favicon.ico",
+        "text": "INDICATORS OF STARTUP FAILURE Ing. Richard Bednár, PhD., Ing. Natália Tarišková, PhD. richard.bednar@euba.sk, natalia.tariskova@euba.sk Abstract:. Startup is a newly established enterprise, or an enterprise at the foundation stage, which is focused on monetizing an idea. According to the European Association of Business Angels there are launched about 50 million new projects every year (137,000 per day), but 90% of them fail. In the paper we analysed 51 startups, which had a minimum viable product and also some investment, but failed. The main aim of the research was to identify the factors leading to the failure of startups. The result has been to create an overview of the mistakes that young entrepreneurs commit at the early beginning.1 Keywords: STARTUP, FAILURE, INVESTMENT, TEAM, [...] payment systems, gastronomy and artificial intelligence (Chart 4) Chart 4: Sectors of analyzed startups An important indicator of a startup business failure was the amount and type of investment (Table 1). The number 84% of the analyzed startups received an investment, mostly in the amount of 10-100 k Euros and 1-10 mil. €. Only 16% of them did not receive any investment. It follows that the specimen was under the control of investors and other third parties and startup had to have some MVP. Revenues and profits of 80% startups were not published, so we did not analyze them further. Table 1: Amount and type of investments Startup statistics in the literature show that approximately 90% of startups are convicted to an absolute failure and their further fate is extinction. More about 5% are",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Attributes 90% to the European Association of Business Angels, but analyzes 51 failed startups itself."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The 90% claim is attributed to an outside source; the 51-startup analysis does not support the 90% figure."
+      },
+      {
+        "id": "page-7",
+        "title": "Why Startups Fail: A Survey of Empirical Studies",
+        "url": "https://doi.org/10.82514/why-startups-fail-a-survey-of-empirical-studies",
+        "domain": "doi.org",
+        "publishedDate": "2021-11-16",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.doi.org/images/favicons/apple-touch-icon.png",
+        "text": "Neaman_Institute_Logo_EN_Text_Only Home Page / Publications / Why Startups Fail: A Survey of Empirical Studies # Why Startups Fail: A Survey of Empirical Studies ### SHARE ### READ ONLINE ### CITATION 90% and more of all hi-tech startups fail. True, innovation is very risky, however the odds of failure can be improved. In this study, we survey the empirical literature on the causes of startup failure and propose that the odds of success can be improved by thorough advance preparation. ## Upcoming Events A building in the Technion ### The Annual Samuel Neaman Memorial Lecture ### Between Distinct Educational Streams and a Common Core – Directions for Israel’s Education System: Policy, Reality, and Vision Sketch of the Samuel Neaman Institute building [...] דרכי פנייה לבקשות והצעות לשיפור בנושא נגישות למרות מאמצינו להנגיש את כל חלקי האתר, יתכן ויתגלו חלקים ספציפיים שלצערנו אינם נגישים. במידה ומצאתם באתר האינטרנט שלנו מידע שאינו נגיש לרבות תמונות, מסמכים, טבלאות מצגות וכו’ ו/או במידה וברצונכם לקבל מידע ו/או עזרה, הנכם מוזמנים לפנות אל מרכז התמיכה והשירות שלנו באמצעות פקס 04-8231889 , או בדוא”ל (/cdn-cgi/l/email-protection#adc4c3cbc2edc3c8ccc0ccc383c2dfca83c4c1). פרטי רכז נגישות בכל שאלה בנושא הנגשת השירות, ניתן לפנות לרכז הנגישות בחברתנו מר גולן תמיר , דוא”ל: (/cdn-cgi/l/email-protection#c6afa8a0a986a8a3a7aba7a8e8a9b4a1e8afaa) , טלפון:04-8292329 פרסום הצהרת נגישות הצהרת הנגישות עודכנה ביום: 16.12.2024 NagishExpress Logo",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Neaman survey of the empirical literature on causes of failure; asserts 90% without a citation."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Abstract only; no data shown for 90%."
+      },
+      {
+        "id": "page-9",
+        "title": "Is your startup bound to fail?. If you were told “9 out of 10 startups… | by James Green | Medium",
+        "url": "https://medium.com/@DQventures/is-your-startup-bound-to-fail-9a83da94cfa9",
+        "domain": "medium.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "In 1975, Dun & Bradstreet published a report on business failures. Journalists misinterpreted the data, and the 90% myth was born. It’s been parroted ever since, without anyone checking the source. The original report never even claimed a 90% failure rate. It was about the age of companies that failed in a single year. Big difference. Press enter or click to view image in full size But why does this myth persist? Simple. It’s dramatic. It makes for good headlines. [...] · Oct 15, 2024 You’ve heard it a million times. “90% of startups fail.” It’s the boogeyman of the start-up world. But here’s the thing — it’s not true. Not even close. Research found that about 50% of startups fail within the first five years. That’s a far cry from 90%. But even that 50% doesn’t tell the whole story. Press enter or click to view image in full size Source : Jobera So where did this 90% figure come from? It’s a classic case of bad data gone viral. [...] Their data shows 5-year survival rates…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Medium snippet attributes the myth to a 1975 Dun & Bradstreet report; partial text."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-10",
+        "title": "Reasons Behind The Failure of Startups",
+        "url": "https://e-research.siam.edu/wp-content/uploads/2023/07/IMBA-2022-IS-Reasons-Behind-The-Failure-of-Startups.pdf",
+        "domain": "e-research.siam.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://e-research.siam.edu/wp-content/uploads/2021/01/cropped-e-research-logo-a-180x180.png",
+        "text": "around 90% of startups fail to survive the initial 5 years (Patel, 2015). This is very much similar to the Indian startups (Businessline, 2018). This situation is similar to most other countries. The closing down of a startup does not only affect the entrepreneur but also the firm they founded. However, the after-effects of unsuccessful startups transcend from the brand and affect the economy or employment. The failed journeys of such entrepreneurs become an example for aspiring entrepreneurs, to keep growing while avoiding making the same mistakes. It is suggested that the founders should have the autonomy to innovate according to their needs and maintain minimal failure expenses (Bala Subrahmanya, 2017). Furthermore, knowing entrepreneurial learning is important for any potential [...] VLJ Date .................. C.. ................. .. Title of Research: Author: ID: Major: Degree: Reasons Behind The Failure of Startups Nitin Saini 6317190031 International Business Master of Business Administration (International Program) This independent study report has been approved to be a partial fulfillment in the Master of Business Administration (MBA) program. 2 Research Title : Researcher : Degree : Major : Reasons Behind The Failure of Startups Nitin Saini Master of Business Administration Program (International Program) International Business Advisor : ……………………………………. (Dr. Tanakorn Limsarun) Abstract Researchers have actively worked on studies for failure rates and causes among startups as 90% of startups fail within five years of establishment. It is essential to understand",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "Cites Patel 2015 and Businessline 2018 for the 90% figure, which are outside sources."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Citations only, no data."
+      },
+      {
+        "id": "page-11",
+        "title": "Why Do 90% of Startups Fail? (2026 Answer) | IdeaProof",
+        "url": "https://ideaproof.io/questions/why-startups-fail",
+        "domain": "ideaproof.io",
+        "publishedDate": "2025-12-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://ideaproof.io/apple-touch-icon.png",
+        "text": "Financial mismanagement exacerbates these demand issues. Operating with high fixed overhead and long sales cycles compresses the timeframe available to pivot toward a viable model. Without strict cash flow forecasting and disciplined expense controls, startups deplete their capital reserves before identifying a repeatable customer acquisition channel. The combination of stagnant top-line growth and persistent capital burn invariably forces liquidations or distressed asset sales. ## Step-by-Step Risk Mitigation Framework [...] Another critical vulnerability is poor executive team alignment and equity structuring. Distributing equity without vesting schedules or failing to establish clear decision-making authority leads to operational paralysis during high-stakes strategic pivots. When founder conflict disrupts execution velocity, product quality degrades and critical hiring stalls, accelerating the path toward operational breakdown and ultimate failure. ## Real-World Why Startups Fail Examples Quibi Raised $1.75 billion but failed in 6 months. They assumed short-form premium content would work on mobile without validating if users actually wanted it. They didn't test the core assumption. Juicero",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Generic explainer with no source for 90% and only anecdotal examples."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data or records."
+      },
+      {
+        "id": "page-12",
+        "title": "[PDF] 90% of Tech Start-Ups Fail: What Do the Other 10% Know?",
+        "url": "https://www.edge-ai-vision.com/wp-content/uploads/2023/09/BT11_Morris_CVA_2023.pdf",
+        "domain": "edge-ai-vision.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.edge-ai-vision.com/favicon.ico",
+        "text": "2 © 2023 Connected Vision Advisors Source: Embroker – 106 Must-Know Startup Statistics for 2023 General stats • ~305 million start-ups created every year globally, only 0.05% get VC funding • < 10% of startups that raise a seed round also raise a series-A investment. • ~90% of start-ups fail • ~80% of “tech” start-ups fail (e.g., CV & edge AI) • ~90% of “disruptive” tech start-ups fail • 99.9% of unicorns fail (1200 unicorns in 2022 or about 0.00006 of start-ups) • ~70% fail in year 2-5 • Failure is most common for companies with 11-50 employees • Of ~70k start-ups in USA, ~20 will reach $100M in sales a year Start-Ups – Did You Know? 3 © 2023 Connected Vision Advisors Source: Embroker – 106 Must-Know Startup Statistics for 2023 Top 20 Reasons Cited for Failure 1. No market need – 42% 2. [...] No market need – 42% 2. Ran out of cash – 29% 3. Not the right team – 23% 4. Get outcompeted - 19% 5. Pricing/cost issues – 18% 4 © 2023 Connected Vision Advisors Source: CBInsights – Aug 2021 There is no single reason though many are often related 6. Poor product - 17% 7. Lack of business model – 17% 8. Poor marketing – 14% 9. Ignore customers – 14% 10. Product mis-timed – 13% For “tech differentiation” start-ups (vs operational excellence) the most common reasons can be summarized as: 1. Not clearly identifying the customer/market problem 2. Not quantifying the value prop or the value prop is not significant 3. Not quantifying competitive differentiation 4. Weak GTM – A way to achieve repeatable and scalable growth 5.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Slide deck explicitly sources stats to Embroker and CB Insights, which are outside the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Compiled statistics from other sources."
+      },
+      {
+        "id": "page-13",
+        "title": "Is It True That 90% of Startups Fail? - SeedScope",
+        "url": "https://seedscope.ai/blog/is-it-true-that-90-of-startups-fail",
+        "domain": "seedscope.ai",
+        "publishedDate": "2025-10-21",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://framerusercontent.com/images/2OFhZceRp3Kz1BSXXFnTvLbtD0.png",
+        "text": "## Origins of the 90% Statistic Where does the 90% figure really come from? It traces back to studies of high-growth startups, not everyday small businesses. A 2019 analysis of “venture‑scale” startups famously noted only ~8% achieved their growth targets (implying ~92% didn’t) – a number widely paraphrased as “9 out of 10 fail.” Similarly, a Harvard Business School study once found roughly 75% of VC‑funded companies don’t return investor capital (i.e. only 25% are home runs). By contrast, U.S. Labor Dept. data on all new businesses shows only 20% exit in year one and about half survive past five years. In short, the 90% rate is not the average for every new enterprise – it’s more typical of high-risk, venture‑funded startups over a longer time horizon. ## What Counts as “Failure”? [...] Everywhere you look, people say “9 out of 10 startups fail.” It’s a dramatic claim, but it hides a lot of complexity. In reality, the figure depends on how you define a “startup” and what counts as “failure.” Many founders conflate any business closure with a tech startup bust, or count companies that live on without explosive growth as failures. In fact, broad government data on all new businesses (including coffee shops and local services) shows roughly 20% close in year one and about 50% by year five – far lower than 90%. The sky-high number usually refers to ambitious tech ventures or venture-backed companies. For example, a well‑known industry report found that only about 1 in 12 high-potential tech startups eventually succeed on a meaningful scale – loosely the basis for the “90%",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Summarizes the origins of the stat and BLS data with no named source for the details."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Secondary summary."
+      },
+      {
+        "id": "page-14",
+        "title": "Startup statistics you should know | Stripe",
+        "url": "https://stripe.com/en-sk/resources/more/startup-statistics-you-should-know",
+        "domain": "stripe.com",
+        "publishedDate": "2025-01-14",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=180&h=180",
+        "text": "Startup failure is a timeline, not a single event. Most companies that fail don't fail immediately; they lose momentum gradually as funding, product-market fit, and team cohesion erode over several years. Here's what the data shows about when and why startups fail. ### Failure by year of operation: Year 1: More than 20% of businesses will have failed Year 5: Nearly 50% of businesses will have failed Year 10: More than 65% of businesses will have failed For startups that do succeed, it typically takes about two to three years to become profitable. Founder experience and age matter: Among the top 0.1% of startups by growth, the average founder age at founding is 45. ### Failure rates by industry [...] See what's ahead Fraud prevention Start-up incorporation Carbon removal Sessions Background # Startup statistics: X+ key figures to know in 2026 Join 100,000 startups from 180 countries that incorporated with investor-ready legal documents. Startup statistics matter because they help tell a story – one full of lessons, pitfalls, and possibilities. The stats say a majority of startups fail, and can help founders understand why. Was it poor cash flow management? No market demand? When you understand the reasons, you can improve your strategies, spot danger earlier, and avoid common pitfalls.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Lists failure-by-year figures without naming a source in the passage."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Statistics without underlying data."
+      },
+      {
+        "id": "page-15",
+        "title": "Do 9 out of 10 startups fail? - by Jeroen Coelen",
+        "url": "https://iwantproductmarketfit.substack.com/p/do-9-out-of-10-startups-fail",
+        "domain": "iwantproductmarketfit.substack.com",
+        "publishedDate": "2024-10-02",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://substackcdn.com/image/fetch/$s_!ghns!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F628934a8-ea43-47a8-8b4d-f896f1cb34ce%2Fapple-touch-icon-114x114.png",
+        "text": "“Official statistics tend to exaggerate enterprise churn, and it is common practice to assume that enterprise discontinuations are failures” It underpins my hunch that indeed, not failures are ‘bad’, and that these numbers can be exaggerated. The funny thing is, I discover the 90% myth here: Enjoy this bullshit debunking? Join me every week. ## Impossible claim given the available data In short: It’s not 90%. But that myth has taken hold of the public. In a survey of the UK, most people, especially those involved with entrepreneurship, are aware of the myth (Allinson et al., 2005). There’s one source to the 90%. According to the screenshotted article above its by Dun & Bradstreet in 1975. What did they do? [...] But, getting a satisfying answer to the question ‘What is the survival rate of startups in general?’ is harder. Based on above, it actually is quite unlikely that it is 90% that dies in the first year. 50% seems already high. Enjoying this? Stay up to date. Subscribe for free. # Apples and Oranges You can expect most startups to survive that first year, and only after five years, you might see that serious portions fizzle out. But any aggregate number will not be useful for your comparison. The average startup doesn’t exist. Which startups? It depends on how you group them. My student-based, pre-incubator program has a survival rate of 18%-20%, depending on the time scale.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 60,
+          "evidence": "Links to the nanoglobals page, is later-dated, and debunks the same myth."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://nanoglobals.com/startup-failure-rate-myths-origin"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Argues from other sources; no original data."
+      },
+      {
+        "id": "page-16",
+        "title": "Why do startups fail? A core competency deficit model",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10881814",
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://pmc.ncbi.nlm.nih.gov/favicon.ico",
+        "text": "There is a constant need to understand startup success and failure, given that various statistics indicate that the failure rates are around 90% (Marmer et al., 2012a; Giardino et al., 2014; Startup Genome LLC, 2018, 2022). Additionally, Griffin (2017) points out that the majority of startups fail in their very early stages of operation, emphasizing the critical need for a deeper understanding of the reasons behind these failures. In this context, we begin by briefly discussing and reviewing existing research on startup failures. ### 1.1 Predictors of startup failures [...] 22. Griffin E. (2017). Conventional wisdom says 90% of startups fail. Data says otherwise. Fortune, Available at: 23. Gruber M., MacMillan I. C., Thompson J. D. (2008). Look before you leap: market opportunity identification in emerging technology firms. Manag. Sci. 54, 1652 – 1665. doi: doi:10.1287/mnsc.1080.0877 24. Gruber M., MacMillan I. C., Thompson J. D. (2013). Escaping the prior knowledge corridor: what shapes the number and variety of market opportunities identified before market entry of technology start-ups? Organ. Sci. 24, 280 – 300. doi: doi:10.1287/orsc.1110.0721 25. Honoré F. (2022). Joining forces: how can founding members’ prior experience variety and shared experience increase startup survival? Acad. Manag. J. 65, 248 – 272. doi: doi:10.2139/ssrn.4277035",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Cites Marmer, Giardino and Startup Genome for 90%; its own contribution is a core competency model."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Citation only for the 90% figure."
+      },
+      {
+        "id": "page-17",
+        "title": "What could we learn from startup failures? - Springer Nature",
+        "url": "https://link.springer.com/article/10.1186/s13731-025-00493-w",
+        "domain": "link.springer.com",
+        "publishedDate": "2025-12-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's citation_publication_date meta tag (issue month only), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://link.springer.com/oscar-static/img/favicons/darwin/android-chrome-192x192.png",
+        "text": "Another important attribute is that the majority of startups fail in their very early stages of operation (Griffin, 2017. Conventional wisdom says 90% of startups fail. Data says otherwise. Fortune, Retrieved from \")) and various statistics indicate that the failure rates are around 90% (Giardino et al., 2014. Why Early-Stage Software Startups Fail: A Behavioral Framework. In: Lassenius, C., Smolander, K. (eds) Software Business. Towards Continuous Value Delivery. ICSOB 2014. Lecture Notes in Business Information Processing, vol 182. Springer, Cham. [...] Article Google Scholar Griffin, E. (2017). Conventional wisdom says 90% of startups fail. Data says otherwise. Fortune, Retrieved from Guzman, J., & Stern, S. (2016). The state of American entrepreneurship: New estimates of the quantity and quality of entrepreneurship for 15 US states 1988–2014. NBER Working Papers, National Bureau of Economic Research, Cambridge, MA. Gyimah, P., Appiah, K. O., & Lussier, R. N. (2019). Success versus Failure Prediction Model for Small Businesses in Ghana. Journal of African Business. Article Google Scholar Hawkins, F. H. (1993). Human factors in flight (H.W. Orlady, Ed.) (2nd ed.) Routledge.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Cites Giardino 2014 and Griffin 2017 for the claim; the overlap with page-16 is low and undated, likely a common-source citation."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Citation only."
+      },
+      {
+        "id": "page-18",
+        "title": "Startup Failure Rate: How Many Startups Fail and Why in 2026?",
+        "url": "https://www.failory.com/blog/startup-failure-rate",
+        "domain": "failory.com",
+        "publishedDate": "2026-01-12",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.failory.com/apple-icon.png?apple-icon.0-bjhhdreaplp.png",
+        "text": "From a founder's POV, slow stagnation can be more damaging than fast failure. Fast failure creates clear feedback and frees up time, capital, and energy. Zombie startups delay those lessons while doubling down on opportunity cost. This is why knowing when to shut down is an essential startup skill, not a weakness. A startup that does not die is not necessarily a startup that succeeded. ‍ ## Frequently Asked Questions ### What's The Startup Success Rate? As we have seen, 90% of startups fail, which means the startup success rate is around 10%. This rate is much higher if we also consider other more traditional businesses and not only innovative tech startups. ‍ ### Why Do Startups Fail? [...] A great example is when Twitter acquired Vine to disrupt the video-sharing and social network ecosystem and ended up shutting the app down only a few years later (here's why Vine shut down). That said, simply accepting that you have a 90% chance to fail doesn’t seem like a healthy mentality. There are plenty of ways you can maximize your chances of success. The fact that the average is 90% doesn’t mean you can’t nudge this number in your favor. Some of the concepts that would help you the most: ‍ #### For Idea-Stage Startups You are searching for a product-market fit. The principles of the Lean Startupare extremely important at this stage. The goal is to validate your assumptions as quickly and cheaply as possible and to give yourself time to pivot if necessary.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "States 90% as fact with no cited source in the passage."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data shown."
+      },
+      {
+        "id": "page-19",
+        "title": "Startup Statistics 2026: Failure, Funding and AI | Arcforth",
+        "url": "https://thearcforth.com/blogs/startup-statistics",
+        "domain": "thearcforth.com",
+        "publishedDate": "2026-10-19",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://thearcforth.com/favicon.ico",
+        "text": "> Arcforth. \"Startup Statistics 2026: Failure Rates, Funding and Building With AI.\" Updated 19 October 2026. `Startup Statistics 2026 (Arcforth)` ## Frequently Asked Questions What percentage of startups fail? In US government data, about 22% of new businesses close within a year, about half within five years and about two-thirds within ten (BLS). Is it true that 90% of startups fail? No public dataset shows it. Closures only approach 90% after about 30 years in BLS data, and the 2011 report that popularized the figure gave no data for it. What is the main reason startups fail? [...] Of the businesses that opened in the year to March 1994, 12.6% were still operating in March 2025, so about 87% had closed after 31 years. (BLS) The best-known early written source is Startup Genome's 2011 report, which says \"more than 90% of startups fail\" without citing data, and admits \"we don't yet have longitudinal data\". (Startup Genome, 2011) Ghosh's answer depends on the definition: 30–40% fail if failure means liquidation, 70–80% if it means missing the projected return, and 90–95% if it means falling short of projections. (Harvard Business School Working Knowledge, Mar 2011) ## 04 - Why Do Startups Fail? Most failed startups run out of money, but that's how they end, not why. The causes underneath are usually poor product-market fit, bad timing and weak unit economics.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Traces BLS cohort data (12.6% survivors after 31 years) and quotes the Startup Genome 2011 report with its own analysis."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Specific BLS cohort figures and quoted passages from primary reports."
+      },
+      {
+        "id": "page-20",
+        "title": "Startup Failure Statistics 2026: The 90% Myth, Debunked - The Lonely Entrepreneur",
+        "url": "https://lonelyentrepreneur.com/startup-failure-statistics-2026",
+        "domain": "lonelyentrepreneur.com",
+        "publishedDate": "2026-07-18",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://lonelyentrepreneur.com/wp-content/uploads/2020/05/cropped-cropped-Lonely-Entrepreneur-Favicon-32x32_bceebffbd01933ff310e8be2ddf9d31f-180x180.png",
+        "text": "That 90% figure comes from the Startup Genome study — and it measures a very specific thing: venture-backed startups failing to deliver 10x venture returns. By that definition, a profitable company doing $5 million a year is a \"failure\" if it raised a big Series A. But most people building something aren't playing the venture-returns game. They're trying to build something real that pays them and lasts. For them, the honest number is the BLS one: about 20% of all businesses close in year one, roughly 50% by year five. Hard, but nowhere near hopeless. This is exactly the distinction Michael Dermer has spent years making — that the story we tell founders about their odds shapes whether they ever start at all. [...] That 90% figure comes from the Startup Genome study — and it measures a very specific thing: venture-backed startups failing to deliver 10x venture returns. By that definition, a profitable company doing $5 million a year is a \"failure\" if it raised a big Series A. But most people building something aren't playing the venture-returns game. They're trying to build something real that pays them and lasts. For them, the honest number is the BLS one: about 20% of all businesses close in year one, roughly 50% by year five. Hard, but nowhere near hopeless. This is exactly the distinction Michael Dermer has spent years making — that the story we tell founders about their odds shapes whether they ever start at all.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Attributes the 90% to Startup Genome and BLS figures, with nothing new added."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Figures without supporting data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "90% of startups fail (stated as established fact)",
+        "pageIds": [
+          "page-3",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-10",
+          "page-11",
+          "page-12",
+          "page-16",
+          "page-17",
+          "page-18"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "90% figure is a myth or context-dependent; BLS data shows lower failure rates",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-4",
+          "page-9",
+          "page-13",
+          "page-14",
+          "page-15",
+          "page-19",
+          "page-20"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-4",
+      "page-7",
+      "page-19"
+    ],
+    "verifiableRoots": [
+      "page-4",
+      "page-19"
+    ],
+    "answerSourceIds": [
+      "page-19",
+      "page-4"
+    ],
+    "answerStatements": [
+      {
+        "text": "The claim is not supported as a general rule: Arcforth says no public dataset shows that 90% of startups fail, and that closures only approach 90% after about 30 years in BLS data",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "In US government (BLS) data, about 22% of new businesses close within a year, about half within five years and about two-thirds within ten",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "The best-known early written source, Startup Genome's 2011 report, said more than 90% of startups fail without citing data, and admitted it lacked longitudinal data",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "A LinkedIn post citing Carta data calls the 90% failure rate a myth: of 4,369 companies in Carta's Class of 2018, 32.2% were still alive in 2025, 5.5% had been acquired and 0.34% had gone public",
+        "sourceIds": [
+          "page-4"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "90% of startups fail",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 17,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-2",
+          "page-3",
+          "page-11",
+          "page-12",
+          "page-19",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-2": [
+            "parallel"
+          ],
+          "page-3": [
+            "tavily"
+          ],
+          "page-11": [
+            "parallel"
+          ],
+          "page-12": [
+            "tavily"
+          ],
+          "page-19": [
+            "parallel"
+          ],
+          "page-18": [
+            "tavily",
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "\"90% of startups fail\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 26,
+        "matchingResults": 25,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "parallel",
+          "brave",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-13",
+          "page-14",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "perplexity",
+            "brave"
+          ],
+          "page-13": [
+            "brave"
+          ],
+          "page-14": [
+            "perplexity"
+          ],
+          "page-20": [
+            "brave"
+          ]
+        }
+      },
+      {
+        "query": "90% startups fail fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 30,
+        "matchingResults": 19,
+        "uniquePagesAdded": 10,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-4",
+          "page-15",
+          "page-16"
+        ],
+        "pageProviders": {
+          "page-4": [
+            "tavily"
+          ],
+          "page-15": [
+            "parallel"
+          ],
+          "page-16": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "90% startups fail study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 22,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": [
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-10",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-5": [
+            "perplexity"
+          ],
+          "page-6": [
+            "brave"
+          ],
+          "page-7": [
+            "exa"
+          ],
+          "page-10": [
+            "perplexity",
+            "brave"
+          ],
+          "page-17": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "90% startups fail original source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 30,
+        "matchingResults": 20,
+        "uniquePagesAdded": 14,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-9"
+        ],
+        "pageProviders": {
+          "page-9": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "90% startups fail according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "90% startups fail study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"90% of startups\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "90% startups fail evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 1,
+    "summary": {
+      "totalPages": 19,
+      "independentOrigins": 4,
+      "verifiableOrigins": 2,
+      "echoPercentage": 5
+    },
+    "answer": "The claim is not supported as a general rule: Arcforth says no public dataset shows that 90% of startups fail, and that closures only approach 90% after about 30 years in BLS data [1]. In US government (BLS) data, about 22% of new businesses close within a year, about half within five years and about two-thirds within ten [1]. The best-known early written source, Startup Genome's 2011 report, said more than 90% of startups fail without citing data, and admitted it lacked longitudinal data [1]. A LinkedIn post citing Carta data calls the 90% failure rate a myth: of 4,369 companies in Carta's Class of 2018, 32.2% were still alive in 2025, 5.5% had been acquired and 0.34% had gone public [2].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 3,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7751,
+          "outputTokens": 1003,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.025532
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 13054,
+          "outputTokens": 2380,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.049908
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2726,
+          "outputTokens": 529,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.010742
+        }
+      ],
+      "stageMs": {
+        "search": 3314,
+        "extract": 6365,
+        "grouping": 8816,
+        "judgment": 14847,
+        "answer": 4486,
+        "total": 37830
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "parallel": 4,
+          "brave": 2,
+          "perplexity": 2,
+          "exa": 4,
+          "tavily": 3
+        }
+      },
+      "usd": {
+        "claude": 0.086182,
+        "tavily": 0.024,
+        "telem": 0.099,
+        "total": 0.209182
+      }
+    }
+  }
+}

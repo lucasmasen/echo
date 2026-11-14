@@ -1,0 +1,631 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-13T01:19:45.263Z",
+  "analysis": {
+    "claim": "You lose most of your body heat through your head",
+    "createdAt": "2026-11-13T01:19:45.263Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Do You Lose Most of Your Body Heat Through Your Head? The Truth Explained",
+        "url": "https://www.betterhealthfacts.com/2025/08/do-you-lose-most-of-your-body-heat-through-head.html",
+        "domain": "betterhealthfacts.com",
+        "publishedDate": "2025-08-02",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's published <time> element, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.betterhealthfacts.com/favicon.ico",
+        "text": "The percentage of heat lost through the head varies dramatically based on several factors: Surface area exposed Insulation (hair, hat, or clothing) Environmental conditions (temperature, wind) Activity level (resting vs. active) If the head is the only exposed part in a cold environment, it could account for up to 50% of heat loss. But under normal conditions with balanced clothing distribution, the head only accounts for about 7% to 10% of total heat loss, aligning with its proportion of total body surface area. > \"The head represents only about 7% to 9% of total body surface area. So unless it’s the only part uncovered, it cannot be the main source of heat loss.\" — Dr. Gordon Giesbrecht, Thermophysiologist, University of Manitoba ## The Role of Surface Area in Heat Loss [...] ## The Role of Surface Area in Heat Loss Heat loss is directly related to the amount of surface area exposed to the environment. The greater the skin area exposed, the more heat can escape. The head has a relatively small surface area compared to the torso and limbs. If you're wearing a winter jacket, gloves, and pants but no hat, it might seem like you're losing most heat through your head—but that’s only because the rest of your body is insulated. The skin temperature, blood flow, and the local temperature difference also influence how quickly heat is lost. The head, particularly the face and scalp, has a rich blood supply, making it a sensitive site for heat loss when uncovered, but not uniquely responsible for the majority of it. ## Why Does the Head Feel Colder?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "It repeats the 7-10% figure with an expert quote that may be taken from elsewhere and shows no sign of its own reporting."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "A quote is given without data."
+      },
+      {
+        "id": "page-2",
+        "title": "You Lose Most of Your Body Heat Through Your Head - Fact or Myth?",
+        "url": "https://factmyth.com/factoids/you-lose-most-of-your-body-heat-through-your-head",
+        "domain": "factmyth.com",
+        "publishedDate": "2016-02-04",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://factmyth.com/wp-content/uploads/2019/02/fact-myth-logo.png",
+        "text": "## Why Did We Believe This Myth to be True? Our heads and upper chest are five times more sensitive to temperature changes than other areas of our bodies.(#references) These areas are densely packed with blood vessels and nerves. There is far less subcutaneous fat on the head to act as an insulator than in the rest of the body.(#references) The head and chest are sensitive areas, so we may feel cold or warmth more in our heads than our legs, but that does not mean that we lose even twice as much heat through the surface of the head than the surface of the leg. We lose about the same amount of heat per square inch of exposed skin anywhere on the body. Conclusion [...] ## How Much Heat Is Lost Through your Head? According to a 2008 report in the British Medical Journal, we lose 7 percent to 10 percent of our body heat through our heads if our heads are uncovered while the rest of the body is covered.(#references) If we wore shorts but covered the rest of our bodies, we’d lose most of our body heat through our exposed legs. ## Is Covering The Head Important?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-15",
+          "confidence": 60,
+          "evidence": "It links to Live Science (page-15) and WebMD (page-6), and repeats the BMJ 2008 7-10% figure and the shorts example."
+        },
+        "citations": [
+          {
+            "pageId": "page-6",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.webmd.com/a-to-z-guides/features/do-we-really-lose-most-of-our-heat-through-our-heads"
+          },
+          {
+            "pageId": "page-15",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.livescience.com/34411-body-heat-loss-head.html"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It repeats figures with no data of its own."
+      },
+      {
+        "id": "page-3",
+        "title": "You Don't Lose Most Body Heat Through Your Head #Shorts",
+        "url": "https://www.youtube.com/shorts/hp6BZedPjZU",
+        "domain": "youtube.com",
+        "publishedDate": "2026-09-19",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Posted: 2026-09-19”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "# You Don't Lose Most Body Heat Through Your Head #Shorts ## Channel: MythBusted 11 subscribers 3 likes ### Description 33 views Posted: 2026-09-19 Wear a hat or you'll lose most of your body heat. Mom was wrong. The myth: You lose most of your body heat through your head. The reality: Heat loss follows exposed skin area, and the head is about 10%. Key fact: 10% - of your skin area is your head. Follow for a new myth busted every day. Sources: https://jamaicahospital.org/newslette... https://sciencebasedlife.wordpress.co... https://u.osu.edu/buckmdblog/2016/01/... https://factfizz.com/2025/10/23/the-t... https://wellyhub.com/is-most-heat-los... #mythbusting #didyouknow #facts ### Transcript [0:00] Wear a hat or you'll lose most of your body heat through your head. That's a myth. It started with a 1950s army test. [0:07] Volunteers wore arctic survival suits that covered everything except their heads. Of course, the bare head lost the most heat. It was the only exposed part. [0:17] Heat loss follows exposed skin. Your head is only about 10% of your surface area. Hats are still a good idea, but so [0:24] are gloves and a coat. Cover up everywhere.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "The short video lists outside sources (jamaicahospital.org and others) and adds no reporting of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes assertions with no data."
+      },
+      {
+        "id": "page-4",
+        "title": "Lose 40% of Your Body Heat Through Your Head | Badger",
+        "url": "https://www.badgeraustralia.com.au/blog/myth-or-truth-do-you-really-lose-40-percent-of-your-body-heat-through-your-head",
+        "domain": "badgeraustralia.com.au",
+        "publishedDate": "2023-07-26",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://badgeraustralia.b-cdn.net/wp-content/uploads/2024/12/cropped-Badger-Workwear-Favicon-32x32.png",
+        "text": "In an interview with Richard Ingebretsen, MD, PhD, a more recent experiment was discussed, which concluded the people in the experiment lost the same amount of heat, wherever the exposed area. In the US military experiment referred to earlier, men were bundled up in warm clothing and exposed to bitterly cold conditions without any covering or protection on their heads. While they certainly would’ve lost heat through their heads, being the only exposed part of their body, the same effect would’ve taken place if they had their heads covered but were missing a sleeve off their jackets – they probably would’ve lost 40-50% of their body heat through that arm! ## Why its still important to keep your head warm [...] Your face, head and chest are more sensitive to changes in temperature than other parts of your body, so covering and protecting them makes you feel warmer, even if your body temperature isn’t actually any warmer. Your nose and ears are extremities and can receive less blood flow as your body temperature cools. This means there are vulnerable to cold injury, such as frost bite. Read more on this hazard in this article. There is less Insulating subcutaneous fat over your head than the rest of your body, so it can feel cold more quickly. Vasoconstriction is less effective over the head, which means your blood flow won’t slow so much as your body temperature cools, and you will get colder faster. This article goes into vasoconstriction in more detail.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-6",
+          "confidence": 65,
+          "evidence": "It links to WebMD (page-6) and paraphrases the Ingebretsen interview and the test where people lost the same heat whatever the exposed area."
+        },
+        "citations": [
+          {
+            "pageId": "page-6",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.webmd.com/a-to-z-guides/features/do-we-really-lose-most-of-our-heat-through-our-heads"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It has no data of its own."
+      },
+      {
+        "id": "page-5",
+        "title": "Why does our body lose more heat through our heads? Is it ...",
+        "url": "https://www.quora.com/Why-does-our-body-lose-more-heat-through-our-heads-Is-it-true-that-we-lose-more-heat-through-our-heads-than-any-other-part-of-our-bodies-even-though-we-have-hair-on-our-heads-How-does-this-phenomenon-occur",
+        "domain": "quora.com",
+        "publishedDate": "2024-11-13",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.quora.com/favicon.ico",
+        "text": "Tests have shown that without insulation, you lose about 5% to 10% of body heat from your head. Much, much less than 80%.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "The Quora snippet is a short, undated assertion with no sourcing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-6",
+        "title": "Do We Lose Heat Through Our Heads?",
+        "url": "https://www.webmd.com/a-to-z-guides/features/do-we-really-lose-most-of-our-heat-through-our-heads",
+        "domain": "webmd.com",
+        "publishedDate": "2011-01-04",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read month/day as in US dates, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/favicon/favicon_144.png",
+        "text": "Q: Mom always said to wear a hat in the cold because we lose 80% of our body heat through our head. Is that true? A: Lots of people believe that but this pearl of motherly wisdom is FALSE. Here's why. The head only represents about 10% of the body's total surface area. So if the head were to lose even 75% of the body's heat, it would have to lose about 40 times as much heat per square inch as every other part of your body. That's unlikely -- which has been borne out by tests of college students who lost the same amount of heat whatever the exposed area. [...] \"The real reason we lose heat through our head is because most of the time when we're outside in the cold, we're clothed,\" says Richard Ingebretsen, MD, PhD, an adjunct instructor in the department of internal medicine at the University of Utah School of Medicine. \"If you don't have a hat on, you lose heat through your head, just as you would lose heat through your legs if you were wearing shorts.\" \"There's really no such thing as 'cold,' when you're talking about the body,\" Ingebretsen says. \"There's always heat -- it's just a matter of keeping it in.\" Add WebMD as a Preferred Source to see more of our trusted content across Google Search, AI Overviews, and AI Mode Recommended ### Topics Trending In Search and Social View AllView All ### Top doctors in ,",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "WebMD quotes Dr. Ingebretsen, apparently speaking to the outlet, and gives its own surface-area reasoning, with no earlier cluster page cited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It relies on an expert quote and an uncited test mention, with no inspectable data."
+      },
+      {
+        "id": "page-7",
+        "title": "Do you lose most heat from your head?",
+        "url": "https://www.bbc.com/future/article/20130708-is-most-heat-lost-from-your-head",
+        "domain": "bbc.com",
+        "publishedDate": "2013-07-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+        "text": "As expected, all the volunteers lost heat quickest when they initially entered the water. But the rest of the results debunk popular expectation. The volunteers whose heat loss came almost entirely from their heads (those who were fully submerged whilst wearing insulating clothing) lost only half as much heat as those whose heat loss came almost entirely from their bodies (the volunteers in swimming costumes with their heads poking out of the water). In other words, we don’t lose most heat from our heads. The results show that having your head immersed in cold water only adds 10% to your overall heat loss in a cold pool. And given that the head accounts for 7% to 9% of the body’s surface, that doesn’t seem excessive. [...] One reason seems to be that the scalp contains lots of blood vessels that sit particularly close to the surface of the skin – as evidenced by the copious bleeding that happens when you cut your head. If you are dressed in warm clothes without a hat on a freezing day, the environment cools the hot blood flowing from your warm body as it passes through the scalp. And this blood then travels back down to the warm body, cooling it as it goes. The second reason involves shivering. It is a curious physiological fact00006-0/abstract) that people do not shiver when only their head is exposed to the elements. Because shivering slows your rate of cooling, not shivering makes you cool quicker than you otherwise would.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "BBC gives concrete details and results of the immersion study with volunteers, plus its own explanation of scalp blood vessels."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It reports specific experimental results (10% added heat loss, half as much loss in the submerged-head group)."
+      },
+      {
+        "id": "page-8",
+        "title": "Is it true that … you lose most body heat from your head?",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/jan/19/is-it-true-lose-most-body-heat-from-head",
+        "domain": "theguardian.com",
+        "publishedDate": "2026-01-19",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Search snippet",
+        "favicon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-240.png",
+        "text": "'Always keep your head covered. You can lose 40–45% of body heat from an unprotected head.” That's the advice in a 1970s US Army Survival",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "The snippet is partial and shows only the Army manual quote."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-9",
+        "title": "Choctaw Nation Health Services Authority",
+        "url": "https://www.facebook.com/CNHSA/posts/monthly-myth-each-month-were-tackling-a-common-health-myth-and-setting-the-recor/1459204109547708",
+        "domain": "facebook.com",
+        "publishedDate": "2026-01-13",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "://www.facebook.com/CNHSA?__cft__[0]=AZhKMXJ12sOqD_1Rq6blc6r_2g-i7ithtrbD_zxrzdn6TYCyFLlskv1TddvDkKB0lV9YG8_tUGl3R72Idzxg4ph4lMYSrtIBgExCbyogFizgNucQyNNDr1q_i2rJ7aTqqWOR7Oip67TusybcgGPRHkCXtv-pDL5h&__tn__=-UC%2CP-R) Thursday 18 December 2025 at 18:49 [18 December 2025](https://www.facebook.com/CNHSA/posts/pfbid0257ckbJys3j4tmm3FE7waEvFYzx7zi63bFcdiryjzB1vaJh91eLuxLqnrTsZkXwtLl?__cft__[0]=AZhKMXJ12sOqD_1Rq6blc6r_2g-i7ithtrbD_zxrzdn6TYCyFLlskv1TddvDkKB0lV9YG8_tUGl3R72Idzxg4ph4lMYSrtIBgExCbyogFizgNucQyNNDr1q_i2rJ7aTqqWOR7Oip67TusybcgGPRHkCXtv-pDL5h&__tn__=%2CO%2CP-R) · Monthly Myth ![Image 1: 🩺](https://static.xx.fbcdn.net/images/emoji.php/v9/tc3/1/16/1fa7a.png) Each month, we’re tackling a common health myth and setting the record straight. Myth: You lose most of your body heat through your head. Truth: You lose heat from ANY exposed skin — not just your head. This myth came from old military studies where soldiers were only exposed at the head. Learn more at [https://health.clevelandclinic.org/body-heat-loss](https://l.facebook.com/l.php?u=https%3A%2F%2Fhealth.clevelandclinic.org%2Fbody-heat-loss&h=AUBGyjht5lN04_Ax-VSqq6dCrONeUFssKsT24NRSVJsENsINxQe3yZ6DzA0wTyqjXiKRElpvPIqH7HzaZMHKZdYfHXhPV5725WrktI1KzdavIhirP56yr3emKZxrXHR8nYZxKlGRiGeD9J8xhFKcIAMF&__tn__=-UK-R&c[0]=AUBXqadtxaUmdMZW78YOiPArkP9-9wNK_tE-R1UOJl34enm0JH3o6ZBRia37Ay8wZZxFWFG8bJvCa0SbfOOcFuXTMbCQTWU8--0tnbCLhnw1FPOpQek3veAatEwMOubIrwymTvuRdr_BjQnoW-KRbmpylFa_VH0fQYa31g0M3wKtIL8VfjWg-op9ntokFVE). [![Image 2: No photo description available.](https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.30808-6/600281700_1459204096214376_3845760957867322075_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aUL9F28yrwMQ7kNvwHPCZpO&_nc_oc=Adpz_4GJru3p5tTABQ-mQNYTHyXeLcdrzp0_JznGG4CCnCKjU1FFcP6e1DhhmuQGtls&_nc_zt=23&_nc_ht=scontent.fjlr2-1.fna&_nc_gid=R9bn-qHPs__mldVb7bAbXw&_nc_ss=7b289&oh=00_AQQBvy5JpRAJjSJJxMXHQWfNIUZq18eJ5YSw7VjWm5Uwtg&oe=6AF732DC)](https",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "A social post that points to the Cleveland Clinic and adds nothing of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is an assertion with no data."
+      },
+      {
+        "id": "page-10",
+        "title": "Backpacker Fact-Checker, #2: Heat Loss Through the Head",
+        "url": "https://www.youtube.com/watch?v=pqSe4sUVX3I",
+        "domain": "youtube.com",
+        "publishedDate": "2023-11-17",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's datePublished meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "[1:03] 45% it should trigger your show me response numbers even if they are estimates need to come from measurements and measurements mean testing in this [1:12] case the source for the 40 to 45% of your heat is relatively well known from the US Army survival manual in the [1:19] section on basic principles of cold weather survival you can lose 40 to 45% of body heat from an unprotected head [1:27] and even more from the unprotected neck wrist and ankles now obviously the head does not make up almost half of your entire body's surface area so the reason [1:36] for this outsized heat loss through the head is explained as follows these areas of the body are good radiators of heat [...] [4:00] the subject's bodies that was exposed to the cold they lost most heat through their heads you could generate the same [4:08] kind of exaggeration by leaving only the hands or the feet uncovered or whatever body parts you choose the real number they say for heat [4:16] loss through the head isn't 40 to 45% it's more like 10% and a reference for that is provided and then the article [4:23] concludes any uncovered part of the body loses heat and will reduce the core temperature proportionally and I need to draw your attention to the [4:32] word and technically that makes this two separate conclusions not one and we'll want to keep that in mind as we proceed",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "The video examines the US Army manual text directly and walks through its own reasoning on the source of the figure."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It inspects and quotes the original manual passage."
+      },
+      {
+        "id": "page-11",
+        "title": "The great cold head myth: Where you really lose your body heat from | BBC Science Focus Magazine",
+        "url": "https://www.sciencefocus.com/science/the-great-cold-head-myth-where-you-really-lose-your-body-heat-from",
+        "domain": "sciencefocus.com",
+        "publishedDate": "2025-03-27",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://d2rj6cu2ik1biv.cloudfront.net/thumbnails/6ab86ca8-b028-4715-93c8-27c92ae62f2a/web_kiosk_favicon_1.ico?appId=6ab86ca8-b028-4715-93c8-27c92ae62f2a",
+        "text": "# The great cold head myth: Where you really lose your body heat from We've all heard it before, but is this a myth or a truth to live by? A person pulling a hat over their face Credit: Charise Wilson Photography Abbie Jordan “You lose most of the heat from your head,” the saying goes. But is this actually accurate? This myth likely stems from a US Army Field Manual that stated 40–45 per cent of heat loss occurs through the head. Scientists explained that if this were true, you would be just as cold wearing a hat and no trousers as you would wearing trousers and no hat. Not likely! [...] Your face, head and chest are just more sensitive to temperature changes. This explains why covering them feels like it prevents heat loss more than other areas of your body. In reality, covering any part of the body has the same effect. This article is an answer to the question (asked by Hattie Kingston, via email 'Is it true you lose the most heat through the top of your head?' To submit your questions, email us at questions@sciencefocus.com, or message our Facebook, X, or Instagram pages (don't forget to include your name and location). Check out our ultimate fun facts page for more mind-blowing science. Read more:",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "It restates the Army manual myth and the sensitivity point, with only weak phrase overlap with other pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes generic claims with no data."
+      },
+      {
+        "id": "page-12",
+        "title": "Do You Lose Half of Your Body Heat from Your Head? | MeatEater Fishing",
+        "url": "https://www.themeateater.com/fish/ice-fishing/fact-checker-do-you-lose-half-of-your-body-heat-from-your-head",
+        "domain": "themeateater.com",
+        "publishedDate": "2021-12-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's date meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.themeateater.com/touch-icon-180.png",
+        "text": "Claim You lose half of your body heat through your head, making it the most important part of your body to cover in frigid temperatures. Origin The earliest reference of this comes from the U.S. Army Field Manual in the 1950s, which claims that “40% to 45% of body heat” is lost through the head. Since then, this has been a favorite bit of wisdom that Midwestern mothers and fathers repeat to their kids every winter. Facts This theory was revisited in 2006 and again in 2008. In the 2006 study, subjects were placed in cold water, sometimes with their heads above water and sometimes with their heads submerged. Scientists found that the head accounts for about 7% heat loss, which is proportional to the amount of skin that’s showing. [...] The 2008 study corroborated these findings, saying that about 7% to 10% of body heat is lost through the head. The reality is that the amount of heat lost from a given part of your body is relative to how much skin is showing. If it were true that half of your body heat exits through the head, then it’d mean that you lose roughly 20 times as much heat per square inch as every other part of the body. “If you don’t have a hat on, you lose heat through your head, just as you would lose heat through your legs if you were wearing shorts,” said Dr. Richard Ingebretsen in an interview with WebMD. “There’s really no such thing as ‘cold’ when you’re talking about the body. There’s always heat—it’s just a matter of keeping it in.”",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-6",
+          "confidence": 65,
+          "evidence": "It links to WebMD (page-6) and reuses its phrasing on per-square-inch heat loss and the hat/shorts quote, adding only the 2006/2008 study summary."
+        },
+        "citations": [
+          {
+            "pageId": "page-6",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.webmd.com/a-to-z-guides/features/do-we-really-lose-most-of-our-heat-through-our-heads"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It restates others' findings with no data."
+      },
+      {
+        "id": "page-13",
+        "title": "Is it true that the adage \"90% of body heat is lost through ...",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1i8wb0l/is_it_true_that_the_adage_90_of_body_heat_is_lost",
+        "domain": "reddit.com",
+        "publishedDate": "2025-11-13",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.redditstatic.com/shreddit/assets/favicon/152x152.png",
+        "text": "The exact percentage may very, but it's usually north of 50%, and the phrase was generally used as a means to convince children to wear hats in cold",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 25,
+          "evidence": "A Reddit snippet that makes an unsourced assertion."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-14",
+        "title": "True or False - We Lose Most of our Body Heat From Our Head? - Health BeatHealth Beat",
+        "url": "https://jamaicahospital.org/newsletter/true-or-false-we-lose-most-of-our-body-heat-from-our-head",
+        "domain": "jamaicahospital.org",
+        "publishedDate": "2017-12-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://jamaicahospital.org/favicon.ico",
+        "text": "The origin of this belief comes most likely from an old U.S. Army Field Manual from the 1950’s based on arctic survival research. The problem with the study is that while the research was performed on subjects wearing cold weather gear, they were not wearing hats. Naturally, in circumstances like this, body heat will escape from whatever area is exposed – in this case, the subjects uncovered heads. Since our heads represents only 10% of our body’s total surface area, it would have to lose about 40 times as much heat per square inch as other parts of the body for this theory to be true. [...] Another factor in why this myth is thought to be true by many has to do with how our blood vessels are composed. We tend to feel colder in places where blood vessels are densely packed, like the head, and less where aren’t such as the legs. Even though there is no factual basis to the concept of losing excess body heat through our heads, most will agree that if you want to stay warm this winter, you should cover your entire body to prevent heat from escaping…including your head. Email, RSS Follow",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-6",
+          "confidence": 45,
+          "evidence": "The 'about 40 times as much heat per square inch' wording closely matches WebMD (page-6), but it has no citation and little added."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes assertions with no data."
+      },
+      {
+        "id": "page-15",
+        "title": "Lose Half our Body Heat Through our Heads | Body Heat Loss | Live Science",
+        "url": "https://www.livescience.com/34411-body-heat-loss-head.html",
+        "domain": "livescience.com",
+        "publishedDate": "2013-02-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.livescience.com/favicon.ico",
+        "text": "Latest Videos FromLive Science Watch full video here: In 2006, scientists revisited the question. They tested subjects in cold water with and without wetsuits, sometimes with their heads out of water and sometimes with their heads submerged. They found that the head accounts for about 7 percent of the body’s surface area, and the heat loss is fairly proportional to the amount of skin that’s showing. At most, according to a 2008 report in BMJ, a person loses 7 percent to 10 percent of their body heat through their head. [...] Even the U.S. Army Field Manual used to claim \"40 to 45 percent of body heat\" is lost through the head, but it is simply not true, according to the British Medical Journal. This heat-loss myth probably came from experiments in the 1950s, when military researchers exposed subjects to frigid temperatures. While their bodies were bundled up, their heads were exposed — and they were found to have lost more heat from their noggins. Latest Videos FromLive Science Watch full video here:",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Live Science restates the 2006 study and the 2008 BMJ report, crediting BMJ, which is not a page in this cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It summarizes studies without presenting their data."
+      },
+      {
+        "id": "page-16",
+        "title": "Where Do We Lose Most of Our Heat? Regulate Body Temperature",
+        "url": "https://www.medicinenet.com/where_do_we_lose_most_of_our_heat/article.htm",
+        "domain": "medicinenet.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.medicinenet.com/images/mobile/mednet_icon.png",
+        "text": "How Long Does It Take Heat Rash to Go Away? Heat rash is a skin irritation that usually occurs in humid climates. Learn what causes it, steps you can take to treat it, and how long it lasts. Hypothermia Hypothermia can be a medical emergency if the person's body temperature drops too low. Symptoms include shivering, slurred speech, confusion, apathy, dilated pupils, and a decrease in the heart rate,... What Part of the Body Loses the Most Heat in Cold Water? Due to a higher blood flow in the head and neck than in the rest of the body, 40 to 45 percent of body heat is lost through the head and neck. [...] Four channels by which heat is lost from the body include: 1. Lungs: Heat loss occurs as a result of warm air that is blown out, which may be felt by softly blowing on the back of your hand with your mouth open. Heat loss is caused by the vaporization of water from the lungs. 2. Skin: Nearly 85 percent of heat loss occurs through the skin via conduction, convection, radiation, and sweat evaporation. 3. Foods: Heat is lost when we eat or drink cold foods or liquids. 4. Feces and urine: We may release considerable heat during the elimination of wastes from our bodies. ### What is body heat?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "It states the 40-45% figure with no source or data, and has no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "A figure is stated with no supporting data."
+      },
+      {
+        "id": "page-19",
+        "title": "Human local and total heat losses in different temperature",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031938416300622",
+        "domain": "sciencedirect.com",
+        "publishedDate": "2016-04-01",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/103/images/favSD.ico",
+        "text": "most. The total heat loss of the local body shows that in low temperature, the thigh, leg and chest have much heat loss, while in high temperature, the chest, abdomen, thigh and head have great heat loss, which are useful for clothing design. The heat losses of the whole body show that as the operative temperature increases, the radiation and convection heat losses decrease, the heat losses of conduction, respiration, and diffusion are almost constant, and the evaporation heat loss increases. By comparison, the heat loss ratios of the radiation, convection and sweat evaporation, are in agreement with the previous researches. At last, the formula about the heat loss ratio of convection and radiation is derived. It's useful for thermal comfort evaluation and HVAC (heating, ventilation and [...] ## Article preview Abstract Introduction Section snippets References (32) ## Highlights •In low temperature, the thigh, leg and chest have great heat losses. •In high temperature, the chest, abdomen, thigh and head have great heat losses. •6 kinds of heat losses change obviously different with operative temperature. •Radiation and convection heat losses are mainly affected by the area of local body. •Evaporation heat loss is mainly affected by the sweat proportion of the local part. ## Abstract",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "The paper reports its own measurements of local and total heat loss at different temperatures."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It presents original experimental heat-loss data from the study."
+      },
+      {
+        "id": "page-20",
+        "title": "Scientists debunk myth that most heat is lost through head",
+        "url": "https://www.theguardian.com/science/2008/dec/17/medicalresearch-humanbehaviour",
+        "domain": "theguardian.com",
+        "publishedDate": "2008-12-18",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Search snippet",
+        "favicon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon-240.png",
+        "text": "Dec 17, 2008 — Because it was the only part of their bodies left uncovered, most of their heat was lost through their heads. The face, head and chest are more ...Read more",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Only a partial snippet of the Guardian piece is available, and it shows no independent reporting or source relationship."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Head accounts for only ~7-10% of heat loss, proportional to surface area; the 40-45% figur",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-12",
+          "page-14",
+          "page-15",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Head (or head and neck) loses a large share of body heat (40-45% to over 50%)",
+        "pageIds": [
+          "page-13",
+          "page-16"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Regional body heat loss measurements by body part and temperature",
+        "pageIds": [
+          "page-19"
+        ]
+      }
+    ],
+    "roots": [
+      "page-6",
+      "page-7",
+      "page-10",
+      "page-19"
+    ],
+    "verifiableRoots": [
+      "page-7",
+      "page-10",
+      "page-19"
+    ],
+    "answerSourceIds": [
+      "page-7",
+      "page-10",
+      "page-19"
+    ],
+    "answerStatements": [
+      {
+        "text": "The claim is not supported: in the BBC-reported experiment, having the head immersed in cold water added only about 10% to overall heat loss, and the head makes up roughly 7% to 9% of the body's surface",
+        "sourceIds": [
+          "page-7"
+        ]
+      },
+      {
+        "text": "Volunteers whose heat loss came almost entirely from the head lost only half as much heat as volunteers whose heat loss came almost entirely from the body",
+        "sourceIds": [
+          "page-7"
+        ]
+      },
+      {
+        "text": "The commonly cited 40 to 45% figure traces to a US Army survival manual statement about an unprotected head. The video says this kind of exaggeration arises when only one body part is left exposed, and that the real figure for the head is not 40%",
+        "sourceIds": [
+          "page-10"
+        ]
+      },
+      {
+        "text": "A study of local heat loss found that at low temperatures the thigh, leg and chest had great heat loss, not the head",
+        "sourceIds": [
+          "page-19"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "You lose most of your body heat through your head",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 10,
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-8",
+          "page-9",
+          "page-13"
+        ]
+      },
+      {
+        "query": "\"You lose most of your body heat through your head\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "lose most your body heat through your fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 7,
+        "pageIds": [
+          "page-10",
+          "page-11",
+          "page-12",
+          "page-20",
+          "page-14",
+          "page-16"
+        ]
+      },
+      {
+        "query": "lose most your body heat through your study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 3,
+        "pageIds": [
+          "page-15",
+          "page-19"
+        ]
+      },
+      {
+        "query": "lose most your body heat through your original source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 1,
+        "pageIds": []
+      },
+      {
+        "query": "lose most your body heat through your according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "pageIds": []
+      },
+      {
+        "query": "lose most your body heat through your study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "pageIds": []
+      },
+      {
+        "query": "\"through\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "pageIds": []
+      },
+      {
+        "query": "lose most your body heat through your evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 2,
+    "summary": {
+      "totalPages": 18,
+      "independentOrigins": 4,
+      "verifiableOrigins": 3,
+      "echoPercentage": 17
+    },
+    "answer": "The claim is not supported: in the BBC-reported experiment, having the head immersed in cold water added only about 10% to overall heat loss, and the head makes up roughly 7% to 9% of the body's surface [1]. Volunteers whose heat loss came almost entirely from the head lost only half as much heat as volunteers whose heat loss came almost entirely from the body [1]. The commonly cited 40 to 45% figure traces to a US Army survival manual statement about an unprotected head. The video says this kind of exaggeration arises when only one body part is left exposed, and that the real figure for the head is not 40% [2]. A study of local heat loss found that at low temperatures the thigh, leg and chest had great heat loss, not the head [3].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data."
+  }
+}

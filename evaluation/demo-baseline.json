@@ -1,0 +1,26 @@
+{
+  "americans-check-phones-96-times": {
+    "exactKinds": 13,
+    "settledMistakes": 0,
+    "abstentions": 0,
+    "exactEdges": 3
+  },
+  "humans-use-10-percent-of-brain": {
+    "exactKinds": 16,
+    "settledMistakes": 0,
+    "abstentions": 4,
+    "exactEdges": 3
+  },
+  "goldfish-3-second-memory": {
+    "exactKinds": 12,
+    "settledMistakes": 0,
+    "abstentions": 2,
+    "exactEdges": 1
+  },
+  "lose-most-body-heat-through-head": {
+    "exactKinds": 10,
+    "settledMistakes": 2,
+    "abstentions": 3,
+    "exactEdges": 2
+  }
+}

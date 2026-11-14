@@ -1,0 +1,275 @@
+{
+  "telem-genai-pilots-2026-11-14": {
+    "version": 1,
+    "claim": "95% of generative AI pilots fail",
+    "traceCreatedAt": "2026-11-14T20:37:17.613Z",
+    "name": "MIT",
+    "names": [
+      "MIT",
+      "NANDA",
+      "Project NANDA"
+    ],
+    "query": "MIT NANDA \"Project NANDA\" 95% of generative AI pilots fail original report OR study OR book OR paper",
+    "queries": [
+      "MIT NANDA \"Project NANDA\" 95% of generative AI pilots fail original report OR study OR book OR paper"
+    ],
+    "engines": [
+      "perplexity",
+      "brave",
+      "exa"
+    ],
+    "candidates": [
+      {
+        "title": "MIT Report Finds Most AI Business Investments Fail, Reveals 'GenAI Divide' -- Virtualization Review",
+        "url": "https://virtualizationreview.com/articles/2025/08/19/mit-report-finds-most-ai-business-investments-fail-reveals-genai-divide.aspx",
+        "domain": "virtualizationreview.com"
+      },
+      {
+        "title": "The GenAI Divide: State of AI in Business 2025",
+        "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+        "domain": "mlq.ai"
+      },
+      {
+        "title": "MIT \"GenAI Divide\" report (2025)",
+        "url": "https://aiwiki.ai/wiki/mit_genai_divide_report/raw",
+        "domain": "aiwiki.ai"
+      },
+      {
+        "title": "95% of Businesses Don't See Boosted Profits? MIT AI Report ...",
+        "url": "https://www.itechguides.com/mit-report-spooks-ai-investors-what-the-95-of-businesses-dont-see-boosted-profits-claim-really-means",
+        "domain": "itechguides.com"
+      },
+      {
+        "title": "Myth Number 2: MIT Showed That 95% of AI Pilots Fail | NewMR",
+        "url": "https://newmr.org/blog/myth-number-2-mit-showed-that-95-of-ai-pilots-fail",
+        "domain": "newmr.org"
+      }
+    ],
+    "upstream": {
+      "title": "The GenAI Divide: State of AI in Business 2025",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "domain": "mlq.ai",
+      "date": null,
+      "type": "primary_document"
+    },
+    "upstreamShowsFigure": false,
+    "upstreamReason": "Candidate 1 is the MIT NANDA report PDF itself, 'The GenAI Divide: State of AI in Business 2025'. The visible excerpt shows title, authors and methodology, but not the 95% figure.",
+    "origins": [
+      {
+        "id": "page-10",
+        "name": "fortune.com",
+        "cites": "yes",
+        "independent": false,
+        "reason": "Attributes 95% to 'The GenAI Divide' report from MIT's NANDA initiative; quotes the report and interviews lead author Challapally, so no independent evidence."
+      },
+      {
+        "id": "page-3",
+        "name": "arctyklabs.com",
+        "cites": "yes",
+        "independent": false,
+        "reason": "Names 'The GenAI Divide: State of AI in Business 2025' from MIT Project NANDA as the source; describes its methodology and findings only."
+      },
+      {
+        "id": "page-13",
+        "name": "thesuperskills.com",
+        "cites": "yes",
+        "independent": false,
+        "reason": "'MIT NANDA's report The GenAI Divide, July 2025, is the source'; quotes its sentence and methodology and notes its limitations, with no outside data."
+      },
+      {
+        "id": "page-2",
+        "name": "jerryilao.com",
+        "cites": "no",
+        "independent": false,
+        "reason": "Consultancy homepage saying most AI pilots fail from human and process mistakes; no mention of the MIT report, NANDA or the 95% figure."
+      },
+      {
+        "id": "page-8",
+        "name": "ai-first.company",
+        "cites": "yes",
+        "independent": false,
+        "reason": "Names the report as the primary source ('Project NANDA at the MIT Media Lab'), quotes its 95% wording and methodology; only analyzes the report."
+      },
+      {
+        "id": "page-6",
+        "name": "ai-first.company",
+        "cites": "no",
+        "independent": false,
+        "reason": "Lists Gartner's 30% and 50% abandonment predictions; the passage does not mention MIT, NANDA or the 95% figure."
+      },
+      {
+        "id": "page-17",
+        "name": "devxen.ai",
+        "cites": "yes",
+        "independent": false,
+        "reason": "Quotes the executive summary ('95% of organizations are getting zero return') and the report's funnel figures; explains what the report says, no outside data."
+      },
+      {
+        "id": "page-20",
+        "name": "playbooks.anodizelabs.com",
+        "cites": "yes",
+        "independent": false,
+        "reason": "Traces the 95% to a July 2025 Project NANDA paper at MIT Media Lab and compares secondhand descriptions with the paper; the developer trial is unrelated to the claim."
+      }
+    ],
+    "model": "claude-sonnet-5-5",
+    "usd": 0.04684,
+    "createdAt": "2026-11-14T20:56:35.883Z"
+  },
+  "telem-brain-2026-11-14": {
+    "version": 1,
+    "claim": "Humans use only 10% of their brains.",
+    "traceCreatedAt": "2026-11-14T19:48:42.454Z",
+    "name": "William James",
+    "names": [
+      "William James",
+      "Energies of Men"
+    ],
+    "query": "\"William James\" \"Energies of Men\" Humans use only 10% of their brains original report OR study OR book OR paper",
+    "queries": [
+      "\"William James\" \"Energies of Men\" Humans use only 10% of their brains original report OR study OR book OR paper"
+    ],
+    "engines": [
+      "perplexity",
+      "brave",
+      "exa"
+    ],
+    "candidates": [
+      {
+        "title": "Myth: We Only Use 10% of Our Brains – Association for Psychological Science – APS",
+        "url": "https://www.psychologicalscience.org/uncategorized/myth-we-only-use-10-of-our-brains.html",
+        "domain": "psychologicalscience.org"
+      },
+      {
+        "title": "Do we only use 10% of our brains?",
+        "url": "https://www.bbc.com/future/article/20121112-do-we-only-use-10-of-our-brains",
+        "domain": "bbc.com"
+      },
+      {
+        "title": "\"Lucy\" is Wrong; We Use Way More Than 10% of Our Brains",
+        "url": "https://www.nature.com/scitable/blog/mind-read/lucy_is_wrong_we_use?code=ecb72d1d-5295-46a0-8b47-b2722933942e&error=cookies_not_supported",
+        "domain": "nature.com"
+      },
+      {
+        "title": "Neuroscience For Kids - 10% of the Brain Myth",
+        "url": "https://faculty.washington.edu/chudler/tenper.html",
+        "domain": "faculty.washington.edu"
+      },
+      {
+        "title": "Do People Only Use 10 Percent of Their Brains?",
+        "url": "https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains",
+        "domain": "scientificamerican.com"
+      }
+    ],
+    "upstream": null,
+    "upstreamShowsFigure": false,
+    "upstreamReason": "No candidate is James's 'The Energies of Men' itself. Candidate 0 only lists a link to it in a teaching resource; the others are commentary articles about the myth.",
+    "origins": [
+      {
+        "id": "page-5",
+        "name": "abc.net.au",
+        "cites": "yes",
+        "independent": true,
+        "reason": "Chudler says the idea was popularised by James's 1907 essay The Energies of Men; also reports a 2013 survey and expert Bush's view that the whole brain is active."
+      },
+      {
+        "id": "page-1",
+        "name": "mcgovern.mit.edu",
+        "cites": "yes",
+        "independent": true,
+        "reason": "Says James in 1907 'The Energies of Men' suggested 'only a small part of our possible mental and physical resources'; also cites Halgren: brain constantly active, 20 percent of calories."
+      },
+      {
+        "id": "page-2",
+        "name": "theatlantic.com",
+        "cites": "yes",
+        "independent": true,
+        "reason": "Credits James's remark on unused mental potential, revived by Lowell Thomas; also states the entire brain is active all the time, citing LeDoux on fMRI."
+      }
+    ],
+    "model": "claude-sonnet-5-5",
+    "usd": 0.03739,
+    "createdAt": "2026-11-14T20:56:40.663Z"
+  },
+  "telem-habit-2026-11-14": {
+    "version": 1,
+    "claim": "It takes 21 days to form a habit",
+    "traceCreatedAt": "2026-11-14T20:35:56.177Z",
+    "name": "Maxwell Maltz",
+    "names": [
+      "Maxwell Maltz"
+    ],
+    "query": "\"Maxwell Maltz\" It takes 21 days to form a habit original report OR study OR book OR paper",
+    "queries": [
+      "\"Maxwell Maltz\" It takes 21 days to form a habit original report OR study OR book OR paper"
+    ],
+    "engines": [
+      "perplexity",
+      "brave",
+      "exa"
+    ],
+    "candidates": [
+      {
+        "title": "Busting the 21 days habit formation myth |  UCL ‘Health Chatter’: Research Department of Behavioural Science and Health Blog",
+        "url": "https://blogs.ucl.ac.uk/bsh/2012/06/29/busting-the-21-days-habit-formation-myth",
+        "domain": "blogs.ucl.ac.uk"
+      },
+      {
+        "title": "Archive for June, 2012",
+        "url": "https://blogs.ucl.ac.uk/bsh/2012/06",
+        "domain": "blogs.ucl.ac.uk"
+      },
+      {
+        "title": "How Long Does It Really Take to Form a Habit? | atomic",
+        "url": "https://atomichabitstracker.com/blog/how-long-to-form-a-habit",
+        "domain": "atomichabitstracker.com"
+      },
+      {
+        "title": "How Long Does It Take To Form A Habit? · HabitKit Guides",
+        "url": "https://habitkit.app/help/guides/how-long-it-really-takes-to-form-a-habit",
+        "domain": "habitkit.app"
+      },
+      {
+        "title": "The Source of 'Habit Formation in 21 Days' Was a Plastic ...",
+        "url": "https://note.com/magic_cosmos1054/n/n43ccd83d3a3c?hl=en",
+        "domain": "note.com"
+      }
+    ],
+    "upstream": null,
+    "upstreamShowsFigure": false,
+    "upstreamReason": "No candidate is the 1960 book Psycho-Cybernetics or a publisher page for it. All five are blogs or articles quoting or summarising the book; the UCL blog quotes the preface but is commentary.",
+    "origins": [
+      {
+        "id": "page-16",
+        "name": "caltech.edu",
+        "cites": "no",
+        "independent": true,
+        "reason": "Says the 21-day estimate 'was not based on any science' and reports its own Caltech machine-learning study: gym habit about six months, handwashing a few weeks. No Maltz mention."
+      },
+      {
+        "id": "page-1",
+        "name": "scientificamerican.com",
+        "cites": "yes",
+        "independent": true,
+        "reason": "Says the 'three-week theory' apparently came from Maltz's 1960 Psycho-Cybernetics; also reports Camerer's research showing habit formation ranges from a few weeks to a couple of months."
+      },
+      {
+        "id": "page-6",
+        "name": "pmc.ncbi.nlm.nih.gov",
+        "cites": "yes",
+        "independent": true,
+        "reason": "Attributes the 21-day idea to Maltz's Psycho-Cybernetics, then reports its own meta-analysis: median 59-66 days, individual range 4 to 335 days, refuting the 21-day notion."
+      },
+      {
+        "id": "page-12",
+        "name": "edition.cnn.com",
+        "cites": "yes",
+        "independent": true,
+        "reason": "Says the 21-days myth stems from Maltz's 1960 'Psycho-Cybernetics', and reports a UniSA meta-analysis of 20 studies finding habits take about two months, up to nearly a year."
+      }
+    ],
+    "model": "claude-sonnet-5-5",
+    "usd": 0.04002,
+    "createdAt": "2026-11-14T20:56:47.495Z"
+  }
+}

@@ -1,0 +1,913 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:32:17.546Z",
+  "analysis": {
+    "claim": "Americans check their phones 96 times a day",
+    "createdAt": "2026-11-14T21:32:17.545Z",
+    "mode": "live",
+    "claimSlot": "zombie",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Americans Check Their Phones 96 Times a Day - Asurion",
+        "url": "https://www.asurion.com/press-releases/americans-check-their-phones-96-times-a-day",
+        "domain": "asurion.com",
+        "publishedDate": "2019-11-21",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://asurion.com/osp/assets/images/favicons/apple-touch-icon.png",
+        "text": "# Americans Check Their Phones 96 Times a Day New Asurion Research Shows Our Smartphone Dependency Has Increased by 20% During the Past Two Years Despite our attempts to curb our phone use, we’re connected to our phones more than ever. Americans now check their phones 96 times a day – that’s once every 10 minutes, according to new research by global tech care company Asurion¹. That’s a 20 percent daily increase from a similar survey conducted by Asurion two years ago¹. [...] Phone use is rising despite roughly half of Americans attempting periods where they tried to use their phone less. Eighteen- to 24- year-olds check their phones twice as much as the national average. This age group is also aware of their heavy phone use, as they are more likely than other Americans to try to curb their phone use (68%)¹. Others survey findings include: I Want to Keep in Touch Staying Connected with friends and family is the #1 reason people use their phones, regardless of age or gender. …But I Don’t Want to Talk For the first time, texting is now king across all age groups, even among Baby Boomers. In fact, Baby Boomers are seven times more likely to text than they are to talk in-person and are twice as likely to send a text instead of call.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 90,
+          "evidence": "Published the same day as prnewswire.com with largely identical text; Echo counts them as one origin. Claude's note: Asurion's own release reporting its own survey with specific findings; the pages that echo it are later or same-day."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Organization publishing its own survey results, though without methodology or raw data in the passage."
+      },
+      {
+        "id": "page-2",
+        "title": "20 Vital Smartphone Usage Statistics [2026]: Facts, Data, and Trends On Mobile Use In The U.S. - Zippia",
+        "url": "https://www.zippia.com/advice/smartphone-usage-statistics",
+        "domain": "zippia.com",
+        "publishedDate": "2023-04-03",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.zippia.com/ui-router/images/favicon.ico",
+        "text": "81.6% of Americans, equating to over 270 million individuals, owned a smartphone as of 2026. The average American now spends 5 hours and 24 minutes on their mobile device each day. On average, Americans check their phones 96 times per day, roughly once every ten minutes. Globally, there are approximately 6.92 billion smartphone users, which constitutes about 86.29% of the world’s population as of 2026. As of 2022, 59.16% of website traffic originated from mobile devices. For a deeper understanding, we categorized the data into the following areas: Reliance and Addictiveness | Mobile Commerce | Trends and Projections growth of global smartphone users 2016-2023 ## General Smartphone Usage Statistics [...] Moreover, the prevalence of smartphones is projected to continue growing, with estimates of 7.52 billion smartphone users by 2026—12% more than the current 6.92 billion. 3. How many times does someone check their phone a day in 2022? The average American checks their phone 96 times per day, or approximately once every ten to 12 minutes. On average, we touch our phones up to 2,617 times per day and unlock our phones 150 times. This illustrates significant engagement with our devices. 4. How many smartphones are sold each year?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Statistics roundup repeating the 96 figure without naming a source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Asserts the number with no underlying data."
+      },
+      {
+        "id": "page-3",
+        "title": "Americans Check Their Phones 96 Times a Day",
+        "url": "https://www.prnewswire.com/news-releases/americans-check-their-phones-96-times-a-day-300962643.html",
+        "domain": "prnewswire.com",
+        "publishedDate": "2019-11-21",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's date meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.prnewswire.com/content/dam/prnewswire/icons/2019-Q4-PRN-Icon-32-32.png",
+        "text": "Accessibility Statement Skip Navigation # Americans Check Their Phones 96 Times a Day New Asurion Research Shows Our Smartphone Dependency Has Increased by 20% During the Past Two Years Asurion (PRNewsFoto/Asurion)\") ## News provided by Asurion Nov 21, 2019, 08:07 ET ## Share this article Share this article NASHVILLE, Tenn., Nov. 21, 2019 /PRNewswire/ -- Despite our attempts to curb our phone use, we're connected to our phones more than ever. Americans now check their phones 96 times a day – that's once every 10 minutes, according to new research by global tech care company Asurion1. That's a 20 percent daily increase from a similar survey conducted by Asurion two years ago1. [...] Phone use is rising despite roughly half of Americans attempting periods where they tried to use their phone less. Eighteen- to 24- year-olds check their phones twice as much as the national average. This age group is also aware of their heavy phone use, as they are more likely than other Americans to try to curb their phone use (68%)1. Others survey findings include: I Want to Keep in TouchStaying Connected with friends and family is the #1 reason people use their phones, regardless of age or gender. …But I Don't Want to TalkFor the first time, texting is now king across all age groups, even among Baby Boomers. In fact, Baby Boomers are seven times more likely to text than they are to talk in-person and are twice as likely to send a text instead of call.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Published within days of asurion.com with largely identical text, so Echo treats them as one co-published origin instead of guessing which copied which."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "name and year",
+            "quote": "Shows Our Smartphone Dependency Has Increased by 20% During the Past Two Years Asurion (PRNewsFoto/Asurion)\") ## News provided by Asurion Nov 21, 2019, 08:07 ET ## Share this article Share this article NASHVILLE"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Syndicated press release, no independent data."
+      },
+      {
+        "id": "page-4",
+        "title": "Asurion, . (2019) | References | Narcissus and the Child",
+        "url": "https://narcissusandthechild.com/references/asurion2019",
+        "domain": "narcissusandthechild.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://narcissusandthechild.com/images/favicon.webp",
+        "text": "## What This Research Found 96 times per day. The average American checks their phone nearly 100 times daily—roughly once every 10 minutes during waking hours. This isn’t concentrated checking during specific activities; it’s distributed throughout the day, occurring during meals, conversations, work, and leisure. Many checks are unconscious. Much phone checking happens without deliberate decision. Users reach for devices reflexively, glance at screens automatically, and check without awareness they’re doing so. The behavior has become so ingrained that it operates below conscious choice. [...] ## Summary This industry survey documented that the average American checks their phone 96 times per day—once every 10 minutes during waking hours. Many of these checks are unconscious, occurring without deliberate decision. The finding captures how deeply smartphone use has integrated into modern life and how thoroughly the devices have trained users to seek intermittent digital rewards. For understanding digital narcissism, the statistic illustrates how platforms exploit intermittent reinforcement principles: you never know when you'll get the reward of engagement or validation, so you keep checking, seeking the next dopamine hit from social connection simulation. ## Why This Matters for Survivors",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 70,
+          "evidence": "Reference entry citing Asurion (2019) by title and summarizing the same finding."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "title",
+            "quote": "ulation. ## Why This Matters for Survivors # APA Citation Asurion, . (2019). Americans Check Their Phones 96 Times a Day. # Summary This industry survey documented that the average American checks their phone 96 tim"
+          },
+          {
+            "pageId": "page-3",
+            "how": "title",
+            "quote": "ulation. ## Why This Matters for Survivors # APA Citation Asurion, . (2019). Americans Check Their Phones 96 Times a Day. # Summary This industry survey documented that the average American checks their phone 96 tim"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summary of a cited survey, with no data of its own."
+      },
+      {
+        "id": "page-5",
+        "title": "39 Smartphone Sales and Usage Statistics - G2 Learning Hub",
+        "url": "https://learn.g2.com/smartphone-statistics",
+        "domain": "learn.g2.com",
+        "publishedDate": "2024-01-18",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://learn.g2.com/hubfs/culture/g2-logo-circle.svg",
+        "text": "## Smartphone usage statistics The smartphone market in the United States is on the rise. Many Americans now own smartphones, and their usage almost never stops, with people frequently checking their phones throughout the day, starting from the moment they wake up. The high usage relates to the time spent on various mobile apps, indicating smartphones are a central part of daily digital activities, especially in entertainment and social media. The statistics below unveil the real picture of smartphone usage for US citizens. In 2023, 81.6% of Americans, or 270 million people, owned smartphones. Americans spend an average of 5 hours and 24 minutes on their mobile devices daily. On average, Americans check their phones 96 times a day, which is about once every ten minutes. ## 68% [...] Mobile internet usage grew from 51.1% in 2017 to 59.1% in 2022. College graduates are 20% more likely to own a smartphone than people who ended formal education in high school. Americans touch their phones 2,617 times daily on average. Gen Z is more likely to admit to overusing their smartphones than other generations. Women generally use smartphones longer than me. Internet use now accounts for more than half of smartphone screen time. Social media is a primary reason for smartphone use. 85% of 5.27 billion mobile phone users use social media. ## 27% of lower-income Americans relied on smartphones for internet access in 2021. Source: Pew Research Center",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Statistics list repeating the 96 figure with no source shown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bare statistic without supporting data."
+      },
+      {
+        "id": "page-6",
+        "title": "Americans check their smartphones 96 times a day, survey ...",
+        "url": "https://www.fox13seattle.com/news/americans-check-their-smartphones-96-times-a-day-survey-says",
+        "domain": "fox13seattle.com",
+        "publishedDate": "2021-09-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.foxtv.com/static/orion/img/kcpq/favicons/apple-touch-icon-144x144.png",
+        "text": "That’s once every 10 minutes, according to global tech care company Asurion. The company also said it’s a 20% increase from a similar survey researchers conducted two years ago. However, Asurion said roughly 50% of Americans are attempting to use their phones less. RELATED: Nearly 50 percent of parents worry about their kids' smartphone addiction: study The company’s data also showed 18- to 24-year-olds check their phones twice as much as the national average, and the age group is aware of their heavy phone usage. [...] But there’s a downside to being glued to the phone. The survey showed nearly nine out of 10 Americans are offended when someone they're speaking with starts looking at their phone. Ironically, 75% of survey takers admit they've done it themselves. And, nearly one in five say they do this frequently. However, there are ways to help pay attention to and even curb phone usage. For iPhones users, smartphones come with a \"screen time\" feature that clocks the total amount of time you spend on your phone. RELATED: New app aims to prevent health problems from texting too much on your phone A Washington Post article suggested people not check their emails first thing in the morning and set limits on when and where you check your phone.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-3",
+          "confidence": 80,
+          "evidence": "This page cites prnewswire.com directly but not asurion.com, so Echo links it to the page it cites."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "named as source",
+            "quote": "That’s once every 10 minutes, according to global tech care company Asurion. The company also said it’s a 20% increase from a similar survey researchers conducted two ye"
+          },
+          {
+            "pageId": "page-3",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.prnewswire.com/news-releases/americans-check-their-phones-96-times-a-day-300962643.html"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats the company's survey results without its own data."
+      },
+      {
+        "id": "page-7",
+        "title": "Phone Checking Statistics: The Real Numbers (2026)",
+        "url": "https://theblogtimer.com/guides/phone-checking-statistics",
+        "domain": "theblogtimer.com",
+        "publishedDate": "2026-08-31",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://theblogtimer.com/favicon.ico",
+        "text": "1. “Americans check their phones 96 times a day” is a vendor press release. It comes from Asurion, a tech-care company, surveying 1,998 US smartphone users over three days in August 2019. The same company’s 2022 survey of 1,965 US adults produced 352 checks a day; Reviews.org’s 2026 survey produced 186. One behavior, three vendor measurements, spanning 96 to 352. Quote any of these with the company name and year attached, “an Asurion survey found”, never as “research shows.” [...] ## Vendor surveys: 96, then 352, then 186 checks a day The numbers that circulate most widely come from companies, not academics. They are self-reported, and they disagree with each other sharply. | Claimed checks/day | Who and when | Sample | Source (all vendor) | --- --- | | 96, once every 10 minutes | US smartphone users, surveyed Aug 18-20, 2019; up from 80/day in 2017 | n=1,998 | Asurion, 2019 | | 352, once every 2 min 43 sec | US adults 18+, surveyed Mar 2-9, 2022 | n=1,965 | Asurion, 2022 | | 186, 11.6 per hour | US adults 18+, surveyed Q4 2025; down from 205 in the prior year’s survey | ~1,000 | Reviews.org, 2026 | | 58, 30 during working hours | RescueTime app users, usage logs, published Mar 2019 | 11,000 users | RescueTime, 2019 |",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Own analysis comparing multiple vendor surveys with sample sizes and dates, linking the Asurion release."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.asurion.com/press-releases/americans-check-their-phones-96-times-a-day"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Compiles details from other surveys, so it is not new primary data."
+      },
+      {
+        "id": "page-8",
+        "title": "NEW Screen Time Statistics [2026]: How Much Time We Spend on ...",
+        "url": "https://cropink.com/screen-time-statistics",
+        "domain": "cropink.com",
+        "publishedDate": "2025-02-03",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cropink.com/favicon.svg",
+        "text": "# NEW Screen Time Statistics : How Much Time We Spend on Screens? These screen time statistics reveal how people spend nearly 7 hours per day on screens, check phones 96 times daily, and face 30% higher anxiety risk with excessive use. Learn screen time by device, social media usage at 2h 27m daily, remote work exposure reaching 13 hours, and smartphone screen time across 22 countries exceeding global averages. Manisha Saini Leszek Dudkiewicz ![NEW Screen Time Statistics : How Much Time We Spend on Screens? ]( Ever wondered how much time you actually spend staring at a screen? [...] Americans spend 4.5 hours daily on mobile devices alone. Screen time surged by 70% during the COVID-19 pandemic. Nearly 75% of employees experience digital eye strain from excessive screen exposure. 41% of adults exceed 9 hours of daily screen time. Young adults (18-24) have the highest screen time, averaging 9+ hours daily. ## Average screen time statistics by device Users keep themselves engaged in multiple devices, some of them even use multiple devices at a time. Like the times when we scroll our phone and our laptop screen is open. According to data these devices have average daily screen time: Average Daily Screen Time By Device Average Daily Screen Time By Device ## Social media & screen time- how much time are people spending there?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Roundup repeating the 96 figure with no source shown in the passage."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bare statistic, no data."
+      },
+      {
+        "id": "page-9",
+        "title": "Americans check their smartphones 96 times a day, survey says",
+        "url": "https://www.ktvu.com/news/americans-check-their-smartphones-96-times-a-day-survey-says",
+        "domain": "ktvu.com",
+        "publishedDate": "2021-09-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.foxtv.com/static/orion/img/ktvu/favicons/apple-touch-icon-144x144.png",
+        "text": "The company also said it’s a 20% increase from a similar survey researchers conducted two years ago. However, Asurion said roughly 50% of Americans are attempting to use their phones less. RELATED: Nearly 50 percent of parents worry about their kids' smartphone addiction: study The company’s data also showed 18- to 24-year-olds check their phones twice as much as the national average, and the age group is aware of their heavy phone usage. Other key findings from the survey include that staying connected with family and friends is the number one reason people use their phones. Texting is now common among all age groups with baby boomers being seven times more likely to text than talk in-person and twice as likely to send a text rather than dial a phone number. [...] Also, nearly 50% of Americans say their smartphones actually help them achieve more work-life balance, not less. RELATED: Study: Smartphone addiction creates imbalances in brain But there’s a downside to being glued to the phone. The survey showed nearly nine out of 10 Americans are offended when someone they're speaking with starts looking at their phone. Ironically, 75% of survey takers admit they've done it themselves. And, nearly one in five say they do this frequently. However, there are ways to help pay attention to and even curb phone usage. For iPhones users, smartphones come with a \"screen time\" feature that clocks the total amount of time you spend on your phone. RELATED: New app aims to prevent health problems from texting too much on your phone",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-3",
+          "confidence": 75,
+          "evidence": "This page cites prnewswire.com directly but not asurion.com, so Echo links it to the page it cites."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "named as source",
+            "quote": "lth problems from texting too much on your phone That’s once every 10 minutes, according to global tech care company Asurion. NASHVILLE, Tenn. - New research shows the U.S. is deep into the digital age with data showin"
+          },
+          {
+            "pageId": "page-3",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.prnewswire.com/news-releases/americans-check-their-phones-96-times-a-day-300962643.html"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Restates the press release findings with no independent data."
+      },
+      {
+        "id": "page-10",
+        "title": "Phone Addiction Statistics 2026: 100+ Facts About Smartphone Dependency",
+        "url": "https://www.blankspaces.app/blog/phone-addiction-statistics",
+        "domain": "blankspaces.app",
+        "publishedDate": "2026-03-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.prod.website-files.com/62242a0228953e3b9e573176/680c63dde53510a642a597e1_blank%20256%20logo.png",
+        "text": "# Phone Addiction Statistics 2026: 100+ Facts About Smartphone Dependency # March 1, 2026 Phone Addiction Statistics 2026: 100+ Facts About Smartphone Dependency You checked your phone 47 times yesterday. If that sounds high, consider this: the average American checks their phone 96 to 150 times per day:approximately once every 10 minutes during waking hours. And 57% of Americans openly admit they're addicted to their phones (Reviews.org survey, 2023). [...] | 57% of Americans admit they are addicted to their phones : up from 47% in previous years, with Gen Z showing the highest rates at 69% (Reviews.org survey, 2023) | | The average American spends 5 hours and 16 minutes per day on their phone : a 14% increase from 4 hours 37 minutes in 2024, not including work-related usage (Harmony Healthcare IT, December 2024) | | The average smartphone user checks their phone 96-150 times per day : approximately once every 10-12 minutes during waking hours, with some studies showing as high as 352 checks daily (SlickText.com, March 2025) | | 66% of the population shows signs of nomophobia : the fear of being without your phone, with 47% experiencing panic or anxiety when battery drops below 20% (CrossRiverTherapy.com, 2026) |",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Listicle citing other sources for related stats and giving a 96-150 range, with no Asurion link."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Compiled statistics without original data."
+      },
+      {
+        "id": "page-11",
+        "title": "Americans now check their phones up to 96 times per day: new study",
+        "url": "https://www.notebookcheck.net/Americans-now-check-their-phones-up-to-96-times-per-day-new-study.457468.0.html",
+        "domain": "notebookcheck.net",
+        "publishedDate": "2020-03-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.notebookcheck.net/fileadmin/templates/nbc_v5/images/logo_nbc_small_shaded_interior_white.svg",
+        "text": "A study published by Asurion indicates that US residents may handle their smartphones up to 96 times per day, or with a frequency of up to 10 minutes. This conclusion stems from the analysis of responses recorded from 1998 smartphone users across this country during August 2019. Its publishers also asserts that up to 45% of Americans have yielded to the temptation to use their phones in public bathrooms at least once. [...] Furthermore, as many as 60% of these individuals may now leave these devices out in restaurants or bars. However, exposing them to such communal surfaces may be even less of a good idea than normal these days. Asurion also advises a regular phone-cleaning to prevent disease. There are a number of methods to do so effectively, from the use of isopropyl alcohol (just be careful around the ports) to UV sanitizing enclosures specifically designed for mobile devices. ### Source(s) Asurion ## Related Articles",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 80,
+          "evidence": "Names Asurion as source and restates the study with no added reporting."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "named as source",
+            "quote": "A study published by Asurion indicates that US residents may handle their smartphones up to 96 times per day, or with a frequency of up to 10 minute"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Restates Asurion's study without its own data."
+      },
+      {
+        "id": "page-12",
+        "title": "Screen Time Statistics 2026: 110+ Sourced Phone Usage Stats",
+        "url": "https://detox.so/screen-time-statistics",
+        "domain": "detox.so",
+        "publishedDate": "2026-06-24",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://detox.so/icon.png?icon.93d791d9.png",
+        "text": "## Popular numbers we don't repeat, and why Some of the most widely quoted screen time figures don't hold up when you trace them to their source. We left them out. \"People check their phones 96 (or 352) times a day\" Both come from surveys sponsored by the tech-care company Asurion (2019 and 2022) that don't say how checks were counted. People can't reliably recall around 100 daily events, and a near-fourfold jump in three years across different survey firms isn't plausible. The best measured figure is 51 pickups a day, for teens. \"Americans check their phones 144 (or 186) times a day\" [...] ### How much screen time is too much for adults? There is no official limit for adults. Research links long sessions and bedtime phone use with worse sleep, and trials show that cutting social media or phone time by 30 to 60 minutes a day can modestly improve well-being. ### How many times a day do people check their phones? The best measured figure is a median of 51 pickups a day for US teens (Common Sense Media, 2023). Widely shared adult figures such as 96 or 352 checks a day come from sponsored surveys that don't explain how checks were counted. ### How much time do French people spend on screens?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Critical assessment tracing the figure to sponsored Asurion surveys and arguing recall and methodology problems."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "name and year",
+            "quote": "352) times a day\" Both come from surveys sponsored by the tech-care company Asurion (2019 and 2022) that don't say how checks were counted. People can't reliably recall around 100 daily events, and a near-fourfold ju"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Argument and secondary citation without inspectable data of its own."
+      },
+      {
+        "id": "page-13",
+        "title": "Smartphone Addiction Statistics 2026: Startling Insights - TechRT",
+        "url": "https://techrt.com/smartphone-addiction-statistics",
+        "domain": "techrt.com",
+        "publishedDate": "2026-04-11",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://techrt.com/wp-content/uploads/2021/12/cropped-site-icon-32x32.png",
+        "text": "## Phone Checking Frequency Stats The average smartphone user checks their phone 96 times per day, or once every 10 minutes. Heavy users can check their phones up to 352 times daily, indicating compulsive behavior. About 22% of users check their phones every few minutes throughout the day. Nearly 47% of users admit they constantly check notifications even without alerts. Around 70% of smartphone users check their phones within 5 minutes of waking up. 51% of users check their phones during conversations, contributing to social disengagement. The average user performs 2,617 touches per day, rising to 5,400 for heavy users. 60% of people feel uneasy when they leave their phone at home. Push notifications drive over 70% of phone pickups, reinforcing habitual checking. [...] ## Frequently Asked Questions (FAQs) ### What percentage of people globally are addicted to smartphones? About 26.99% of people worldwide are estimated to have smartphone addiction, with some studies reporting rates up to 39.9%. ### How many times does the average person check their smartphone daily? The average user checks their phone around 96 times per day, while Americans check it about 144 times daily. ### What percentage of Americans say they are addicted to their smartphones? Approximately 56.9% to 57% of Americans admit they are addicted to their smartphones. ### How many hours per day do people spend on smartphones globally? The global average smartphone usage is about 4.6 hours per day, with some regions exceeding 5 hours daily.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Roundup stating 96 with no source named."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bare statistic only."
+      },
+      {
+        "id": "page-14",
+        "title": "Cell Phone Statistics (2026) | ConsumerAffairs®",
+        "url": "https://www.consumeraffairs.com/cell_phones/cell-phone-statistics.html",
+        "domain": "consumeraffairs.com",
+        "publishedDate": "2023-09-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://media.consumeraffairs.com/static/img/rebrand/apple-icon-144x144.412048b2e870.png",
+        "text": "## Key insights As of 2024, 98% of Americans (331 million people) own a mobile phone. More than nine out of 10 (91%) own a smartphone. Each day, Americans spend 4 hours and 30 minutes on their mobile phones and check their phones 205 times per day. Many Americans consider themselves completely dependent on their smartphones. Children, on average, get their first phones at 12 years old. By age 15, almost all children have a cellphone. Over half (63%) of the world's internet traffic comes from mobile phones. ## Phone ownership trends Since 2015, cellphone ownership has increased 20%. Over 98% of Americans owned a cellphone in 2024, compared with 81% in 2015. Today, more than nine out of 10 of all cellphone owners have a smartphone. [...] Ninety-one percent of teens use their cellphones simply as a way to pass the time. Also, more than 8 in 10 teens report that they use their phones to connect with other people or learn new things. Alternatively, some teens use their devices to avoid social interaction. ## Phones vs. other electronic devices On average, American households have nearly six internet-connected devices. Generation Z is more “connected” than their older counterparts, using seven devices in the home, on average. A shocking number of people (12%) upgrade their phones every year, and 4.28% purchase a new phone every six months. ## Mobile phone usage and habits Caught in an endless cycle of notifications and pings, Americans are feeling tied to their phones now more than ever.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Cites a different figure (205) with no source in the passage, and it does not derive from the 96 claim."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bare statistic without data."
+      },
+      {
+        "id": "page-15",
+        "title": "Here's how many times the average American checks their phone each day",
+        "url": "https://www.tweaktown.com/news/86687/heres-how-many-times-the-average-american-checks-their-phone-each-day/index.html",
+        "domain": "tweaktown.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.tweaktown.com/favicon.svg",
+        "text": "Asurion, a private insurance company that provides insurance for smartphones, tablets, and consumer electronics, published a study back in 2019 that found the average American checks their phone at least 96 times throughout a 24-hour period, which accounts for approximately 8 hours of sleep. 96 times a day means the individual was checking their phone once every 10 minutes. [...] A follow-up to that study was recently released and found that 96 times a day has drastically increased to 352 times a day, which has taken that 10-minute figure down to just once every 3 minutes. Notably, the study consisted of 2,000 American adults of a variety of different ages. Furthermore, the study found that out of all participants, 20% were unable to go without their phone for more than a few hours and that 75% of the participants reported taking their phone with them to the bathroom. If you are interested in reading more about the findings, check out this link here. Share this Story Facebook Icon X Icon Reddit Icon Email Icon Copy link Icon ## Best Deals: Bitcoin Commemorative Coin 24K Gold Plated BTC Limited Edition",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Retells an Asurion study and its follow-up with no link or date, so the parent is unclear."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes the study findings with no data."
+      },
+      {
+        "id": "page-16",
+        "title": "How to Check Phone Usage and Time Spent on Phone",
+        "url": "https://www.twilio.com/en-us/blog/how-much-time-youre-spending-on-your-phone",
+        "domain": "twilio.com",
+        "publishedDate": "2025-08-30",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.twilio.com/content/dam/twilio-com/core-assets/social/apple-touch-icon.png",
+        "text": "The average American checks their phone 96 times every day. That's roughly once every 10 minutes during waking hours. And 88.6% of users reach for their phones within the first 10 minutes after waking up, proving that phone usage has become as automatic as breathing. People estimate spending 3 hours per day on their phones during work hours, with 60% reporting they use personal phones for work purposes. This blending of personal and professional phone usage makes it even harder to establish healthy boundaries. These numbers mark a shift in how we spend our waking hours. Understanding your personal phone usage patterns is the first step toward making intentional choices about your relationship with your device. ## Mobile phone usage increased during the pandemic [...] ## 2025 phone usage statistics Phone usage has skyrocketed to levels that would make our parents' generation question our collective sanity. Americans now spend an average of 5 hours and 16 minutes per day on their phones—that's a 14% increase from just the previous year. To put that in perspective, that's more time than most people spend eating, exercising, and having meaningful conversations...combined. Here's what the data tells us about our phone usage habits: Daily screen time averages: Global average: 6 hours and 40 minutes per day on all screens U.S. phone-specific usage: 5 hours and 16 minutes daily Gen Z leads the pack: 7 hours and 18 minutes per day Millennials: 205 minutes (3.4 hours) daily",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Repeats the 96 figure with no citation, in wording similar to other aggregator pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Asserted statistic only."
+      },
+      {
+        "id": "page-17",
+        "title": "The State of SMS Marketing in 2023 | Validity",
+        "url": "https://www.validity.com/wp-content/uploads/2023/02/The-State-of-SMS-Marketing-in-2023.pdf",
+        "domain": "validity.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.validity.com/favicon.ico",
+        "text": "Chapter 7 The State of SMS Marketing in 2023 2 The basic tenets of marketing call for us to meet customers where they are—and these days, they’re on their phones. The average smartphone user checks their device 96 times a day. For companies sending text, Short Message Service (SMS), Multimedia Messaging Service (MMS), and/or WhatsApp messages, that means 96 opportunities to make a sale—if they have the right strategy. SMS and email naturally complement each other— each supports certain message types. But given how quickly SMS became a dominant force in the marketing landscape, many brands find themselves struggling to adapt. Particularly as marketers of various backgrounds (chiefly email marketers) suddenly find themselves responsible for SMS as well. [...] Consumers generally guard their cell phone numbers more closely than they would an email address. This in mind, sign-up incentives aren’t a nice-to-have in SMS marketing—they’re a must. Unsurprisingly, financial incentives (discounts, birthday gifts, promotional offers, etc.) are king (Figure 7). Fortunately, brands needn’t break the bank in the name of subscriber growth: Fifty percent of study respondents who signed up for SMS because they were offered a discount say they would sign up for an SMS program to receive a discount of 10 percent or less (Figure 8).",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Marketing report mentions 96 as background with no source and no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Stat used as framing, with no data supporting it."
+      },
+      {
+        "id": "page-18",
+        "title": "Research Reveals How Many Times Americans Check ...",
+        "url": "https://dailyvoice.com/article/research-reveals-how-many-times-americans-check-their-smart-phones-each-day",
+        "domain": "dailyvoice.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "A survey by global tech care company Asurion found that on average, Americans check their phones 96 times a day, meaning once every 10 minutes. Photo Credit: Pixabay ... A 2019 survey by global tech care company Asurion found that on average, Americans check their phones 96 times a day, meaning once every 10 minutes. This is a 20 percent daily increase compared to a similar study conducted two years earlier. Asurion also reported 18- to 24-year-olds check their phones twice as much as the national average, and this age group is more likely to attempt to limit phone use. The number one reason people surveyed reported that they use their phones is to stay in touch with friends and family.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 60,
+          "evidence": "Snippet cites the 2019 Asurion survey by name and repeats its details, such as the 20% increase and 18-24 findings. The extraction is only a snippet, so confidence is lower."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "name and year",
+            "quote": "ones 96 times a day, meaning once every 10 minutes. Photo Credit: Pixabay ... A 2019 survey by global tech care company Asurion found that on average, Americans check their phones 96 times a day, meaning once every 10 mi"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-19",
+        "title": "Reality Check: You Check Your Phone 96 Times A Day. ...",
+        "url": "https://www.kabc.com/2021/10/03/reality-check-you-check-your-phone-96-times-a-day-96-times-a-day",
+        "domain": "kabc.com",
+        "publishedDate": "2021-10-03",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2021/10/03",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://media-cdn.socastsrm.com/uploads/station/3050/squareIcon.png?r=93777",
+        "text": "![](https://www.facebook.com/tr?id=284485181883624&ev=PageView&noscript=1) ![790 KABC](https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/3759/files/2024/12/kabc-am.png) ![facebook]() ![twitter]() ![](https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/3377/files/2025/08/cell-phone-shutterstock-393607117.jpg) # Reality Check: You Check Your Phone 96 Times A Day. 96 Times A Day. (Undated) — Americans check their smartphones an average of 96 times a day, once every ten minutes. The data put together by tech care company Asurion found that’s a 20 percent increase from just two years ago. Still, they found that half of Americans are making an effort to use their phones less. People ages 18 to 24 check their phones twice as often as the average, but even baby boomers are seven times more likely to text instead of talking with someone in person. ![](/wpBlogNewsService/logView?key=3377_37803_3377&ref=direct) ![](https://media-cdn.socastsrm.com/uploads/station/3050/logo.png?r=93769) ![facebook](https://media-cdn.socastsrm.com/wordpress/wp-content/themes/common_images/social/facebook.png) ![twitter](https://media-cdn.socastsrm.com/wordpress/wp-content/themes/common_images/social/twitter.png) ![instagram](https://media-cdn.socastsrm.com/wordpress/wp-content/themes/common_images/social/instagram.png) ![Sweet Deals - Get LIMITED-TIME deals on dining, local attractions and entertainment.](https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/3377/files/2025/06/sweetdeals300x100.png \"SweetDeals300x100\") ## Subscribe to our Newsletter ![facebook]() ![twitter]() ![Cumulus Media](https://media-cdn.socastsrm.com/uploads/company/580/67180cfda0209.png) ![Powered by SoCast](https://media-cdn.socastsrm.com/wordpress/wp-content/themes/common_images/PoweredBySoCastTagline-White.png)",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-1",
+          "confidence": 45,
+          "evidence": "Credits Asurion and repeats the same figures, but gives no explicit link or citation, and the date comes from the URL."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Brief summary of the Asurion findings with no data."
+      },
+      {
+        "id": "page-20",
+        "title": "Burton S. Staggs",
+        "url": "https://www.facebook.com/thestaggeringtruth/posts/monday-morning-fact-the-average-american-checks-their-phone-96-times-a-day-do-yo/1617129823313679",
+        "domain": "facebook.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "[Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=%2Fthestaggeringtruth%2Fposts%2Fmonday-morning-fact-the-average-american-checks-their-phone-96-times-a-day-do-yo%2F1617129823313679) Log In [Forgot Account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar) ## Burton S. Staggs's Post * * * [](https://www.facebook.com/thestaggeringtruth?__cft__[0]=AZiPshNtgaYESMczRUnGYMI2jFNeqcYyPcXsa56DnpKH_Djn6Ouz9uC5vt7ROYJUVf7NqDP8T_UsD5GVkWVhYchWTKdqAdR5hhtJr7LLEpUZ8-zzBfWKrkexDeLtJKnudplPAGaPLZ3Ff7TOIQhot2n-GQ&__tn__=%3C%3C%2CP-R) ### [**Burton S. Staggs**](https://www.facebook.com/thestaggeringtruth?__cft__[0]=AZiPshNtgaYESMczRUnGYMI2jFNeqcYyPcXsa56DnpKH_Djn6Ouz9uC5vt7ROYJUVf7NqDP8T_UsD5GVkWVhYchWTKdqAdR5hhtJr7LLEpUZ8-zzBfWKrkexDeLtJKnudplPAGaPLZ3Ff7TOIQhot2n-GQ&__tn__=-UC%2CP-R) Monday, July 20, 2026 at 2:20 PM [July 20](https://www.facebook.com/thestaggeringtruth/posts/pfbid02y3R1tByq9DwbCe5VBMRxYgXvyR5zMQhPog6YeqdovNxhhjNyPCcemMSjXHHyc6mel?__cft__[0]=AZiPshNtgaYESMczRUnGYMI2jFNeqcYyPcXsa56DnpKH_Djn6Ouz9uC5vt7ROYJUVf7NqDP8T_UsD5GVkWVhYchWTKdqAdR5hhtJr7LLEpUZ8-zzBfWKrkexDeLtJKnudplPAGaPLZ3Ff7TOIQhot2n-GQ&__tn__=%2CO%2CP-R) · Monday Morning Fact: The average American checks their phone 96 times a day.. Do you?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 25,
+          "evidence": "Undated social post asserting the figure with no source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Assertion only."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Americans check their phones 96 times a day (Asurion 2019 survey)",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-13",
+          "page-16",
+          "page-17",
+          "page-18",
+          "page-19",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "The 96-a-day figure is an unreliable vendor survey statistic",
+        "pageIds": [
+          "page-7",
+          "page-12"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Asurion follow-up found 352 checks a day, up from 96",
+        "pageIds": [
+          "page-15"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "Americans check their phones 205 times a day",
+        "pageIds": [
+          "page-14"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-3",
+      "page-7",
+      "page-12"
+    ],
+    "verifiableRoots": [
+      "page-1"
+    ],
+    "coPublishedRootGroups": [
+      [
+        "page-1",
+        "page-3"
+      ]
+    ],
+    "answerSourceIds": [
+      "page-1"
+    ],
+    "answerStatements": [
+      {
+        "text": "Asurion's November 2019 press release said Americans check their phones 96 times a day, about once every 10 minutes, based on its own research",
+        "sourceIds": [
+          "page-1"
+        ]
+      },
+      {
+        "text": "Asurion described this as a 20 percent daily increase from a similar survey it conducted two years earlier",
+        "sourceIds": [
+          "page-1"
+        ]
+      },
+      {
+        "text": "The figure comes from a single company's survey. The provided origin does not give enough detail to show how checks were counted, so it cannot establish that 96 is a verified measure of all Americans' behavior",
+        "sourceIds": [
+          "page-1"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "Americans check their phones 96 times a day",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 38,
+        "matchingResults": 28,
+        "uniquePagesAdded": 28,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-4",
+          "page-2",
+          "page-3",
+          "page-5",
+          "page-6",
+          "page-11",
+          "page-12",
+          "page-13",
+          "page-15",
+          "page-16",
+          "page-19",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "exa",
+            "perplexity",
+            "tavily",
+            "parallel"
+          ],
+          "page-4": [
+            "tavily"
+          ],
+          "page-2": [
+            "brave",
+            "parallel",
+            "perplexity"
+          ],
+          "page-3": [
+            "parallel",
+            "tavily",
+            "brave"
+          ],
+          "page-5": [
+            "perplexity"
+          ],
+          "page-6": [
+            "exa",
+            "brave",
+            "tavily"
+          ],
+          "page-11": [
+            "exa",
+            "perplexity"
+          ],
+          "page-12": [
+            "brave"
+          ],
+          "page-13": [
+            "perplexity"
+          ],
+          "page-15": [
+            "exa"
+          ],
+          "page-16": [
+            "perplexity"
+          ],
+          "page-19": [
+            "exa"
+          ],
+          "page-20": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "\"96 times a day\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 24,
+        "matchingResults": 24,
+        "uniquePagesAdded": 15,
+        "router": "telem",
+        "providers": [
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-7",
+          "page-8",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-7": [
+            "parallel"
+          ],
+          "page-8": [
+            "perplexity"
+          ],
+          "page-17": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"Americans check their phones 96 times a day\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 39,
+        "matchingResults": 30,
+        "uniquePagesAdded": 13,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-9",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-9": [
+            "perplexity"
+          ],
+          "page-18": [
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "Americans check phones 96 times day fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 33,
+        "matchingResults": 24,
+        "uniquePagesAdded": 7,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-10",
+          "page-14"
+        ],
+        "pageProviders": {
+          "page-10": [
+            "perplexity"
+          ],
+          "page-14": [
+            "parallel",
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "Americans check phones 96 times day study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 24,
+        "matchingResults": 21,
+        "uniquePagesAdded": 3,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "Americans check phones 96 times day original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Americans check phones 96 times day according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Americans check phones 96 times day study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"Americans check their phones\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Americans check phones 96 times day evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 3,
+      "verifiableOrigins": 1,
+      "echoPercentage": 25
+    },
+    "answer": "Asurion's November 2019 press release said Americans check their phones 96 times a day, about once every 10 minutes, based on its own research [1]. Asurion described this as a 20 percent daily increase from a similar survey it conducted two years earlier [1]. The figure comes from a single company's survey. The provided origin does not give enough detail to show how checks were counted, so it cannot establish that 96 is a verified measure of all Americans' behavior [1].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 3,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7710,
+          "outputTokens": 969,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.02511
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 16221,
+          "outputTokens": 2463,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.057072
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2529,
+          "outputTokens": 550,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.010558
+        }
+      ],
+      "stageMs": {
+        "search": 2835,
+        "extract": 1489,
+        "grouping": 7993,
+        "judgment": 16014,
+        "answer": 4747,
+        "total": 33080
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "brave": 5,
+          "parallel": 4,
+          "perplexity": 5,
+          "exa": 4,
+          "tavily": 3
+        }
+      },
+      "usd": {
+        "claude": 0.09274,
+        "tavily": 0.024,
+        "telem": 0.129,
+        "total": 0.24574
+      }
+    }
+  }
+}

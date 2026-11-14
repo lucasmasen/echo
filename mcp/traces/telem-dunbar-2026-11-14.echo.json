@@ -1,0 +1,893 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:30:09.782Z",
+  "analysis": {
+    "claim": "Humans can only maintain 150 friendships",
+    "createdAt": "2026-11-14T21:30:09.782Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Dunbar's number: Why we can only maintain 150 relationships",
+        "url": "https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships",
+        "domain": "bbc.com",
+        "publishedDate": "2019-10-09",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+        "text": "According to Dunbar and many researchers he influenced, this rule of 150 remains true for early hunter-gatherer societies as well as a surprising array of modern groupings: offices, communes, factories, residential campsites, military organisations, 11th Century English villages, even Christmas card lists. Exceed 150, and a network is unlikely to last long or cohere well. (One implication for the era of urbanisation may be that, to avoid alienation or tensions, city residents should find quasi-villages within their cities.) Emmanuel Lafont According to Dunbar’s theory, people can ‘handle’ up to about 150 relationships – whether in early hunter-gatherer societies or the modern workplace (Credit: Emmanuel Lafont) [...] Dunbar has a sense of humour about becoming nearly synonymous with a number – an unusual bragging right for a social scientist. “The odd thing about it is most people who have things named after them are actually dead,” he observes drily. But 150 alone doesn’t tell the whole story. Other numbers are nested within the social brain hypothesis too. According to the theory, the tightest circle has just five people – loved ones. That’s followed by successive layers of 15 (good friends), 50 (friends), 150 (meaningful contacts), 500 (acquaintances) and 1500 (people you can recognise). People migrate in and out of these layers, but the idea is that space has to be carved out for any new entrants.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "BBC feature with its own interviews of Dunbar and others; no cluster page is cited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Firsthand reporting with Dunbar quotes."
+      },
+      {
+        "id": "page-2",
+        "title": "Dunbar’s number: why my theory that humans can only maintain 150 friendships has withstood 30 years of scrutiny",
+        "url": "https://theconversation.com/dunbars-number-why-my-theory-that-humans-can-only-maintain-150-friendships-has-withstood-30-years-of-scrutiny-160676",
+        "domain": "theconversation.com",
+        "publishedDate": "2021-05-12",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's published <time> element, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
+        "text": "The community level of organisation turned out to be almost exactly 150. Thus was born the “social brain hypothesis” and “Dunbar’s number”, the former referring to the relationship between group size and brain size in primates and the latter referring to the natural group size of about 150 for humans. Dunbar’s number has attracted a great deal of attention over the years. For example, it has been used in the design of social media platforms, as well as being the basis of “secret handshake” online security algorithms and bot-detection software. [...] ## Developing Dunbar’s number The evidence that personal social networks and natural communities approximate 150 in size, characterised by a very distinctive layered structure, has grown considerably in the past decade. We see it in telephone calling networks, Facebook groups, Christmas card lists, military fighting units and online gaming environments. The number holds for church congregations, Anglo-Saxon villages as listed in the Domesday Book and Bronze Age communities associated with stone circles.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Dunbar's own first-person account of his theory and evidence; the NYT link is a rebuttal, not a source."
+        },
+        "citations": [
+          {
+            "pageId": "page-15",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.nytimes.com/2021/05/11/science/dunbars-number-debunked.html"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "The claim's author presents his own account and evidence."
+      },
+      {
+        "id": "page-3",
+        "title": "How many friends do we need to be happy?",
+        "url": "https://www.abc.net.au/news/2020-08-26/how-many-friends-do-we-need-to-be-happy/12589694",
+        "domain": "abc.net.au",
+        "publishedDate": "2020-08-26",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2020-08-26",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.abc.net.au/news-assets/touchicon-abc.png",
+        "text": "In my research, I met an evolutionary psychologist called Dr Robin Dunbar at Oxford University who used some fancy maths to work out the maximum number of friends we, as human beings, can have. He measured the size of our neocortex (the part of our brain responsible for sensory perception as well processing language and emotion) compared to the rest of the brain (something he had previously done with chimps), and concluded that our minds can deal with roughly 150 friendships. Part of that is to do with our having cognitive restraints that limit how many relationships we can cope with, and part of it is how much time and energy we are willing and able to devote to those people. It's really anywhere between 100 and 200, depending on how extroverted we are. [...] Within that 150 figure, though, we can break our friendships down into categories according to intimacy. Typically, we have a core group of five very close friends — something Robin refers to as our \"support clique\". They're our real, ride-or-die, deep, meaningful connections. From there, we tend to have a cluster of 10 close friends who round out our most important support network. They're people whose deaths would devastate us, whose loyalty we cherish, who we probably like to see on our birthday. After that, we usually have 35 less close, still lovely friends, and then about 100 people in a more tenuous friendship category (about 75 per cent of this group are acquaintances and 25 per cent extended family).",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Author says she met Dunbar during her research and reports her own account of the encounter."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Describes a firsthand meeting with Dunbar."
+      },
+      {
+        "id": "page-4",
+        "title": "Dunbar's number",
+        "url": "https://en.wikipedia.org/wiki/Dunbar%27s_number",
+        "domain": "en.wikipedia.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+        "text": "Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships—relationships in which an individual knows who each person is and how each person relates to every other person. This number was first proposed in the 1990s by Robin Dunbar, a British anthropologist who found a correlation between primate brain size and average social group size. By using the average human brain size and extrapolating from the results of primates, he proposed that humans can comfortably maintain 150 stable relationships. There is some evidence that brain structure predicts the number of friends one has, though causality remains to be seen. [...] In a piece for the Financial Times (10 August 2018) titled \"Why drink is the secret to humanity's success\", Dunbar mentioned two more numbers: an inner core of about 5 people to whom we devote about 40 percent of our available social time and 10 more people to whom we devote another 20 percent. All in all, we devote about two-thirds of our time to just 15 people. In episode 103 of the podcast Hello Internet (31 May 2018) Brady Haran and CGP Grey discuss the reasons the number may be limited to 150, including the ability to keep track of political relationships in large groups of people and the amount of time that people have to devote towards developing and maintaining friendships.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Wikipedia article with no date, summarizing the work of others."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Encyclopedic summary without original data."
+      },
+      {
+        "id": "page-5",
+        "title": "Dunbar's number: Why we can only maintain 150 relationships",
+        "url": "http://bbc.co.uk/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships",
+        "domain": "bbc.co.uk",
+        "publishedDate": "2019-10-09",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/bitesize/touch-icon-36.3a97768b43.png",
+        "text": "Dunbar and colleagues also have performed research on Facebook, using factors like the number of groups in common and private messages sent to map the number of ties against the strength of those ties. When people have more than 150 friends on Facebook or 150 followers on Twitter, Dunbar argues, these represent the normal outer layers of contacts (or the low-stakes connections): the 500 and 1500. For most people, intimacy may just not be possible beyond 150 connections. “These digital media – and I’m including telephones in there – are really just providing you with another mechanism for contacting friends,” Dunbar says. There is a balance between the amount of connections you have and the intimacy of those connections (Credit: Emmanuel Lafont)\") [...] According to Dunbar and many researchers he influenced, this rule of 150 remains true for early hunter-gatherer societies as well as a surprising array of modern groupings: offices, communes, factories, residential campsites, military organisations, 11th Century English villages, even Christmas card lists. Exceed 150, and a network is unlikely to last long or cohere well. (One implication for the era of urbanisation may be that, to avoid alienation or tensions, city residents should find quasi-villages within their cities.) According to Dunbar’s theory, people can ‘handle’ up to about 150 relationships – whether in early hunter-gatherer societies or the modern workplace (Credit: Emmanuel Lafont)\")",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "BBC feature with its own interview of Dunbar on Facebook and Twitter research."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Firsthand reporting with Dunbar quotes."
+      },
+      {
+        "id": "page-6",
+        "title": "Why we dispute ‘Dunbar’s number’ – the claim humans can only maintain 150 friendships",
+        "url": "https://theconversation.com/why-we-dispute-dunbars-number-the-claim-humans-can-only-maintain-150-friendships-161944",
+        "domain": "theconversation.com",
+        "publishedDate": "2021-06-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's published <time> element, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
+        "text": "Many of us are aware of the claim that humans can maintain no more than 150 friendships. That figure is called “Dunbar’s number” after the evolutionary psychologist Robin Dunbar, who first introduced the idea three decades ago. Dunbar claimed that the number of neurons in the neurocortex would limit an organism’s capacity to process social information. This would in turn limit the number of relationships that an individual can maintain. But while the number has achieved widespread fame, and is often referenced in the plans of business managers and software developers, it hasn’t achieved widespread acceptance in scientific circles. [...] His suggestion of using the reduced major axis method is a poor one, as it severely over-corrects the slope bias in the results, delivering misleading results. Nevertheless, if employing Dunbar’s newly suggested approach the estimate for the average (or maximum) human group size was not 150. The new estimate was 289.8, but again with very large 95% confidence intervals between 226.0 and 371.6 (in other words, the estimate is highly uncertain). If the analysis is carried out only on monkeys and apes, rather than all primates, the estimate is instead 404.1, with 95% confidence intervals between 300.6 and 543.3.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "Published the same day as phys.org with largely identical text; Echo counts them as one origin. Claude's note: The Conversation article by the critics presents their own re-analysis; its link to the BBC page is not a source for it."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Reports specific re-estimates (289.8, CI 226.0–371.6) from the authors' own analysis."
+      },
+      {
+        "id": "page-7",
+        "title": "Friendships | Enjoying Our Simple Life",
+        "url": "https://creatingmiracles.wordpress.com/2020/11/29/humans-and-friendships",
+        "domain": "creatingmiracles.wordpress.com",
+        "publishedDate": "2020-11-29",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2020/11/29",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://s2.wp.com/i/webclip.png?m=1713868326i",
+        "text": "Enjoying Our Simple Life Home About Getting smart about finances Astrologers I follow Subscribe to feed # Friendships November 29, 2020 in Random thoughts This is an interesting article (and read the scientific paper here) about humans and friendships – we have the capacity to handle only about 150 friends (the range is between 100 to 250), according to R.I.M. Dunbar, PhD, a professor in the Department of Experimental Psychology at the University of Oxford, and this “limit is determined by the size of our brains”… [...] “Often, within the 150 limit we have inner circles or layers that require a certain amount of regular interaction to maintain the friendship. Whether that’s grabbing coffee, or at least having some type of back-and-forth conversation. Think about your own social circle and how many of those friends you consider closer than others. Dunbar concludes that each circle requires different amounts of commitment and interaction. He says we need to interact “at least once a week for the inner core of five intimates, at least once a month for the next layer of 15 best friends, and at least once a year for the main layer of 150 ‘just friends.’” The exception being family members and relatives, who require less constant interaction to maintain connections.”",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Blog post summarizing an unnamed article and paper on Dunbar's number, adding nothing of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats the claim and refers to an outside article."
+      },
+      {
+        "id": "page-8",
+        "title": "Why friendship and loneliness affect our health - Dunbar - 2025 - Annals of the New York Academy of Sciences - Wiley Online Library",
+        "url": "https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/nyas.15309",
+        "domain": "nyaspubs.onlinelibrary.wiley.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "The regression equation for these data predicts a natural grouping size for modern humans of ∼150 (± some error variance). ... 53 These numbers form a series of layers at 1.5 (effectively, intimate friends), 5 (close friends), 15 (best friends), 50 (good friends), 150 (“just friends”), extending beyond the 150 layer in humans to include layers at 500 (acquaintances), 1500 (familiar faces), and 5000 (known faces) (Figure 1 ). ... The layers within the 150-layer (the natural human grouping) are based on personalized relationships and deep historical knowledge, 55 , 56 with each layer corresponding to a particular ... The distinction between family and friends is important in that family relationships are relatively robust, but friendships decay very quickly if they are not invested in sufficiently. 61 - 63 Rates of turnover tend to be low in the innermost 5-layer (around one person being replaced every 10 years 64 ), but ... What ultimately sets the limit on the size of the…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Search snippet from Dunbar's 2025 review, with no date and only partial text."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-9",
+        "title": "Social cognition on the Internet: testing constraints on social network size | Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2012.0121",
+        "domain": "royalsocietypublishing.org",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "# Social cognition on the Internet: testing constraints on social network size ## Abstract The social brain hypothesis (an explanation for the evolution of brain size in primates) predicts that humans typically cannot maintain more than 150 relationships at any one time. The constraint is partly cognitive (ultimately determined by some aspect of brain volume) and partly one of time. Friendships (but not necessarily kin relationships) are maintained by investing time in them, and failure to do so results in an inexorable deterioration in the quality of a relationship. ... ### 3. Size and structure of human social networks The equation relating ape social group size to relative neocortex size [1,3] predicts a ‘natural’ cognitive community size for humans of around 150 individuals [2]. There is now considerable evidence that groupings of this size occur frequently in human social organization [2,26], and that this is the normative limit on the size of personal social networks among adults…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-11",
+          "confidence": 50,
+          "evidence": "Snippet of the same paper as page-11, with identical abstract wording and no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-10",
+        "title": "How Many “Friends” Can You Really Have? - IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/how-many-friends-can-you-really-have",
+        "domain": "spectrum.ieee.org",
+        "publishedDate": "2011-05-31",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+        "text": "The odd reality is that we are actually not capable of managing more friendships than you typically see on Facebook now—or more than people have traditionally maintained. Across the primate order as a whole, there is a general relationship between the size of the brain's neocortex and the size of the average social group, and this relationship predicts a group size for humans of 150. This value is now known as Dunbar's Number, because I was the first to point it out, in 1992. The number pops up surprisingly often in human organizational life, not least in the military, where it defines the key unit on which everything else is structured, namely the company. It is also the average size of a personal social network—the number of people with whom you have some kind of reciprocated [...] Until about a century ago, social movement was relatively modest, and most people probably grew up within a day's journey of where they had been born. Communities were small (in fact, typically about 150 to 200 people), and most folks knew everyone. That arrangement created a complex web of interwoven relationships, many of which were familial. Since then, society has undergone a dramatic change. It has become commonplace for people to move many times during their working lives—first to college, then to their first jobs, followed by a series of moves as they are transferred to new offices by their companies or move to new jobs elsewhere. The result is that our networks of 150 have become fragmented into small subsets of friends picked up along the way. Our college friends probably do not",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "First-person article by Dunbar presenting his own argument on brain size and group size."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Describes the relationship but does not present the underlying data."
+      },
+      {
+        "id": "page-11",
+        "title": "Social cognition on the Internet: testing constraints on social network size",
+        "url": "http://pmc.ncbi.nlm.nih.gov/articles/PMC3385686",
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://pmc.ncbi.nlm.nih.gov/favicon.ico",
+        "text": "The social brain hypothesis (an explanation for the evolution of brain size in primates) predicts that humans typically cannot maintain more than 150 relationships at any one time. The constraint is partly cognitive (ultimately determined by some aspect of brain volume) and partly one of time. Friendships (but not necessarily kin relationships) are maintained by investing time in them, and failure to do so results in an inexorable deterioration in the quality of a relationship. The Internet, and in particular the rise of social networking sites (SNSs), raises the possibility that digital media might allow us to circumvent some or all of these constraints. This allows us to test the importance of these constraints in limiting human sociality. Although the recency of SNSs means that there [...] Humans are as much subject to the constraints of the social brain hypothesis as any other primate, although, with our disproportionately large neocortices, we inevitably have social groups that are considerably larger than those of any other primate. The equation relating ape social group size to relative neocortex size [1,3] predicts a ‘natural’ cognitive community size for humans of around 150 individuals . There is now considerable evidence that groupings of this size occur frequently in human social organization [2,26], and that this is the normative limit on the size of personal social networks among adults [27,28]. More importantly, perhaps, five recent neuroimaging studies have reported correlations between individual differences in social network size and the volumes of core",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "PMC copy of the paper, undated; same work as page-9."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Full paper text of a study testing constraints on network size."
+      },
+      {
+        "id": "page-12",
+        "title": "Dunbar's Number: Why We Can't Have More Than 150 Friends",
+        "url": "https://www.youtube.com/watch?v=ppLFce5uZ3I",
+        "domain": "youtube.com",
+        "publishedDate": "2010-03-16",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's datePublished meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "Robin Ian MacDonald Dunbar is a British anthropologist and evolutionary biologist, specializing in primate behavior. He is best known for formulating Dunbar's number, roughly 150, a measurement of the \"cognitive limit to the number of individuals with whom any one person can maintain stable relationships\". Professor Dunbar is a director of the British Academy Centenary Research Project (BACRP) \"From Lucy to Language: The Archaeology of the Social Brain\" and is involved in the planned BACRP \"Identifying the Universal Religious Repertoire\". [...] [0:52] end and it it sort of uh took off. Um but there we are and that number is about 150. There's a lot of variation [1:01] around that. Um to be to be fair uh and I I hesitate to say where that variation [1:08] lies. Some of it's due to gender differences and I won't tell you which way it goes for fear of offending half [1:16] the audience. Right? But why is it limited at 150? Uh the answer is twofold actually. [1:27] Partly it's a cognitive challenge just to keep track of more people. I'll say a bit more about that [1:34] in a minute. The other side of it is is it's just a a time budgeting problem. [1:41] you just don't have time in the in everyday life to invest in each of those people",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Video of Dunbar himself speaking about the number, with a firsthand explanation of the limit; the opening text is Wikipedia-like boilerplate."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Dunbar asserts the number in a talk but the passage shows no data."
+      },
+      {
+        "id": "page-13",
+        "title": "Why we dispute 'Dunbar's number': Can people really maintain only ...",
+        "url": "https://phys.org/news/2021-06-dispute-dunbar-people-relationships.html",
+        "domain": "phys.org",
+        "publishedDate": "2021-06-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://phys.b-cdn.net/tmpl/v6/img/favicons/apple-touch-icon.png",
+        "text": "Many of us are aware of the claim that humans can maintain no more than 150 friendships. That figure is called \"Dunbar's number\" after the evolutionary psychologist Robin Dunbar, who first introduced the idea three decades ago. Dunbar claimed that the number of neurons in the neurocortex would limit an organism's capacity to process social information. This would in turn limit the number of relationships that an individual can maintain. But while the number has achieved widespread fame, and is often referenced in the plans of business managers and software developers, it hasn't achieved widespread acceptance in scientific circles. [...] His suggestion of using the reduced major axis method is a poor one, as it severely over-corrects the slope bias in the results, delivering misleading results. Nevertheless, if employing Dunbar's newly suggested approach the estimate for the average (or maximum) human group size was not 150. The new estimate was 289.8, but again with very large 95% confidence intervals between 226.0 and 371.6 (in other words, the estimate is highly uncertain). If the analysis is carried out only on monkeys and apes, rather than all primates, the estimate is instead 404.1, with 95% confidence intervals between 300.6 and 543.3.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Published within days of theconversation.com with largely identical text, so Echo treats them as one co-published origin instead of guessing which copied which."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.bbc.com/future/article/20191001-dunbars-number-why-we-can-only-maintain-150-relationships"
+          },
+          {
+            "pageId": "page-6",
+            "how": "link",
+            "quote": "This page's HTML links to https://theconversation.com/why-we-dispute-dunbars-number-the-claim-humans-can-only-maintain-150-friendships-161944"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Republished text."
+      },
+      {
+        "id": "page-14",
+        "title": "Johan Lind",
+        "url": "https://www.su.se/profiles/lind-1.187717",
+        "domain": "su.se",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.su.se/polopoly_fs/1.118008!/menu/standard/file/favicon.ico",
+        "text": "Länkar ## Om mig I am senior curator at the Swedish Museum of Natural History (@ and deputy director of the Centre for Cultural Evolution at Stockholm University. I held a post doc fellowship at St Andrews University and during autumn 2019 I was a visiting fellow at Cambridge University, as a guest to the Centre for Future Intelligence. My research includes mechanisms and evolution of behavior and culture. My books include \"Quercus. The Oak and Diversity\" (Atlantis, 2010), and \"The Human Evolutionary Transition: On the differences between humans and other animals\" (Enquist, Ghirlanda & Lind, 2023, Princeton University Press). ## Publikationer Kontakt Namn och titel: Johan LindGästforskare, biträdande föreståndare för Centrum för kulturell evolution [...] ORCID0000-0002-4159-6926 Länk till annan webbplats. Arbetsplats: Psykologiska institutionen Länk till annan webbplats. Besöksadress Albanovägen 12 Postadress Psykologiska institutionen106 91 Stockholm Forskargrupp # Centrum för kulturell evolution Centrum för kulturell evolution bedriver tvärvetenskaplig forskning om de orsaksförhållanden som formar och förändrar människans kultur både i korta och långa tidsperspektiv. Länkar ## STOCKHOLMS UNIVERSITET SE-106 91 Stockholm Telefon: 08-16 20 00 Kontakt Öppettider Om webbplatsen och tillgänglighetsredogörelse Cookieinställningar Logga in som redaktör ## GENVÄGAR ## SOCIAL MEDIA Facebook Instagram YouTube Bluesky Linkedin ## Vi använder kakor",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Personal academic profile page that does not address the claim."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bio page with no data on the claim."
+      },
+      {
+        "id": "page-15",
+        "title": "Dunbar’s Number Debunked: You Can Have More Than 150 Friends - The New York Times",
+        "url": "https://www.nytimes.com/2021/05/11/science/dunbars-number-debunked.html",
+        "domain": "nytimes.com",
+        "publishedDate": "2021-05-11",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2021/05/11",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static01.nyt.com/vi-assets/static-assets/assets/favicon-NXM0N6-N.ico",
+        "text": "In the new study, Dr. Lind said he and his team used updated data sets and statistical methods and found that the size of the neocortex did not limit the number of connections people could maintain. Dunbar’s number, he said, “has been criticized for quite a long time.” Dr. Lind’s team found that no maximum number of friendships could be established with any precision. In an interview, Dr. Dunbar, a professor of evolutionary psychology at Oxford University, defended his research. The new analysis, he said, “is bonkers, absolutely bonkers,” adding that the Stockholm University researchers conducted a flawed statistical analysis and misunderstood both the nuances of his analyses and of human connections. “I marvel at their apparent failure to understand relationships.” ## Related Content [...] Supported by # Can You Have More Than 150 Friends? A new study questions that figure, known as Dunbar’s number. The Oxford professor for whom it is named, Robin Dunbar, dismissed the findings as “absolutely bonkers.” LONDON — Just how many friends can one person have? In a 1993 study, Robin Dunbar, a British anthropologist, theorized that humans could have no more than about 150 meaningful relationships, a measure that became known as Dunbar’s number. But researchers at Stockholm University published a paper last week calling that number into question, finding that people could have far more friends if they put in the effort.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "NYT news report with its own interviews of Lind and Dunbar."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Firsthand interviews with the study author and Dunbar."
+      },
+      {
+        "id": "page-16",
+        "title": "Robin Dunbar Explains Humans' Circles of Friendship - The Atlantic",
+        "url": "https://www.theatlantic.com/family/archive/2021/05/robin-dunbar-explains-circles-friendship-dunbars-number/618931",
+        "domain": "theatlantic.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.theatlantic.com/_next/static/images/apple-touch-icon-152x152-aafde20dd981a38fcd549b29b2b3b785.png",
+        "text": "The Oxford evolutionary psychologist Robin Dunbar is best known for his namesake “Dunbar’s number,” which he defines as the number of stable relationships people are cognitively able to maintain at once. (The proposed number is 150.) But after spending his decades-long career studying the complexities of friendship, he’s discovered many more numbers that shape our close relationships. For instance, Dunbar’s number turns out to be less like an absolute numerical threshold than a series of concentric circles, each standing for qualitatively different kinds of relationships. He’s also studied the seven factors people use to evaluate whether someone has the potential to become a friend, and the average number of hours it takes for an acquaintance to become a close friend. All of these numbers [...] Family # You Can Only Maintain So Many Close Friendships The evolutionary psychologist Robin Dunbar explains the limits on how many connections humans can keep up, and the trade-offs involved when you invest in a new relationship. By Sheon Han A pale green background peppered with squares containing faces, and overlayed with red concentric circles The Atlantic / Elliott Erwitt / Magnum Photos",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Atlantic interview with Dunbar, but no publication date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert explanation without data."
+      },
+      {
+        "id": "page-17",
+        "title": "Even online, you can't have more than 150 friends | Science | AAAS",
+        "url": "https://www.science.org/content/article/even-online-you-cant-have-more-150-friends",
+        "domain": "science.org",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "The largest alliance in Pardus was only 136 members, suggesting that the limit of 150 personal connections is an inherent part of our social psychology, Thurner and colleagues report this month in Scientific Reports.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Science news snippet reporting the Thurner study; partial text and no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-18",
+        "title": "Dunbar’s number: why my theory that humans can only maintain 150 friendships has withstood 30 years of scrutiny",
+        "url": "https://www.medsci.ox.ac.uk/news/dunbar2019s-number-why-my-theory-that-humans-can-only-maintain-150-friendships-has-withstood-30-years-of-scrutiny",
+        "domain": "medsci.ox.ac.uk",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Exactly 30 years ago, I was pondering a graph of primate group sizes plotted against the size of their brains: the larger the brain, the larger the group size. I was curious to know what group size this relationship might predict for humans. The number my calculations gave was 150. Since this seemed low, I hurried off to the library to look for data on natural human group sizes. Hunter-gatherers live in multilevel societies, with groupings of individuals forming a hierarchically layered structure – families within bands, bands within communities, communities within tribes. The community level of organisation turned out to be almost exactly 150. Thus was born the “social brain hypothesis” and “Dunbar’s number”, the former referring to the relationship between group size and brain size in primates and the latter referring to the natural group size of about 150 for humans.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-2",
+          "confidence": 55,
+          "evidence": "Snippet matches the Conversation text and has no date, so the order is uncertain."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-19",
+        "title": "The 150 Friend Limit: Who's Really in Your Corner? - Kristen Ziman",
+        "url": "https://kristenziman.com/the-150-friend-limit-whos-really-in-your-corner",
+        "domain": "kristenziman.com",
+        "publishedDate": "2025-11-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://kristenziman.com/favicon.ico",
+        "text": "We can’t. According to British anthropologist Robin Dunbar, there’s a cognitive limit to the number of people with whom we can maintain meaningful social relationships. It’s called the Dunbar Number, and it hovers around 150. That’s roughly the number of people you can genuinely know, not just by name or title, but by understanding their story and how they connect to yours. Dunbar’s research also revealed that those 150 relationships aren’t all equal. They’re layered like concentric circles, each requiring a different level of emotional investment and time. These layers aren’t separate groups that add up to more than 150—they build on one another, nested within the total number. [...] That number might sound unmanageable—and it is if you think of them all as close friends. But this group isn’t about intimacy; it’s about familiarity. It’s the network that holds your social world together. Historically, this number has shown up everywhere. Most hunter-gatherer tribes averaged around 150 members. The basic unit of the Roman army, called a company, was about 150 soldiers. Even modern organizations often find that once a team grows beyond that size, cohesion and communication start to fracture. Humans are wired to thrive in social systems small enough for trust and accountability to remain intact.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Blog post attributing the claim to Dunbar with no source cited and no original work."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats the claim without data."
+      },
+      {
+        "id": "page-20",
+        "title": "Dunbar's number: my theory that humans can only maintain 150 friendships | Flash Pack",
+        "url": "https://www.flashpack.com/us/solo/relationships/friendship/dunbars-theory",
+        "domain": "flashpack.com",
+        "publishedDate": "2023-11-03",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.flashpack.com/apple-touch-icon-152x152.png",
+        "text": "The community level of organisation turned out to be almost exactly 150. Thus was born the “social brain hypothesis” and “Dunbar’s number”, the former referring to the relationship between group size and brain size in primates and the latter referring to the natural group size of about 150 for humans. Dunbar’s number has attracted a great deal of attention over the years. For example, it has been used in the design of social media platforms, as well as being the basis of “secret handshake” online security algorithms and bot-detection software. [...] ## Developing Dunbar’s number The evidence that personal social networks and natural communities approximate 150 in size, characterized by a very distinctive layered structure, has grown considerably in the past decade. We see it in telephone calling networks, Facebook groups, Christmas card lists, military fighting units and online gaming environments. The number holds for church congregations, Anglo-Saxon villages as listed in the Domesday Book and Bronze Age communities associated with stone circles.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-2",
+          "confidence": 93,
+          "evidence": "Flash Pack page, dated 2023-11-03, copies The Conversation text (0.96 overlap) and links to it."
+        },
+        "citations": [
+          {
+            "pageId": "page-2",
+            "how": "link",
+            "quote": "This page's HTML links to https://theconversation.com/dunbars-number-why-my-theory-that-humans-can-only-maintain-150-friendships-has-withstood-30-years-of-scrutiny-160676"
+          },
+          {
+            "pageId": "page-15",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.nytimes.com/2021/05/11/science/dunbars-number-debunked.html"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Republished text with no added data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Dunbar's number: humans can maintain only about 150 relationships (cognitive limit, social",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-7",
+          "page-8",
+          "page-10",
+          "page-12",
+          "page-16",
+          "page-18",
+          "page-19",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "The 150 limit also holds online and on social media",
+        "pageIds": [
+          "page-5",
+          "page-9",
+          "page-11",
+          "page-17"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Dunbar's number is disputed or debunked: neocortex size does not set a precise friend limi",
+        "pageIds": [
+          "page-6",
+          "page-13",
+          "page-14",
+          "page-15"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-2",
+      "page-3",
+      "page-5",
+      "page-6",
+      "page-10",
+      "page-12",
+      "page-13",
+      "page-15"
+    ],
+    "verifiableRoots": [
+      "page-1",
+      "page-2",
+      "page-3",
+      "page-5",
+      "page-6",
+      "page-15"
+    ],
+    "coPublishedRootGroups": [
+      [
+        "page-1",
+        "page-5"
+      ],
+      [
+        "page-6",
+        "page-13"
+      ]
+    ],
+    "answerSourceIds": [
+      "page-2",
+      "page-3",
+      "page-6",
+      "page-1",
+      "page-15"
+    ],
+    "answerStatements": [
+      {
+        "text": "The claim comes from Robin Dunbar's \"Dunbar's number\", which proposes that humans can maintain roughly 150 relationships. He based it on the link between neocortex size and social group size, and it is often presented as a rough figure that varies between about 100 and 200 depending on the person",
+        "sourceIds": [
+          "page-2",
+          "page-3",
+          "page-6"
+        ]
+      },
+      {
+        "text": "Dunbar and supporters say the figure of about 150 appears in many settings, such as personal networks, Christmas card lists, military units and villages",
+        "sourceIds": [
+          "page-1",
+          "page-2"
+        ]
+      },
+      {
+        "text": "The claim is disputed: researchers at Stockholm University found that neocortex size did not limit the number of connections people can maintain, and that no maximum number of friendships could be established with any precision",
+        "sourceIds": [
+          "page-15"
+        ]
+      },
+      {
+        "text": "Critics also say the number has not gained widespread acceptance in scientific circles, and that a re-analysis gave an average group size estimate of 289.8 rather than 150, with large uncertainty. Dunbar rejected the critique as flawed. So the origins do not establish that humans can \"only\" maintain 150 friendships",
+        "sourceIds": [
+          "page-6",
+          "page-15"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "Humans can only maintain 150 friendships",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 28,
+        "uniquePagesAdded": 27,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-4",
+          "page-1",
+          "page-2",
+          "page-5",
+          "page-10",
+          "page-6",
+          "page-11",
+          "page-15",
+          "page-16",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-4": [
+            "exa"
+          ],
+          "page-1": [
+            "brave",
+            "exa",
+            "parallel"
+          ],
+          "page-2": [
+            "parallel",
+            "brave"
+          ],
+          "page-5": [
+            "perplexity"
+          ],
+          "page-10": [
+            "exa",
+            "perplexity"
+          ],
+          "page-6": [
+            "parallel",
+            "exa",
+            "brave"
+          ],
+          "page-11": [
+            "perplexity"
+          ],
+          "page-15": [
+            "brave",
+            "parallel"
+          ],
+          "page-16": [
+            "parallel",
+            "perplexity"
+          ],
+          "page-18": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"150 friendships\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 36,
+        "matchingResults": 35,
+        "uniquePagesAdded": 26,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-3",
+          "page-12",
+          "page-13",
+          "page-19",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-3": [
+            "perplexity",
+            "exa"
+          ],
+          "page-12": [
+            "tavily"
+          ],
+          "page-13": [
+            "perplexity"
+          ],
+          "page-19": [
+            "tavily"
+          ],
+          "page-20": [
+            "brave"
+          ]
+        }
+      },
+      {
+        "query": "\"Humans can only maintain 150 friendships\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 37,
+        "matchingResults": 36,
+        "uniquePagesAdded": 15,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-7",
+          "page-14"
+        ],
+        "pageProviders": {
+          "page-7": [
+            "tavily"
+          ],
+          "page-14": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "Humans only maintain 150 friendships fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 25,
+        "matchingResults": 24,
+        "uniquePagesAdded": 6,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "perplexity"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "Humans only maintain 150 friendships study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 40,
+        "matchingResults": 39,
+        "uniquePagesAdded": 19,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-8",
+          "page-9",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-8": [
+            "parallel"
+          ],
+          "page-9": [
+            "perplexity"
+          ],
+          "page-17": [
+            "brave",
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "Humans only maintain 150 friendships original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Humans only maintain 150 friendships according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Humans only maintain 150 friendships study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"maintain 150 friendships\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Humans only maintain 150 friendships evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 7,
+      "verifiableOrigins": 5,
+      "echoPercentage": 5
+    },
+    "answer": "The claim comes from Robin Dunbar's \"Dunbar's number\", which proposes that humans can maintain roughly 150 relationships. He based it on the link between neocortex size and social group size, and it is often presented as a rough figure that varies between about 100 and 200 depending on the person [1] [2] [3]. Dunbar and supporters say the figure of about 150 appears in many settings, such as personal networks, Christmas card lists, military units and villages [4] [1]. The claim is disputed: researchers at Stockholm University found that neocortex size did not limit the number of connections people can maintain, and that no maximum number of friendships could be established with any precision [5]. Critics also say the number has not gained widespread acceptance in scientific circles, and that a re-analysis gave an average group size estimate of 289.8 rather than 150, with large uncertainty. Dunbar rejected the critique as flawed. So the origins do not establish that humans can \"only\" maintain 150 friendships [3] [5].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 2,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7011,
+          "outputTokens": 824,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.022262
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 13468,
+          "outputTokens": 2464,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.051576
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 4681,
+          "outputTokens": 394,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.013302
+        }
+      ],
+      "stageMs": {
+        "search": 4804,
+        "extract": 6277,
+        "grouping": 6716,
+        "judgment": 15122,
+        "answer": 3364,
+        "total": 36285
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "tavily": 4,
+          "brave": 5,
+          "perplexity": 5,
+          "exa": 4,
+          "parallel": 4
+        }
+      },
+      "usd": {
+        "claude": 0.08714,
+        "tavily": 0.016,
+        "telem": 0.134,
+        "total": 0.23714
+      }
+    }
+  }
+}

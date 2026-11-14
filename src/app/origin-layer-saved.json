@@ -1,0 +1,527 @@
+{
+  "americans-check-phones-96-times": {
+    "version": 1,
+    "claim": "Americans check their phones 96 times a day.",
+    "traceCreatedAt": "2026-11-11T04:52:36.166Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T18:59:47.626Z",
+    "naive": {
+      "answer": "The claim is accurate only as a description of a 2019 survey, not as a current fact. Asurion's November 2019 research reported 96 checks a day (about once every 10 minutes), and that figure is what the other pages repeat. Asurion's own 2022 survey found 352 times a day, and other results give 144-205, so 96 is outdated and survey-based self-reported data.",
+      "confidence": "high",
+      "supportingSources": 1,
+      "inputTokens": 6977,
+      "outputTokens": 144,
+      "pagesInContext": 13
+    },
+    "echo": {
+      "answer": "The claim is partly accurate but outdated. A 2019 Asurion survey reported that Americans checked their phones 96 times a day, but Asurion's 2022 survey of 1,965 U.S. adults found an average of 352 times a day, and it describes the 96 figure as the pre-pandemic 2019 number. Both figures are self-reported survey results from the same company.",
+      "confidence": "medium",
+      "supportingSources": 2,
+      "inputTokens": 1536,
+      "outputTokens": 145,
+      "pagesInContext": 2
+    },
+    "reductionPct": 78,
+    "usd": 0.01992
+  },
+  "check-these-sources-phones": {
+    "version": 1,
+    "claim": "Americans check their phones 96 times a day",
+    "traceCreatedAt": "2026-11-13T21:08:14.811Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T18:59:50.344Z",
+    "naive": {
+      "answer": "The claim is accurately reported but rests on a single source: a 2019 Asurion survey that found Americans check their phones an average of 96 times a day (about once every 10 minutes). The other results (Fox13, KABC, Church and Culture) repeat Asurion's figure, and the results show only a company-run survey, not independent measurement. The figure also dates from 2019, even though some of the repeating articles are from 2021.",
+      "confidence": "medium",
+      "supportingSources": 1,
+      "inputTokens": 3093,
+      "outputTokens": 159,
+      "pagesInContext": 5
+    },
+    "echo": {
+      "answer": "The claim is accurate as a report of what Asurion found: a 2019 Asurion press release says Americans check their phones 96 times a day, about once every 10 minutes, up 20% from its survey two years earlier. It rests on a single company survey, and the excerpt gives no details of the sample or method, so it is a self-reported estimate rather than independently verified.",
+      "confidence": "medium",
+      "supportingSources": 1,
+      "inputTokens": 966,
+      "outputTokens": 139,
+      "pagesInContext": 1
+    },
+    "reductionPct": 69,
+    "usd": 0.0111
+  },
+  "goldfish-3-second-memory": {
+    "version": 1,
+    "claim": "Goldfish have a 3-second memory",
+    "traceCreatedAt": "2026-11-12T04:13:58.716Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T18:59:52.936Z",
+    "naive": {
+      "answer": "No, the claim is a myth. Experiments show goldfish can remember feeding cues, learned tasks, and distances for weeks to months, for example lever-pushing studies at Plymouth University and an Oxford University distance-navigation study reported by the BBC. Expert comments (e.g., Culum Brown of Macquarie University) support this.",
+      "confidence": "high",
+      "supportingSources": 6,
+      "inputTokens": 8521,
+      "outputTokens": 134,
+      "pagesInContext": 14
+    },
+    "echo": {
+      "answer": "No, the claim is a myth. Experiments show goldfish remember for weeks to months: they learn mazes, escape nets, respond to feeding cues, and an Oxford study found eight of nine fish accurately remembered a trained swim distance for a food reward. The Live Science and ScienceABC pieces rely on expert commentary and summaries of earlier research.",
+      "confidence": "high",
+      "supportingSources": 3,
+      "inputTokens": 2379,
+      "outputTokens": 140,
+      "pagesInContext": 4
+    },
+    "reductionPct": 72,
+    "usd": 0.02454
+  },
+  "humans-use-10-percent-of-brain": {
+    "version": 1,
+    "claim": "Humans use only 10% of their brains.",
+    "traceCreatedAt": "2026-11-12T03:49:35.136Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T18:59:55.310Z",
+    "naive": {
+      "answer": "No, the claim is a myth. Brain imaging such as PET scans shows activity throughout the brain, even during sleep. Damage to almost any small area has noticeable effects, and the brain uses about 20% of the body's energy. The myth likely traces to misread statements by William James about untapped potential, and possibly to the glial-cell to neuron ratio.",
+      "confidence": "high",
+      "supportingSources": 14,
+      "inputTokens": 8985,
+      "outputTokens": 138,
+      "pagesInContext": 20
+    },
+    "echo": {
+      "answer": "No, the claim is a myth. Brain imaging such as PET scans shows activity throughout virtually the entire brain, even during sleep, and damage to even small areas can have large effects. The myth's origins are unclear, though some attribute it to a misreading of a 1907 William James statement about untapped mental potential.",
+      "confidence": "high",
+      "supportingSources": 8,
+      "inputTokens": 4576,
+      "outputTokens": 123,
+      "pagesInContext": 8
+    },
+    "reductionPct": 49,
+    "usd": 0.02973
+  },
+  "lose-most-body-heat-through-head": {
+    "version": 1,
+    "claim": "You lose most of your body heat through your head",
+    "traceCreatedAt": "2026-11-13T01:19:45.263Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T18:59:58.222Z",
+    "naive": {
+      "answer": "The claim is not accurate. The head makes up only about 7-10% of body surface area and accounts for roughly 7-10% of heat loss (per a 2006 cold-water study and a 2008 BMJ report), and heat loss tracks whichever skin is exposed. The myth likely came from 1950s US Army arctic experiments in which subjects' heads were the only uncovered part, and the Army manual's 40-45% figure was repeated afterward.",
+      "confidence": "high",
+      "supportingSources": 8,
+      "inputTokens": 8262,
+      "outputTokens": 169,
+      "pagesInContext": 18
+    },
+    "echo": {
+      "answer": "No, the claim is inaccurate. The head is only about 7-10% of body surface area and accounts for roughly 10% of heat loss, and the myth appears to come from experiments where only the head was left uncovered (e.g., the US Army manual's 40-45% figure). Any uncovered body part loses heat in proportion to its area, and the head feels significant mainly because it is often the part left exposed.",
+      "confidence": "high",
+      "supportingSources": 3,
+      "inputTokens": 2478,
+      "outputTokens": 151,
+      "pagesInContext": 4
+    },
+    "reductionPct": 70,
+    "usd": 0.02468
+  },
+  "telem-phones-2026-11-14": {
+    "version": 1,
+    "claim": "Americans check their phones 96 times a day",
+    "traceCreatedAt": "2026-11-14T19:02:06.287Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T19:03:01.656Z",
+    "naive": {
+      "answer": "Partly. The 96 figure is real in that it comes from a 2019 Asurion survey (about 1,998 US smartphone users, August 2019), but it is a self-reported vendor survey that doesn't explain how checks were counted. Asurion's own 2022 survey reported 352 checks a day, and other surveys give different numbers, so 96 is better treated as 'an Asurion survey found' than as established fact.",
+      "confidence": "high",
+      "supportingSources": 1,
+      "inputTokens": 9304,
+      "outputTokens": 158,
+      "pagesInContext": 19
+    },
+    "echo": {
+      "answer": "The claim is accurate as a report of what a survey found, but it is not an independently verified measurement. It comes from a 2019 Asurion press release, which says its research found Americans check their phones 96 times a day (about once every 10 minutes), up 20% from a similar survey two years earlier. The results do not show the survey's sample or method, and the figure is self-reported by a company that sells phone protection, so it is a single-source figure.",
+      "confidence": "medium",
+      "supportingSources": 1,
+      "inputTokens": 971,
+      "outputTokens": 160,
+      "pagesInContext": 1
+    },
+    "reductionPct": 90,
+    "usd": 0.02373
+  },
+  "telem-body-heat-2026-11-14": {
+    "version": 1,
+    "claim": "You lose most of your body heat through your head",
+    "traceCreatedAt": "2026-11-14T19:50:07.645Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:38:42.795Z",
+    "naive": {
+      "answer": "The claim is inaccurate: the head loses only about 7 to 10 percent of body heat, roughly in proportion to its share of body surface area. The myth traces to 1950s US Army cold-exposure experiments in which subjects wore Arctic suits with only their heads bare, so the head was the only place heat could escape. A 2006 cold-water study and a 2008 BMJ review support this, though an exposed head in cold weather can still be a major source of heat loss when the rest of the body is clothed.",
+      "confidence": "high",
+      "supportingSources": 8,
+      "inputTokens": 8133,
+      "outputTokens": 184,
+      "pagesInContext": 18
+    },
+    "echo": {
+      "answer": "The claim is inaccurate: the head loses heat at about the same rate as other body parts, roughly 10% of total heat loss in cold-water experiments, in line with its 7-10% share of body surface area. The myth likely stems from 1950s military experiments, repeated in a 1970s US Army manual, where subjects wore Arctic suits with only their heads exposed. A bare head in an otherwise clothed person does lose most of the heat, so wearing a hat still makes sense.",
+      "confidence": "high",
+      "supportingSources": 5,
+      "inputTokens": 4003,
+      "outputTokens": 178,
+      "pagesInContext": 7
+    },
+    "reductionPct": 51,
+    "usd": 0.02789
+  },
+  "telem-brain-2026-11-14": {
+    "version": 1,
+    "claim": "Humans use only 10% of their brains.",
+    "traceCreatedAt": "2026-11-14T19:48:42.454Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:38:45.940Z",
+    "naive": {
+      "answer": "No, the claim is false. Neuroimaging (fMRI, PET) shows activity across essentially the whole brain, even during rest or sleep, and damage to almost any region causes deficits. The brain also uses about 20% of the body's energy, and the myth likely stems from misquotations of William James's remarks about untapped mental potential, popularized by self-help writing.",
+      "confidence": "high",
+      "supportingSources": 15,
+      "inputTokens": 9210,
+      "outputTokens": 141,
+      "pagesInContext": 20
+    },
+    "echo": {
+      "answer": "The claim is not accurate; it is a myth. Neuroscientists quoted in the results say the whole brain is active all the time, even during sleep, and that no parts sit unused, while the idea likely grew out of William James's early 1900s remarks about unused mental potential, later distorted in a 1936 self-help book foreword.",
+      "confidence": "high",
+      "supportingSources": 3,
+      "inputTokens": 2119,
+      "outputTokens": 127,
+      "pagesInContext": 3
+    },
+    "reductionPct": 77,
+    "usd": 0.02534
+  },
+  "telem-goldfish-2026-11-14": {
+    "version": 1,
+    "claim": "Goldfish have a 3-second memory",
+    "traceCreatedAt": "2026-11-14T19:49:15.982Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:38:48.952Z",
+    "naive": {
+      "answer": "No, the claim is false. Controlled experiments show goldfish can remember learned tasks, feeding cues and routines for weeks to months, for example pushing levers for food at set times, navigating mazes and responding to sounds or colors. The 3-second figure has no known research behind it and appears to be a repeated myth.",
+      "confidence": "high",
+      "supportingSources": 12,
+      "inputTokens": 8013,
+      "outputTokens": 124,
+      "pagesInContext": 18
+    },
+    "echo": {
+      "answer": "No, the claim is a myth. Both sources say goldfish can learn tasks such as mazes, obstacle courses and escaping nets, and can remember them for weeks or months. Live Science cites a fish cognition expert (Culum Brown) and Mental Floss gives examples such as a MythBusters trial and a student experiment.",
+      "confidence": "high",
+      "supportingSources": 2,
+      "inputTokens": 1420,
+      "outputTokens": 130,
+      "pagesInContext": 2
+    },
+    "reductionPct": 82,
+    "usd": 0.02141
+  },
+  "telem-startups-2026-11-14": {
+    "version": 1,
+    "claim": "90% of startups fail",
+    "traceCreatedAt": "2026-11-14T20:33:52.901Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:38:52.320Z",
+    "naive": {
+      "answer": "The claim is largely inaccurate as a general statement. Government (BLS) data on new businesses shows about 20% failing in year one, roughly 50% by year five and about 65% by ten years, and the 90% figure traces to Startup Genome's 2011 report, which gave no data, or to a misread 1975 Dun & Bradstreet report. It holds only under narrow definitions, such as venture-backed or high-growth startups missing projected returns, and some sources repeat it uncritically.",
+      "confidence": "high",
+      "supportingSources": 8,
+      "inputTokens": 10641,
+      "outputTokens": 181,
+      "pagesInContext": 19
+    },
+    "echo": {
+      "answer": "The claim is largely not accurate as a general statistic. It traces to Startup Genome's 2011 report, which asserted '90% fail' without data, and government data shows about half of new businesses close within five years, while Carta data shows 32.2% of 2018 startups still active in 2025. It holds only under narrow definitions, such as high-tech or ideation-stage startups, or failure defined as missing projected returns.",
+      "confidence": "medium",
+      "supportingSources": 3,
+      "inputTokens": 3095,
+      "outputTokens": 156,
+      "pagesInContext": 4
+    },
+    "reductionPct": 71,
+    "usd": 0.03084
+  },
+  "telem-customer-2026-11-14": {
+    "version": 1,
+    "claim": "It costs 5 times more to acquire a new customer than to keep an existing one",
+    "traceCreatedAt": "2026-11-14T20:34:25.602Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:38:55.414Z",
+    "naive": {
+      "answer": "The claim is only partly accurate. It is a widely repeated rule of thumb, but the sources give a range of 5 to 25 times depending on industry, traced to Bain & Company and Harvard Business Review, rather than a fixed 5x. An academic paper and one other source also caution that the 5x figure is not universal and does not necessarily mean firms should spend more on retention.",
+      "confidence": "medium",
+      "supportingSources": 4,
+      "inputTokens": 8081,
+      "outputTokens": 145,
+      "pagesInContext": 18
+    },
+    "echo": {
+      "answer": "The claim is only partly supported: it is a widely repeated rule of thumb, not an established fact. A 2005 paper describes it as something 'often said' and shows that whether it implies spending more on retention depends on whether the figure is an average or marginal cost. An HBR article says the multiple is anywhere from 5 to 25 times depending on the study and industry, so a fixed 5x figure is not reliably supported.",
+      "confidence": "medium",
+      "supportingSources": 2,
+      "inputTokens": 1883,
+      "outputTokens": 157,
+      "pagesInContext": 2
+    },
+    "reductionPct": 77,
+    "usd": 0.02295
+  },
+  "telem-habit-2026-11-14": {
+    "version": 1,
+    "claim": "It takes 21 days to form a habit",
+    "traceCreatedAt": "2026-11-14T20:35:56.177Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:38:58.341Z",
+    "naive": {
+      "answer": "No, the claim is not accurate. The 21-day figure traces back to plastic surgeon Maxwell Maltz's 1960 book Psycho-Cybernetics, which recorded informal observations of patients adjusting to their appearance, not a formal experiment. Research such as the UCL study (average 66 days, range 18-254) and the 2024 UniSA meta-analysis (about two months, up to 335 days) shows habit formation varies widely and usually takes longer.",
+      "confidence": "high",
+      "supportingSources": 8,
+      "inputTokens": 9270,
+      "outputTokens": 177,
+      "pagesInContext": 19
+    },
+    "echo": {
+      "answer": "The claim is not accurate. The 21-day figure traces to Maxwell Maltz's 1960 book Psycho-Cybernetics, which described patients adjusting to their appearance after surgery and was not a scientific test of habit formation. Research finds formation time varies widely, from days to nearly a year, with a meta-analysis giving average times of roughly two months or more depending on the behavior.",
+      "confidence": "high",
+      "supportingSources": 4,
+      "inputTokens": 2415,
+      "outputTokens": 150,
+      "pagesInContext": 4
+    },
+    "reductionPct": 74,
+    "usd": 0.02664
+  },
+  "telem-attention-2026-11-14": {
+    "version": 1,
+    "claim": "The average human attention span is 8 seconds",
+    "traceCreatedAt": "2026-11-14T20:36:38.605Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T20:39:00.994Z",
+    "naive": {
+      "answer": "No, the claim is not accurate. The 8-second figure comes from a single slide in a 2015 Microsoft Canada report that credited the website Statistic Brain, and the BBC found that the sources Statistic Brain listed could not confirm it. Researchers say attention depends on the task, so a single average is meaningless; many pages repeat the figure, but they trace back to that same unsubstantiated source.",
+      "confidence": "high",
+      "supportingSources": 4,
+      "inputTokens": 7447,
+      "outputTokens": 153,
+      "pagesInContext": 14
+    },
+    "echo": {
+      "answer": "No, the claim is not accurate. The 8-second figure traces to a 2015 Microsoft Canada report that credited the website Statistic Brain, and the sources Statistic Brain listed could find no research behind it. Researchers say a single average attention span is meaningless because attention depends on the task.",
+      "confidence": "high",
+      "supportingSources": 5,
+      "inputTokens": 2936,
+      "outputTokens": 118,
+      "pagesInContext": 5
+    },
+    "reductionPct": 61,
+    "usd": 0.02348
+  },
+  "telem-unicorns-2026-11-14": {
+    "version": 1,
+    "claim": "Only 1% of venture-backed startups become unicorns",
+    "traceCreatedAt": "2026-11-14T21:09:01.484Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:09:04.701Z",
+    "naive": {
+      "answer": "Roughly accurate, but better phrased as 'about 1% or less.' CB Insights' 2018 funnel of a ~1,100-startup seed cohort found 1.07% became unicorns, Cowboy Ventures (2024) says less than 1% of VC-backed startups, and Stanford-linked data shows 0.65% for 2021 and 6.2% for 1998, so the rate varies by year and a PitchBook figure cited secondhand puts it at 1.3%.",
+      "confidence": "medium",
+      "supportingSources": 5,
+      "inputTokens": 6655,
+      "outputTokens": 182,
+      "pagesInContext": 12
+    },
+    "echo": {
+      "answer": "The claim is broadly accurate: CB Insights found about 1% (1.07%) of a cohort of 1,100+ seed-funded startups became unicorns, and Cowboy Ventures says less than 1% of VC-backed startups did. However, the rate varies by funding year, from 6.2% for startups first funded in 1998 to 0.65% for 2021, so 1% is a rough recent-era figure rather than a universal constant.",
+      "confidence": "high",
+      "supportingSources": 3,
+      "inputTokens": 2147,
+      "outputTokens": 165,
+      "pagesInContext": 3
+    },
+    "reductionPct": 68,
+    "usd": 0.02107
+  },
+  "telem-chatgpt-energy-2026-11-14": {
+    "version": 1,
+    "claim": "A ChatGPT query uses 10 times more electricity than a Google search",
+    "traceCreatedAt": "2026-11-14T21:09:36.528Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:09:39.655Z",
+    "naive": {
+      "answer": "The claim is outdated and largely unsupported as a current fact. It comes from a 2023 estimate of about 2.9–3 Wh per ChatGPT query versus Google's 2009 figure of 0.3 Wh per search, which the IEA and Goldman Sachs repeated. Epoch AI later estimated about 0.3 Wh per query for GPT-4o, cutting the gap to roughly 1.5–3x or less, and the search figure itself is very old.",
+      "confidence": "high",
+      "supportingSources": 4,
+      "inputTokens": 9323,
+      "outputTokens": 177,
+      "pagesInContext": 17
+    },
+    "echo": {
+      "answer": "The claim is outdated and likely inaccurate as a current statement. It comes from a 2023 estimate of about 3 Wh per ChatGPT query, compared with Google's 2009 figure of 0.3 Wh per search, and that estimate began as a remark about cost rather than energy. Newer analysis (Epoch AI) puts a typical GPT-4o query near 0.3 Wh, about ten times lower, though the current Google search figure has not been re-measured.",
+      "confidence": "medium",
+      "supportingSources": 4,
+      "inputTokens": 2757,
+      "outputTokens": 177,
+      "pagesInContext": 4
+    },
+    "reductionPct": 70,
+    "usd": 0.0277
+  },
+  "telem-social-media-2026-11-14": {
+    "version": 1,
+    "claim": "The average person spends 2.5 hours a day on social media",
+    "traceCreatedAt": "2026-11-14T21:10:08.149Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:10:11.495Z",
+    "naive": {
+      "answer": "The claim is roughly accurate if read as the average among internet or social media users worldwide, based on DataReportal/Kemp survey figures (about 143-151 minutes a day). It is not accurate as a figure for the whole population, since it excludes people who don't use social media. It also varies widely by country (about 2 hours in the US, over 3 in Canada and Spain) and by age and gender.",
+      "confidence": "medium",
+      "supportingSources": 3,
+      "inputTokens": 5901,
+      "outputTokens": 149,
+      "pagesInContext": 12
+    },
+    "echo": {
+      "answer": "The claim is roughly accurate for the average social media user, not for the average person overall. Meltwater's Digital 2026 report says the typical internet user spends more than 2.5 hours a day on social and video platforms. SOAX puts the figure at about 143 minutes a day for 2024, and an RNZ interview with a University of Canterbury lecturer cites about 2.5 hours for the average user. The Guardian's 2.5 hours comes from a self-selected sample of 500 readers' phone screen time, so it is not social media use or a general population figure.",
+      "confidence": "medium",
+      "supportingSources": 3,
+      "inputTokens": 2285,
+      "outputTokens": 202,
+      "pagesInContext": 4
+    },
+    "reductionPct": 61,
+    "usd": 0.01988
+  },
+  "telem-water-2026-11-14": {
+    "version": 1,
+    "claim": "You need to drink 8 glasses of water a day",
+    "traceCreatedAt": "2026-11-14T21:10:52.886Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:10:56.934Z",
+    "naive": {
+      "answer": "The claim is not accurate as a requirement: there is no scientific evidence that everyone must drink 8 glasses of plain water a day. The rule likely came from a misread 1945 US Food and Nutrition Board statement that suggested about 2.5 liters of total water daily, most of it from prepared foods. Actual needs vary by body size, activity, climate and health, and fluids from food and other drinks count, so eight glasses is a rough, harmless guideline rather than a rule.",
+      "confidence": "high",
+      "supportingSources": 13,
+      "inputTokens": 9905,
+      "outputTokens": 178,
+      "pagesInContext": 20
+    },
+    "echo": {
+      "answer": "The claim is not accurate as a universal requirement: eight glasses is an easy-to-remember guideline, not a scientifically established need, and individual needs vary with body size, activity, climate and health. Healthline says there is no scientific evidence for the 8x8 rule, and the other sources say it can be a reasonable goal for some people but that many people need less or more, and that fluid from food and other drinks counts. Advice is to let thirst guide intake and aim for pale yellow urine.",
+      "confidence": "high",
+      "supportingSources": 5,
+      "inputTokens": 2945,
+      "outputTokens": 178,
+      "pagesInContext": 5
+    },
+    "reductionPct": 70,
+    "usd": 0.02926
+  },
+  "telem-hours-2026-11-14": {
+    "version": 1,
+    "claim": "It takes 10,000 hours to master a skill",
+    "traceCreatedAt": "2026-11-14T21:28:50.368Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:28:53.522Z",
+    "naive": {
+      "answer": "No, the claim is not accurate as a universal rule. It comes from Anders Ericsson's 1993 study of Berlin violin students, where top performers averaged about 10,000 hours of deliberate practice by age 20, and Malcolm Gladwell popularized it in Outliers. Later research shows huge variation (e.g., chess masters needed 728 to 16,120 hours) and that practice explains only a fraction of skill differences.",
+      "confidence": "high",
+      "supportingSources": 9,
+      "inputTokens": 9405,
+      "outputTokens": 165,
+      "pagesInContext": 20
+    },
+    "echo": {
+      "answer": "The claim is not accurate as a universal rule. It comes from Anders Ericsson's 1993 study of violin students at a Berlin music academy, where top performers averaged about 10,000 hours of deliberate practice by age 20, and Malcolm Gladwell popularized it in Outliers. Ericsson says it is misleading, because it applies only to purposeful, guided practice, and chess research found masters needing anywhere from 728 to 16,120 hours.",
+      "confidence": "high",
+      "supportingSources": 5,
+      "inputTokens": 3161,
+      "outputTokens": 173,
+      "pagesInContext": 5
+    },
+    "reductionPct": 66,
+    "usd": 0.02851
+  },
+  "telem-nonverbal-2026-11-14": {
+    "version": 1,
+    "claim": "93% of communication is nonverbal",
+    "traceCreatedAt": "2026-11-14T21:29:30.093Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:29:33.010Z",
+    "naive": {
+      "answer": "No, the claim is not accurate as a general statement. It comes from Albert Mehrabian's 1967 lab experiments, where people judged feelings and attitudes behind single words or short word lists when tone or facial expression conflicted with the words. The 7-38-55 split does not apply to ordinary communication, and Mehrabian himself said it only applies when someone is talking about feelings or attitudes.",
+      "confidence": "high",
+      "supportingSources": 11,
+      "inputTokens": 9819,
+      "outputTokens": 152,
+      "pagesInContext": 20
+    },
+    "echo": {
+      "answer": "No, the claim is not accurate as a general statement. It comes from the 7-38-55 figures drawn from two 1967 Albert Mehrabian studies, which looked only at how people judge feelings and attitudes (liking or disliking) when words and tone conflict. Mehrabian never said 93% of all communication is nonverbal, and the studies had serious methodological limits and have been taken out of context.",
+      "confidence": "high",
+      "supportingSources": 6,
+      "inputTokens": 3793,
+      "outputTokens": 152,
+      "pagesInContext": 6
+    },
+    "reductionPct": 61,
+    "usd": 0.03026
+  },
+  "telem-dunbar-2026-11-14": {
+    "version": 1,
+    "claim": "Humans can only maintain 150 friendships",
+    "traceCreatedAt": "2026-11-14T21:30:09.782Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:30:13.034Z",
+    "naive": {
+      "answer": "The claim is an oversimplification and contested. It rests on Robin Dunbar's social brain hypothesis, which extrapolated from primate neocortex size to predict a natural group size of about 150 (with a range of roughly 100-250), a figure he says appears in many real-world groupings. However, a 2021 Stockholm University critique found the estimate statistically imprecise (new estimates of about 290 to 400 with wide intervals), and Dunbar rejected that critique as flawed, so it is not an accepted hard limit and is not an exact one.",
+      "confidence": "medium",
+      "supportingSources": 6,
+      "inputTokens": 9100,
+      "outputTokens": 202,
+      "pagesInContext": 20
+    },
+    "echo": {
+      "answer": "The claim is not clearly accurate: it is an oversimplification of Dunbar's number, a contested theory that humans can maintain about 150 meaningful relationships, based on a correlation between primate neocortex size and group size plus observed group sizes. Dunbar and supporters cite examples like villages, military units and Christmas card lists, and note the figure is an average within layers and varies (roughly 100 to 200). However, Stockholm University researchers found no precise maximum could be established and the estimate is highly uncertain, so it is not accepted as a hard limit.",
+      "confidence": "medium",
+      "supportingSources": 4,
+      "inputTokens": 3994,
+      "outputTokens": 205,
+      "pagesInContext": 7
+    },
+    "reductionPct": 56,
+    "usd": 0.03026
+  },
+  "telem-spiders-2026-11-14": {
+    "version": 1,
+    "claim": "People swallow 8 spiders a year in their sleep",
+    "traceCreatedAt": "2026-11-14T21:31:41.285Z",
+    "model": "claude-sonnet-5-5",
+    "createdAt": "2026-11-14T21:31:44.012Z",
+    "naive": {
+      "answer": "No, the claim is a myth. Spider experts say it contradicts spider and human biology, no documented cases or evidence exist, and Snopes traces it to a made-up 1993 PC Professional list by Lisa Holst, drawn from a 1954 book on insect folklore. Some sources dispute parts of the origin story, but none support the claim itself.",
+      "confidence": "high",
+      "supportingSources": 8,
+      "inputTokens": 9660,
+      "outputTokens": 137,
+      "pagesInContext": 19
+    },
+    "echo": {
+      "answer": "The claim is not accurate; it is a myth. Spider experts say spiders have no interest in humans and avoid sleeping people, and there is no evidence anyone regularly swallows spiders. Snopes traces it to a 1993 PC Professional column by Lisa Holst, who offered it in a deliberately made-up list of 'facts' and said she took it from a 1954 book on insect folklore.",
+      "confidence": "high",
+      "supportingSources": 4,
+      "inputTokens": 3428,
+      "outputTokens": 152,
+      "pagesInContext": 5
+    },
+    "reductionPct": 65,
+    "usd": 0.02907
+  }
+}

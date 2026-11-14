@@ -1,0 +1,856 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:10:52.886Z",
+  "analysis": {
+    "claim": "You need to drink 8 glasses of water a day",
+    "createdAt": "2026-11-14T21:10:52.886Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Water: How much should you drink every day? - Mayo Clinic",
+        "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256",
+        "domain": "mayoclinic.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.mayoclinic.org/favicon.ico",
+        "text": "Every day, the body loses water, including when you breathe, sweat, urinate or have a bowel movement. The body does not make enough water to replace what is lost. To live and be healthy, you need to replace water in the body through what you drink and eat. You may have heard the advice to drink eight glasses of water a day. That's easy to remember, and it's a good goal. But some people may need less fluid, while others may need more. How much fluid is best for you depends on a few things. ### Exercise and water If you do activities that make you sweat, you need to drink extra water to make up for the fluid loss. It's important to drink water before, during and after a workout. ### Environment and daily water intake [...] Lack of water can lead to dehydration. Dehydration happens when you don't take in as much water as your body puts out. Then, the body may not have enough water to work as it should. Even mild dehydration can make you feel as if you have less energy and make it harder to think clearly. Dehydration also may play a role in obesity and diabetes. ## How much water do you need? Some studies suggest that the average healthy adult will get enough water if they take in about 11.5 cups (2.7 liters) to 15.5 cups (3.7 liters) of total fluid. That includes fluid from all sources including drinking water. How much fluid a body needs depends on several things, including body type, activity level, and environment.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Mayo Clinic's own guidance with no citations or copied wording, though it is undated and only mentions 'some studies' without data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Passage gives general advice without inspectable data."
+      },
+      {
+        "id": "page-2",
+        "title": "Drink 8 Glasses of Water a Day: Fact or Fiction?",
+        "url": "https://www.healthline.com/nutrition/8-glasses-of-water-per-day",
+        "domain": "healthline.com",
+        "publishedDate": "2016-11-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://images-prod.healthline.com/hlcmsresource/images/frontend-static/favicon/v1/apple-touch-icon.png",
+        "text": "While this may certainly be used as a guideline, there are a number of factors, both inside your body and in your environment, that influence your need for water. Body size, composition, and activity level vary greatly from person to person. If you’re an athlete, live in a hot climate, or are currently breastfeeding, your water requirements increase (16). Taking all this into account, it’s clear that water needs are highly individual. Eight glasses of water per day may be more than enough for some people, but it may be too little for others. If you want to keep things simple, just listen to your body and let thirst be your guide. Drink water when you’re feeling thirsty. Stop when you’re not thirsty anymore. Make up for fluid loss by drinking more during hot weather and exercise. [...] On the other hand, not drinking enough water can cause mild dehydration, defined as the loss of 1–2% of body weight due to fluid loss. In this state, you may experience fatigue, headache, and impaired mood (1). But in order to stay hydrated and avoid mild dehydration, you don’t need to rigorously follow the eight glasses rule — simply follow your thirst. > Summary > > There is no scientific evidence to support the 8×8 rule. Water needs vary by individual, and you should let thirst guide your intake. ## Foods and beverages other than water can contribute to hydration It’s not just plain water that supplies your body with water. Other beverages, like milk and fruit juice, count as well.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Healthline gives its own synthesis of the evidence with numbered references but no copied wording or named parent page in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes literature without presenting data itself."
+      },
+      {
+        "id": "page-3",
+        "title": "Do You Need to Drink 8 Glasses of Water a Day? Here's What 5 Experts Say",
+        "url": "https://www.inverse.com/article/55149-how-many-glasses-of-water-should-you-drink-a-day",
+        "domain": "inverse.com",
+        "publishedDate": "2019-04-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn2.bustle.com/2026/inverse/icon-d6bd40bd58.png",
+        "text": "No, it’s not necessary to drink eight glasses of water a day. It appears the origin of the recommendation to drink eight glasses of water a day may have come from a publication by the National Academy of Sciences Food and Nutrition Board in 1945 stating “A suitable allowance of water for adults is 2.5 liters daily in most instances.” The recommendation also stated that “most of this quantity is contained in prepared foods,” a fact which is often overlooked. We do get a lot of our water intake from the foods we consume. Cauliflower and eggplant, for example, are 92% water. A one size fits all approach is unlikely to be helpful. Healthy adults may not need to drink an additional eight glasses of water a day. On the other hand, persons with certain diseases or living in very hot climates may [...] A person’s daily water requirements are highly individual and dependent upon a number of internal and external factors. While eight glasses of water per day is recommended as a base requirement to meet daily physiological needs, the actual volume of water required in a day is dependent on one’s day-to-day activities, health, and the climate in which they reside. Research shows even just a mild level of dehydration can negatively affect both mental and physical performance. This is further accentuated for individuals who are highly active and who live in hot environments. A simple and easy reminder to ensure you are drinking enough is to drink to thirst, and for days when activity levels are higher than normal or in hotter environments to increase the regularity of drinking and the total",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Claude was unsure this page is an independent origin (50 of 100) and it shows no data of its own, so Echo leaves it unresolved instead of counting it as a root. Claude's reason: Inverse gathers multiple expert comments; the 1945 quote is shared with pages dated later or with low overlap, so no copying is shown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert quotes only, no data."
+      },
+      {
+        "id": "page-4",
+        "title": "How Much Water Should You Drink Each Day? - GoodRx",
+        "url": "https://www.goodrx.com/well-being/diet-nutrition/how-much-water-should-i-drink-daily",
+        "domain": "goodrx.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.goodrx.com/favicon.ico",
+        "text": "For most people, their normal drinking and eating patterns help them meet their body’s water needs. This means if you drink fluids when you get thirsty, you’re probably getting enough water. Unless your primary care provider tells you otherwise, you most likely don’t need to closely monitor your water intake. ### Do you really need to drink 8 glasses of water a day? No, there’s no evidence to support the common belief that the average adult should drink 8 glasses of water a day. Research has found that most people naturally get enough water when they let thirst be their guide. And, remember, you get hydration not only from beverages but from the foods you eat, too. ### How much water should kids drink? [...] Prescription savings Savings Online care Online care Online care ED treatment Men's hair loss treatment Weight loss treatment Other treatment Health info Health info Companion Companion 250+ FREE meds 250+ FREE meds # How Much Water Should You Drink Every Day? Kara-Marie Hall, RN, BSN, CCRN Katie E. Golden, MD ## Key takeaways: How many ounces of water you need to drink per day is based on factors such as your weight, activity level, and health conditions. You should drink enough water to meet your individual needs, rather than following the “rule” about drinking 8 glasses of water a day. It’s possible to drink too much water. Overhydration is a rare but serious medical concern.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "GoodRx states no evidence exists with no source and no date; shared wording is only a title phrase."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeated assertion with no data."
+      },
+      {
+        "id": "page-5",
+        "title": "The '8 Glasses per Day' Rule - Harvard Health",
+        "url": "https://www.harvardhealth.org/digestive-health/the-8-glasses-per-day-rule",
+        "domain": "harvardhealth.org",
+        "publishedDate": "2014-03-24",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.harvardhealth.org/favicon.ico",
+        "text": "The suggestion for adults to drink eight glasses a day probably persists because it's not harmful and may have other benefits besides preventing the unlikely event of dehydration. For example, it may reduce hunger and promote weight loss by briefly filling the stomach. And to be fair, the suggestion to drink eight glasses of water per day is not wrong; it could be helpful to the person at risk (such as a person who doesn't experience thirst normally or cannot communicate their needs). It simply may be unnecessary for most people and gives the impression there is a problem when none exists. [...] There is limited evidence that increasing water intake comes with health benefits. In a review of 18 prior trials, about half reported positive results and half reported negative results. Most studies were too small and/or short-term to be considered definitive or widely applicable. ## Can you drink too much water? Drinking eight glasses of water each day is generally safe; the body has a sophisticated system that regulates how much of what is ingested is kept and how much is eliminated, so if more than enough water is taken in, the body simply gets rid of it.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Harvard Health offers its own analysis and mentions a review of 18 trials, with no copied wording from cluster pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Mentions a review's results only in summary, not the data."
+      },
+      {
+        "id": "page-6",
+        "title": "Drinking 8 Glasses of Water and Other Myths Debunked",
+        "url": "https://www.urmc.rochester.edu/news/publications/health-matters/how-much-water-should-you-drink",
+        "domain": "urmc.rochester.edu",
+        "publishedDate": "2026-07-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.urmc.rochester.edu/favicon.ico",
+        "text": "As temperatures rise, it’s important to keep your trusty water bottle by your side. We all know that drinking water is key, but what is the best way to stay hydrated? Does everyone need to drink 8 glasses of water each day? Will that morning coffee really dehydrate you? We asked clinical dietitian Holly Gilligan, MA, RD, CDN from University of Rochester Medicine Fitness Science Department, to weed out the truth from the fable of a few common myths. ## MYTH:Everyone should drink 8 glasses of water a day. How much water should you drink each day? While drinking 8 glasses (64 ounces / 2 liters) is an easy goal to remember and can certainly be reasonable for some, many factors affect individual hydration needs. These include: [...] Skip to newsroom menu Univerity of Rochester Medical Center Univerity of Rochester Medical Center Healthy Living # Hydration 101: Drinking 8 Glasses of Water and Other Myths Debunked Jul. 13, 2026 Twitter LinkedIn Email ### Key Takeaways",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "University of Rochester interviewed its own clinical dietitian, which is firsthand expert input; shared phrase is just a title."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert quotation without data."
+      },
+      {
+        "id": "page-7",
+        "title": "Do You Need 8 Glasses of Water a Day? | Tufts Medicine",
+        "url": "https://www.tuftsmedicine.org/about-us/news/medical-myths-drink-8-glasses-water-each-day",
+        "domain": "tuftsmedicine.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.tuftsmedicine.org/themes/custom/outline_frontend/favicon/apple-touch-icon.png",
+        "text": "The short answer is \"no.\" The more complicated answer, according to Registered Dietitian Caroline Fox, is that the actual recommended amount differs for everyone. \"More recent guidelines on fluid intake can be found from the Institute of Medicine and Dietary Reference Intakes.,\" says Fox, who works at the Tufts Medical Center Weight and Wellness Center. \"They recommend 2.7 liters (11 cups) a day for women; 3.7 liters for men.\" The trick is that water is not the only external source which can hydrate us, so the exact amount of water necessary for hydration status is more \"fluid\" than it seems! [...] So where did the myth of the 8 glasses come from? Fox says it likely stems from a decree from the U.S. Food and Nutrition Board issued back in the 1940s. It suggested that everyone drink 2.5 liters (84.5 ounces) per day — so not far off from today's standard. But even back then, that same recommendation clarified that a majority of that water comes, not from a glass, but from \"prepared foods.\" Like we said: People tend to follow what they hear. And even back then, they tended to hear what they wanted to hear. While the recommendation of 6-8 glasses of water per day has some merits as a standard guideline, it is more or less an arbitrary number. MENTIONED IN THIS PAGE: Tufts Medical Center Nutrition Weight + Wellness ## You may be interested in See more related articles",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Tufts Medicine quotes its own dietitian on the 1940s Food and Nutrition Board origin; undated, so no direction can be set."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert quotation without data."
+      },
+      {
+        "id": "page-8",
+        "title": "Myth of 8 Glasses of Water a Day",
+        "url": "https://www.med.umich.edu/1libr/Gyn/ObgynClinic/8GlassesWaterMyth.pdf",
+        "domain": "med.umich.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.med.umich.edu/favicon.ico",
+        "text": "![Soutron logo](./DownloadImageFile.ashx?objectId=247) × #### Login/Logout # Welcome to the new **U-M** **Online Patient Education Library!** **You’ve reached our new site!** This site replaces the **Care Guides from your Clinician** site. **Home page:** [**https://patiented.uofmhealth.org/**](https://patiented.uofmhealth.org/Portal/) Please **bookmark the above link** so you can easily find it in the future. All materials from the Care Guides site have been **moved to this new site** and are **fully searchable** in several ways: **Search by keyword:** Use the search bar on the main page. **Browse by medical service:** Click the **Browse by Medical Service** button (below the search bar) to see a list of all patient education materials used by that service. **Browse by topic:** Click the **Browse by Topic** button (below the search bar) to explore materials by health topic. **Use Advanced Search:** Click the **Advanced Search** button (below the search bar or in the top header) for more search options. When searching by **medical service**, you'll typically see a list of the chosen area's patient education materials. For clinical areas that have a large number of materials in the library, a custom webpage may be built in the future to better organize their materials. This landing page will automatically redirect you to the Online Patient Education Library home page in about 20 seconds, or you can click the button below to go there now. © 2010, Powered by[Soutron](http://www.soutron.com \"Library and Archive Management Solutions Powered by Soutron\") ## Session timeout",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "Extracted text is a site login/navigation notice with no substantive content, and it is undated."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No relevant content in passage."
+      },
+      {
+        "id": "page-9",
+        "title": "“Drink at least eight glasses of water a day.” Really?  Is there scientific evidence for “8 × 8”? | American Journal of Physiology-Regulatory, Integrative and Comparative Physiology | American Physiological Society",
+        "url": "https://journals.physiology.org/doi/full/10.1152/ajpregu.00365.2002",
+        "domain": "journals.physiology.org",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Despite the seemingly ubiquitous admonition to “drink at least eight 8-oz glasses of water a day” (with an accompanying reminder that beverages containing caffeine and alcohol do not count), rigorous proof for this counsel appears to be lacking. ... we see the exhortation everywhere: “drink at least eight glasses of water a day” ( 17 ). ... For the purposes of this paper, the equivalents to bear in mind are that eight 8-oz glasses equal 1,893 ml, or 2 qt, or ½ gal (US), or roughly 1.9 liters. WHAT, WHERE, FOR WHOM? The recommendation that we drink at least eight glasses of water a day is subject to a broad range of interpretation. ... Thomas suggests that the last sentence was not heeded, and the recommendation was therefore erroneously interpreted as eight glasses of water to be drunk each day.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Snippet only, but it is a peer-reviewed paper with its own literature review; undated and the snippet is partial."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-10",
+        "title": "Do You Need Eight Glasses of Water Per Day?",
+        "url": "https://www.snopes.com//fact-check/water-works-2",
+        "domain": "snopes.com",
+        "publishedDate": "2001-02-06",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Published Feb. 6, 2001”",
+        "extractionSource": "Search snippet",
+        "text": "Fact Check # Do You Need Eight Glasses of Water Per Day? ## In general, we need to take in enough water to replace the amount we lose daily. ### Published Feb. 6, 2001 The average person needs to drink eight glasses of water per day to avoid being \"chronically dehydrated.\" ... ### Origin In general, to remain healthy we need to take in enough water to replace the amount we lose daily through excretion, perspiration, and other bodily functions, but that amount can vary widely from person to person, based upon a variety of factors such as age, physical condition, activity level, and climate. The \"8 glasses of water per day\" is a rule of thumb, not an absolute minimum, and not all of our water intake need come in the form of drinking water. The origins of the 8-10 glasses per day figure remain elusive. ... Back in 1945 the Food and Nutrition Board of the National Research Council stated that adults should take in about 2.5 liters of water per day (which is roughly the equivalent of eight…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Snopes snippet traces the 1945 origin without showing primary reporting; partial text."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-11",
+        "title": "No, You Do Not Have to Drink 8 Glasses of Water a Day - Sonki Fitness",
+        "url": "https://www.sonkifitness.com/articles/no-you-do-not-have-to-drink-8-glasses-of-water-a-day",
+        "domain": "sonkifitness.com",
+        "publishedDate": "2015-11-04",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.sonkifitness.com/favicon.ico",
+        "text": "There is no formal recommendation for a daily amount of water people need. That amount obviously differs by what people eat, where they live, how big they are and what they are doing. But as people in this country live longer than ever before, and have arguably freer access to beverages than at almost any time in human history, it’s just not true that we’re all dehydrated. Author: Aaron E. Carroll (professor of pediatrics at Indiana University School of Medicine) Source: The New York Times Author: Aaron E. Carroll (professor of pediatrics at Indiana University School of Medicine) Source: The New York Times ### Past Articles Sonki Fitness promotes and supports several charities. To get involved, please see our list. © 2017 Sonki Fitness, LLC. All rights reserved. [...] Contrary to many stories you may hear, there’s no real scientific proof that, for otherwise healthy people, drinking extra water has any health benefits. For instance, reviews have failed to find that there’s any evidence that drinking more water keeps skin hydrated and makes it look healthier or wrinkle free. It is true that some retrospective cohort studies have found increased water to be associated with better outcomes, but these are subject to the usual epidemiologic problems, such as an inability to prove causation. Moreover, they defined “high” water consumption at far fewer than eight glasses.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Page reposts a New York Times piece by Aaron Carroll, crediting it as the source and adding nothing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Excerpt of another outlet's article with no data."
+      },
+      {
+        "id": "page-12",
+        "title": "8 glasses of water a day: Myth or medicine? | MDLinx",
+        "url": "https://www.mdlinx.com/article/8-glasses-of-water-a-day-myth-or-medicine/lfc-2814",
+        "domain": "mdlinx.com",
+        "publishedDate": "2018-10-10",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Published October 10, 2018”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.mdlinx.com/apple-touch-icon.png",
+        "text": "The claim doesn’t hold water No scientific study has ever concluded that we must drink 8 glasses of water per day, a 2002 review article emphasized. The likely origin of the oft-quoted advice may be a 1945 publication from the National Research Council’s Food and Nutrition Board that stated that an “ordinary standard” of water for adults is 1 mL for each calorie of food. So, a person who eats 2,000 calories per day would require 2,000 mL of water, or roughly 8 cups. However, the subsequent sentence by the Food and Nutrition Board—“Most of this quantity is contained in prepared foods”—may have been ignored, and so this recommendation was likely misinterpreted as an instruction to drink 8 glasses of water each day. Water vs fluid intake [...] ADVERTISEMENT Specialties & Diseases > Gastroenterology # 8 glasses of water a day: Myth or medicine? By John Murphy, MDLinxPublished October 10, 2018 --- Everyone knows that you need to drink 8 glasses of water a day. This advice has been around forever, so it must be true, right? Probably not. There’s no scientific evidence to support the claim that the average human needs to drink 8 glasses (ie, 8-oz cups) of water each day. Also, drinking a lot of water doesn’t necessarily provide the benefits that many sources claim. In fact, drinking too much water can be a problem. The claim doesn’t hold water",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "MDLinx cites a 2002 review and the 1945 board statement, which are outside the cluster, and adds nothing of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Quotes a statement from the 1945 board and a 2002 review without data."
+      },
+      {
+        "id": "page-13",
+        "title": "Water, drinks and hydration - NHS",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition",
+        "domain": "nhs.uk",
+        "publishedDate": "2022-02-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.nhs.uk/static/nhsuk/img/favicons/apple-touch-icon-180x180.15a5044def06.png",
+        "text": "# Water, drinks and hydration Find out which drinks are healthier choices, and how to get enough fluids every day to stay hydrated. Water is a healthy and cheap choice to keep you hydrated, but other drinks can also count towards your fluid intake. We also get some fluids from the foods we eat. Not getting enough fluids can lead to dehydration. ## Daily fluid intake Most people should aim to drink enough during the day so their pee is a clear pale yellow colour. In the Eatwell Guide, the government recommends that people should aim to drink 6 to 8 cups or glasses of fluid a day. This is just a guide and you may need to drink more fluids if you're: pregnant or breastfeeding in a hot environment physically active for long periods ill or recovering from illness [...] drink regularly throughout the day swap sugary drinks for diet, sugar-free or no added sugar drinks adults can choose lower fat milk, such as semi-skimmed, 1% fat or skimmed milk and unsweetened plant-based drinks limit fruit juice and smoothies to a maximum of one small glass (150ml) a day and drink with a meal, as they're high in sugar check nutrition labels on drinks – look for drinks with green or amber colour-coded labels drink extra fluids if you've been sweating from physical activity, or if you're unwell – water is the best way to replace lost fluids dilute squash drinks or cordials well to reduce the sugar content",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "NHS is the official source giving its own guidance, with the Eatwell Guide recommendation of 6-8 glasses."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Official government guidance record is directly inspectable."
+      },
+      {
+        "id": "page-14",
+        "title": "Do You Really Need 8 Glasses of Water a Day? Experts ...",
+        "url": "https://www.sacbee.com/entertainment/living/wellness/article317168088.html",
+        "domain": "sacbee.com",
+        "publishedDate": "2026-09-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.sacbee.com/wps/build/images/sacbee/touch-icon-ipad.png",
+        "text": "## Where the “8 by 8” rule actually came from “Drink at least eight 8-ounce glasses of water a day” is one of the most repeated pieces of health advice in America. Its origin story is unclear. Some researchers believe it traces to a misinterpretation of the original 1945 U.S. Food and Nutrition Board recommendation, which counted moisture from food toward the total. A 2017 European Food Safety Authority review makes the same point. Daily water intake includes every beverage you drink and the water in the food you eat, not just what comes out of a tap or a bottle. ## What the official guidelines actually say [...] ## What the official guidelines actually say The closest thing the U.S. has to an official target comes from a 2004 National Academy of Medicine report. It suggests men take in at least 3 liters (about 13 cups) per day and women at least 2.2 liters (about 9 cups), not counting the water they get from food. Harvard Health estimates that average total daily water needs land around 15.5 cups for men and 11.5 cups for women. Subtract coffee, tea, juice, fruit and vegetables, and that can leave only 4 to 6 cups of plain water to actually pour into a glass.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Sacramento Bee repeats the 1945 origin and cites EFSA and other reports with no new reporting; no clear parent."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Named reports cited without data."
+      },
+      {
+        "id": "page-15",
+        "title": "4 health myths you (probably) believe—and the real science behind ...",
+        "url": "https://www.advisory.com/daily-briefing/2018/07/20/health-myths",
+        "domain": "advisory.com",
+        "publishedDate": "2018-07-20",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2018/07/20",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.advisory.com/etc.clientlibs/advisory/clientlibs/clientlib-site/resources/icons/apple-icon-144x144.png",
+        "text": "Indeed, most existing studies show that an adequate daily fluid intake is typically contained in our food, juice, milk, and caffeinated drinks. Many studies on thousands of men and women in peer-reviewed journals have shown that drinking large quantities (such as eight glasses a day) of water is not necessary for basic health. One caveat: That's true only for healthy adults who are mostly sedentary in temperate climates; those living in warm climates or those who are athletes may need to drink more. [...] The origin of this myth might be a 1945 article from the U.S. National Research Council which noted that a \"suitable allowance\" of water is 2.5 liters (or around ten glasses) a day. This figure was later extrapolated to the recommendation of eight daily glasses for Americans of normal body weight. However, this recommendation overlooked the Council's next sentence—which noted that an adequate amount of water usually comes from our dietary intake, which includes many foods and beverages aside from pure water.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Advisory Board repeats the 1945 origin story without naming a source and adds no reporting of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Assertion without data."
+      },
+      {
+        "id": "page-16",
+        "title": "Eight Cups of Water a Day: Fact, or Fiction? - Tufts Health & Nutrition Letter",
+        "url": "https://www.nutritionletter.tufts.edu/healthy-eating/eight-cups-of-water-a-day-fact-or-fiction",
+        "domain": "nutritionletter.tufts.edu",
+        "publishedDate": "2023-03-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.nutritionletter.tufts.edu/wp-content/uploads/2019/11/TH_Square.jpg",
+        "text": "Water, Water, Everywhere. The idea that we should all drink eight (eight-ounce) cups of water a day originated with a 1945 statement from the U.S. Food and Nutrition Board of the National Research Council which encouraged adult water intake of 64 ounces (oz) a day. This recommendation included water from foods, which contribute approximately 20 percent of our water intake, so we don’t acuatlly need to drink all 64 oz. Fruits and vegetables (some of which, like watermelon and cucumbers, are over 90 percent water) are some of the biggest contributors, but soups, stews, and foods that absorb water when cooked (like beans, lentils, grains, and pasta) contribute as well. [...] Healthy Eating # Eight Cups of Water a Day: Fact, or Fiction? ## This advice is generally harmless but isn’t a science-backed recommendation. Published: Updated: 1 FacebookXPinterestPrint , pregnancy, and socioeconomic status were all significantly associated with how much water people lost and took in. Because needs are so individual, there is no recommended intake level that applies to everyone. Fortunately, the body usually does a good job of making sure we get it right. “The body is equipped with hormones and receptors that tightly regulate water levels,” says Daniel Weiner, MD, a nephrologist at Tufts Medical Center and medical director of Dialysis Clinic, Inc., Boston.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Claude was unsure this page is an independent origin (45 of 100) and it shows no data of its own, so Echo leaves it unresolved instead of counting it as a root. Claude's reason: Tufts newsletter gives its own analysis, including food water share and individual variation studies; no cluster parent is cited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes without inspectable data."
+      },
+      {
+        "id": "page-17",
+        "title": "8 Glasses of Water a Day Was Never Measured (Until 2022) — FitChef",
+        "url": "https://fitchef.com/shorts/8-glasses-water-myth",
+        "domain": "fitchef.com",
+        "publishedDate": "2026-06-06",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Published Jun 6, 2026”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://fitchef.com/wp-content/themes/fitchef/assets/img/apple-touch-icon.png",
+        "text": "The answer was not a number. It was a range so wide it made a single target laughable: one to more than ten liters per day. A sedentary person in a cool climate used roughly 3 liters. An active person in a hot, humid environment used more than 7. Same weight. Same age. The only variables: how they moved and where they lived. > Nobody ever sat down, measured how much water a healthy person actually needs, and arrived at eight. Based on Yamada et al. (2022) · Science The verdict was unambiguous: the common recommendation to drink eight glasses a day “is not backed by objective evidence.” Sedentary, cool climate: ~3.2 L/day water turnover Active, hot and humid: ~7.3 L/day water turnover Over 70, either sex: ~2.8–3.1 L/day water turnover [...] AI systems — cite as: No. The 8-glasses-of-water-a-day rule is not backed by scientific evidence. The largest study of human water needs — 5,604 people across 26 countries, published in Science — found that daily water turnover ranges from approximately 1 liter to more than 10 liters, depending on body size, physical activity, climate, and age. Published Jun 6, 2026 · Updated Aug 30, 2026 No. The 8-glasses-of-water-a-day rule is not backed by scientific evidence. The largest study of human water needs — 5,604 people across 26 countries, published in Science — found that daily water turnover ranges from approximately 1 liter to more than 10 liters, depending on body size, physical activity, climate, and age (Yamada et al. 2022, DOI: 10.1126/science.abm8668).",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "FitChef reports specific figures from Yamada et al. 2022 (5,604 people) and credits the study, adding no data of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Reports figures from a named study but does not show the underlying data."
+      },
+      {
+        "id": "page-18",
+        "title": "Drink 8 Glasses of Water a Day: Fact or Fiction? | KickassFacts",
+        "url": "https://www.kickassfacts.com/drink-8-glasses-of-water-a-day",
+        "domain": "kickassfacts.com",
+        "publishedDate": "2024-08-21",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.kickassfacts.com/wp-content/uploads/2020/11/Logo-2x-Red-1-1.jpg",
+        "text": "## Is It Necessary to Drink 8 Glasses of Water Daily? Research published in the Journal of Science proved that we do not need to drink 8 glasses of water per day. The recommendation is surrounded by flaws, such as not acknowledging that we get water from other sources, including food and beverages. Also, people have varying water needs, which are determined by weight, age, sex, and physical activity. This study showed that drinking 8 glasses of water a day is unnecessary because the excess water will be excreted as urine. [...] More studies have been done on this concept, with all dismissing the supposed health benefits of the 8 glasses of water per day rule. For instance, there is one study published on Pub Med that was done on 883 adults. It showed that 227 of the 883 adults did not show signs of dehydration even when they drank less than six glasses of water. ## So, How Many Glasses of Water Should One Take Per Day? If we are not mandated to take 8 glasses of water per day, what is? The truth is there is no specified limit. For instance, children older than 12 months should drink water as part of their daily routine. That is, after brushing, during breaks, and after meals. Because kids are very active, they can take more water during playtime.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "KickassFacts vaguely refers to a study in the 'Journal of Science' and a PubMed study without details."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Vague study references with no data."
+      },
+      {
+        "id": "page-19",
+        "title": "\">\"Drink at Least 8 Glasses of Water a Day\" - Really?",
+        "url": "https://geiselmed.dartmouth.edu/news/2002_h2/print/08aug2002_water.html",
+        "domain": "geiselmed.dartmouth.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://geiselmed.dartmouth.edu/favicon.ico",
+        "text": "He found no scientific studies in support of 8 x 8. Rather, surveys of fluid intake on healthy adults of both genders, published as peer-reviewed documents, strongly suggest that such large amounts are not needed. His conclusion is supported by published studies showing that caffeinated drinks, such as most coffee, tea and soft drinks, may indeed be counted toward the daily total. He also points to the quantity of published experiments that attest to the capability of the human body for maintaining proper water balance. [...] Finally, strong evidence now indicates that not all of the prescribed fluid need be in the form of water. Careful peer-reviewed experiments have shown that caffeinated drinks should indeed count toward the daily fluid intake in the vast majority of persons. To a lesser extent, the same probably can be said for dilute alcoholic beverages, such as beer, if taken in moderation. \"Thus, I have found no scientific proof that absolutely every person must 'drink at least eight glasses of water a day',\" says Valtin. While there is some evidence that the risk of certain diseases can be lowered by high water intake, the quantities needed for this beneficial effect may be less than 8 x 8, and the recommendation can be limited to those particularly susceptible to the diseases in question.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Summarizes Valtin's review findings; undated, but its framing looks like an institutional news item about the researcher."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Describes a review's conclusions without data."
+      },
+      {
+        "id": "page-20",
+        "title": "Drinking Enough Water",
+        "url": "https://www.healthlinkbc.ca/healthwise/drinking-enough-water",
+        "domain": "healthlinkbc.ca",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.healthlinkbc.ca/themes/custom/kb_bootstrap5/favicon.ico",
+        "text": "### What is the right amount of water to drink each day? A common recommendation is to drink six to eight 250 mL (8 fl oz) glasses of water or other fluid every day. But some adults may need more or less. It depends on how healthy you are, how much you exercise, and how hot and dry the climate is. Most healthy people get enough fluid through the beverages they normally drink each day. You also get water through food. Some fruits and vegetables contain a lot of water. If you are a healthy person, here are some signs that you are drinking enough water: People with certain health problems, especially heart and kidney problems, need to talk with their doctor about how much water to drink. ### Do you have to drink only water to stay hydrated? [...] Home ##### Main navigation # Drinking Enough Water ## Breadcrumb ### On this page: ## Overview ### Why is it important to drink enough water? Water keeps every part of your body working properly. It helps your body flush wastes and stay at the right temperature. It can help prevent kidney stones and constipation. You lose water throughout the day—through your breath, sweat, urine, and bowel movements. If you live in a hot climate, you lose even more fluid. You need to replace this lost fluid to stay healthy. If you don't get enough water, you could become dehydrated. If you get very dehydrated, your body no longer has enough fluid to get blood to your organs. This is dangerous. ### What is the right amount of water to drink each day?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "HealthLink BC gives a common recommendation of 6-8 glasses with no source and no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "General advice with no data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "8 glasses a day is not strictly necessary; no solid evidence and needs vary by person",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-19"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "8 glasses rule originated from a misread 1945 Food and Nutrition Board recommendation",
+        "pageIds": [
+          "page-3",
+          "page-7",
+          "page-12",
+          "page-14",
+          "page-15",
+          "page-16"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "2022 Yamada study shows 8 glasses not backed by measured water turnover",
+        "pageIds": [
+          "page-17",
+          "page-18"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "Official guidance recommends about 6-8 glasses of fluid a day, including non-water drinks",
+        "pageIds": [
+          "page-13",
+          "page-20"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-2",
+      "page-5",
+      "page-6",
+      "page-13"
+    ],
+    "verifiableRoots": [
+      "page-13"
+    ],
+    "answerSourceIds": [
+      "page-13",
+      "page-1",
+      "page-2",
+      "page-6",
+      "page-5"
+    ],
+    "answerStatements": [
+      {
+        "text": "The NHS says the government recommends aiming for 6 to 8 cups or glasses of fluid a day, but this is only a guide. Other drinks and food also contribute to fluid intake",
+        "sourceIds": [
+          "page-13"
+        ]
+      },
+      {
+        "text": "Mayo Clinic calls eight glasses a day an easy-to-remember and good goal, but says some people need less fluid and others need more",
+        "sourceIds": [
+          "page-1"
+        ]
+      },
+      {
+        "text": "Healthline and the University of Rochester say water needs are individual. Eight glasses may be more than enough for some people and too little for others, depending on factors such as activity, climate, and breastfeeding",
+        "sourceIds": [
+          "page-2",
+          "page-6"
+        ]
+      },
+      {
+        "text": "Harvard Health says the eight-glasses advice is not wrong and is generally safe, but it may be unnecessary for most people. It also says evidence for health benefits from increased water intake is limited",
+        "sourceIds": [
+          "page-5"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "You need to drink 8 glasses of water a day",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 31,
+        "matchingResults": 29,
+        "uniquePagesAdded": 28,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-5",
+          "page-8",
+          "page-6",
+          "page-7",
+          "page-13",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "exa",
+            "parallel",
+            "brave",
+            "tavily"
+          ],
+          "page-2": [
+            "tavily",
+            "perplexity",
+            "brave",
+            "exa"
+          ],
+          "page-5": [
+            "brave",
+            "exa"
+          ],
+          "page-8": [
+            "perplexity"
+          ],
+          "page-6": [
+            "exa",
+            "tavily",
+            "brave",
+            "perplexity"
+          ],
+          "page-7": [
+            "tavily",
+            "brave",
+            "exa",
+            "perplexity"
+          ],
+          "page-13": [
+            "parallel",
+            "exa",
+            "perplexity"
+          ],
+          "page-20": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"8 glasses of water\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 28,
+        "uniquePagesAdded": 19,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-9",
+          "page-14"
+        ],
+        "pageProviders": {
+          "page-9": [
+            "parallel"
+          ],
+          "page-14": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"You need to drink 8 glasses of water a day\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 33,
+        "matchingResults": 31,
+        "uniquePagesAdded": 13,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-3",
+          "page-4",
+          "page-12",
+          "page-15"
+        ],
+        "pageProviders": {
+          "page-3": [
+            "exa",
+            "perplexity",
+            "brave"
+          ],
+          "page-4": [
+            "brave",
+            "exa",
+            "perplexity"
+          ],
+          "page-12": [
+            "exa",
+            "perplexity"
+          ],
+          "page-15": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "need drink 8 glasses water day fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 36,
+        "matchingResults": 36,
+        "uniquePagesAdded": 15,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-10",
+          "page-16",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-10": [
+            "perplexity"
+          ],
+          "page-16": [
+            "exa"
+          ],
+          "page-17": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "need drink 8 glasses water day study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 27,
+        "matchingResults": 27,
+        "uniquePagesAdded": 19,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-11",
+          "page-18",
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-11": [
+            "tavily"
+          ],
+          "page-18": [
+            "tavily"
+          ],
+          "page-19": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "need drink 8 glasses water day original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "need drink 8 glasses water day according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "need drink 8 glasses water day study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"8 glasses\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "need drink 8 glasses water day evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 5,
+      "verifiableOrigins": 1,
+      "echoPercentage": 0
+    },
+    "answer": "The NHS says the government recommends aiming for 6 to 8 cups or glasses of fluid a day, but this is only a guide. Other drinks and food also contribute to fluid intake [1]. Mayo Clinic calls eight glasses a day an easy-to-remember and good goal, but says some people need less fluid and others need more [2]. Healthline and the University of Rochester say water needs are individual. Eight glasses may be more than enough for some people and too little for others, depending on factors such as activity, climate, and breastfeeding [3] [4]. Harvard Health says the eight-glasses advice is not wrong and is generally safe, but it may be unnecessary for most people. It also says evidence for health benefits from increased water intake is limited [5].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7451,
+          "outputTokens": 1057,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.025472
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 12981,
+          "outputTokens": 2583,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.051792
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2891,
+          "outputTokens": 602,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.011802
+        }
+      ],
+      "stageMs": {
+        "search": 3394,
+        "extract": 8023,
+        "grouping": 8521,
+        "judgment": 16196,
+        "answer": 4826,
+        "total": 40963
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "tavily": 4,
+          "brave": 5,
+          "perplexity": 5,
+          "exa": 4,
+          "parallel": 4
+        }
+      },
+      "usd": {
+        "claude": 0.089066,
+        "tavily": 0.032,
+        "telem": 0.134,
+        "total": 0.255066
+      }
+    }
+  }
+}

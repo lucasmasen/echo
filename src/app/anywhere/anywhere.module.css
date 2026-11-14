@@ -1,0 +1,13 @@
+.page { max-width: 720px; margin: 0 auto; padding: 48px 24px 72px; color: var(--ink); }
+.back { color: var(--teal-deep); font-size: 13px; font-weight: 650; text-decoration: none; }
+.back:hover { text-decoration: underline; }
+.kicker { margin: 34px 0 8px; color: var(--teal-deep); font-size: 11px; font-weight: 750; letter-spacing: 2.4px; }
+.title { margin: 0; font-size: clamp(28px, 5vw, 42px); line-height: 1.08; letter-spacing: -1.2px; }
+.lede { margin: 18px 0 0; color: var(--ink-soft); font-size: 16px; line-height: 1.6; }
+.install { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin: 30px 0 34px; }
+.bookmarklet { display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 999px; background: var(--teal-deep); color: #fff; font-size: 15px; font-weight: 700; text-decoration: none; cursor: grab; box-shadow: var(--shadow); }
+.bookmarklet:active { cursor: grabbing; }
+.bookmarklet:focus-visible { outline: 3px solid var(--lime); outline-offset: 3px; }
+.hint { color: var(--muted); font-size: 13px; }
+.steps { display: grid; gap: 12px; margin: 0; padding-left: 22px; color: var(--ink-soft); font-size: 15px; line-height: 1.55; }
+.note { margin: 34px 0 0; padding: 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--muted); font-size: 13px; line-height: 1.55; }

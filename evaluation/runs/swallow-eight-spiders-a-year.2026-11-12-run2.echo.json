@@ -1,0 +1,679 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-13T01:23:40.989Z",
+  "analysis": {
+    "claim": "You swallow eight spiders a year while sleeping",
+    "createdAt": "2026-11-13T01:23:40.989Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Fact or Fiction? People Swallow 8 Spiders a Year While They Sleep | Scientific American",
+        "url": "https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1",
+        "domain": "scientificamerican.com",
+        "publishedDate": "2014-04-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scientificamerican.com/favicon.ico",
+        "text": "Spider experts concede that a sleeping person could plausibly swallow a spider, but “it would be a strictly random event.” People who claim they’ve swallowed spiders never seem to have any concrete evidence. “People tell me this happened to them, but they threw it (the evidence) away—flushed it down the toilet, usually,” Crawford says. There’s also a sore lack of eyewitnesses for such a frequent event as eight spiders a year. So even if you heard or read this spider statistic from a trustworthy source (such as a Snapple cap), you can rest assured that it doesn’t have a leg, or eight legs, to stand on. ## Subscribe to Support Independent Journalism [...] Join Our Community of Science Lovers! Rod Crawford has heard plenty of firsthand accounts of spider-swilling slumberers. “Once or twice a year, someone tells me they once recovered a spider leg in their mouth,” says Crawford, the arachnid curator at the Burke Museum of Natural History and Culture in Seattle. Luckily for all of us, the “fact” that people swallow eight spiders in their sleep yearly isn’t true. Not even close. The myth flies in the face of both spider and human biology, which makes it highly unlikely that a spider would ever end up in your mouth.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "Scientific American quotes Crawford of the Burke Museum, apparently from its own interview, and cites no earlier cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert quotation, no inspectable data."
+      },
+      {
+        "id": "page-2",
+        "title": "Humans Don’t Eat 8 Spiders Per Year in Their Sleep — Here’s How We’d Know If We Did | Discover Magazine",
+        "url": "https://www.discovermagazine.com/humans-don-t-eat-8-spiders-per-year-in-their-sleep-here-s-how-we-d-know-if-we-did-48381",
+        "domain": "discovermagazine.com",
+        "publishedDate": "2025-12-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.discovermagazine.com/immutable-assets/favicon/apple-touch-icon.png",
+        "text": "## Key Takeaways On Eating Spiders While You Sleep Do you really eat spiders in your sleep? According to experts, no, we do not. Researchers are unsure where the rumor that we eat 8 spiders per year in our sleep came from. Most spiders are not toxic to humans if accidentally swallowed. However, if they leave bites in your mouth before being swallowed, it may be best to contact a medical professional. Spiders likely avoid sleeping humans, especially their mouths, because our body temperature and airflow are too high and not ideal places for spiders to hide. [...] checkmarkExplore All Options ## Are Spiders Toxic To Eat? Joyce Fassbender, an entomologist at Florida Gulf Coast University, says that the urban legend is an excellent example of how misinformation spreads. Heyborne, Tremblay, and Fassbender all agree that there is no evidence to suggest people regularly swallow spiders. If ingesting the arachnids were a common occurrence, there would be documented cases or, at the very least, people would occasionally find spider bites in their mouths. “It simply doesn't happen,” says Tremblay. While most spiders are not toxic if consumed, the Mayo Clinic reports that some insects can bite or sting if accidentally swallowed. In these cases, it may be best to seek advice from a medical professional.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Discover quotes Heyborne, Tremblay and Fassbender, which suggests its own expert interviews."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert opinion without data."
+      },
+      {
+        "id": "page-3",
+        "title": "Do people really swallow spiders in their sleep?",
+        "url": "https://www.bbc.com/news/uk-england-beds-bucks-herts-66319172",
+        "domain": "bbc.com",
+        "publishedDate": "2023-08-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+        "text": "\"I just cannot imagine a spider did this.\" Dr Geoff Oxford, honorary secretary of the British Arachnological Society, agreed that the story of swallowing eight spiders a year while sleeping was \"a myth\". \"If someone's sleeping, they're breathing hot air in and out,\" he says. \"Why on earth would a spider go in? They just don't do that.\" The NHS says although spider bites in the UK are uncommon, some can leave people feeling sick, sweating or dizzy. They can also become infected and, in rare cases, causes a severe allergic reaction. The NHS recommends seeking medical immediately if people suffer \"any severe or worrying symptoms after a spider bite\". As for Mr Cowsley, his apparent run-in with his accidental arachnid meal has left him none-the-worse health-wise. [...] Dr Matt Wilkinson, from Cambridge University's department of zoology, says: \"There's a myth that you swallow about eight spiders a year in your sleep. \"It is a myth - though one that many people accept as reality.\" Simon Tagger Dr Matt Wilkinson It is unclear where the spider-swallowing story originated, but the myth is so embedded it has morphed into the stuff of urban legend, Dr Wilkinson says. \"It's really curious that this was the gut instinct reaction [of those treating Mr Cowsley],\" he says. Dr Wilkinson and others are highly dubious that a spider bite led to Mr Cowsley's unfortunate incident. PA Media Dr Michel Dugon",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "BBC quotes Dr Oxford and Dr Wilkinson and reports a specific case (Mr Cowsley), indicating its own interviews."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Firsthand reporting with interviews and a specific case."
+      },
+      {
+        "id": "page-4",
+        "title": "Do We Really Swallow Spiders In Our Sleep? | Misinformation, Urban Legend, Myth, & Facts | Britannica",
+        "url": "https://www.britannica.com/story/do-we-really-swallow-spiders-in-our-sleep",
+        "domain": "britannica.com",
+        "publishedDate": "2025-06-13",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.britannica.com/favicon.png",
+        "text": "Britannica Editors History The belief that we swallow an average of eight spiders in our sleep every year has become so ingrained in popular culture that many people now accept it as fact. The reality, however, is quite different: we swallow no spiders at all. There are several reasons why spiders don’t bother us in our sleep. Foremost, we’re extremely large compared with spiders, so they tend to view us merely as part of their landscape. Equally important, a wandering spider would find a sleeping human absolutely terrifying because, as we slumber, we tend to make a lot of noise via our heartbeat and breathing. These sounds create vibrations to which spiders are extremely sensitive. As a result, they likely would do all they could to avoid us. [...] A man sleeps with his mouth open on a bed, while a large spider sits on the pillow near his hand. Do We Really Swallow Spiders in Our Sleep? This myth is based on a web of lies. See all videos for this article Experts acknowledge that it’s possible that a spider could find its way into your mouth while you’re sleeping, but the chances are so slim as to be negligible. If a spider were to climb onto your face while you slept, the sensation of eight tiny legs on your skin could wake you up very quickly.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Britannica says the same things (vibrations, sleeping humans) with a date that is only an estimate and no explicit citation."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data."
+      },
+      {
+        "id": "page-5",
+        "title": "There's no evidence humans regularly swallow spiders ...",
+        "url": "https://www.facebook.com/WHAS11/posts/theres-no-evidence-humans-regularly-swallow-spiders-while-sleeping-its-an-urban-/10167218690890037",
+        "domain": "facebook.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "Luckily for all of us, the “fact” that people swallow eight spiders in their sleep yearly isn't true. Not even close. The myth flies in the face ...Read more",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-1",
+          "confidence": 55,
+          "evidence": "Facebook snippet copies Scientific American wording (overlap 0.91) but has no date, so the direction cannot be established."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-6",
+        "title": "TIL the idea we eat 8 spiders in our sleep each year being ...",
+        "url": "https://www.reddit.com/r/todayilearned/comments/ey0haf/til_the_idea_we_eat_8_spiders_in_our_sleep_each",
+        "domain": "reddit.com",
+        "publishedDate": "2020-11-14",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.redditstatic.com/shreddit/assets/favicon/152x152.png",
+        "text": "TIL the average human being normally does not swallow any spiders in their lifetime, contrary to popular belief of eight spiders per year.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "Short Reddit snippet with only an estimated date and no source shown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-7",
+        "title": "Do you actually swallow 8 spiders a year while you sleep? | FOX8 WGHP",
+        "url": "https://myfox8.com/offbeat/do-you-actually-swallow-8-spiders-a-year-while-you-sleep",
+        "domain": "myfox8.com",
+        "publishedDate": "2021-11-05",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Posted: Nov 5, 2021”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://myfox8.com/wp-content/uploads/sites/17/2020/01/favicon.png?w=180",
+        "text": "And what about all the people who sleep with their mouths closed? There’s no opening to even swallow a spider. And if you do happen to sleep with your mouth open, wouldn’t your warm breath and possible snoring give any spider a hard time trying to get into your mouth? And if spiders… I can come up with questions all day, but I think you get the point. Here’s what scientists actually say: the kinds of spiders living in people’s homes are solitary creatures, and they’re more frightened of us than we are of them. Spiders don’t crawl into bed with us because our overwhelming size and movements will scare them off. Plus spiders are unlikely to find any prey in our beds. [...] #### How to harvest seeds for your spring harvest #### Randleman potter keeps generations-old craft alive … Please enter a search term. #### #### # Do you actually swallow 8 spiders a year while you sleep? by: Dolan Reynolds Posted: Nov 5, 2021 / 05:00 PM EDT Updated: Nov 5, 2021 / 05:07 PM EDT by: Dolan Reynolds Posted: Nov 5, 2021 / 05:00 PM EDT Updated: Nov 5, 2021 / 05:07 PM EDT (WGHP) — Few things will cause nightmares quite like the image of spiders crawling in your mouth while you’re helpless and asleep. Yet that’s exactly what one of the most enduring urban legends claims: you swallow eight spiders a year in your sleep. But have no fear. There’s no practical or scientific basis for this belief no matter how popular it is in our culture.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "TV station piece cites 'what scientists say' with no named source or link; mostly generic reasoning."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data or firsthand reporting."
+      },
+      {
+        "id": "page-8",
+        "title": "Do People Swallow Eight Spiders Per Year? | Snopes.com",
+        "url": "https://www.snopes.com/fact-check/swallow-spiders",
+        "domain": "snopes.com",
+        "publishedDate": "2001-04-22",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Published April 22, 2001”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.snopes.com/apple-touch-icon-152x152-precomposed.png",
+        "text": "> > More than anything, spiders probably find sleeping humans terrifying. A slumbering person breathes, has a beating heart and perhaps snores — all of which create vibrations that warn spiders of danger. \"Vibrations are a big slice of spiders' sensory universe,\" Crawford explains, \"A sleeping person is not something a spider would willingly approach.\" > > From the standpoint of human biology, the oral spider myth also seems ridiculous. If someone is sleeping with her mouth open, she's probably snoring — and thus scaring off any eight-legged transgressors. Plus, many people would likely be awakened by the sensation of a spider crawling over their faces and into their mouths. Shear can attest: once, while camping, he awoke to find a daddy longlegs crawling on his face. [...] Snopes Logo Snopes Now available in the app store! Open Log in to activate your ad-free access. It looks like you might have a Snopes membership! Log in to enjoy your ad-free experience. Log In Snopes From Snopes You're browsing with fewer ads for the next 24 hours, thanks to our sponsor . Fact Check # Do People Swallow Eight Spiders Per Year? ## One of the most widely-circulated bits of misinformation to be found on the internet. ### David Mikkelson ### Published April 22, 2001 spiders spider Claim: The average person swallows eight spiders per year. Rating: False False About this rating It's hard enough to avoid those horrible wriggly things while we're awake, and now we have to worry that they're crawling into our mouths while we sleep? Little Miss Muffett was a piker.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Snopes page dated 2001 by page text yet quotes Crawford and Shear, which suggests later updated content; no cited source, so treated as its own reporting."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert quotes only; no data or original record."
+      },
+      {
+        "id": "page-9",
+        "title": "A common myth claims people eat a lot of spiders while ...",
+        "url": "https://www.facebook.com/ABC10tv/posts/a-common-myth-claims-people-eat-a-lot-of-spiders-while-sleeping-during-their-lif/10159387105465000",
+        "domain": "facebook.com",
+        "publishedDate": "2022-11-14",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "The claim that you swallow eight spiders per year in your sleep has no scientific origin. It was never measured in a study. The number was",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 25,
+          "evidence": "Facebook snippet is partial and undated by source, so its source relationship is unknown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-10",
+        "title": "People Don’t Swallow Eight Spiders a Year While Sleeping | Ripley's Believe It or Not! | Aquariums, Attractions, Museums",
+        "url": "https://www.ripleys.com/stories/swallow-eight-spiders",
+        "domain": "ripleys.com",
+        "publishedDate": "2023-12-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.ripleys.com/favicon.png",
+        "text": "spider What’s more, people who are sleeping are likely to wake up if they feel something moving across their faces, and most people don’t sleep with their mouths open wide enough for a spider to crawl inside. Though Crawford says people often tell him they have swallowed spiders while sleeping, they don’t usually have any evidence of the encounter, and no one has ever documented such an event. Since eight spiders a year seems like a lot for absolutely no concrete proof, it’s best to put this rumor to bed. So, before you sew your mouth shut or cover it with Duct tape tonight, remember you’re probably not going to swallow a spider any time soon, even though the exact origin of this weird myth remains shrouded in a little bit of mystery. Share This Story [...] # People Don’t Swallow Eight Spiders a Year While Sleeping ### You think you know, but have no idea! Animals 3 min Ripley's Believe It or Not! Ripley's Believe It or Not! People Don’t Swallow Eight Spiders a Year While Sleeping All stories Animals For some reason, many individuals have a strange and completely false belief that the average person, while sleeping, swallows somewhere between eight spiders a year and eight spiders in a lifetime. This is quite a jump in numbers, but most people are likely to have heard at least one variation of this theory involving involuntary nighttime spider guzzling. insects In some parts of the world, eating insects and spiders is common.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 78,
+          "evidence": "Links to Scientific American and repeats Crawford's remarks that people have no evidence of swallowing spiders, adding nothing new."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats Crawford's quotes from another outlet."
+      },
+      {
+        "id": "page-11",
+        "title": "Myth buster: We don't really swallow eight spiders a year while sleeping | Forest Preserve District of Will County",
+        "url": "https://www.reconnectwithnature.org/headlines/news/myth-buster-we-don-t-really-swallow-eight-spiders",
+        "domain": "reconnectwithnature.org",
+        "publishedDate": "2021-02-15",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.reconnectwithnature.org/assets/dist/images/favicons/apple-touch-icon.png",
+        "text": "(Photo via Shutterstock) Whether you love spiders, hate them or merely tolerate them, it probably is of some consolation to learn that you don't really swallow eight of them a year in your sleep, no matter what anyone tells you. How this legend grew legs — eight of them to be exact — and became a widely held belief is a mystery, but it's not rooted in any truth, according to the Burke Museum of Natural History and Culture. In fact, the very idea of humans swallowing spiders flies in the face of both human biology and spider science. Not to mention that no scientific record or medical evidence exists to suggest that we really do swallow spiders in our sleep. [...] Swallowing even one spider while sleeping in your lifetime would be noteworthy, so eight a year is about as far-fetched as it gets. Why? Well, for one thing we usually sleep with our mouths closed. And if our mouths are open, we are likely snoring, and that would be enough to keep spiders at bay, according to Scientific American. In general, our sleeping bodies are not an inviting environment for spiders. We move in our sleep, and sometimes we snore and make other noises. And we're always breathing and our hearts are always beating, even in the deepest of slumbers. All of these activities create vibrations, and these vibrations are like warning signals for spiders, Scientific American reports.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 80,
+          "evidence": "Links to Scientific American, says 'according to Scientific American', and mirrors its framing ('flies in the face of both human biology and spider science')."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Restates the claims of other sources without data."
+      },
+      {
+        "id": "page-12",
+        "title": "Myth: You swallow spiders in your sleep | Burke Museum",
+        "url": "https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-you-swallow-spiders",
+        "domain": "burkemuseum.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.burkemuseum.org/themes/burke/favicon.ico",
+        "text": "Fact:This very widespread urban legend has no basis in fact. It exists in various forms; another common version is that you swallow an average of 20 in your lifetime. (At 4 per year, that would make a very short lifetime of 5 years...) A correspondent in Pennsylvania had heard a version that involved swallowing a pound of spiders (while sleeping) in one's lifetime. (That would be over 20,000 average spiders, for a lifetime of 5,000 years at the 4 per year rate). [...] For a sleeping person to swallow even one live spider would involve so many highly unlikely circumstances that for practical purposes we can rule out the possibility. No such case is on formal record anywhere in scientific or medical literature. Millions of people have some time or other watched another person sleep; so why don't we have one eyewitness account of a spider trying to enter the sleeper's mouth?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "The Burke Museum's arachnologist writes in his own voice, including a correspondent's account and calculations."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Expert assertion with some reasoning, no data."
+      },
+      {
+        "id": "page-13",
+        "title": "How Many Spiders Do You Eat in Your Sleep? - The Sleep Matters Club",
+        "url": "https://www.dreams.co.uk/sleep-matters-club/how-many-spiders-do-you-eat-in-your-sleep",
+        "domain": "dreams.co.uk",
+        "publishedDate": "2024-12-02",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.dreams.co.uk/_ui/responsive/theme-dreams/images/favicon.png",
+        "text": "## Where did the spider myth come from? Nobody knows exactly where the eight-spiders’ claim began. For years, the story went that a magazine columnist invented the figure in 1993 to show how easily people believe “facts” they read online. Fact-checking site Snopes later revealed that the columnist, Lisa Birgit Holst, never existed, and that her name is an anagram of “This is a big troll”. The myth about the myth was a deliberate prank all along. [...] The spider claim was already doing the rounds in a 1999 list of trivia, and its true origin is still a mystery. The idea may have stuck around simply because it’s gross, surprising and easy to remember. Spider stories can travel fast. A 2022 study of online news stories about spider encounters and bites from 2010 to 2020 found that 47% of articles contained errors and 43% were sensationalist. ## Your spider questions answered #### Do spiders sleep? Jumping spiders appear to have a sleep-like state at night. A 2022 study found that they twitch their legs and move their eyes while hanging from silk threads, a little like REM sleep in people. Whether spiders dream is still unknown, though one of the researchers believes they might. #### Where does the fear of spiders come from?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 60,
+          "evidence": "Links to Scientific American and the Burke Museum, and retells the myth with no original data."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1"
+          },
+          {
+            "pageId": "page-12",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-you-swallow-spiders"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Cites other sources without presenting data."
+      },
+      {
+        "id": "page-14",
+        "title": "Scholars@Duke publication: Believing that Humans Swallow Spiders in Their Sleep: False Beliefs as Side Effects of the Processes that Support Accurate Knowledge",
+        "url": "https://scholars.duke.edu/display/pub1113041",
+        "domain": "scholars.duke.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://scholars.duke.edu/favicon.ico",
+        "text": "Humans can store, maintain, and retrieve an impressive amount of information—but the processes that support accurate knowledge can also lead to errors, such as the false belief that humans swallow eight spiders in their sleep each year. In this chapter, we review characteristics of the knowledge base and explore how five adaptive properties that support accurate knowledge can also lead to the learning, storage, and retrieval of falsehoods. First, people exhibit a bias to believe information is true since, most of the time, incoming information is indeed true. Second, we utilize a fluency-based heuristic for judging truth since—again, most of the time—easy processing reliably signals that something is true. Third, the knowledge base is productive: people use existing knowledge to make new [...] Journal cover image ## Believing that Humans Swallow Spiders in Their Sleep: False Beliefs as Side Effects of the Processes that Support Accurate Knowledge Journal articles - Journal Article Marsh, EJ; Cantor, AD; M. Brashier, N Published in: Psychology of Learning and Motivation Advances in Research and Theory January 1, 2016 Published version (DOI)",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Duke-hosted chapter by Marsh et al. (2016) uses the myth as an example in a literature review; no publication date was supplied for this page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Review chapter; the abstract shows no data on the claim."
+      },
+      {
+        "id": "page-15",
+        "title": "Do you really swallow spiders in your sleep? Truth or Trash ...",
+        "url": "https://www.youtube.com/shorts/-bVfzkz-e4U",
+        "domain": "youtube.com",
+        "publishedDate": "2025-01-30",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Posted: 2025-01-30”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "### Transcript [0:00] you swallow spiders in your sleep but is that true that know biology truth or trash let's break it down it's a scary [0:09] thought there you are sleeping peacefully a spider crawls into your mouth and you unknowingly swallow it this creepy idea has been floating around for years but is it based on [0:17] reality or just a nightmare inducing myth here's the deal spiders are typically more afraid of us than we are of them they don't seek out humans and [0:24] tend to avoid large moving objects like our heads while we sleep plus the vibrations of our breathing and snoring are like warning signals telling the [0:31] spider to stay clear in fact the myth that we swallow eight spiders a year while sleeping was originally a madeup claim designed to show how easily people [...] # Do you really swallow spiders in your sleep? Truth or Trash Episode 132 #biology ## Channel: Interactive Biology (verified) 423K subscribers N/A likes ### Description 5,442 views Posted: 2025-01-30 You swallow spiders in your sleep! But is that true? Find out in this week’s episode of Truth or Trash. Bet you didn’t know this bout biology! #biology #science #stem",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "YouTube transcript retells the made-up-claim story with no cited source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Educational video without data."
+      },
+      {
+        "id": "page-16",
+        "title": "How Many Spiders Do You Eat In Your Sleep? | Sleep Foundation",
+        "url": "https://www.sleepfoundation.org/sleep-faqs/how-many-spiders-do-you-eat-in-your-sleep",
+        "domain": "sleepfoundation.org",
+        "publishedDate": "2023-05-09",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.sleepfoundation.org/wp-content/uploads/2024/02/cropped-favicon_new-180x180.png",
+        "text": "Spiders want to stay away: Not many spiders live in people’s houses to begin with, as they tend to make their homes in their natural outdoor habitat. When they do live inside, they prefer quiet, dark, secluded spots where they will not be disturbed. It is hard to swallow a spider: It is not likely that a spider could get into someone’s mouth, much less be swallowed when a person is asleep. While humans do swallow sporadically while they sleep, there are long periods of time when no swallowing takes place. People typically sleep with their mouths closed: It is usually easier to breathe through the nose during sleep, so sleepers tend to sleep with their mouths closed. This would make it hard for a spider to crawl inside. [...] Learn About The Editorial Team ADVERTISEMENT Ads on our site helps support our mission to improve sleep health. Sleep Foundation doesn't endorse third-party products or services. Policy Do Spiders Crawl Into Your Mouth When You Sleep? Where Did This Idea Come From? Most Spiders Are Harmless to Humans How to Keep Spiders Out of Your House The idea that people eat spiders while sleeping is a myth that has been spread far and wide, thanks in part to the internet. Although there is no evidence that spiders crawl into people’s mouths at night, widespread fear of spiders may help to perpetuate this urban legend. For anyone concerned about swallowing spiders in their sleep, it may help to know why this is unlikely to happen and how little danger most spiders pose to humans.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Sleep Foundation gives generic biological reasoning with no named source or shared wording of significance."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "General explanation without data."
+      },
+      {
+        "id": "page-17",
+        "title": "Is it true that a person swallows eight spiders a year?",
+        "url": "https://www.quora.com/Is-it-true-that-a-person-swallows-eight-spiders-a-year",
+        "domain": "quora.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.quora.com/favicon.ico",
+        "text": "Is it true that a person swallows eight spiders a year?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 20,
+          "evidence": "Quora snippet contains only the question title."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-18",
+        "title": "Instagram",
+        "url": "https://www.instagram.com/reel/DWwB978Du2p",
+        "domain": "instagram.com",
+        "publishedDate": "2026-04-05",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.cdninstagram.com/rsrc.php/yY/r/5OCV_xUyQ5h.webp",
+        "text": "Spiders Georg Reply shrewdness77 👍👍👍 Reply sylviapaz6 What a relief! Thank you! 🙏🏻 good night . Reply kristinapasquale Part of why it is risky to share health myths with people. Even if you tell them it is a myth they often remember the myth as a truth because they remember hearing it somewhere. 🤦🏻‍♀️ Reply cloudkowalski I love you so much for this!❤️ Reply ncataldo1980 People eat an average of eight spiders... when they eat food I made for them 😂 Reply anewbieinnorway [...] Log In Sign Up Never miss a post from flora\\_and\\_frost Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Sign up Log in flora\\_and\\_frost • Follow Original audio flora\\_and\\_frost Has anyone ever told you that you swallow spiders in your sleep? #urbanlegend #myth #didyouknow mr.planter Call me crazy but for millennials. It was a marketing scheme for all of us to buy more Goosebumps books and Scary Stories To Tell In The Dark books. 😂 Reply charledore I was told this by my step mother in the late 70’s. I think she found a small article about spiders that was started as a research experiment from a ca college. Look deeper Reply crustaceaninfestation Spiders Georg Reply shrewdness77 👍👍👍 Reply",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 20,
+          "evidence": "Instagram post and comments; date is only an estimate and no source is given."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Social media comments."
+      },
+      {
+        "id": "page-19",
+        "title": "You don’t eat spiders in your sleep: Writing reliable content in a world of online misinformation - The Yardstick Agency",
+        "url": "https://theyardstickagency.co.uk/blog/you-dont-eat-spiders-in-your-sleep-writing-reliable-content-in-a-world-of-online-misinformation",
+        "domain": "theyardstickagency.co.uk",
+        "publishedDate": "2025-04-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://theyardstickagency.co.uk/wp-content/uploads/2018/11/cropped-yardstick-logo-180x180.png",
+        "text": "By providing clear statistics and examples, you lend more legitimacy to your content. However, it’s important to consider where that information comes from. ### 2. Use reliable sources As my earlier story about the spider demonstrated, anybody can post anything they want online and claim it as a fact. That’s why you need to be very careful about where you source the information you use in your content. So far in this article, I’ve used information from: Britannica – An internationally recognised encyclopaedia company The Alan Turing Institute – The national institute for data science and Artificial Intelligence (AI) FTAdviser – A leading trade publication Royal London – A recognisable brand in the financial services sector. [...] I hope you’ll agree, these are all reputable organisations and so you can trust the information I’ve shared with you. Yet, if I’d sourced information from a random social media account or an unknown online magazine, you might have been less inclined to continue reading. ### 3. Generate engagement from trusted sources When others comment on or share the content you post, they’re essentially giving it their seal of approval. After all, most of us would only share a piece of content if we thought the information provided was accurate and useful. That’s why generating engagement is so important. But to build trust, you need to connect with the right people.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "No earlier parent page was identified, so the source relationship remains unresolved."
+        },
+        "citations": [
+          {
+            "pageId": "page-4",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.britannica.com/story/do-we-really-swallow-spiders-in-our-sleep"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Uses the myth as an anecdote."
+      },
+      {
+        "id": "page-20",
+        "title": "Debunking: Do We Really Swallow Spiders in Our Sleep?  | Britannica",
+        "url": "https://www.britannica.com/video/Do-we-really-swallow-spiders-in-our-sleep/-306330",
+        "domain": "britannica.com",
+        "publishedDate": "2024-05-29",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.britannica.com/favicon.png",
+        "text": "Being afraid of spiders is a really common thing. They’ve got a lot of legs. Some of them can do acrobatic jumps. Their web silk is stronger than steel. Some of them have even learned to fish for prey. And I bet you’ve heard the claim that we humans swallow spiders while we sleep. Over the years, different sources have tried to pinpoint exactly how many midnight spider snacks we consume. The most often cited number is a whopping eight per year. I have good news, my panicking arachnophobic friends: we don’t actually swallow spiders in our sleep after all. Let’s all breathe a collective sigh of relief while we learn how this urban legend became an accepted “fact” of popular culture. This fake fact is actually built on—ahem—a web of lies. No one knows where the original myth came from, but [...] feel it and wake up, making the chances of it ending up in your mouth minimal. And the chances of this happening eight times per year? Basically impossible. That’s good news for us—and for the spiders.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Britannica video script debunks the myth with no named source and an estimated date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "People do not swallow eight spiders a year in their sleep (myth debunked)",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-12",
+          "page-13",
+          "page-15",
+          "page-16",
+          "page-17",
+          "page-18",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "The spider-swallowing myth as an example of false belief and misinformation",
+        "pageIds": [
+          "page-14",
+          "page-19"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-2",
+      "page-3",
+      "page-8",
+      "page-12"
+    ],
+    "verifiableRoots": [
+      "page-3"
+    ],
+    "answerSourceIds": [
+      "page-3",
+      "page-12",
+      "page-8",
+      "page-2",
+      "page-1"
+    ],
+    "answerStatements": [
+      {
+        "text": "The claim that people swallow eight spiders a year in their sleep is described as a myth by arachnologists and zoologists",
+        "sourceIds": [
+          "page-3"
+        ]
+      },
+      {
+        "text": "The Burke Museum says this urban legend has no basis in fact, and no such case is on record in scientific or medical literature",
+        "sourceIds": [
+          "page-12"
+        ]
+      },
+      {
+        "text": "Experts say sleeping people are unlikely targets for spiders because breathing, heat, snoring and vibrations warn spiders away",
+        "sourceIds": [
+          "page-3",
+          "page-8",
+          "page-2"
+        ]
+      },
+      {
+        "text": "Spider experts concede a sleeping person could plausibly swallow a spider, but only as a strictly random event, and there is no evidence that it happens frequently",
+        "sourceIds": [
+          "page-1",
+          "page-2"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "You swallow eight spiders a year while sleeping",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 9,
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-6",
+          "page-8",
+          "page-12",
+          "page-13"
+        ]
+      },
+      {
+        "query": "\"You swallow eight spiders a year while sleeping\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-17"
+        ]
+      },
+      {
+        "query": "swallow eight spiders year while sleeping fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 8,
+        "uniquePagesAdded": 2,
+        "pageIds": [
+          "page-14"
+        ]
+      },
+      {
+        "query": "swallow eight spiders year while sleeping study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 3,
+        "pageIds": [
+          "page-10",
+          "page-11"
+        ]
+      },
+      {
+        "query": "swallow eight spiders year while sleeping original source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 4,
+        "pageIds": [
+          "page-7",
+          "page-9",
+          "page-20",
+          "page-19"
+        ]
+      },
+      {
+        "query": "swallow eight spiders year while sleeping according to",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-16"
+        ]
+      },
+      {
+        "query": "swallow eight spiders year while sleeping study finds",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "\"swallow spiders sleeping\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 3,
+        "pageIds": [
+          "page-15",
+          "page-18"
+        ]
+      },
+      {
+        "query": "swallow eight spiders year while sleeping evidence",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-5"
+        ]
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 5,
+      "verifiableOrigins": 1,
+      "echoPercentage": 15
+    },
+    "answer": "The claim that people swallow eight spiders a year in their sleep is described as a myth by arachnologists and zoologists [1]. The Burke Museum says this urban legend has no basis in fact, and no such case is on record in scientific or medical literature [2]. Experts say sleeping people are unlikely targets for spiders because breathing, heat, snoring and vibrations warn spiders away [1] [3] [4]. Spider experts concede a sleeping person could plausibly swallow a spider, but only as a strictly random event, and there is no evidence that it happens frequently [5] [4].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data."
+  }
+}

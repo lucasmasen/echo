@@ -1,0 +1,15 @@
+{
+  "name": "echo_check",
+  "description": "Count the independent origins behind a factual claim before you answer it. Search engines count sources; Echo traces which retrieved pages merely repeat another page and reports how many independent origins remain, each origin's type (primary document, original reporting, press release, social post, ...) and an Echo Score from 0 (one unverified origin echoed many times) to 100 (several independent origins with evidence of their own). Call it when a user asks whether a statistic, quote or widely repeated claim is true or well supported, then state how many independent origins there are and name them. Report the page split exactly as the `summary` field gives it: pages \"not tied to an origin\" are neither copies nor origins, so never say that every page leads back to the origin unless that count is 0. The score rates the evidence base, not truth: the origins may support the claim or contradict it (see `echo_answer`). When the run was routed through several search engines, the result also has `engines_needed` ({needed, of}: the fewest engines whose pages together reach every origin of that run) and `engines_summary`, which says it in one line: report that line as it is. It is hindsight on one run, so never use it to rank search engines. When `shared_names` is present, at least half of the run's origins mention the same name (a person, a book, a report) and no page of the run is that source: say the origins \"may share a source\" and that `num_origins` may then be too high, never that one page \"is copied from\" another, because it is a hint found by rule and not a finding.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "claim": {
+        "type": "string",
+        "description": "The claim as one full sentence, e.g. \"Americans check their phones 96 times a day\"."
+      }
+    },
+    "required": ["claim"],
+    "additionalProperties": false
+  }
+}

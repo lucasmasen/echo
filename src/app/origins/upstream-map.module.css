@@ -1,0 +1,29 @@
+/* "The source that is not in the results": the one card that says what Echo does that a dedup or fact-check tool cannot. */
+.card { margin-top: 30px; padding: 30px 32px 28px; border: 2px solid var(--teal-deep); border-radius: 18px; background: #17302a; color: #fffefa; box-shadow: var(--shadow); }
+.kicker { margin: 0 0 10px; color: #9fd8c2; font-size: 11px; font-weight: 800; letter-spacing: 2px; }
+.title { max-width: 900px; margin: 0; color: #fffefa; font-size: clamp(28px, 4vw, 46px); font-weight: 700; line-height: 1.05; letter-spacing: -1.6px; }
+.title em { color: #f0c36a; font-style: normal; }
+.lede { max-width: 820px; margin: 14px 0 0; color: #d6e6de; font-size: 16px; line-height: 1.55; }
+.rows { display: grid; gap: 10px; margin: 22px 0 0; padding: 0; list-style: none; }
+.rows li { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.2fr); align-items: center; gap: 18px; padding: 14px 18px; border-radius: 12px; background: #20443b; }
+.claim { color: #fffefa; font-size: 17px; font-weight: 700; letter-spacing: -0.3px; }
+.claim small, .name small { display: block; margin-top: 3px; color: #b9cfc5; font-size: 12.5px; font-weight: 400; letter-spacing: 0; line-height: 1.4; }
+.arrow { color: #f0c36a; font-size: 24px; font-weight: 700; }
+.name b { color: #f0c36a; font-size: clamp(20px, 2.4vw, 28px); font-weight: 800; letter-spacing: -0.6px; }
+.note { max-width: 900px; margin: 16px 0 0; color: #a9c0b6; font-size: 12px; line-height: 1.6; }
+@media (max-width: 760px) { .card { padding: 22px 18px; } .rows li { grid-template-columns: minmax(0, 1fr); gap: 6px; } .arrow { display: none; } }
+
+/* ---- Identity pass (Nov 14): the loudest card on the page. ---- */
+.card { padding: 38px 38px 32px; border: 0; border-radius: 22px; }
+.kicker { font-size: 12px; }
+.kicker::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 9px; border-radius: 2px; background: #f0c36a; }
+.title { font-size: clamp(36px, 5.6vw, 72px); font-weight: 820; line-height: 0.98; letter-spacing: -3px; }
+.title em { text-decoration: underline; text-decoration-thickness: 0.09em; text-underline-offset: 0.12em; }
+.lede { font-size: 18px; color: #e8f1ec; }
+.rows li { padding: 18px 22px; border-left: 8px solid #f0c36a; }
+.claim { font-size: 20px; font-weight: 780; }
+.claim small, .name small { font-size: 13.5px; color: #c9dbd2; }
+.name b { font-size: clamp(26px, 3.4vw, 44px); font-weight: 860; letter-spacing: -1.4px; line-height: 1.02; }
+.arrow { font-size: 34px; }
+.note { color: #bdd0c6; font-size: 12.5px; }
+@media (max-width: 760px) { .card { padding: 24px 18px; } .title { letter-spacing: -1.6px; } }

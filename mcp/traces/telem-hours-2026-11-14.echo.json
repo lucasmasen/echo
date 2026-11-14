@@ -1,0 +1,837 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:28:50.368Z",
+  "analysis": {
+    "claim": "It takes 10,000 hours to master a skill",
+    "createdAt": "2026-11-14T21:28:50.368Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "The Great Practice Myth: Debunking the 10,000 Hour Rule • Six Seconds",
+        "url": "https://www.6seconds.org/2022/06/20/10000-hour-rule",
+        "domain": "6seconds.org",
+        "publishedDate": "2022-06-20",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2022/06/20",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.6seconds.org/wp-content/uploads/2019/05/cropped-6secIcon1024-180x180.png",
+        "text": "Consider the research of master chess players by those cognitive psychologists, Fernand Gobet and Guillermo Campitelli. They found that there were actually huge differences in the number of hours of practice it took chess players to reach a specific skill level. The number of hours to reach “master” status ranged from 728 hours to 16,120 – meaning some players needed 22x more practice hours than others to reach the same skill level. The 10,000 hour rule is a myth. Let’s rename it the 728 to 16,120 Hour Rule. ## Beyond the 10,000 Hour Rule: 3 Research-Backed Principles of Practice If you want to go deeper and learn more about practice, here are some recommended articles: [...] ## Busting the Myth of the 10,000 Hour Rule Gladwell uses several examples in Outliers when introducing this rule: one is the research done by Ericsson.pdf) that focused on violin students at a music academy in Berlin. The study found that the most accomplished of the students had put in 10,000 hours by the time they turned 20. Gladwell also estimates that the Beatles put in 10,000 hours of practice playing in Hamburg in the early 1960s, and that Bill Gates put in 10,000 hours of programming work before founding Microsoft. Hence the 10,000 hour rule was born: put in your 10,000 hours of practice, and become an expert in a given field. Pretty easy, right? But upon closer examination, problems start to emerge.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Critiques the rule and cites the Gobet and Campitelli chess range (728 to 16,120 hours) with its own framing; no copied text from cluster pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Reports study figures secondhand without presenting the data itself."
+      },
+      {
+        "id": "page-2",
+        "title": "The 10000 Hour Rule Explained: What It Takes to Master a Skill",
+        "url": "https://mooremomentum.com/blog/the-10-000-hour-rule-explained-what-it-takes-to-master-a-skill",
+        "domain": "mooremomentum.com",
+        "publishedDate": "2026-05-19",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://mooremomentum.com/icons/icon-144x144.png?v=cd6a04ddd466219929bad5d9fa5e0f9e",
+        "text": "### How many hours to become an expert? Most research points to a range of 1,000 to 10,000 hours depending on the field, quality of practice, and individual factors like starting age and access to good coaching. Deliberate practice at the edge of your current ability accelerates this timeline significantly compared to casual or purely repetitive practice. ### How long does it take to master a skill? There is no single answer. Simple skills may take weeks of focused practice. Complex skills at an elite level may take a decade or more. The most accurate predictor is not total hours but how intentionally those hours are spent. Structured, feedback-driven, progressively challenging practice is consistently the fastest path to genuine skill mastery. About The Author Will Moore [...] The 10,000-hour estimate applies primarily to highly complex, competitive domains like concert-level music, elite sports, or professional chess. For many practical skills, meaningful expertise can develop in far fewer hours when the practice is deliberate and well-directed. A 2014 meta-analysis of Ericsson's work found that deliberate practice explained about 26% of performance variation in games, 21% in music, and roughly 18% in sports. Other factors like starting age, quality of coaching, and individual aptitude all play a meaningful role in how long it takes to master a skill. What this tells you is that \"hours to become an expert\" is genuinely the wrong question. The better question is: how intentional, focused, and well-structured are the hours you are already putting in?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Explainer citing a 2014 meta-analysis (which meta-analysis it means is unclear) with no added data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Cites percentages without data."
+      },
+      {
+        "id": "page-3",
+        "title": "Researcher Behind ‘10,000-Hour Rule’ Says Good Teaching Matters, Not Just Practice",
+        "url": "https://www.edsurge.com/news/2020-05-05-researcher-behind-10-000-hour-rule-says-good-teaching-matters-not-just-practice",
+        "domain": "edsurge.com",
+        "publishedDate": "2020-05-05",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2020-05-05",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.edsurge.com/favicon.ico?favicon.3f910c77.ico",
+        "text": "EdSurge Podcast ### Researcher Behind ‘10,000-Hour Rule’ Says Good Teaching Matters, Not Just Practice ByJeffrey R. Young May 5, 2020 Researcher Behind ‘10,000-Hour Rule’ Says Good Teaching Matters, Not Just Practice Anders Ericsson, whose research helped establish the so-called \"10,000-hour rule,\" talks to the EdSurge Podcast from his office, via Zoom. You’ve probably heard of the 10,000 hour rule, which was popularized by Malcolm Gladwell’s blockbuster book “Outliers.” As Gladwell tells it, the rule goes like this: it takes 10,000 hours of intensive practice to achieve mastery of complex skills and materials, like playing the violin or getting as good as Bill Gates at computer programming. [...] In a 1993 paper, Ericsson and two colleagues described their research into the role of “deliberate practice” in the success of violin students. As Gladwell noted, they found that it took a remarkable amount of time on such practice—some 10 years’ worth or 10,000 hours to gain mastery. But what Gladwell left out is the role of the “deliberate” practice, meaning work under the guidance of a teacher. NEWSLETTERS ## STAY AHEAD IN EDUCATION. Sign up for EdSurge newsletters for timely news, insights and analysis. ### This week’s podcast sponsor is Emporia State University’s online Elementary Education program: designed for career changers interested in becoming elementary teachers. #### Know anyone who might be a good fit? Let us know here.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "EdSurge podcast interview with Ericsson."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Original interview."
+      },
+      {
+        "id": "page-4",
+        "title": "The 10,000-Hour Rule is a Myth - Scott H Young",
+        "url": "https://www.scotthyoung.com/blog/2024/01/23/10000-hr-rule-myth",
+        "domain": "scotthyoung.com",
+        "publishedDate": "2024-01-23",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2024/01/23",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scotthyoung.com/blog/wp-content/uploads/2019/05/favicon.png",
+        "text": "In contrast, for skills that rely mostly on talent or luck, have few practitioners, little devotion to practice, and modest thresholds for success, the amount of practice needed to reach elite levels might be quite modest. ## Implications for Mastery > To summarize: > > The 10,000-hour rule only applies to deliberate practice, not just using the skill a lot. > Talent probably matters, even if practice does, too. > The amount of variance explained by practice in different fields likely varies, but it’s certainly not 100%. > “Elite” or “world-class” are social comparisons. Thus, reaching them implicitly requires you to do more than your competitors. Fields with fewer performers, less devotion and lower returns to continued practice will see elite performers with less training. [...] Scott H Young Learn faster, achieve more ## Ultralearning ## Get Better at Anything # The 10,000-Hour Rule is a Myth January, 2024 No comments | Comments | Share Few ideas about learning are as well-known as the 10,000-hour rule, popularized by Malcolm Gladwell in his 2008 bestseller, Outliers, where he argued that it takes roughly that long to master a skill. The basis for Gladwell’s rule was Anders Ericsson’s 1993 paper arguing that large quantities of deliberate practice could explain world-class skill levels. Before that, psychologist John Hayes’s research on elite composers, artists and poets found roughly ten years were necessary to produce master-level works.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Scott Young gives his own detailed analysis of practice variance and the implications for mastery."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Argument built on published studies, with no new data."
+      },
+      {
+        "id": "page-5",
+        "title": "Skill Development: Can You Learn Something New in a Month?",
+        "url": "https://www.developgoodhabits.com/learn-something-new",
+        "domain": "developgoodhabits.com",
+        "publishedDate": "2013-07-11",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.developgoodhabits.com/wp-content/uploads/2021/08/cropped-D-Favicon-180x180.jpg",
+        "text": "Table of Contents Toggle 10,000 Hours to Master a Skill? 30 Days to Learn Something New 11 Tips for Learning a New Skill + #1. Focus on the important things. + #2. Make a plan. + #3. Break it into chunks. + #4. Create drill sets. + #5. Create tangible milestones. + #6. Get out there and do it. + #7. Repetition. Repetition. Repetition. + #8. Be persistent. + #9. Have patience. + #10. Create practice work and tests. + #11. Self-correct. The good news is it can be done. Table of Contents ## 10,000 Hours to Master a Skill? Malcolm Gladwell famously stated that it takes 10,000 hours of deliberate practice to be a master at any skill in his book Outliers. [...] That final 20% of the skill is the toughest hurdle to climb, This where time and practice become important. What Gladwell was talking about is the level truly mastering a skill. If you want to be 100% fluent in another language, with no trace of an accent, expect 10,000 hours of deliberate practice. However, if you want to learn a language and be understood, then 30 hours of deliberate practice will do it for you. How can you quickly learn something new? It's something that's possible if you dedicate a month to the process. ## 30 Days to Learn Something New 30 Hours is still a VERY short time to become competent in any skill. Practice makes perfect, and that is not a lot of time to practice.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Claude was unsure this page is an independent origin (50 of 100) and it shows no data of its own, so Echo leaves it unresolved instead of counting it as a root. Claude's reason: Offers its own argument about the final 20% of a skill and the 30-hour learning idea."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Opinion without data."
+      },
+      {
+        "id": "page-6",
+        "title": "How to master new skills with ‘deliberate practice’",
+        "url": "https://www.bbc.com/worklife/article/20190318-how-to-master-new-skills-with-deliberate-practice",
+        "domain": "bbc.com",
+        "publishedDate": "2019-03-19",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+        "text": "If deliberate practice sounds familiar to you, it formed the basis of the 10,000-hour rule popularised by Malcolm Gladwell. One of Ericsson’s first papers on deliberate practice suggested that elite performers spend 10,000 hours, or approximately 10 years, training in this focused way before they reach the top of their field. But it is misleading to think that anyone who spends 10,000 hours doing anything will somehow become world-class. “You need to be practising with purpose, and it takes a certain type of person, psychologically, to do that,” says Ericsson. [...] Why structure matters For some of the tasks Deutsch took on, there was already a heavily predefined method of learning, like memorising a deck of cards, where he says 90% of the method is well-established. Deutsch wanted to apply deliberate practice to a more abstract challenge that would require developing his own strategy; solving a Saturday New York Times crossword puzzle. He says these crosswords were seen as too complex to be solved in a systematic way, but he thought that he could apply the techniques he learned in previous challenges to solving them. Getty Images Just spending 10,000 hours learning will not help you master a skill – it takes practice with purpose (Credit: Getty Images)",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "BBC reporting with a direct quote from Ericsson and the Deutsch case."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Firsthand reporting and quotes."
+      },
+      {
+        "id": "page-7",
+        "title": "It Takes 10,000 Hours to Become an Expert in Anything: Use These 4 Techniques",
+        "url": "https://www.inc.com/jordan-scheltgen/it-takes-10000-hours-to-become-an-expert-in-anything-use-these-4-techniques.html",
+        "domain": "inc.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Newsletters SUBSCRIBE Newsletters SUBSCRIBE Inc. Life It Takes 10,000 Hours to Become an Expert in Anything: Use These 4 Techniques Mastering a skill takes serious time. Here’s how to make the most out of the hours you put in towards mastering your craft. EXPERT OPINION BY JORDAN SCHELTGEN , CO-FOUNDER AND MANAGING PARTNER, CAVE SOCIAL @CAVEJORDANS Jan 9, 2018 SHARE LinkedIn Facebook X Bluesky Link ADD ON GOOGLE getty_503945005.jpg Getty Images 10,000 hours. That’s how long it takes to master your craft, according to bestselling author Malcolm Gladwell. Whether you want to become a better",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "Search snippet only; attributes the claim to Gladwell with no visible own reporting, and the date is missing from metadata."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-8",
+        "title": "The 10,000 Hour Rule Is Not Real - Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/10000-hour-rule-not-real-180952410",
+        "domain": "smithsonianmag.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.2fad0aa1d767.svg",
+        "text": "A new meta-analysis, however, indicates that the 10,000 hour rule simply does not exist. As Brain's Idea reports, authors of the new study undertook the largest literature survey on this subject to date, compiling the results of 88 scientific articles representing data from some 11,000 research participants. Practice, they found, on average explains just 12 percent of skill mastery and subsequent success. \"In other words the 10,000-Hour rule is nonsense,\" Brain's Idea writes. \"Stop believing in it. Sure, practice is important. But other factors (age? intelligence? talent?) appear to play a bigger role.\" [...] Smithsonian Magazine white logo Sections More from Smithsonian magazine Our Partners Subscribe to Smithsonian magazine and get a FREE tote. New Research # The 10,000 Hour Rule Is Not Real ## The biggest meta-analysis of research to date indicates that practice does not make perfect Rachel Nuwer/ Rachel Nuwer piano The 10,000 hour rule—first proposed by a Swedish psychologist and later made famous in Malcolm Gladwell's Outliers)—states that exceptional expertise requires at least 10,000 hours of practice. The best of the best (the Beatles, Bill Gates) all amassed more than 10,000 hours of practice before rising to the top, Gladwell argued. So greatness is within virtually any person's grasp, so long as they can put in the time to master their skill of choice.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Smithsonian reports a meta-analysis via Brain's Idea; undated, and page-11 reproduces its text but is dated 2014-11-07 (the page-11 text says Aug 20, 2014), so page-8 is likely the earlier one."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Reports meta-analysis findings secondhand without the data."
+      },
+      {
+        "id": "page-9",
+        "title": "Learning 1% of the 10,000 Hours Rule – Adam Marelli Workshops",
+        "url": "https://amworkshops.com/tips-techniques/learning-1-of-the-10000-hours-rule",
+        "domain": "amworkshops.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://amworkshops.com/wp-content/themes/adammarelliphoto/favicon.ico",
+        "text": "At this point the 10,000 hours theory about gaining mastery has done its rounds online. For anyone who has not heard it yet, the idea (made popular by writer Malcolm Gladwell) was that mastery is not born, but created, practiced, and executed. It takes about 10,000 hours of guided practice to become masterful. While the academic world rejects his theory and will argue against it for years to come, I’ve found it is more or less in line with the apprenticeships I went through. But, I find that it can be a daunting number to live up to. What does 10,000 hours look like in real life? 8 hours a day x 5 days a week x 40-50 weeks a year for 5-7 years = 10,000 hours [...] > Inside of the 10,000 hours of mastery exists about 100 hours of intellectual learning and 9,900 hours of practice and refinement. ## The 100 essential hours Inside of the 10,000 hours of mastery exists about 100 hours of intellectual learning and 9,900 hours of practice and refinement. The governing principles in almost any field are not extremely complex. In fact, they are usually pretty straightforward. But putting them into action, without active thought, is where the trouble lies. Imagine that you could explain what a baseball batter must do to hit a 90 mph fastball in a few minutes. Even if you were given an hour to describe all of the nuances, eventually it would reach a point where you would say, “Let’s go out there, so you can see what I mean.”",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Claude was unsure this page is an independent origin (50 of 100) and it shows no data of its own, so Echo leaves it unresolved instead of counting it as a root. Claude's reason: The author gives a personal apprenticeship perspective and his own breakdown of the hours (100 intellectual and 9,900 practice), which is original analysis."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Personal opinion and arithmetic, with no inspectable data."
+      },
+      {
+        "id": "page-10",
+        "title": "Forget the 10,000-Hour Rule: How to Rapidly Learn a New Skill",
+        "url": "https://www.entrepreneur.com/living/forget-the-10000-hour-rule-how-to-rapidly-learn-a-new/463127",
+        "domain": "entrepreneur.com",
+        "publishedDate": "2023-11-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2025/03/cropped-Ent_Logo_Circle_Black_300.png?w=180",
+        "text": "## Key Takeaways In The Sports Gene, author David Epstein examines the 10,000-hour idea. Popularized by Malcolm Gladwell, the idea is that mastering anything requires, on average, 10,000 hours of dedicated practice. Epstein discusses a study on violin students at the Music Academy of Berlin. The general finding was that the best violinists practiced much more than the good ones. Epstein pointed out that among that best group, some violinists “may use their practice time so efficiently that they reach a high degree of excellence more quickly.” [...] ## Key Takeaways In The Sports Gene, author David Epstein examines the 10,000-hour idea. Popularized by Malcolm Gladwell, the idea is that mastering anything requires, on average, 10,000 hours of dedicated practice. Epstein discusses a study on violin students at the Music Academy of Berlin. The general finding was that the best violinists practiced much more than the good ones. Epstein pointed out that among that best group, some violinists “may use their practice time so efficiently that they reach a high degree of excellence more quickly.”",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Summarizes David Epstein's The Sports Gene, which is outside the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Secondhand summary."
+      },
+      {
+        "id": "page-11",
+        "title": "\"It takes 10,000 hours to become an expert at something\"",
+        "url": "https://barrypopik.com/blog/it_takes_10000_hours_to_become_an_expert_at_something",
+        "domain": "barrypopik.com",
+        "publishedDate": "2014-11-07",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://barrypopik.com/favicon.ico",
+        "text": "By Rachel Nuwer AUGUST 20, 2014 The 10,000 hour rule—first proposed by a Swedish psychologist and later made famous in Malcolm Gladwell’s Outliers—states that exceptional expertise requires at least 10,000 hours of practice. The best of the best (the Beatles, Bill Gates) all amassed more than 10,000 hours of practice before rising to the top, Gladwell argued. So greatness is within virtually any person’s grasp, so long as they can put in the time to master their skill of choice. A new meta-analysis, however, indicates that the 10,000 hour rule simply does not exist. (...) [...] By Shaunacy Ferro Can 10,000 hours of practice really make you an expert at anything? The widely touted theory, highlighted in a 1993 psychology paper and popularized by Malcolm Gladwell’s book Outliers, says that anyone can master a skill with 10,000 hours of practice. There’s even a Macklemore song about it, so that makes it real. Twitter Gabe Fonseca ‏@MrGabeFonseca Supposedly it takes 10,000 hours to become an expert at something. I’m an expert at sleeping, watching TV, and surfing the internet. 9:58 AM - 18 Jul 2014 Smithsonian.com The 10,000 Hour Rule Is Not Real The biggest meta-analysis of research to date indicates that practice does not make perfect By Rachel Nuwer AUGUST 20, 2014",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-8",
+          "confidence": 60,
+          "evidence": "Cites smithsonianmag.com by title: “TV, and surfing the internet. 9:58 AM - 18 Jul 2014 Smithsonian.com The 10,000 Hour Rule Is Not Real The biggest meta-analysis of research t”. This page is dated 2014-11-07 and a page cannot cite something published after it, so Echo links it there even though smithsonianmag.com's date is unknown."
+        },
+        "citations": [
+          {
+            "pageId": "page-8",
+            "how": "title",
+            "quote": "TV, and surfing the internet. 9:58 AM - 18 Jul 2014 Smithsonian.com The 10,000 Hour Rule Is Not Real The biggest meta-analysis of research to date indicates that practice does not make perfect By Rachel N"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Copied excerpts, with no original data."
+      },
+      {
+        "id": "page-12",
+        "title": "10,000 Hours — Master Anything",
+        "url": "https://www.10000hours.co/",
+        "domain": "10000hours.co",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "text": "Based on the 10,000 Hour Rule # 10,000 HoursHow long until you master anything? Malcolm Gladwell's research shows world-class expertise requires roughly 10,000 hours of deliberate practice. Let's build your roadmap. Your mastery journey0% ⚡ Configure Your Journey Include vacation breaks (4 weeks/year off) 📊 Your Mastery Blueprint 🔗 Share Your Commitment",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "A calculator page that restates Gladwell's rule with no cited source and no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Only an assertion of the rule, with no data."
+      },
+      {
+        "id": "page-13",
+        "title": "Achieving Peak Performance: A Conversation with Anders Ericsson - Behavioral Scientist",
+        "url": "https://behavioralscientist.org/achieving-peak-performance-a-conversation-with-anders-ericsson",
+        "domain": "behavioralscientist.org",
+        "publishedDate": "2016-05-24",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://behavioralscientistorg.b-cdn.net/wp-content/uploads/2017/05/cropped-BehSci_OwlLogos_Spring_solo-2-300x300.png",
+        "text": "Richard Vu: You found that the top performers at the Berlin music academy had 10,000 hours of practice by age 20. Based on this finding, Malcolm Gladwell coined the “10,000 Hour-Rule,” the idea that it takes 10,000 hours or practice to become a master in most fields. However, you note that this rule may give the wrong impression of deliberate practice. What are the misconceptions about the “10,000 Hour-Rule” rule? [...] Chances are, you’ve heard of Ericsson’s research. It was popularized by Malcolm Gladwell in Outliers, where Gladwell coined the term “10,000 Hour-Rule.” However, Ericsson’s newest book, Peak: Secrets from the New Science of Expertise, co-authored with Robert Pool, shows it might not be so simple. I recently spoke with Ericsson about the misconception of 10,000 Hour-Rule, the misguided emphasis on talent, and what it takes to achieve expertise.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "Firsthand interview with Anders Ericsson."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Original interview with the researcher."
+      },
+      {
+        "id": "page-14",
+        "title": "The 10,000-hour Myth",
+        "url": "https://newsletter.buildlegends.com/p/research-brief-the-10-000-hour-myth",
+        "domain": "newsletter.buildlegends.com",
+        "publishedDate": "2023-05-04",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/144b671c-f51f-477d-85d8-a670b6f0db6f/thumb_App_Icon3.png",
+        "text": "Brian Burkhard May 4, 2023 In his book Outliers, Malcolm Gladwell famously said that, “ten thousand hours is the magic number of greatness.” But research into the idea that it takes 10,000 hours of deliberate practice to become an expert has shown that the relationship between practice and expertise isn’t as strong as we might think. Although deliberate practice is positively correlated with expertise, it only explains 20-25% of differences in skill level among musicians, athletes, or even chess players. Deliberate practice explains even fewer differences when we look at performance in contexts such as education (4%) or the workplace (<1%). [...] Where does 10,000 hours even come from? In 1993, Anders Ericsson and his colleagues found that, on average, the best violinists practiced 10,000 hours by age 20 (good violinists, for comparison, practiced 7,800 hours). As you might guess, an average isn’t very helpful for understanding individuals. For example, one study found that the hours of practice people put into becoming a master-level chess player ranged from 728 to 16,120 – as in, it took 22x more practice for one person to reach master than another. Since most of us don’t plan on becoming concert violinists or chess grandmasters, we’ll have to face the fact that: ## there’s no magic number of hours that it takes to become an expert.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Newsletter summarizing the research (20-25%, 728-16,120 hours), with the stock Gladwell quote also found in page-20."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Cites figures from studies without the data."
+      },
+      {
+        "id": "page-15",
+        "title": "Scientists: Practice Doesn't Necessarily Make Perfect. Sorry.",
+        "url": "https://www.sciencealert.com/science-finds-that-10-000-hours-of-practice-doesn-t-make-you-an-expert-sorry",
+        "domain": "sciencealert.com",
+        "publishedDate": "2015-03-14",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.sciencealert.com/images/2022/08/cropped-sa-rounded-favicon-32x32.png",
+        "text": "# Scientists: Practice Doesn't Necessarily Make Perfect. Sorry. Scientists: practice doesn't necessarily make perfect. Sorry. There's a long-standing myth that, in order to master a skill, all it takes is roughly 10,000 hours of practice. The idea was first popularised in Malcolm Gladwell's 2008 book Outliers, based on a study of musicians by psychologist K. Anders Ericsson back in 1993. And despite skepticism from researchers, the rule was happily accepted by many as a glimmer of hope that perhaps, one day, if they tried really hard, they might become an expert pianist/baseballer/Italian speaker/Rubik's Cube-solver. Macklemore even wrote a song about the rule. [...] But, sorry to bust your dreams here, scientists have debunked the myth once and for all, and shown that, while some people can become an expert with 10,000 hours of practice - or less - many can't, and there's a wholelot more involved than just hard work. In fact, an international team of psychologists found that deliberate practice can only explain around one-third of the difference in skill levels in chess players and musicians. This leaves \"the majority of the reliable variance unexplained and potentially explainable by other factors\", the team wrote in the journal Intelligencelast year, where their results were published. Those factors, we're assuming, are natural talent and genetic ability.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Reports the team's findings on chess players and musicians without naming a source in the cluster; it is a news retelling of the study."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Names the finding of about one-third of variance without presenting data."
+      },
+      {
+        "id": "page-16",
+        "title": "It is said you need 10,000 hours to master a skill. If you spend 3 ...",
+        "url": "https://www.quora.com/It-is-said-you-need-10-000-hours-to-master-a-skill-If-you-spend-3-hours-a-day-acquiring-a-skill-how-many-days-does-it-take-to-spend-10-000-hours-at-it",
+        "domain": "quora.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "In the book Outliers, author Malcolm Gladwell claims that it takes roughly ten thousand hours of practice to achieve mastery in a field. However",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "Quora snippet restating Gladwell's claim from Outliers; it is partial and undated."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-17",
+        "title": "Here's Why You Don't Need 10,000 Hours to Master Something",
+        "url": "https://www.scienceofpeople.com/10000-hours-rule",
+        "domain": "scienceofpeople.com",
+        "publishedDate": "2024-12-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scienceofpeople.com/apple-touch-icon.webp",
+        "text": "Science of People # Here's Why You Don't Need 10,000 Hours to Master Something Looking to master a new skill? You've probably heard you need to put in 10,000 hours of practice first. This idea, popularized by Malcolm Gladwell's book... Looking to master a new skill? You’ve probably heard you need to put in 10,000 hours of practice first. This idea, popularized by Malcolm Gladwell’s book Outliers1 has become the go-to number for any skills-based learning, from playing the guitar to becoming a world-class public speaker. But here’s the good news: the 10,000-hour rule isn’t a rule at all. In fact, research suggests you can achieve mastery in far less time—if you practice the right way! Let’s dive in. ## What is the 10,000-Hour Rule? [...] However, the original research behind this “rule” has been largely misunderstood and oversimplified, as it focused specifically on young violinists at an elite music academy. So how does skill acquisition and mastery actually work more universally? ## The Science Behind the Myth The 10,000-hour rule, before Malcolm Gladwell popularized it, was originally based on a 1993 study2 of elite violin players at the Music Academy of West Berlin. The researchers split the participants into three groups based on skill level and asked them to retrospectively estimate weekly hours of practice since they first took up the violin. This weekly estimate was then multiplied by weeks in a year and summed across years to produce an estimate of total accumulated hours of practice.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Retells the 1993 study and the Gladwell popularization, citing sources outside the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No original data."
+      },
+      {
+        "id": "page-18",
+        "title": "The 10000 Hour Rule: How Deliberate Practice Actually Builds Mastery",
+        "url": "https://www.leapaheadapp.com/en/blog/10000-hour-rule-2",
+        "domain": "leapaheadapp.com",
+        "publishedDate": "2026-06-03",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.leapaheadapp.com/favicon.ico",
+        "text": "LeapAheadLeapAhead Log in # The 10000 Hour Rule: How Deliberate Practice Actually Builds Mastery The 10000 hour rule states that achieving world-class expertise in any field requires roughly 10,000 hours of practice. However, simply logging time guarantees nothing. True mastery demands deliberate practice: intense focus, immediate feedback, and constantly pushing past your current limits to build highly specialized skills. The LeapAhead Team The LeapAhead Team June 3, 2026 An illustration of a person building mastery by actively tuning the gears of a giant clock, representing the 10000 hour rule and deliberate practice. [...] Does it literally take exactly 10,000 hours? No. In highly structured fields like classical music, chess, or gymnastics—where the rules are fixed and the path to mastery is centuries old—it might take exactly that. In newer or more chaotic fields, like digital marketing or software entrepreneurship, the rules change so fast that a strict hour count means less than adaptability. Genetics and natural talent also play a role. You cannot practice your way to being seven feet tall for the NBA. But talent only dictates your starting line and your absolute physical ceiling. Everything in between is dictated by deliberate practice.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Generic explainer with no sources or original data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "None."
+      },
+      {
+        "id": "page-19",
+        "title": "The Science Behind the 10,000 Hour Rule: Achieving Mastery in Anything",
+        "url": "https://www.listenmoneymatters.com/the-10000-hour-rule",
+        "domain": "listenmoneymatters.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.listenmoneymatters.com/apple-touch-icon.png?v=20200107",
+        "text": "10,000 hours is around 20 hours per week for ten years. Ten years is a long time but 20 hours a week isn’t so bad, especially when you consider the average American watches five hours of television a day. ## Does it really take 10,000 hours to master something? The problem with the popularity of this 10,000 hours idea is that it’s often misunderstood as “any 10,000 hours” spent on your skill or craft. But not all practice is the same: there’s a big difference between mindless repetition and what scientists call deliberate practice. A fascinating exception to the 10,000-hour rule is Magnus Carlsen, the youngest chess player ever to reach a number one world ranking. [...] The rule is based on research into the abilities of top performers in various fields like mathematics, chess, tennis, swimming, and music. The research shows that the overwhelming majority of experts who reach the top of their fields (for instance, chess grandmasters or great composers) have spent a minimum of ten years acquiring and honing their skills. The few exceptions to this rule are found to hit their expert status in year eight or nine of their careers—not far short of the average. So being a prodigy with a “gawd-given” talent is just a myth. Only one who devotes himself to a cause with his whole strength and soul can be a true master. For this reason, mastery demands all of a person.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Undated explainer restating the research in general terms, with a Carlsen example."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data."
+      },
+      {
+        "id": "page-20",
+        "title": "10,000 Hours May Not Make a Master After All - TIME",
+        "url": "https://time.com/archive/7136098/10000-hours-may-not-make-a-master-after-all",
+        "domain": "time.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://time.com/favicon/favicon-16x16.png",
+        "text": "# 10,000 Hours May Not Make a Master After All There are many roads to greatness, but logging 10,000 hours of practice to help you perfect a skill may not be sufficient. more Based on research suggesting that practice is the essence of genius, best-selling author Malcolm Gladwell popularized the idea that 10,000 hours of appropriately guided practice was “the magic number of greatness,” regardless of a person’s natural aptitude. With enough practice, he claimed in his book Outliers, anyone could achieve a level of proficiency that would rival that of a professional. It was just a matter of putting in the time. [...] But in the years since Gladwell first pushed the “10,000-hours rule,” researchers have engaged in a spirited debate over what that rule entails. It’s clear that not just any practice, but only dedicated and intensive honing of skills that counts. And is there magic in that 10,000th hour?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "TIME article restating Gladwell's claim and the research debate; undated, and the only shared phrase is a stock quote."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data in the passage."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "It takes 10,000 hours to master a skill (Gladwell's rule affirmed)",
+        "pageIds": [
+          "page-7",
+          "page-9",
+          "page-12",
+          "page-16"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "10,000-hour rule is a myth: practice explains limited variance and hours needed vary widel",
+        "pageIds": [
+          "page-1",
+          "page-4",
+          "page-8",
+          "page-11",
+          "page-14",
+          "page-15",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Rule misrepresents Ericsson's research: quality of deliberate practice matters more than h",
+        "pageIds": [
+          "page-2",
+          "page-3",
+          "page-6",
+          "page-13",
+          "page-18",
+          "page-19"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "Skills can be learned or mastered in far less than 10,000 hours",
+        "pageIds": [
+          "page-5",
+          "page-10",
+          "page-17"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-3",
+      "page-4",
+      "page-6",
+      "page-13"
+    ],
+    "verifiableRoots": [
+      "page-3",
+      "page-6",
+      "page-13"
+    ],
+    "answerSourceIds": [
+      "page-3",
+      "page-6",
+      "page-13",
+      "page-4"
+    ],
+    "answerStatements": [
+      {
+        "text": "The \"10,000-hour rule\" was popularized by Malcolm Gladwell's book Outliers, based on Anders Ericsson's 1993 research on violin students, which found top performers had accumulated roughly 10,000 hours (about 10 years) of deliberate practice",
+        "sourceIds": [
+          "page-3",
+          "page-6",
+          "page-13"
+        ]
+      },
+      {
+        "text": "Ericsson himself said it is misleading to think that anyone who spends 10,000 hours doing anything will become world-class; the practice must be purposeful, deliberate practice",
+        "sourceIds": [
+          "page-6"
+        ]
+      },
+      {
+        "text": "Ericsson's later work indicates the rule may give a wrong impression and is not as simple as it is popularly stated",
+        "sourceIds": [
+          "page-13"
+        ]
+      },
+      {
+        "text": "The origin pages do not support 10,000 hours as a universal threshold for mastery: it applies only to deliberate practice, and a study of chess players found hours to reach master level ranged from 728 to 16,120",
+        "sourceIds": [
+          "page-4"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "It takes 10,000 hours to master a skill",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 27,
+        "matchingResults": 27,
+        "uniquePagesAdded": 27,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-3",
+          "page-1",
+          "page-4",
+          "page-2",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-16",
+          "page-17",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-3": [
+            "tavily",
+            "perplexity"
+          ],
+          "page-1": [
+            "brave",
+            "parallel",
+            "tavily",
+            "perplexity"
+          ],
+          "page-4": [
+            "parallel",
+            "perplexity"
+          ],
+          "page-2": [
+            "perplexity",
+            "parallel",
+            "brave"
+          ],
+          "page-9": [
+            "tavily",
+            "brave"
+          ],
+          "page-10": [
+            "parallel",
+            "perplexity"
+          ],
+          "page-11": [
+            "perplexity",
+            "parallel"
+          ],
+          "page-16": [
+            "tavily"
+          ],
+          "page-17": [
+            "brave"
+          ],
+          "page-18": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"10,000 hours to master\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 28,
+        "uniquePagesAdded": 15,
+        "router": "telem",
+        "providers": [
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-5",
+          "page-12",
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-5": [
+            "perplexity"
+          ],
+          "page-12": [
+            "parallel"
+          ],
+          "page-19": [
+            "brave"
+          ]
+        }
+      },
+      {
+        "query": "\"It takes 10,000 hours to master a skill\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 32,
+        "matchingResults": 32,
+        "uniquePagesAdded": 10,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-6"
+        ],
+        "pageProviders": {
+          "page-6": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "takes 10,000 hours master skill fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 45,
+        "matchingResults": 42,
+        "uniquePagesAdded": 22,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-7",
+          "page-8",
+          "page-13",
+          "page-14",
+          "page-15",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-7": [
+            "parallel"
+          ],
+          "page-8": [
+            "perplexity"
+          ],
+          "page-13": [
+            "exa"
+          ],
+          "page-14": [
+            "parallel"
+          ],
+          "page-15": [
+            "perplexity"
+          ],
+          "page-20": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "takes 10,000 hours master skill study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 25,
+        "uniquePagesAdded": 7,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "takes 10,000 hours master skill original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 10,000 hours master skill according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 10,000 hours master skill study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 10,000 hours master skill evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 5,
+      "verifiableOrigins": 3,
+      "echoPercentage": 5
+    },
+    "answer": "The \"10,000-hour rule\" was popularized by Malcolm Gladwell's book Outliers, based on Anders Ericsson's 1993 research on violin students, which found top performers had accumulated roughly 10,000 hours (about 10 years) of deliberate practice [1] [2] [3]. Ericsson himself said it is misleading to think that anyone who spends 10,000 hours doing anything will become world-class; the practice must be purposeful, deliberate practice [2]. Ericsson's later work indicates the rule may give a wrong impression and is not as simple as it is popularly stated [3]. The origin pages do not support 10,000 hours as a universal threshold for mastery: it applies only to deliberate practice, and a study of chess players found hours to reach master level ranged from 728 to 16,120 [4].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7450,
+          "outputTokens": 852,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.02342
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 12812,
+          "outputTokens": 2527,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.050894
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 3041,
+          "outputTokens": 337,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.009452
+        }
+      ],
+      "stageMs": {
+        "search": 5572,
+        "extract": 2921,
+        "grouping": 6871,
+        "judgment": 15931,
+        "answer": 3266,
+        "total": 34561
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "exa": 2,
+          "tavily": 3,
+          "brave": 5,
+          "parallel": 4,
+          "perplexity": 5
+        }
+      },
+      "usd": {
+        "claude": 0.083766,
+        "tavily": 0.032,
+        "telem": 0.099,
+        "total": 0.214766
+      }
+    }
+  }
+}

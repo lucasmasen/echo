@@ -1,0 +1,616 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:10:08.149Z",
+  "analysis": {
+    "claim": "The average person spends 2.5 hours a day on social media",
+    "createdAt": "2026-11-14T21:10:08.149Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "What's the average time spent on social media each day?",
+        "url": "https://soax.com/research/time-spent-on-social-media",
+        "domain": "soax.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://soax.com/apple-icon.png?0b94f258eb633b8b",
+        "text": "NEW Change proxy rules without touching your code with stateful sessions ➔ Read more SOAX Log in Sign up Log in Sign up # What is the average time spent on social media each day? By: Robin Geuens Last updated: May 20, 2025 Fact checked Cite this research SOAX. (2024, September 5). What's the average time spent on social media each day? SOAX. Research highlights: On average, people spend about 143 minutes (that's 2 hours and 23 minutes) on social media every day. That's almost 2.5 hours per day spent scrolling through different platforms. Teenagers are the biggest users, especially teenage girls, who spend nearly 3 hours a day on social media. [...] In 2024, people spent about 5.3% less time on social media compared to 2023, averaging 143 minutes a day From 2013 to 2024, the daily time on social media jumped from 90 minutes to 143 minutes, which is an increase of 53 minutes overall The biggest jump in social media use happened in 2016, with a 15.32% rise, making the daily average 128 minutes In 2020 and 2021, the time people spent on social media didn't change at all, staying steady at 145 minutes a day From 2012 to 2019, there was a steady increase in social media use, going up by about 4.42 minutes per day each year Social media use hit its highest in 2023 at 151 minutes a day, while the lowest was back in 2012 at 90 minutes a day, showing a 67.78% increase over that time | | | | --- | Year | Minutes / day | Change |",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "SOAX presents its own compilation of 143 minutes/day with a year-by-year trend, but the underlying source is unnamed and the page has no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Gives figures and trends without raw data or a named survey method in the passage."
+      },
+      {
+        "id": "page-3",
+        "title": "What Could You Do In 2.5 Hours? | We Are Adventurers",
+        "url": "https://weareadventurers.co.uk/what-can-you-do-in-2-hours",
+        "domain": "weareadventurers.co.uk",
+        "publishedDate": "2020-02-14",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://weareadventurers.co.uk/wp-content/uploads/Untitled-design-2026-04-13T140809.033-150x150.png",
+        "text": "We Are Adventures Menu ### Where adventure and Forest School go hand in hand Menu ### Holiday Clubs Menu ### Personalised adventure experiences Menu ### School trips and overnight camps Menu ### Programmes of outdoor learning Menu ### Outdoor activities # What Could You Do In 2.5 Hours? ## Book Now Book Online What Could You Do In 2.5 Hours? A close up of a woodland outdoor play area. According to research, we now spend more than 2.5 hours a day looking at our smartphones. The team at WAA did the maths and worked out that this equates to 38 days of the year – which got us thinking about what you could do with all that extra time if you just switched off. [...] The link between spending too much time online being harmful to our mental and physical health is well documented. In Manchester, teachers and families have raised concerns about what feels like a growing epidemic of school children suffering from mental health issues as a result of social media. Whatever your age, stepping away from smartphones and screens gives us an endless amount of benefits to our physical and mental health. A recent study found that spending just two hours a day in nature is just as important as getting your five a day. So, it’s time to put down the tablets, get outside and test your abilities. Here’s some inspiration of what you can achieve in 2.5 hours. (ALMOST) FREE TO DO A Family Walk",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Says 'according to research' without naming it, and only does the maths for 38 days a year; the claim concerns smartphones, not social media."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Vague research reference with no data."
+      },
+      {
+        "id": "page-4",
+        "title": "Managing Election Anxiety May Mean Less Time on Social ...",
+        "url": "https://www.cmu.edu/dietrich/news/news-stories/2024/election-anxiety",
+        "domain": "cmu.edu",
+        "publishedDate": "2025-12-11",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.cmu.edu/themes/custom/cmu_base/favicon.ico",
+        "text": "## Can legislation help ease election anxieties? Sen. John Fetterman, D-Pa., together with Sen. Katie Britt, R-Ala., recently introduced legislation to create mental health warning label requirements for social media platforms. The bipartisan Stop the Scroll Act would ensure users are aware of the potential mental health risks associated with social media use. The average person spends 2.5 hours a day on social media. According to this year’s American Psychiatric Association’s annual mental health poll, adults in the U.S. are feeling increasingly anxious, with 73% of those surveyed saying they feel particularly anxious about the election. [...] “You really can’t get away from it,” said Sean Burke, vice president of a healthcare startup who is pursuing a master’s degree in public management at Carnegie Mellon University. “Even if I try to stay off of political subreddits, I can’t watch a video on Youtube without seeing ads for both candidates. You truly have to be in the woods offline if you want to avoid it.” It can be challenging to break away from the screens, in part because social media is designed to keep users engaged and online.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "States the 2.5 hours figure in passing with no source and no supporting data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The figure is a bare assertion."
+      },
+      {
+        "id": "page-5",
+        "title": "Digital 2026: Insights and trends about online behavior worldwide",
+        "url": "https://www.meltwater.com/en/press-releases/digital-2026-internet-users-pass-6-billion-social-media-users-become-supermajority-and-ai-use-tops-1-billion",
+        "domain": "meltwater.com",
+        "publishedDate": "2025-10-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.meltwater.com/apple-touch-icon.png?v=Nmb79JPw70",
+        "text": "The battle for attention While user numbers continue to climb, how people spend their time is changing. The typical internet user spends more than 2.5 hours per day on social and video platforms, with ‘filling spare time’ now ranking as the second-biggest motivation for using social media, behind ‘keeping in touch with friends and family’. When it comes to which platforms are winning this battle for attention, Similarweb data shows YouTube has the largest number of active app users, almost 50 percent more than fifth-placed TikTok. However, the typical TikTok user spends an average of 1 hour and 37 minutes per day using the platform’s Android app, significantly more than any other social platform. Social media now the top channel for brand discovery [...] Social media ads are now the number one source of brand discovery for internet users aged 16 to 34, ahead of search engines and TV ads. Women aged 16 to 24 now spend an average of 3 hours and 40 minutes per day on social and video platforms, the most of any demographic. The typical social media user now uses an average of 6.75 different social platforms each month. And from the wider digital ecosystem:",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Meltwater's Digital 2026 report summarises its own report with Similarweb data and demographic detail; it is the report's own publisher."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Presents report findings with specific figures from the organization's own report."
+      },
+      {
+        "id": "page-6",
+        "title": "Time scrolling social media exceeds eating, exercising, new study shows | RNZ News",
+        "url": "https://www.rnz.co.nz/news/national/532833/time-scrolling-social-media-exceeds-eating-exercising-new-study-shows",
+        "domain": "rnz.co.nz",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.rnz.co.nz/_next/static/media/apple-touch-icon.3fb10969.png",
+        "text": "Those surveyed spent an average of two and a half hours a day on the platforms. Study participants showed signs of addiction, reporting being subconsciously drawn to using social media. Audio player for \"More time spent on social media than eating and exercising - study \" removed for printing Visit page to play audio: ## More time spent on social media than eating and exercising - study University of Canterbury lecturer Kseniia Zahrai spoke to Checkpoint's Lisa Owen and said many people underestimate time spent on the platforms. \"The average user spends around 2.5 hours on social media daily. \"This amount of time might not sound like much, but it adds up to 37 days, more than one month spent nonstop on social media per year.\" [...] For young people across Aotearoa, that number is significantly higher, often seven or eight hours per day. \"There were many other stories telling [us] that [some] some social media users are spending more than 10 hours per day. \"This use has consequences, and there are many studies showing that excessive use of social media can lead to anxiety, depression, low self-esteem and distorted perception of self and others.\" There is also a physical danger. For example, drivers who don't put their phones down behind the wheel. \"There were different cases that our participants shared. \"One of them said that they had a situation when they were driving in a rural area ... they received a push notification and they reached to their phone, there was a big animal crossing the road. A deer.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "RNZ interviews University of Canterbury lecturer Kseniia Zahrai, who gives the 2.5-hour figure and the 37-days-a-year calculation; no date is given."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "An expert quote and a survey summary, with no inspectable data."
+      },
+      {
+        "id": "page-7",
+        "title": "30+ Average Screen Time Statistics for 2026",
+        "url": "https://www.slicktext.com/blog/2023/01/30-key-screen-time-statistics-for-2022-2023",
+        "domain": "slicktext.com",
+        "publishedDate": "2023-01-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.slicktext.com/images/favicon.ico",
+        "text": "## Average Time Spent on Social Media Apps Per Day As of 2026, the average person spends about 2.5 hours per day on social media, with time spent continuing to grow across video-first and messaging platforms. TikTok: 1 hour 37 minutes YouTube: 1 hour 25 minutes Instagram: 1 hour 13 minutes Facebook: 1 hour 7 minutes WhatsApp: 59 minutes imo: 53 minutes Telegram: 30 minutes X (formerly Twitter): 28 minutes Reddit: 19 minutes Messenger: 19 minutes Snapchat: 17 minutes Discord: 15 minutes Pinterest: 10 minutes LinkedIn: 6 minutes Threads: 4 minutes ## Average Time Spent on Streaming Services Per Day [...] ## Average Screen Time Statistics: Key Findings Children ages 8–18 spend about 7.5 hours per day using screens for entertainment. U.S. adults commonly spend about 4 to 5 hours per day on their phones. Global online adults spend about 18 hours and 36 minutes per week on social and video feeds. TikTok users spend about 1 hour and 37 minutes per day on the app. Too much screen time can contribute to sleep problems, lower physical activity, mood issues, and reduced time with family and friends. ## Average Screen Time By Age ### How much screen time is recommended for kids? Screens are more ubiquitous than ever, and average screen time by age reflects that. While many people look for a single “right” number, screen time recommendations actually vary by age and situation.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Lists app-by-app times and the 2.5-hour claim without naming a source; the figures look compiled from an outside report."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Statistics are given with no underlying data or method shown."
+      },
+      {
+        "id": "page-8",
+        "title": "2.5 hours a day. 📱 A recent study suggests that spending ...",
+        "url": "https://www.instagram.com/p/Dc8ScXANkaU",
+        "domain": "instagram.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "A recent study suggests that spending around 2.5 hours on social media every day could be considered “too much.” Do you think this is too",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Search snippet only; it refers vaguely to 'a recent study' with no details."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-13",
+        "title": "'It's a waste of life!': Guardian readers on spending 2.5 hours a day on their phones | Life and style | The Guardian",
+        "url": "https://www.theguardian.com/lifeandstyle/2019/aug/26/guardian-readers-spend-25-hours-phone-screen-time",
+        "domain": "theguardian.com",
+        "publishedDate": "2019-08-26",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2019/aug/26",
+        "extractionSource": "Page HTML",
+        "text": "How long did they spend on their phone everyday? Did they think they controlled their phones, or that the phone controlled them? We received 500 responses and did the math: the average Guardian reader seems to spend two and a half hours staring at a screen each day. Among the lowest times is John, from Derby, who said his screen time average is a puny two minutes. He’d swap the time to boil an egg, instead he said, though “it would be a very soft one”. On the other end of the spectrum, some readers wrote to say they spent between eight and 10 hours a day (!) on their phone.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "The Guardian ran its own reader survey of 500 responses and calculated a 2.5-hour average, a different population and device (phones)."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Its own survey of 500 reader responses with the averages computed."
+      },
+      {
+        "id": "page-16",
+        "title": "Digital Addiction",
+        "url": "https://doi.org/10.3386/w28936",
+        "domain": "doi.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.doi.org/images/favicons/apple-touch-icon.png",
+        "text": "Hunt Allcott Microsoft Research 1 Memorial Drive Cambridge, MA 02142 and NBER allcott@post.harvard.edu Matthew Gentzkow Department of Economics Stanford University 579 Jane Stanford Way Stanford, CA 94305 and NBER gentzkow@stanford.edu Lena Song New York University lena.song@nyu.edu A online appendix is available at 1 Introduction Digital technologies occupy a large and growing share of leisure time for people around the world. The average person with internet access spends 2.5 hours each day on social media, and there are now 3.8 billion social media users (Kemp 2020). In a 57-country survey, people now say they spend more time consuming online media than they do watching television (Zenith Media 2019). Americans check their smartphones 50 to 80 times each day (Deloitte 2018; Vox 2020; [...] Table 2 also shows that the average participant had 333 minutes per day of screen time during the baseline period, of which 153 minutes (46 percent) was on FITSBY apps. Different sources report very different estimates of average social media use and smartphone screen time for U.S. adults, so we do not report nationwide averages in the table. Kemp (2020) reports that internet users in the U.S. and worldwide, respectively, spend an average of 123 and 144 minutes per day on social media, mostly on mobile devices. Wurmser (2020) and Brown (2019) report national averages of 186 and 324 minutes of total smartphone screen time per day, respectively. The comparisons suggest that the heavy use in our sample may not be far from the national average.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "The academic paper cites Kemp 2020 for the 2.5-hour figure, and Kemp is not in the cluster; the page has no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The 2.5-hour figure is cited from Kemp rather than shown as data here, though the paper reports its own participant data."
+      },
+      {
+        "id": "page-17",
+        "title": "Time Spent On Social Media Statistics | Fact-Checked 2026",
+        "url": "https://wifitalents.com/time-spent-on-social-media-statistics",
+        "domain": "wifitalents.com",
+        "publishedDate": "2026-02-12",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://wifitalents.com/favicon.ico?favicon.0ipggpcw~2z9q.ico",
+        "text": "Key statistics 15 highlights from this report 16% of global internet users’ time is spent on social media (time-share metric reported for 2024). 2.5 hours is the average time spent daily on social media in the United Kingdom (2024). 2.3 hours is the average time spent daily on social media in India (2024). In the US, 41% of adults say social media has a positive impact on their social life (Pew Research Center, 2023). In the UK, 24% of social media users report feeling more anxious because of social media “often” or “sometimes” (Ofcom, 2022). US adolescents who spent more than 3 hours a day on social media had higher odds of experiencing mental health issues in a 2019 cross-sectional study (odds reported in the paper; time-use threshold). [...] ## Global Time Use Statistic 1 2.5 hours per day is the average time spent on social media among internet users in the Philippines (2024)(#footnote-1) Statistic 2 2.6 hours per day is the average time spent on social media among internet users in Mexico (2024)(#footnote-1) Statistic 3 3.1 hours per day is the average time spent on social media among internet users in Canada (2024)(#footnote-1) Statistic 4 3.0 hours per day is the average time spent on social media among internet users in Italy (2024)(#footnote-1) Statistic 5 3.2 hours per day is the average time spent on social media among internet users in Spain (2024)(#footnote-1) Statistic 6 2.4 hours per day is the average time spent on social media among internet users in Nigeria (2024)(#footnote-1)",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "An aggregator of country-level statistics with footnotes and no passage-level data or method."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Lists statistics without the underlying data."
+      },
+      {
+        "id": "page-18",
+        "title": "How many years does a typical user spend on social media? | Infographic News | Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2023/6/30/how-many-years-does-a-typical-user-spend-on-social-media",
+        "domain": "aljazeera.com",
+        "publishedDate": "2023-06-30",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.aljazeera.com/favicon_aje.ico",
+        "text": "Launched in 2005, YouTube has an impressive audience of 2.51 billion users, which makes it the second largest social media app. As of February, the most popular YouTube video was Baby Shark Dance, which is closing in on 13 billion views. WhatsApp and Instagram rank third and fourth with 2 billion users each. WhatsApp was founded in 2009 and has quickly become a popular messaging app globally while Instagram has become popular for its photo and video sharing. It is popular among social media influencers and their followers. Advertisement ## How much time on average does a person spend on social media? The typical user spends about 2.5 hours per day on social media, according to DataReportal. [...] Live Live News|Infographic # How many years does a typical user spend on social media? Nearly 60 percent of the world uses social media, and the typical user spends more than two hours a day on it. Save Share By Marium Ali and AJLabs Published On 30 Jun 202330 Jun 2023 With 4.8 billion users every day, social media is an integral part of our world and the main way we stay connected. On June 30 every year, Social Media Day is celebrated. The day was established in 2010 to acknowledge the impact of social media on global communication. MySpace was the first social platform to reach 1 million active monthly users in 2004, paving the way for social media as we know it.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "Attributes the 2.5 hours/day figure to DataReportal, which is not in the cluster, and adds nothing of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Names a report and states its number without the supporting data."
+      },
+      {
+        "id": "page-19",
+        "title": "46+ Shocking Social Media Addiction Statistics (2026)",
+        "url": "https://headphonesaddict.com/social-media-addiction-statistics",
+        "domain": "headphonesaddict.com",
+        "publishedDate": "2022-11-16",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://headphonesaddict.com/favicon.ico",
+        "text": "#### On average, people spend 2.5 hours per day using social media. Or 2 hours and 31 minutes, to be exact. That’s a year-on-year increase of 1.4% or extra 2 minutes of social media use compared to the previous year. (Datareportal 3) ### Social media addiction demographics #### With 45%, women report a higher percentage of social media addiction. Self-reported social media addiction by gender Self-reported social media addiction by gender Here’s a table of self-reported social media addiction by gender: | Gender | Somewhat addicted to social media | Certainly addicted to social media | --- | Women | 34% | 11% | | Men | 26% | 7% | | In total | 30% | 9% | #### Hispanics and Whites are the most certain they are addicted to social media. [...] Daily time spent on social media Daily time spent on social media Here’s the table of time spent on social media based on age group and gender: | Age group | Women | Men | --- | 16-24 | 3h 11min | 2h 46min | | 25-34 | 2h 56min | 2h 42min | | 35-44 | 2h 33min | 2h 19min | | 45-54 | 2h 8min | 1h 58min | | 55-64 | 1h 40min | 1h 38min | #### On the other hand, females from the 25-34 age group spend the most (40%) of their total online time on social media. Share of social media screentime compared to total online time: | Age group | Women | Men | --- | 16-24 | 42.6% | 38.7% | | 25-34 | 41.1% | 38.9% | | 35-44 | 39.2% | 36.1% | | 45-54 | 35.2% | 33.3% | | 55-64 | 31.3% | 31.3% | Female users spend more time than males on social media across all age groups.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Cites Datareportal for the 2h31m figure and adds nothing of its own; Datareportal is not in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Restates Datareportal numbers without access to the underlying data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Average person spends about 2.5 hours a day on social media",
+        "pageIds": [
+          "page-1",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-16",
+          "page-18",
+          "page-19"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Social media time of 2.5 hours/day in specific populations (UK average, Guardian readers)",
+        "pageIds": [
+          "page-13",
+          "page-17"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Study says ~2.5 hours daily social media use is too much",
+        "pageIds": [
+          "page-8"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "Average person spends 2.5 hours a day on smartphones",
+        "pageIds": [
+          "page-3"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-5",
+      "page-6",
+      "page-13"
+    ],
+    "verifiableRoots": [
+      "page-5",
+      "page-13"
+    ],
+    "answerSourceIds": [
+      "page-5",
+      "page-13"
+    ],
+    "answerStatements": [
+      {
+        "text": "Digital 2026 reports that the typical internet user spends more than 2.5 hours per day on social and video platforms, which broadly supports the claim for internet users, though the figure covers social and video platforms combined",
+        "sourceIds": [
+          "page-5"
+        ]
+      },
+      {
+        "text": "The figure describes the typical internet user, not the average person overall, and it varies by group: women aged 16 to 24 spend an average of 3 hours 40 minutes per day on social and video platforms",
+        "sourceIds": [
+          "page-5"
+        ]
+      },
+      {
+        "text": "The Guardian's 2.5-hour figure refers to phone screen time among about 500 Guardian readers, not social media use, so it does not support the claim",
+        "sourceIds": [
+          "page-13"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "The average person spends 2.5 hours a day on social media",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 31,
+        "matchingResults": 16,
+        "uniquePagesAdded": 15,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-5",
+          "page-1",
+          "page-6",
+          "page-7",
+          "page-18",
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-5": [
+            "exa"
+          ],
+          "page-1": [
+            "brave",
+            "perplexity",
+            "exa"
+          ],
+          "page-6": [
+            "parallel"
+          ],
+          "page-7": [
+            "perplexity"
+          ],
+          "page-18": [
+            "exa",
+            "brave"
+          ],
+          "page-19": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"2.5 hours a day\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 37,
+        "matchingResults": 32,
+        "uniquePagesAdded": 32,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-8",
+          "page-3",
+          "page-13"
+        ],
+        "pageProviders": {
+          "page-8": [
+            "tavily"
+          ],
+          "page-3": [
+            "brave",
+            "exa"
+          ],
+          "page-13": [
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "\"The average person spends 2.5 hours a day on social media\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 26,
+        "matchingResults": 15,
+        "uniquePagesAdded": 13,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "exa",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-4"
+        ],
+        "pageProviders": {
+          "page-4": [
+            "perplexity",
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "average person spends 2.5 hours day social media fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 37,
+        "matchingResults": 17,
+        "uniquePagesAdded": 9,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-16",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-16": [
+            "exa"
+          ],
+          "page-17": [
+            "brave"
+          ]
+        }
+      },
+      {
+        "query": "average person spends 2.5 hours day social media study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 27,
+        "matchingResults": 11,
+        "uniquePagesAdded": 6,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "parallel"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "average person spends 2.5 hours day social media original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "average person spends 2.5 hours day social media according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "average person spends 2.5 hours day social media study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"average person spends 2.5\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "average person spends 2.5 hours day social media evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 8,
+    "summary": {
+      "totalPages": 12,
+      "independentOrigins": 4,
+      "verifiableOrigins": 2,
+      "echoPercentage": 0
+    },
+    "answer": "Digital 2026 reports that the typical internet user spends more than 2.5 hours per day on social and video platforms, which broadly supports the claim for internet users, though the figure covers social and video platforms combined [1]. The figure describes the typical internet user, not the average person overall, and it varies by group: women aged 16 to 24 spend an average of 3 hours 40 minutes per day on social and video platforms [1]. The Guardian's 2.5-hour figure refers to phone screen time among about 500 Guardian readers, not social media use, so it does not support the claim [2].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 6797,
+          "outputTokens": 485,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.018444
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 8701,
+          "outputTokens": 1650,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.033902
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2351,
+          "outputTokens": 241,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.007112
+        }
+      ],
+      "stageMs": {
+        "search": 5217,
+        "extract": 5723,
+        "grouping": 3461,
+        "judgment": 10679,
+        "answer": 2990,
+        "total": 28071
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "exa": 4,
+          "tavily": 3,
+          "brave": 4,
+          "parallel": 4,
+          "perplexity": 5
+        }
+      },
+      "usd": {
+        "claude": 0.059458,
+        "tavily": 0.032,
+        "telem": 0.124,
+        "total": 0.215458
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+/* "Check these sources" (source-check.tsx): the paste panel under the claim box and the headline over its result. */
+.panel { margin-top: 14px; padding: 16px 18px 14px; border: 1px solid #e4ebe5; border-radius: 12px; background: rgba(255, 255, 252, 0.92); box-shadow: var(--shadow); }
+.head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.label { display: flex; align-items: center; gap: 10px; margin: 0; color: #647871; font-size: 9px; font-weight: 750; letter-spacing: 1.35px; }
+.label span:first-child { color: #99aca0; font-variant-numeric: tabular-nums; }
+.close { border: 0; background: none; color: var(--muted); font-size: 18px; line-height: 1; cursor: pointer; }
+.note { margin: 8px 0 0; color: #62736d; font-size: 12px; line-height: 1.55; }
+.fieldRow { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.example { margin: 12px 0 6px; padding: 0; border: 0; background: none; color: var(--teal-deep); font-size: 11px; font-weight: 650; cursor: pointer; }
+.example:hover:not(:disabled) { text-decoration: underline; }
+.example:disabled { color: var(--muted); cursor: default; }
+/* Try an example and the saved check sit together at the right of the "Answer or links" label. */
+.fieldActions { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: flex-end; column-gap: 14px; }
+.savedCheck { padding: 2px 8px; border: 1px dashed #b9cbbf; border-radius: 999px; background: #fafbf8; }
+.savedCheck:hover:not(:disabled) { border-color: #87ada2; }
+.fieldLabel { display: block; margin: 12px 0 6px; color: #647871; font-size: 10px; font-weight: 700; }
+.text { display: block; width: 100%; min-height: 84px; padding: 10px 12px; resize: vertical; color: #223d39; border: 1px solid #dfe8e1; border-radius: 7px; outline: none; background: #fbfcf9; font: inherit; font-size: 12px; line-height: 1.5; }
+.text:focus, .claim:focus { border-color: #87ada2; box-shadow: 0 0 0 3px rgba(77, 137, 130, 0.11); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; padding: 0; list-style: none; }
+.chip { display: inline-flex; align-items: center; gap: 4px; max-width: 100%; min-height: 26px; padding: 0 4px 0 9px; color: #30524e; border: 1px solid #d6e4da; border-radius: 13px; background: #f2f8f2; font-size: 11px; }
+.number { flex: 0 0 auto; color: var(--teal-deep); font-weight: 750; font-variant-numeric: tabular-nums; }
+.chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chip button { flex: 0 0 auto; width: 20px; height: 20px; border: 0; border-radius: 50%; background: none; color: #6f857c; font-size: 14px; line-height: 1; cursor: pointer; }
+.chip button:hover:not(:disabled) { background: #e2eee5; color: var(--ink); }
+/* A link Echo will not read (private or local address, username or password): a warning chip with a short note. */
+.chipWarn { color: #7a5a2c; border-color: #e3cfa8; border-style: dashed; background: #fcf6ea; }
+.chipWarn .number { color: #987646; }
+.chipNote { flex: 0 1 auto; overflow: hidden; color: #987646; font-size: 10px; font-weight: 650; text-overflow: ellipsis; white-space: nowrap; }
+.empty { margin: 8px 0 0; color: #8b9991; font-size: 11px; }
+.undo { padding: 0; border: 0; background: none; color: var(--teal-deep); font: inherit; font-weight: 700; cursor: pointer; }
+.undo:hover:not(:disabled) { text-decoration: underline; }
+.warn { margin: 8px 0 0; color: #987646; font-size: 11px; line-height: 1.5; }
+.row { display: flex; align-items: stretch; gap: 10px; }
+.claim { width: 100%; min-width: 0; height: 46px; padding: 0 14px; color: #223d39; border: 1px solid #dfe8e1; border-radius: 7px; outline: none; background: #fbfcf9; font-size: 13px; }
+.picked { margin: 6px 0 0; color: #5f7a72; font-size: 11px; }
+.fine { margin: 9px 0 0; color: #84928b; font-size: 10px; line-height: 1.5; }
+
+/* The home page's second action (SourceCheckOpenButton), at the right end of the claim box's label row. */
+.open { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 8px; min-height: 32px; margin: -9px 0 -2px; padding: 0 13px; color: var(--teal-deep); border: 1px solid #c9dcd0; border-radius: 7px; background: #fbfdf9; font-size: 12px; font-weight: 680; letter-spacing: 0; white-space: nowrap; cursor: pointer; transition: border-color 120ms ease, background 120ms ease; }
+.open span { font-size: 13px; }
+.open:hover { border-color: #87ada2; background: #f2f8f2; }
+.open:focus-visible { outline: 2px solid #87ada2; outline-offset: 2px; }
+
+.summary { margin: 14px 0; padding: 16px 20px; border: 1px solid #d6e4da; border-left: 4px solid var(--teal-deep); border-radius: 12px; background: #fbfdf9; }
+.headline { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; margin: 6px 0 0; color: var(--ink); font-size: 22px; font-weight: 720; letter-spacing: -0.4px; }
+.headline small { color: #987646; font-size: 12px; font-weight: 650; letter-spacing: 0; }
+/* The headline at the left, its three tiles at the right (the figures the generic verdict banner showed, in links). */
+.summaryHead { display: flex; align-items: center; justify-content: space-between; gap: 12px 26px; }
+.summaryCopy { min-width: 0; }
+.tiles { display: flex; flex: 0 0 auto; align-items: stretch; border-left: 1px solid rgba(79, 122, 103, .18); }
+.tiles div { min-width: 91px; padding: 2px 17px 0; border-right: 1px solid rgba(79, 122, 103, .18); }
+.tiles div:last-child { border-right: 0; }
+.tiles strong { display: block; color: var(--ink); font-size: 24px; font-weight: 640; letter-spacing: -1.1px; line-height: 1.15; }
+.tiles span { display: block; margin-top: 3px; color: #7a8c82; font-size: 9px; white-space: nowrap; }
+
+.links { display: grid; gap: 3px; margin: 12px 0 0; padding: 10px 12px; list-style: none; border: 1px solid #e4ebe5; border-radius: 8px; background: #fff; font-size: 13px; line-height: 1.45; }
+.links li { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 7px; color: #30524e; }
+.links .number { min-width: 2.2em; }
+.links a { color: var(--ink); font-weight: 650; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.dash { color: #a3b1aa; }
+.verdict { color: #4f625c; }
+.links li[data-status="origin"] .verdict, .links li[data-status="same origin"] .verdict { color: var(--teal-deep); font-weight: 650; }
+.links li[data-status="possible copy"] .verdict, .links li[data-status="unclear"] .verdict { color: #8a6a3c; }
+.links li[data-status="unread"] .verdict, .links li[data-status="off claim"] .verdict { color: #8b9991; font-style: italic; }
+.point { margin: 10px 0 0; color: var(--ink); font-size: 15px; font-weight: 680; line-height: 1.4; }
+/* Which links to cite once (CiteOnce), with Copy and Show as data. */
+.cite { margin: 10px 0 0; padding: 9px 12px; border: 1px dashed #cfdfd3; border-radius: 8px; background: #f6faf4; }
+.citeRow { display: flex; align-items: center; justify-content: space-between; gap: 8px 14px; }
+.citeLine { margin: 0; min-width: 0; color: #2c4a46; font-size: 13px; line-height: 1.5; }
+.citeActions { display: flex; flex: 0 0 auto; gap: 6px; }
+.citeButton { min-height: 26px; padding: 0 10px; color: var(--teal-deep); border: 1px solid #cfe0d4; border-radius: 5px; background: #fff; font-size: 11px; font-weight: 680; white-space: nowrap; cursor: pointer; }
+.citeButton:hover { border-color: #87ada2; background: #f2f8f2; }
+.citeData { margin-top: 8px; }
+.citeData p { margin: 0 0 4px; color: #647871; font-size: 10px; font-weight: 700; }
+.citeData pre { max-height: 260px; margin: 0; padding: 8px 10px; overflow: auto; color: #223d39; border: 1px solid #e4ebe5; border-radius: 6px; background: #fff; font-size: 11px; line-height: 1.5; white-space: pre; }
+
+/* Present slide 1 for a supplied-sources result (StageSourcesClaim): the links are the story, so the claim is smaller
+   than on a search trace's slide 1 and the list takes the room. */
+/* A long claim keeps to three lines (two on a short screen) so the links stay on the slide; the result page has it whole. */
+.stage.stage > h1 { display: -webkit-box; margin: 14px 0 18px; overflow: hidden; font-size: clamp(28px, min(5vw, 7vh), 64px); -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; }
+.stage.stage { padding-top: clamp(12px, 5vh, 56px); }
+.stageEvidence { margin-left: 12px; color: #987646; font-size: .5em; font-weight: 650; letter-spacing: 0; }
+.stageLinks { margin: 14px 0 0; padding: 10px 16px; list-style: none; border: 1px solid #e1e9e0; border-radius: 6px; background: rgba(255, 255, 252, 0.75); font-size: 15px; line-height: 1.55; }
+.stageLinks[data-columns="1"], .stagePoint { max-width: 900px; }
+.stageLinks[data-columns="2"] { column-count: 2; column-gap: 28px; }
+/* One line per link: a long site name is cut short before its verdict is. */
+.stageLinks li { display: flex; align-items: baseline; gap: 7px; min-width: 0; overflow: hidden; color: #30524e; white-space: nowrap; break-inside: avoid; }
+.stageLinks .number { min-width: 2.3em; }
+.stageHost { min-width: 0; overflow: hidden; color: #183331; font-weight: 650; text-overflow: ellipsis; }
+.stageLinks .verdict, .stageLinks .dash { flex: 0 0 auto; }
+.stageLinks li[data-status="origin"] .verdict, .stageLinks li[data-status="same origin"] .verdict { color: var(--teal-deep); font-weight: 650; }
+.stageLinks li[data-status="possible copy"] .verdict, .stageLinks li[data-status="unclear"] .verdict { color: #8a6a3c; }
+.stageLinks li[data-status="unread"] .verdict, .stageLinks li[data-status="off claim"] .verdict { color: #8b9991; font-style: italic; }
+.stageMore { display: none; margin: 4px 0 0; color: #74867b; font-size: 11px; }
+.stagePoint { margin: 14px 0 0; color: #183331; font-size: 19px; font-weight: 680; line-height: 1.35; }
+/* Which links to cite once, under the plain line: one muted line (two at most), the same words as the result page. */
+.stageCite { max-width: 900px; margin: 8px 0 0; padding: 5px 10px; color: #2c4a46; border: 1px dashed #cfdfd3; border-radius: 6px; background: #f6faf4; font-size: 14px; line-height: 1.45; }
+@media (min-height: 900px) {
+  .stageLinks { font-size: 17px; }
+  .stagePoint { font-size: 21px; }
+  .stageCite { font-size: 15px; }
+}
+@media (max-height: 820px) {
+  .stage.stage { padding-top: 1.5vh; }
+  .stage.stage > h1 { margin: 6px 0 10px; -webkit-line-clamp: 2; line-clamp: 2; }
+  .stageLinks { margin-top: 8px; padding: 6px 14px; font-size: 13px; line-height: 1.45; }
+  .stagePoint { margin-top: 8px; font-size: 15px; }
+  .stageCite { margin-top: 6px; padding: 3px 9px; font-size: 12px; }
+}
+@media (max-height: 719px) {
+  .stage.stage { padding-top: 0; }
+  .stage.stage > h1 { margin: 4px 0 8px; }
+  .stageLinks li.stageExtra { display: none; }
+  .stageMore { display: block; }
+}
+@media (max-width: 760px) {
+  .stageLinks[data-columns="2"] { column-count: 1; }
+  .stageLinks li { flex-wrap: wrap; white-space: normal; }
+  /* The tiles go under the headline, and the cite-once buttons under their line. */
+  .summaryHead { align-items: flex-start; flex-direction: column; }
+  .tiles { width: 100%; padding-top: 10px; border-top: 1px solid rgba(79, 122, 103, .18); border-left: 0; }
+  .tiles div { flex: 1; min-width: 0; padding: 2px 10px 0; }
+  .tiles div:first-child { padding-left: 0; }
+  .tiles span { white-space: normal; line-height: 1.4; }
+  .citeRow { align-items: flex-start; flex-direction: column; }
+}
+
+@media (max-width: 640px) {
+  .panel { padding: 14px 13px 12px; }
+  .row { flex-direction: column; }
+  .headline { font-size: 18px; }
+  /* The label row wraps here, so the button takes its own line instead of overlapping the label. */
+  .open { margin: 0; }
+}
+
+/* The printed report's supplied-links section (PrintSourceLinks); the report itself prints only in print (globals.css). */
+@media print {
+  .print { margin-top: 9pt; padding-top: 6pt; border-top: 1px solid #dfe8e0; }
+  .printRead.printRead { color: #333; font-size: 8pt; }
+  .printLinks.printLinks { margin-top: 4pt; padding-left: 0; list-style: none; }
+  .printLinks[data-columns="2"] { column-count: 2; column-gap: 12pt; }
+  .printLinks li small { color: #555; }
+  .printPoint.printPoint { margin-top: 4pt; font-weight: 700; }
+}

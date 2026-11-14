@@ -1,0 +1,636 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-12T07:12:20.186Z",
+  "analysis": {
+    "claim": "Humans use only 10% of their brains",
+    "createdAt": "2026-11-12T07:12:20.184Z",
+    "mode": "live",
+    "claimSlot": "ghost",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "How much of our brain do we actually use? Brain facts and myths",
+        "url": "https://www.medicalnewstoday.com/articles/321060",
+        "domain": "medicalnewstoday.com",
+        "publishedDate": "2018-02-27",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.medicalnewstoday.com/favicon.ico",
+        "text": "A person’s brain determines how they experience the world around them. The brain weighs about 3 pounds and contains around 100 billion neurons — cells that carry information. In this article, we explore how much of the brain a person uses. We also bust some widely held myths and reveal some interesting facts about the brain. ## How much of our brain do we use? Share on Pinterest Studies have debunked the myth that humans use only 10 percent of their brain. According to an older survey from 2013, around 65 percent of Americans believe that we only use 10 percent of our brains. But this is just a myth, according to an interview with neurologist Barry Gordon in Scientific American. He explained that the majority of the brain is almost always active. [...] Quizzes + RA Myths vs Facts + Type 2 Diabetes: Managing Blood Sugar + Ankylosing Spondylitis Pain: Fact or Fiction About Medical News Today + Who We Are + Our Editorial Process + Content Integrity + Conscious Language Find Community + Bezzy Breast Cancer + Bezzy MS + Bezzy Migraine + Bezzy Psoriasis Follow Us # What percentage of our brain do we use? Medically reviewed by Seunggu Han, M.D. — Written by Lana Burgess — Updated on July 17, 2024 The brain is the most complex organ in the human body. Many believe that a person only ever uses 10 percent of their brain. However, research suggests people use most of their brain.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-4",
+          "confidence": 90,
+          "evidence": "Medical News Today names the Scientific American interview with Barry Gordon as its source for the myth debunk."
+        },
+        "citations": [
+          {
+            "pageId": "page-4",
+            "how": "named as source",
+            "quote": "ns believe that we only use 10 percent of our brains. But this is just a myth, according to an interview with neurologist Barry Gordon in Scientific American. He explained that the majority of the brain is almost always"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It only repeats a quoted expert claim and cites studies without showing data."
+      },
+      {
+        "id": "page-2",
+        "title": "The Ten Percent Brain Myth",
+        "url": "https://www.youtube.com/watch?v=VwrdPEdJv9g",
+        "domain": "youtube.com",
+        "publishedDate": "2021-11-15",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Posted: 2021-11-15”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "### Transcript [0:00] (light music) - [Announcer] Have you ever heard that we only use 10% of our brains? Turns out, it's a myth. [0:08] The truth is we use 100% of our brains and they're active all the time even when we're asleep. [0:16] Scientists know this because they can see brain activity on imaging scans called positron emission tomography or PET. [0:24] This is what your brain might look like if only 10% of it were used. But this is how it actually appears in a PET scan. [0:33] What's more, we know that damage to any part of the brain, even a small area, can have large effects. [0:40] If 90% of our brains went unused, that would not happen. So where did the 10% myth come from? [...] # The Ten Percent Brain Myth ## Channel: Dana Foundation 23K subscribers 232 likes ### Description 20,404 views Posted: 2021-11-15 Have you heard that we only use 10% of our brains? It’s a myth! We use 100% of our brains, and they’re active even when we’re asleep. Learn more about how scientists know this and why this myth persists. Connect with us! Website: Facebook: / danafoundation Twitter: / dana_fdn Instagram: / danafoundation LinkedIn: / the-dana-foundation",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "The Dana Foundation video explains PET scans in its own words with no cited or copied cluster pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is an explainer that references imaging but gives no directly inspectable results."
+      },
+      {
+        "id": "page-3",
+        "title": "\"Lucy\" is Wrong; We Use Way More Than 10% of Our Brains | Mind Read | Learn Science at Scitable",
+        "url": "https://www.nature.com/scitable/blog/mind-read/lucy_is_wrong_we_use",
+        "domain": "nature.com",
+        "publishedDate": "2014-07-17",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.nature.com/oscar-static/images/favicons/nature/favicon-48x48-b52890008c.png",
+        "text": "\"It is estimated most human beings only use ten percent of their brain's capacity,\" lectures Professor Norman, played by actor Morgan Freeman, in the trailer for the new thriller Lucy. \"Imagine if we could access 100 percent. Interesting things begin to happen.\" I know I haven't earned my Ph.D. yet, Professor, but I beg to differ. You see, we all access 100% of our brains every day. And we don't have to be telekinetic or memorize an entire deck of cards to do it. [...] This page has been archived and is no longer updated Mind Read Subscribe To Scitable Forum Topic Email # \"Lucy\" is Wrong; We Use Way More Than 10% of Our Brains \"It is estimated most human beings only use ten percent of their brain's capacity,\" lectures Professor Norman, played by actor Morgan Freeman, in the trailer for the new thriller Lucy. \"Imagine if we could access 100 percent. Interesting things begin to happen.\" I know I haven't earned my Ph.D. yet, Professor, but I beg to differ. You see, we all access 100% of our brains every day. And we don't have to be telekinetic or memorize an entire deck of cards to do it.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The Nature blog responds to the Lucy trailer with opinion; its date is only a Tavily estimate and it cites no cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is an opinion/debunk with no data shown in the passage."
+      },
+      {
+        "id": "page-4",
+        "title": "Do People Only Use 10 Percent of Their Brains? | Scientific American",
+        "url": "https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains",
+        "domain": "scientificamerican.com",
+        "publishedDate": "2008-02-07",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scientificamerican.com/favicon.ico",
+        "text": "Adding to that mystery is the contention that humans \"only\" employ 10 percent of their brain. If only regular folk could tap that other 90 percent, they too could become savants who remember to the twenty-thousandth decimal place or perhaps even have telekinetic powers. ## On supporting science journalism If you're enjoying this article, consider supporting our award-winning journalism bysubscribing. By purchasing a subscription you are helping to ensure the future of impactful stories about the discoveries and ideas shaping our world today. [...] The myth's durability, Gordon says, stems from people's conceptions about their own brains: they see their own shortcomings as evidence of the existence of untapped gray matter. This is a false assumption. What is correct, however, is that at certain moments in anyone's life, such as when we are simply at rest and thinking, we may be using only 10 percent of our brains. \"It turns out though, that we use virtually every part of the brain, and that [most of] the brain is active almost all the time,\" Gordon adds. \"Let's put it this way: the brain represents three percent of the body's weight and uses 20 percent of the body's energy.\"",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 80,
+          "evidence": "Scientific American interview with Dr. Gordon is the earliest dated page and is the source other pages cite; no earlier source is cited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is an expert quotation with a brain energy statistic and no inspectable data."
+      },
+      {
+        "id": "page-5",
+        "title": "Do People Only Use 10 Percent of our Brains? | UAMS Health",
+        "url": "https://uamshealth.com/medical-myths/do-people-only-use-10-percent-of-our-brains",
+        "domain": "uamshealth.com",
+        "publishedDate": "2019-03-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's published <time> element, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://uamshealth.com/wp-content/themes/uams-2020/assets/favicon/favicon-128x128.png?v=1",
+        "text": "* [Skip to primary navigation](#genesis-nav-primary) [![UAMS Health Logo](https://uamshealth.com/wp-content/themes/uams-2020/assets/svg/uams-logo_health_horizontal_dark_386x50.png) UAMS Health](https://uamshealth.com) # Do People Only Use 10 Percent of our Brains? It’s appealing to think we could be smarter if only we applied more of our brain power. Unfortunately, the idea that people only use 10% of our brains and could use more is not true. This persistent myth may have originated as early as 1908 when William James wrote, “We are making use of only a small part of our possible mental and physical resources.” (*The Energies of Men*, p. 12). The idea has been perpetuated by many individuals claiming extraordinary powers from tapping into the unused portions of their minds. According to the Department of Neurology at UAMS, individuals without a neurological condition use almost all of their brain. Your brain is constantly active and involved in all of the conscious and unconscious activities of your body. In fact, the brain uses approximately 20 percent of the body’s energy. This is because many parts of the brain are active during different of activities, with neurons firing back and forth. So everything from reading a book to throwing a ball requires a significant portion of your brain. To learn more about the personalized care provided by UAMS Neurologists and other doctors using state-of-the-art techniques and equipment, please visit our medical services section.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "UAMS shares only the James quote with other pages, which is a common third-party quotation, and cites no page in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is a repeated assertion with a department attribution and no data."
+      },
+      {
+        "id": "page-6",
+        "title": "Do we only use 10 percent of our brain? - MIT McGovern Institute",
+        "url": "https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain",
+        "domain": "mcgovern.mit.edu",
+        "publishedDate": "2024-01-26",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2024/01/26",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://mcgovern.mit.edu/wp-content/uploads/2019/10/cropped-android-chrome-512x512-180x180.png",
+        "text": "The myth is thought to have gained traction when scientists first began exploring the brain’s abilities but lacked the tools to capture its exact workings. In 1907, William James, a founder of American psychology, suggested in his book “The Energies of Men” that “we are making use of only a small part of our possible mental and physical resources.” This influential work likely sparked the idea that humans access a mere fraction of the brain—setting this common misconception ablaze. Brainpower lore even suggests that Albert Einstein credited his genius to being able to access more than 10 percent of his brain. However, no such quote has been documented and this too is perhaps a myth of cosmic proportion. [...] “All of our brain is constantly in use and consumes a tremendous amount of energy,” Halgren says. “Despite making up only two percent of our body weight, it devours 20 percent of our calories.” This doesn’t appear to change significantly with different tasks, from typing on a computer to doing yoga. “Even while we sleep, our entire brain remains intensely active.” ## When did this myth take root? Portrait of scientist Mila Halgren Mila Halgren is a PhD student in MIT’s Department of Brain and Cognitive Sciences. Photo: Mila Halgren",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "MIT page quotes its own expert (Halgren) but shares the common James quote and cites no cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It relies on an expert quotation and no data."
+      },
+      {
+        "id": "page-7",
+        "title": "We only use 10% of our brains",
+        "url": "https://educationalneuroscience.org.uk/wordpress/resources/neuromyth-or-neurofact/we-only-use-10-of-our-brains",
+        "domain": "educationalneuroscience.org.uk",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "it originated from William James, arguably the first experimental psychologist, in the 1890s. The notion that we only use 10% of our brains is widely believed.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 20,
+          "evidence": "The undated search snippet is partial and shows only the origin claim and James."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-8",
+        "title": "Do we only use 10% of our brains?",
+        "url": "https://www.bbc.com/future/article/20121112-do-we-only-use-10-of-our-brains",
+        "domain": "bbc.com",
+        "publishedDate": "2012-11-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+        "text": "First of all, it’s important to ask the question – 10% of what? If it is 10% of the regions of the brain to which people are referring, this is the easiest idea to quash. Using a technique called functional magnetic resonance imaging, neuroscientists can place a person inside a scanner and see which parts of the brain are activated when they do or think about something. A simple action like clenching and unclenching your hand or saying a few words requires activity in far more than a tenth of the brain. Even when you think you are doing nothing your brain is doing rather a lot – whether it’s controlling functions like breathing and heart rate, or recalling the items on your to-do list. [...] So how can an idea with so little biological or physiological basis have spread so widely? It is hard to track down an original source. The American psychologist and philosopher William James mentioned in The Energies of Men in 1908 that we “are making use of only a small part of our possible mental and physical resources\". He was optimistic that people could achieve more, but he does not refer to brain volume or quantity of cells, nor does he give a specific percentage. The 10% figure is mentioned in the preface to the 1936 edition of Dale Carnegie’s best-selling book How to Win Friends and Influence People, and sometimes people say that Albert Einstein was the source. But Professor Della Sala has tried to find the quote, and even those who work at the Albert Einstein archives can find",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "BBC piece explains fMRI evidence and traces the William James quote itself, with no cited page in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It describes imaging methods and a historical quote but presents no data or firsthand reporting."
+      },
+      {
+        "id": "page-9",
+        "title": "Myth or fact: “We only use 10% of our brains” – Speechneurolab",
+        "url": "https://speechneurolab.ca/en/mythe-ou-realite-nous-nutilisons-que-10-de-notre-cerveau",
+        "domain": "speechneurolab.ca",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://speechneurolab.ca/wp-content/uploads/2022/09/favicon.png",
+        "text": "In other words, no study has shown that we only use 10% of our brain. This is not scientific data. On the contrary, studies in neuroscience indicate that all regions of the brain are important, and that the brain is active at all times. A possible interpretation of the words at the origin of the myth is that the brain can learn and transform itself, therefore that it is plastic. This ability of the brain to adapt and reorganize throughout our lives based on our experiences and learning is a phenomenon called experience-induced brain plasticity. No matter your age, you can develop new skills, such as learning a new language and playing a new game. But even if you don’t learn a new game, don’t worry, you’re still using your entire brain! Further readings: [...] It is true, however, that the recruitment of different regions of the brain varies as a function of the tasks we perform. But since our brain controls a host of essential functions every day, often simultaneously (moving, speaking, reading, thinking, remembering, deciding, etc.), we use our entire brain every day! It is possible to make an analogy with our muscles: although not all the muscles in our body are contracted to the maximum at all times, all our muscles are essential and their use varies according to our activities. In short, as our whole brain is used to allow our body to carry out the various activities of daily life, the myth of the “10%” is unfounded.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "The page is undated and gives a general explanation with no cited page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes general statements about studies without showing any data."
+      },
+      {
+        "id": "page-10",
+        "title": "Myth: We Only Use 10% of Our Brains – Association for Psychological Science – APS",
+        "url": "https://www.psychologicalscience.org/uncategorized/myth-we-only-use-10-of-our-brains.html",
+        "domain": "psychologicalscience.org",
+        "publishedDate": "2018-08-29",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.psychologicalscience.org/apple-touch-icon.png",
+        "text": "> View the full collection: Busting Myths in Psychological Science If we only use 10% of our brain, then a PET scan should look like Slide 2 in the accompanying PowerPoint slides. The blue outline is the skull, and the circle of color indicates active brain structures. Most of the brain would be dark because of inactivity. (You are looking down on top of this person’s head). But that isn’t how the PET scan actually looks. Slide 3 shows an actual scan of a healthy person. The entire brain is constantly active, even in periods of sleep: regulating, monitoring, sensing, interpreting, reasoning, planning, and acting. Even people with degenerative neural disorders such as Alzheimer’s and Parkinson’s disease still use more than 10% of their brains. [...] For a good video clip of a neuroscientist debunking the myth, as well as a case study of a man who only has 10% of his brain, see McDonald (2016). ## Tracing the Myth’s Beginnings The origin of the 10% Myth is unclear, but some people attribute it to a misunderstanding of a statement in an article by William James (1907). The quote is below: > Most of us feel as if we lived habitually with a sort of cloud weighing on us, below our highest notch of clearness in discernment, sureness in reasoning, or firmness in deciding. Compared with what we ought to be, we are only half awake. Our fires are damped, our drafts are checked. We [p. 323] are making use of only a small part of our possible mental and physical resources.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "APS describes PET-scan logic and quotes William James directly, with no cluster citation."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It explains scan reasoning but shows no actual data in the passage."
+      },
+      {
+        "id": "page-11",
+        "title": "Busting a brain myth: We really do use 100 percent of our brains",
+        "url": "https://hub.jhu.edu/2014/07/24/busting-a-brain-myth",
+        "domain": "hub.jhu.edu",
+        "publishedDate": "2014-07-24",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2014/07/24",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://hub.jhu.edu/assets/themes/wphub/src/assets/images/icons/apple-touch-icon-144x144.png",
+        "text": "Image credit: Universal Pictures Just as his god-like Vitruvius fed sweet, naive Emmet a bogus prophecy in _The Lego Movie_, _The Washington Post_ points out Freeman's latest character is once again doling out Hollywood falsehoods with authority in the summer thriller _Lucy_. This time, the movie myth that needs busting is that human beings use only 10 percent of their brains—a \"fact\" Freeman cites while playing Professor Norman in the TV ads for _Lucy_, whose title character (played by Scarlett Johansson) \"is able to kick butt and take names … because some drug made her a super-powered brainiac.\" [...] But it's pure science fiction that it takes a chemical cocktail to make humans use their entire brains. It turns out that we are all already giving it everything we've got, according to Dr. Barry Gordon, a professor of neurology at the School of Medicine and professor of cognitive science at the Krieger School of Arts and Sciences. _The Post_ refers to an interview with Dr. Gordon, published by _Scientific American_ in 2008. Gordon, a behavioral neurologist and cognitive neuroscientist, told _Scientific American_ that \"we use virtually every part of the brain, and that [most of] the brain is active almost all the time,\" he said. \"Let's put it this way: the brain represents three percent of the body's weight and uses 20 percent of the body's energy.\"",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-4",
+          "confidence": 92,
+          "evidence": "JHU names the Scientific American 2008 interview and repeats Gordon's quote and the same wording."
+        },
+        "citations": [
+          {
+            "pageId": "page-4",
+            "how": "name and year",
+            "quote": "and Sciences. _The Post_ refers to an interview with Dr. Gordon, published by _Scientific American_ in 2008. Gordon, a behavioral neurologist and cognitive neuroscientist, told _Scientific American_ that \"we use virtua"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It repeats an expert quotation from another article with no new data."
+      },
+      {
+        "id": "page-12",
+        "title": "Have you heard that we only use 10% of our brains? It's a ...",
+        "url": "https://www.facebook.com/BrainAwarenessWeek/videos/have-you-heard-that-we-only-use-10-of-our-brainsits-a-myth-we-use-100-of-our-bra/873445291884166",
+        "domain": "facebook.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "This video debunks the popular myth that people only use a 10% of their brain. The creator explains that this is false, citing brain scans that ...Read more",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 15,
+          "evidence": "The undated Facebook snippet is partial and refers to a video citing brain scans."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-13",
+        "title": "Do We Really Use Only 10 Percent of Our Brain? | Britannica",
+        "url": "https://www.britannica.com/story/do-we-really-use-only-10-percent-of-our-brain",
+        "domain": "britannica.com",
+        "publishedDate": "2025-06-13",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.britannica.com/favicon.png",
+        "text": "Written and fact-checked by Britannica Editors Encyclopaedia Britannica's editors oversee subject areas in which they have extensive knowledge, whether from years of experience gained by working on that content or via study for an advanced degree.... Britannica Editors It’s one of Hollywood’s favorite bits of pseudoscience: human beings use only 10 percent of their brain, and awakening the remaining 90 percent—supposedly dormant—allows otherwise ordinary human beings to display extraordinary mental abilities. In Phenomenon (1996), John Travolta gains the ability to predict earthquakes and instantly learns foreign languages. Scarlett Johansson becomes a superpowered martial-arts master in Lucy (2014). And in Limitless (2011) Bradley Cooper writes a novel overnight. [...] This ready-made blueprint for fantasy films is also a favorite among the general public. In a survey, 65 percent of respondents agreed with the statement, “People only use 10 percent of their brain on a daily basis.” But the truth is that we use all of our brain all of the time.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 35,
+          "evidence": "Britannica's date is only an estimate, and the survey statistic is mentioned without a cited cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "A survey percentage is stated without supporting data."
+      },
+      {
+        "id": "page-14",
+        "title": "What true fact about the human brain’s potential should replace the erroneous “Humans use only 10% of our brains? : r/scifi",
+        "url": "https://www.reddit.com/r/scifi/comments/1nam7bt/what_true_fact_about_the_human_brains_potential",
+        "domain": "reddit.com",
+        "publishedDate": "2025-11-04",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.redditstatic.com/shreddit/assets/favicon/152x152.png",
+        "text": "[Skip to main content](https://www.reddit.com/r/scifi/comments/1nam7bt/what_true_fact_about_the_human_brains_potential/#main-content)What true fact about the human brain’s potential should replace the erroneous “Humans use only 10% of our brains? : r/scifi Open menu Open navigation[](https://www.reddit.com/)Go to Reddit Home r/scifi [Sign Up](https://www.reddit.com/register/)Sign up for Reddit[Log In](https://www.reddit.com/login/)Log in to Reddit Expand user menu Open settings menu [![Image 1](https://styles.redditmedia.com/t5_2qh2z/styles/communityIcon_ilvc8npi9nuf1.png?width=96&height=96&frame=1&auto=webp&s=1a5a9ecf5a15fe2d5be9bf753ed5787e6d65c4e9) Go to scifi](https://www.reddit.com/r/scifi/) [r/scifi](https://www.reddit.com/r/scifi/)•1y ago [u/ATorridChauffeur](https://www.reddit.com/user/ATorridChauffeur/) # What true fact about the human brain’s potential should replace the erroneous “Humans use only 10% of our brains? Lucy (2014), Limitless (2011) were both based on this false fact. If you could rewrite that part of the script, what real science would you use?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 25,
+          "evidence": "The Reddit post is a discussion question with only an estimated date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is a forum question with no data."
+      },
+      {
+        "id": "page-15",
+        "title": "I got 101 from CerebrumIQ. Is it true that humans only use 10% of their brains?",
+        "url": "https://www.quora.com/I-got-101-from-CerebrumIQ-Is-it-true-that-humans-only-use-10-of-their-brains",
+        "domain": "quora.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.quora.com/favicon.ico",
+        "text": "To this question, I would emphatically answer that we are using anywhere/only between 10–30% of our cognitive potential, our intuitive intelligence and our sensory skills (predominantly relative to the spatial linear parameters of the 3-D realm, with limitations that aren’t necessarily fully compliant with the basic laws of physics and are intuitively acquired in our language development - having coded our brains with false concepts about how we navigate the physical world). [...] Brain sizes scale in proportion to body size with larger animals having larger brains, but on a per weight basis, humans pack in more neurons than any other species. This density is what makes us so smart. It takes an awful lot of fuel to power that complex brain, and there’s a trade off between body size and sustainable number of neurons. The invention of cooking food gave humans the means to power their growing brains because our guts could more easily absorb energy from cooked food. [...] ·7mo There has been a lot of debate over this question and it's basic assumption/percentage. Here’s my answer — please take the time to see what others have to say about this. Our brains are entirely engaged 100% in whatever it is we do, regardless of how smart or stupid a decision we make to follow through on an action.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 20,
+          "evidence": "The undated Quora snippet is partial opinion and shows no source relationship."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-16",
+        "title": "Ten-percent-of-the-brain myth - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth",
+        "domain": "en.wikipedia.org",
+        "publishedDate": "2026-08-20",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+        "text": "## Origin [edit] A likely origin for the \"10% myth\" is the reserve energy theories of Harvard psychologists William James and Boris Sidis. In the 1890s, they tested the theory in the accelerated raising of the child prodigy William Sidis. Thereafter, James told lecture audiences that people only meet a fraction of their full mental potential, which is a plausible claim. The concept gained currency by circulating within the self-help movement of the 1920s; for example, the 1929 World Almanac states \"There is NO LIMIT to what the human brain can accomplish. Scientists and psychologists tell us we use only about TEN PERCENT of our brain power.\" [...] This became a particular \"pet idea\" of science fiction writer and editor John W. Campbell, who wrote in a 1932 short story that \"no man in all history ever used even half of the thinking part of his brain\". In 1936, American writer and broadcaster Lowell Thomas popularized the idea, in a foreword to Dale Carnegie's How to Win Friends and Influence People, by including the falsely precise percentage: \"Professor William James of Harvard used to say that the average man develops only ten percent of his latent mental ability\". In the 1970s, the Bulgarian-born psychologist and educator Georgi Lozanov proposed the teaching method of suggestopedia, believing \"that we might be using only five to ten percent of our mental capacity\".",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The Wikipedia entry is a compiled history with an estimated date and no explicit citation to a cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It summarizes historical quotes secondhand and shows no original record."
+      },
+      {
+        "id": "page-17",
+        "title": "10 Surprising Facts About Your Brain | Northwestern Medicine",
+        "url": "https://www.nm.org/healthbeat/healthy-tips/ten-surprising-facts-about-your-brain",
+        "domain": "nm.org",
+        "publishedDate": "2018-05-09",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.nm.org/Content/Northwestern/img/apple-touch-icon.png",
+        "text": "Myth No. 1: You only use 10 percent of your brain. The truth is… Neurologists agree that the brain is always active, rapidly firing millions of neurons in the brain, even when you are sleeping. Myth No. 2: Brain size affects intelligence. The truth is… Intelligence is determined by the number of connections between brain cells, called synapses, not by the size of the brain itself. Fun Fact: An explosion of synapse formation occurs at about week 12 of a pregnancy, during early brain development. Myth No. 3: Alcohol kills brain cells. [...] # MyNM App Updates Go Into Effect November 18 Skip to content Northwestern Medicine Northwestern Medicine nm-brain-myths_feature nm-brain-myths_preview Healthy Tips # 10 Surprising Facts About Your Brain ## Common Brain Myths Debunked Published May 2018 The human brain is amazing — made of 100 billion neurons that control everything from your movement to your personality. But it’s also often misunderstood. Here are 10 myths you may have heard about the brain, debunked by Borna Bonakdarpour, MD, behavioral neurologist at Cognitive Neurology and Alzheimer’s Disease Center at Northwestern Memorial Hospital. Myth No. 1: You only use 10 percent of your brain.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Northwestern Medicine page is a physician's myth-busting list with no cited cluster page or copied wording."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is an expert assertion without inspectable data."
+      },
+      {
+        "id": "page-18",
+        "title": "No, we don’t use only 10% of our brains! – The School of Education Blog",
+        "url": "https://schoolofeducation.blogs.bristol.ac.uk/2020/09/17/no-we-dont-use-only-10-of-our-brains",
+        "domain": "schoolofeducation.blogs.bristol.ac.uk",
+        "publishedDate": "2020-09-17",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2020/09/17",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://schoolofeducation.blogs.bristol.ac.uk/wp-content/themes/uob-blog-theme/assets/images/favicon.ico",
+        "text": "No, we do not use just 10 or 15% of our brain capacities. In fact, we use most of our brain most of the time, even when we are sleeping. A simple task such as drinking coffee will require many areas of your brain to activate synchronously. The frontal lobe when you decide to look at the cup of coffee and pick it up, the occipital lobe because you’re visually processing the stimulus, your temporal lobe as you imagine the word “coffee”, subcortical areas, an integral part of your reward system, because the thought of fresh coffee and that expectation make you feel good, your parietal lobe’s somatosensory cortex as you grab the cup and feel the heat on your fingertips, as well as areas related to taste and smell, memory retrieval, etc. You can learn more about brain structure and function [...] The results in Brazil suggested that most people don’t really know much about how the brain works. So did the results in the UK, as demonstrated in Howard-Jones’ article (Dekker et al. 2012), in Portugal (Rato et al. 2013), in Greece (Papadatou-Pastou et al., 2017) in Latin America (Gleichgerrcht et al., 2015), in China (Pei et al., 2015), in Spain (Ferrero et al., 2016), and virtually everywhere.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Bristol blog gives its own explanation and cites survey literature without copying any cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It cites studies by name only and shows no data itself."
+      },
+      {
+        "id": "page-19",
+        "title": "Beyond the Myth That We Use Only 10 Percent of Our Brains | Psychology Today",
+        "url": "https://www.psychologytoday.com/us/blog/common-sense-science/202505/beyond-the-myth-that-we-use-only-10-percent-of-our-brains",
+        "domain": "psychologytoday.com",
+        "publishedDate": "2025-05-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn2.psychologytoday.com/theme-assets/favicon/favicon.ico",
+        "text": "## Debunking the 10 Percent Myth The idea that we only use 10 percent of our brain has no basis in neuroscience. This misconception likely stems from misinterpretations of neurological studies from the early 20th century or possibly from misquotes by early psychologists like William James. In contrast to this myth, neuroscientific research utilizing methods such as functional magnetic resonance imaging (fMRI) and positron emission tomography (PET) has demonstrated that many areas of the brain remain active even during simple tasks. Activities related to movement, vision, memory, and language activate a broad and interconnected network of neural regions (Hale, n.d.). [...] Evolutionarily, it would make no sense for the human brain, which consumes about 20 percent of the body's energy despite accounting for only about 2 percent of its mass, to be largely unused. From an adaptive standpoint, such metabolic expense must correspond to high utility. Regions such as the cerebral cortex, responsible for advanced cognitive abilities, account for approximately 82 percent of the brain's total mass (Anum, Shafiq, Fatima, & Bibi, 2024). Studies like those by Herculano-Houzel (2009) further confirm that human brains are scaled-up versions of primate brains, with neuron density distributed in a manner that supports complex thinking. ## Using the Whole Brain: A Functional Overview",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Psychology Today cites studies by author-year and shares the 20 percent energy stat, which is common phrasing, but no cluster page is cited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It names studies without presenting their data."
+      },
+      {
+        "id": "page-20",
+        "title": "(PDF) Evolution of the Human Brain and the Myth of its Ten ...",
+        "url": "https://www.researchgate.net/publication/385272711_Evolution_of_the_Human_Brain_and_the_Myth_of_its_Ten-Percent_Use",
+        "domain": "researchgate.net",
+        "publishedDate": "2024-10-26",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Search snippet",
+        "favicon": "https://www.researchgate.net/apple-touch-icon.png",
+        "text": "A widespread misconception, a claim, is that most people use only about 10 % of their potential brain power. But there is no room for this",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 20,
+          "evidence": "The snippet is partial and its date is only an estimate, with no visible source relationship."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Humans use only 10% of their brains is a myth; the whole brain is active",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-12",
+          "page-13",
+          "page-14",
+          "page-16",
+          "page-17",
+          "page-18",
+          "page-19",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "People use only 10-30% of their cognitive potential (supports a version of the claim)",
+        "pageIds": [
+          "page-15"
+        ]
+      }
+    ],
+    "roots": [
+      "page-2",
+      "page-4",
+      "page-8",
+      "page-10",
+      "page-17",
+      "page-18"
+    ],
+    "verifiableRoots": [],
+    "answerSourceIds": [
+      "page-2",
+      "page-4",
+      "page-8",
+      "page-10",
+      "page-17",
+      "page-18"
+    ],
+    "answerStatus": "source-limited",
+    "searchAudit": [
+      {
+        "query": "Humans use only 10% of their brains",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 9,
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-8",
+          "page-14"
+        ]
+      },
+      {
+        "query": "\"10 of their brains\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 3,
+        "pageIds": [
+          "page-10",
+          "page-16",
+          "page-18"
+        ]
+      },
+      {
+        "query": "\"Humans use only 10% of their brains\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 9,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "Humans only their brains fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 10,
+        "uniquePagesAdded": 5,
+        "pageIds": [
+          "page-9",
+          "page-11",
+          "page-12",
+          "page-13",
+          "page-17"
+        ]
+      },
+      {
+        "query": "Humans only their brains study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 3,
+        "uniquePagesAdded": 2,
+        "pageIds": [
+          "page-19",
+          "page-20"
+        ]
+      },
+      {
+        "query": "Humans only their brains original source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 4,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "Humans only their brains according to",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 6,
+        "uniquePagesAdded": 1,
+        "pageIds": []
+      },
+      {
+        "query": "Humans only their brains study finds",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 7,
+        "uniquePagesAdded": 1,
+        "pageIds": []
+      },
+      {
+        "query": "\"Humans 10 brains\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 2,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-15"
+        ]
+      },
+      {
+        "query": "Humans only their brains evidence",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 6,
+        "uniquePagesAdded": 1,
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 6,
+      "verifiableOrigins": 0,
+      "echoPercentage": 10
+    },
+    "answer": "Echo did not identify directly inspectable primary evidence for this claim in the retrieved candidate-root passages [1], [2], [3], [4], [5], [6]. This search cannot verify the claim from those passages; open the roots to check the full sources.",
+    "echoContribution": "Repeated and unresolved pages were excluded from this assessment; repetition is not independent support."
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:09:36.528Z",
+  "analysis": {
+    "claim": "A ChatGPT query uses 10 times more electricity than a Google search",
+    "createdAt": "2026-11-14T21:09:36.528Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "ChatGPT uses 10 times more power than Google searches, says Goldman Sachs - CNBC TV18",
+        "url": "https://www.cnbctv18.com/technology/chatgpt-uses-10-times-more-power-than-google-searches-says-goldman-sachs-19435551.htm",
+        "domain": "cnbctv18.com",
+        "publishedDate": "2024-06-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.cnbctv18.com/static/images/eng-favicon.ico",
+        "text": "On average, a ChatGPT query requires nearly 10 times as much electricity to process as a Google search, according to a recent Goldman Sachs report. Open AI CEO Sam Altman said that artificial intelligence (AI) will use vastly more energy than people expected and a clean energy breakthrough is necessary in that case. Generative AI is the most used word in recent times, and we see it around us in all ways possible—be it on our social media apps or our work. While this technology is making life easier across the globe, until we have cleaner sources of energy, it is not good for the climate. [...] Right now, the energy consumption is largely thermal, which would mean burning fossil fuels to generate electricity. Unless the shift is made to clean energy to power data centres, it will continue to cause massive carbon emissions if there's no switch due to higher power consumption. Training the GPT-3 used as much energy as 120 American homes over a year and training the GPT-4 model used approximately 40 times more energy than GPT-3. Additionally, a study by Hugging Face and Carnegie Mellon University found that generating just one image from a powerful AI model takes as much energy as a full charge of a smartphone. Scale that up and generating 1,000 images would result in the carbon output of driving a car for six and a half kilometres.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Attributes the claim to a Goldman Sachs report that is not retrieved in the cluster, though page-4 is the same report, but it has no date, so no derivation can be set."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "States the 10x figure from a report without supporting data."
+      },
+      {
+        "id": "page-2",
+        "title": "Sustainability of Generative AI",
+        "url": "https://www.open.ac.uk/libraryservices/beingdigital/accessible/accessible-pdf-160-sustainability-of-generative-ai.pdf",
+        "domain": "open.ac.uk",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.open.ac.uk/oudigital/external/assets/img/favicons/apple-touch-icon-V5.png",
+        "text": "hours of electricity, while ChatGPT takes 2.9 watt -hours of electricity for a single prompt. That’s nearly 10 times as much electricity needed. Creating text 1,000 times (each individual response within a conversation is considered as one instance of text) uses as much energy as 9% of a full smartphone charge. 2. Carbon footprint of individual AI outputs Because of the different sizes of the various available LLMs and the different systems they use, it is difficult to calculate exact emissions, but considering training and output together, it was calculated in 2024 that the combined impact of training and operation for ChatGPT amounts to approximately 2.2g CO2e per query. The following numbers help illustrate the environmental impact of using AI: [...] of global electricity use. This is projected to more than quadruple by 2030. To cool these data centres, huge quantities of water are required – about 500ml for every 20 -50 AI prompts. # 3. The environmental impact of AI tools Part 2 Being digital Copyright © 202 5 The Open University pg. 3 The environmental impact of generative AI tools falls in two distinct categories: 1. the energy used to run the tools; 2. the emissions, i.e. the carbon footprint, these tools produce. 1. Energy use of individual AI outputs It is difficult to estimate the energy use of standard queries using prompts, because the outputs can vary from a few sentences to many pages. When comparing electricity demand, a single Google search takes 0.3 watt -",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Gives the 2.9 Wh figure and 'nearly 10 times' without citing a source, and has no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats figures without underlying data."
+      },
+      {
+        "id": "page-4",
+        "title": "How Much Energy Does AI Need | Marcus by Goldman Sachs®",
+        "url": "https://www.marcus.com/us/en/resources/heard-at-gs/how-much-energy-does-ai-need",
+        "domain": "marcus.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.marcus.com/content/dam/marcus/us/en/logo/favicon.ico",
+        "text": "Skip to Main content) # How Much Energy Does AI Need? June 4, 2024 #### Share this article Facebook Facebook Facebook Twitter X X This article was originally published by Goldman Sachs Intelligence, a series featuring insights on diverse topics of impact within this dynamic economic environment. On average, a ChatGPT query needs nearly 10 times as much electricity to process as a Google search. In that difference lies a coming sea change in how the US, Europe, and the world at large will consume power — and how much that will cost. [...] But since 2020, the efficiency gains appear to have dwindled, and the power consumed by data centers has risen. Some AI innovations will boost computing speed faster than they ramp up their electricity use, but the widening use of AI will still imply an increase in the technology’s consumption of power. A single ChatGPT query requires 2.9 watt-hours of electricity, compared with 0.3 watt-hours for a Google search, according to the International Energy Agency. Goldman Sachs Research estimates the overall increase in data center power consumption from AI to be on the order of 200 terawatt-hours per year between 2023 and 2030. By 2028, Goldman Sachs Research analysts expect AI to represent about 19% of data center power demand. ### The workload demand for data centers...",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Goldman Sachs article (June 2024 in text, no metadata date) that cites the IEA for 2.9 vs 0.3 Wh, which is not in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Figures are quoted from the IEA, with no data shown."
+      },
+      {
+        "id": "page-6",
+        "title": "AI and the energy sector - European Parliament",
+        "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/775859/EPRS_BRI(2025)775859_EN.pdf",
+        "domain": "europarl.europa.eu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.europarl.europa.eu/favicon.ico",
+        "text": "consumption, but their electricity demand is expected to more than double by 2030. In the EU, data centres account for around 3 % of total electricity demand, but this varies between countries and is over 20 % in Ireland. AI-focused data centres tend to cluster in geographical locations, contributing to pressure on local grids and involving trade-offs with climate goals, land use and energy affordability. A ChatGPT query uses 10 times more electricity than a traditional Google search, although that depends on the complexity of the question and the format used (text vs. multimedia). A large data centre is estimated to consume as much electricity annually as 100 000 households. Data centres use energy not only to train and run AI models but also to cool servers and maintain equipment. [...] increase in Ireland to a six-fold increase in Denmark by 2030. Electricity consumption by data centres is rising rapidly due to digitalisation, and especially the uptake of AI, and it is therefore important to put their consumption into perspective. The electricity demand of all data centres globally is currently more than that of France and a little below that of Germany. However, the IEA estimates that the contribution of data centres to growth in global electricity demand will be lower than that of industry, electric vehicles (EVs) and appliances (such as air conditioning), but higher than heating and heavy industry (see Figure 2). The oft-quoted example that a single query made through generative AI (such as ChatGPT) uses 10 times as much energy as a traditional Google search also",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Undated; states the 10x claim with no source or added data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Assertion only."
+      },
+      {
+        "id": "page-7",
+        "title": "AI vs Google search: which uses more energy? · EcoGPT",
+        "url": "https://ecogpt.com/blog/ai-vs-google-search-energy",
+        "domain": "ecogpt.com",
+        "publishedDate": "2026-10-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.ecogpt.com/assets/eco-logo.png",
+        "text": "So the famous claim, that an AI prompt uses 10 times the energy of a Google search, does not hold for a short text prompt on today's published numbers. It was a fair reading of the estimates available in 2023. Those estimates have since been revised down about tenfold. The search figure has not been revised at all. ## Where does \"10 times a Google search\" come from? From four steps over 15 years, each built on the last. Two things stand out. The tenfold ratio began as a remark about money, and a cost estimate is not an energy estimate. And the search side of every comparison is Google's figure from 2009. ## How was the 2.9 Wh worked out? [...] ## How was the 2.9 Wh worked out? By dividing a daily energy estimate by a daily request count. De Vries cites research firm SemiAnalysis, which estimated in early 2023 that ChatGPT answered 195 million requests a day and used about 564 megawatt-hours (MWh) a day to do it. A megawatt-hour is a million watt-hours. Our arithmetic: 564,000,000 Wh ÷ 195,000,000 requests = about 2.9 Wh per request. De Vries called it an upper bound (\"at most\"). The IEA then put 2.9 Wh against Google's 0.3 Wh and added up what it would mean if every search used AI: with 9 billion searches a day, \"almost 10 TWh of additional electricity in a year\". A terawatt-hour (TWh) is a billion kilowatt-hours. Our check of that sum: 9 billion × 2.9 Wh × 365 days = about 9.5 TWh.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Traces the claim step by step and reworks the arithmetic (564,000 MWh / 195M requests), though it links to the Epoch page."
+        },
+        "citations": [
+          {
+            "pageId": "page-19",
+            "how": "link",
+            "quote": "This page's HTML links to https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Shows the calculation behind the 2.9 Wh figure with inputs."
+      },
+      {
+        "id": "page-8",
+        "title": "How Much Energy Does A ChatGPT Query Use?",
+        "url": "https://digitalenergyby5.com/blog/how-much-energy-does-a-chatgpt-query-use",
+        "domain": "digitalenergyby5.com",
+        "publishedDate": "2025-09-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "text": "## The Power Behind a ChatGPT Query Unlike a simple Google Search, which mostly looks up results in a database, a ChatGPT query requires billions of mathematical operations across specialized hardware such as GPUs and accelerators. This difference explains why chatbots like ChatGPT use more energy per query. Estimates suggest that a single ChatGPT query may consume several watt-hours of electricity, roughly 10 times or more the energy of a typical Google Search【arxiv.org】【semianalysis.com】. Put another way, running a few dozen ChatGPT prompts could equal the amount of electricity needed to power an LED lightbulb for several hours. [...] ChatGPT query vs. Google Search vs. Lightbulb usage in kWh A ChatGPT query uses about 0.0026 kWh, which is ~9x higher than a Google Search (~0.0003 kWh). Keeping a 10W LED bulb on for an hour is roughly 0.01 kWh, which equals a few ChatGPT queries. The difference looks small per action, but at scale (millions of daily queries), the total energy demand is significant. \\The energy values shown are estimates based on publicly available research (Google sustainability reports, IEA analyses, and third-party studies on large language models). Actual ChatGPT query energy consumption varies depending on model size, hardware, data center efficiency, and prompt length. The comparisons here are intended for illustrative purposes only to show relative scale, not exact figures.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Estimates drawn from public research (arxiv, semianalysis, IEA) with an illustrative chart; not clearly derived from any page here."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Estimates are not accompanied by inspectable data."
+      },
+      {
+        "id": "page-9",
+        "title": "Misinformation by Omission: The Need for More Environmental Transparency in AI",
+        "url": "https://arxiv.org/html/2506.15572",
+        "domain": "arxiv.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png",
+        "text": "Another often cited and misrepresented metric is the estimate that a single request to ChatGPT uses approximately 3 watt-hours (Wh) of energy, which is \"ten times more than a Google search\". This figure is often quoted in the press [36, 37] and in industry reports . Tracing the origins of this metric leads to several assumptions: an initial remark from Alphabet’s Chairman John Hennessy during a 2023 interview with Reuters, in which he said that “having an exchange with AI known as a large language model likely cost 10 times more than a standard keyword search” . This remark was used was the basis of an estimate published in October 2023 of “approximately 3 Wh per LLM interaction” , with the Google search number taken from a 2009 blog post from Google that stated that “Queries vary in [...] To understand the impact of the propagation of this estimate, we analyzed 100 news articles published as of April 11, 2025, that appear when searching for “ChatGPT energy consumption” on Google News. For each article, we noted whether it mentioned the 3 Wh estimate, if it referenced others, or if it called for transparency or caution regarding figures by acknowledging uncertainty or suggesting that such statistics should be viewed critically. Our results, shown in Figure 3, reveal that 75% of media articles relayed energy estimates for a ChatGPT query without mentioning uncertainties or even citing the sources for these figures: 53% of articles cite the figure of 3 Wh per ChatGPT query or claim it consumes 10 times more energy than a Google search, 22% mention other precise energy numbers",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Traces the claim's origin and analyzes 100 news articles, an original method."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Own analysis of 100 news articles."
+      },
+      {
+        "id": "page-10",
+        "title": "[Energy-topia]AI-Driven Power Surge: Are We Prepared? - The Asia Business Daily",
+        "url": "https://view.asiae.co.kr/en/article/2024050921301786544",
+        "domain": "view.asiae.co.kr",
+        "publishedDate": "2024-05-10",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cwstatic.asiae.co.kr/icns/asiae.ico",
+        "text": "In particular, the expansion of generative AI like OpenAI's ChatGPT is expected to further drive up electricity demand. According to research, a single Google search requires 0.3 Wh of electricity. In contrast, each query to ChatGPT consumes 2.9 Wh of electricity. This means ChatGPT uses about 10 times more electricity than a Google search. Based on this, the IEA estimated that if Google searches were replaced by AI like ChatGPT, an additional 10 TWh of electricity would be needed annually. [...] [Energy-topia]AI-Driven Power Surge: Are We Prepared? Language KR CN ### News #### News #### Special Economic Content Platform for Investors Language KR CN # [Energy-topia]AI-Driven Power Surge: Are We Prepared? by Kang Heejong Published 10 May.2024 09:28(KST) Updated 10 May.2024 14:26(KST) ![[Energy-topia]AI-Driven Power Surge: Are We Prepared?]( At the World Economic Forum (WEF) annual meeting held in Davos, Switzerland last January, Sam Altman, CEO of OpenAI, stated, \"Artificial intelligence (AI) consumes much more energy than people think,\" emphasizing the need for an energy breakthrough for the future of AI.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Gives 0.3 Wh vs 2.9 Wh and attributes the IEA estimate; the underlying source is not in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Figures are cited from IEA research, no data."
+      },
+      {
+        "id": "page-11",
+        "title": "Does ChatGPT use that much more energy than a Google search?",
+        "url": "https://projetcelsius.com/en/blog/chatgpt-vs-google-search-energy",
+        "domain": "projetcelsius.com",
+        "publishedDate": "2026-06-09",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://projetcelsius.com/favicon.ico",
+        "text": "It rests on an outdated figure. In 2023, a study put a ChatGPT query at ~3 Wh, assuming very long responses (2,000 tokens) on older-generation graphics processors (GPUs). Set against Google's 0.3 Wh, that gave \"10 times more\". The ~3 Wh figure has since been invalidated, but the factor kept circulating without its correction. Google now builds AI into search. AI Overviews (the AI-generated summaries shown at the top of results) are seen by more than 2.5 billion users a month, and AI Mode has more than 1 billion monthly users (Google, May 2026). A \"Google search\" therefore increasingly generates an AI summary, which involves the same type of inference as ChatGPT, so the boundary between searching and generating is fading. [...] June 2026 Updated October 2026 · 7 min No: the idea that a ChatGPT query uses 10 times more energy than a Google search comes from a 2023 calculation that overestimated ChatGPT's consumption at ~3 Wh. Recalibrated to ~0.3 Wh, the real gap narrows to between x1.5 and x3. Google is also adding AI to its own search, which erases what remained of the boundary between the two. What drives the electricity consumption of data centres is the volume of queries, far more than the cost of each one. Key takeaways",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-19",
+          "confidence": 50,
+          "evidence": "Links to Epoch and repeats the recalibration to ~0.3 Wh, but adds a own comparison; the 2026 page has a dated source."
+        },
+        "citations": [
+          {
+            "pageId": "page-8",
+            "how": "title",
+            "quote": "and then looks at how query volume affects their environmental footprint. # 1 How much energy does a ChatGPT query use vs a Google search? We start with the figures for the 2 sides and where each comes from. # AI: ~0"
+          },
+          {
+            "pageId": "page-19",
+            "how": "link",
+            "quote": "This page's HTML links to https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Revised figures are relayed without inspectable data."
+      },
+      {
+        "id": "page-12",
+        "title": "AI's Impact on the Environment, Explained | Snopes.com",
+        "url": "https://www.snopes.com/news/2025/01/16/ai-environment-carbon-footprint",
+        "domain": "snopes.com",
+        "publishedDate": "2025-01-16",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/01/16",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.snopes.com/apple-touch-icon-152x152-precomposed.png",
+        "text": "## Addressing Specific Claims Another common claim circulating on social platforms like Instagram (archived) and Reddit (archived) alleges that a ChatGPT query uses 10 times more electrical energy than a Google search. Based on the International Energy Agency's 2024 estimates, that is roughly true — the organization reports that a typical Google search is about 0.3 watt-hours of electricity, compared to 2.9 watt-hours per ChatGPT query. Therefore, a ChatGPT query uses about 9.7 times the amount of energy as a typical Google search. Some claims reference ChatGPT's impact on the global fresh water supply — but greatly overestimate it, as in this post on X (archived). [...] Training and using artificial intelligence consumes energy and produces fossil fuel emissions and pollutants. AI has driven significant increases in greenhouse gas emissions from major technology companies and data centers, representing 0.6% of total global greenhouse gas emissions since 2020. For example, research has shown that a typical ChatGPT query uses nearly 10 times more energy than an average Google search. Training and using AI also consumes large amounts of fresh water, which is used to cool network servers. On the other hand, some studies suggest certain AI applications may actually cause less environmental harm than human labor. Moreover, given how rapidly the technology is evolving, AI might ultimately be used to discover ways to lessen its own environmental impact.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Fact-check that computes 9.7x from the IEA's 2.9 and 0.3 Wh, an outside source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "A fact-check citing IEA figures is not primary evidence."
+      },
+      {
+        "id": "page-14",
+        "title": "27K views · 45 reactions | An AI query requires 10 times more electricity than a single Google search. The data centers that process those searches, along with many other things in our digital lives,  are the biggest energy sector disruptors in recent memory and are putting some communities on an “energy cliff.” In 2019, Washington state required electric utilities to go carbon-neutral by 2030. State lawmakers continue to promote data centers with generous tax incentives even as these centers strain the power grid and employ few people.\n\nTo read more about this growing problem, go to the link in bio. \n\n📰: Lulu Ramadan and Sydney Brownstone, @seattletimes for ProPublica’s Local Reporting Network\n📷: Karen Ducey, The Seattle Times\n🎥: @josesepulvedatv\n\n#ai #artificialintelligence #datacenter #electricity #powergrid #powerhungry #technology #cleanenergy #carbonneutral | ProPublica",
+        "url": "https://www.facebook.com/propublica/videos/an-ai-query-requires-10-times-more-electricity-than-a-single-google-search-the-d/1031081218455576",
+        "domain": "facebook.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "An AI query requires 10 times more electricity than a single Google search. The data centers that process those searches, along with many other things in our digital lives, are the biggest energy sector disruptors in recent memory and are putting some communities on an “energy cliff.” In 2019, Washington state required electric utilities to go carbon-neutral by 2030. State lawmakers continue to promote data centers with generous tax incentives even as these centers strain the power grid and employ few people. To read more about this growing problem, go to the link in bio. 📰: Lulu Ramadan and Sydney Brownstone, @seattletimes for ProPublica’s Local Reporting Network 📷: Karen Ducey, The Seattle Times 🎥: @josesepulvedatv #ai #artificialintelligence #datacenter #electricity #powergrid [...] a private, tax-exempt organization, we’d also like to hear from you. Read our full story at the link in the comments below.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Undated social post promoting the Seattle Times/ProPublica story and repeating the claim with no source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Social post repeats assertion."
+      },
+      {
+        "id": "page-15",
+        "title": "ChatGPT may not be as power-hungry as once assumed | TechCrunch",
+        "url": "https://techcrunch.com/2025/02/11/chatgpt-may-not-be-as-power-hungry-as-once-assumed",
+        "domain": "techcrunch.com",
+        "publishedDate": "2025-02-11",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/02/11",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+        "text": "ChatGPT, OpenAI’s chatbot platform, may not be as power-hungry as once assumed. But its appetite largely depends on how ChatGPT is being used and the AI models that are answering the queries, according to a new study. A recent analysis by Epoch AI, a nonprofit AI research institute, attempted to calculate how much energy a typical ChatGPT query consumes. A commonly cited stat is that ChatGPT requires around 3 watt-hours of power to answer a single question, or 10 times as much as a Google search. Epoch believes that’s an overestimate. Using OpenAI’s latest default model for ChatGPT, GPT-4o, as a reference, Epoch found the average ChatGPT query consumes around 0.3 watt-hours — less than many household appliances. [...] Granted, Epoch’s 0.3 watt-hours figure is an approximation, as well; OpenAI hasn’t published the details needed to make a precise calculation. The analysis also doesn’t consider the additional energy costs incurred by ChatGPT features like image generation, or input processing. You acknowledged that “long input” ChatGPT queries — queries with long files attached, for instance — likely consume more electricity upfront than a typical question. You said he does expect baseline ChatGPT power consumption to rise, however. “[The] AI will get more advanced, training this AI will probably require much more energy, and this future AI may be used much more intensely — handling much more tasks, and more complex tasks, than how people use ChatGPT today,” You said.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-19",
+          "confidence": 85,
+          "evidence": "Reports Epoch's analysis and links to the Epoch page, with similar wording and no new data."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.cnbctv18.com/technology/chatgpt-uses-10-times-more-power-than-google-searches-says-goldman-sachs-19435551.htm"
+          },
+          {
+            "pageId": "page-19",
+            "how": "link",
+            "quote": "This page's HTML links to https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes Epoch's findings without its own data."
+      },
+      {
+        "id": "page-16",
+        "title": "What's the carbon footprint of using ChatGPT?",
+        "url": "https://hannahritchie.substack.com/p/carbon-footprint-chatgpt",
+        "domain": "hannahritchie.substack.com",
+        "publishedDate": "2025-05-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://substackcdn.com/image/fetch/$s_!m9mA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaf7d34d-64b3-4e30-ad7d-1344c20e68ee%2Fapple-touch-icon-114x114.png",
+        "text": "## Maybe ChatGPT uses 10 times less energy than we think? All of the comparisons and conclusions above rest on the assumption that one search using ChatGPT uses around 3 Wh of electricity. Again, that comes from the statement that “ChatGPT is ten times as energy-intensive as a Google Search”. That’s what Andy assumes. It’s also the rule-of-thumb that I quoted in my previous article on the energy use of AI. But there is good reason to believe that we’re being incredibly conservative by using that number. I expect that energy use is now much lower than 3 Wh based on efficiency improvements in the last few years. [...] Electricity use in the United States is about three times higher than in the UK, so ChatGPT prompts are an even smaller piece of the pie. Ten searches per day would come to 0.09% of per capita electricity generation, while 100 searches would be 0.9%. Unless you’re an extreme power user, asking AI questions every day is still a rounding error on your total electricity footprint. The reason we often think that ChatGPT is an energy guzzler is because of the initial statement: it uses 10 times more energy than a Google search. Even if this is accurate, what’s missing is the context that a Google search uses a really tiny amount of energy. Even 10 times a really tiny number is still tiny. ## Carbon footprint What about your impact on the climate?",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Hannah Ritchie's own analysis of footprint using the figure; links to Epoch for the revision."
+        },
+        "citations": [
+          {
+            "pageId": "page-19",
+            "how": "link",
+            "quote": "This page's HTML links to https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Does its own per-capita electricity calculations."
+      },
+      {
+        "id": "page-17",
+        "title": "Cronkite — First Principles First",
+        "url": "https://fp1.ai/evidence",
+        "domain": "fp1.ai",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://fp1.ai/favicon-180.png",
+        "text": "02 / Follow the two numbers ### The ratio joins figures from different years. 0.3 Wh / search Google’s published figure for a search at the time, including work such as building the search index. ~3 Wh / query An estimate discussed in Alex de Vries’s paper, alongside estimates of ChatGPT’s daily electricity use and request volume. ~3 ÷ 0.3 ≈ 10The arithmetic is straightforward. Whether these figures support the sentence is a different question. Google’s August 2025 report adds a production measurement for Gemini. It does not supply a matching Google Search measurement, and Gemini is not ChatGPT. 03 / Check the comparison ### Three questions before using the ratio. #### Published in 2009 Describes a historical service. #### Discussed in 2023 [...] | Date | Source | What it tells us | --- | 2009 | Google publishes roughly 0.3 Wh for a search ↗. | Describes search in 2009, not today. | | Oct 2023 | Alex de Vries examines AI electricity consumption ↗; the cited estimate is roughly 3 Wh per query. | An estimate of energy per AI query. | | 2023–24 | Press and institutions repeat “ten times more.” | Repeats the estimate; adds no new measurement. | | Aug 2025 | Google publishes a production Gemini prompt measurement ↗. | Adds a measured AI result, but no matched Google Search result. | A checked claim is the start of the story. See five correspondents compare the implications of AI infrastructure demand → ## From a checked claim to a fuller story.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Undated explainer that traces the figures to the 2009 Google post and de Vries 2023, with no new data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Timeline of cited figures, no new data."
+      },
+      {
+        "id": "page-18",
+        "title": "How much energy do AI-powered chatbots consume?",
+        "url": "https://www.euronews.com/2025/03/17/chatgpt-deepseek-co-how-much-energy-do-ai-powered-chatbots-consume",
+        "domain": "euronews.com",
+        "publishedDate": "2025-03-17",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/03/17",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.euronews.com/apple-touch-icon.png",
+        "text": "Each ChatGPT question is estimated to use around 10 times more electricity than a traditional Google search. Close Button facebook facebook twitter twitter flipboard flipboard send send reddit reddit linkedin linkedin messenger messenger telegram telegram vk vk bluesky bluesky threads threads whatsapp whatsapp Copy to clipboard ## Data centres are significant drivers of electricity demand. Almost one-third of electricity demand in Ireland could come from data centres by 2026. Each ChatGPT question is estimated to use around 10 times more electricity than a traditional Google search. According to the nonprofit research firm Electric Power Research Institute, a ChatGPT request uses 2.9 watt-hours while traditional Google queries use about 0.3 watt-hours each. [...] With an estimated 9 billion daily searches, this would mean an additional demand of nearly 10 TWh of electricity per year. The AI industry relies on data centres to train and operate its models, leading to increased energy demand and contributing to global greenhouse gas emissions. Microsoft announced its CO2 emissions had risen nearly 30% since 2020 due to data centre expansion. Google’s global greenhouse gas emissions in 2023 were almost 50% higher than in 2019, largely due to the energy demand tied to data centres. Energy use by artificial intelligence currently only represents a fraction of the technology sector’s power consumption and is estimated to be around 2 to 3% of total global emissions.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Attributes 2.9 Wh vs 0.3 Wh to EPRI, which is not in the cluster, and adds nothing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Figures are attributed to EPRI without data."
+      },
+      {
+        "id": "page-19",
+        "title": "How much energy does ChatGPT use? | Epoch AI",
+        "url": "https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use",
+        "domain": "epoch.ai",
+        "publishedDate": "2025-02-07",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://epoch.ai/favicon.svg",
+        "text": "A commonly-cited claim is that powering an individual ChatGPT query requires around 3 watt-hours of electricity, or 10 times as much as a Google search.1 This is often brought up to express concern over AI’s impact on the environment, climate change, or the electric grid. However, we believe that this figure of 3 watt-hours per query is likely an overestimate. In this issue, we revisit this question using a similar methodology, but using up-to-date facts and clearer assumptions. We find that typical ChatGPT queries using GPT-4o likely consume roughly 0.3 watt-hours, which is ten times less than the older estimate. This difference comes from more efficient models and hardware compared to early 2023, and an overly pessimistic estimate of token counts in the original estimate. [...] 1. The comparison with Google searches comes from a very old estimate from Google in 2009 that each search consumes 0.3 Wh. Estimating Google search’s energy cost today is outside the scope of this post. It could easily be lower today due to increased chip and data center efficiency, or higher if Google searches have become more complex over time (and/or because Google search now has AI features like AI Overviews). Return 2. Household usage is lower than total usage, since the energy used to e.g. manufacture the goods you own are not incurred inside your house. Return 3. You can read this essay from Andy Masley for more useful context on how much energy this is, as well as discussion on AI’s water usage. Return",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 85,
+          "evidence": "Epoch AI re-estimates energy per query with its own methodology and assumptions."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Presents its own calculation and assumptions."
+      },
+      {
+        "id": "page-20",
+        "title": "AI is an energy hog. It's a strain on the power grid - eNewspaper",
+        "url": "https://enewspaper.latimes.com/infinity/article_share.aspx?guid=9d48d648-d627-4aed-b665-4a0e785907d4",
+        "domain": "enewspaper.latimes.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://enewspaper.latimes.com/favicon.ico",
+        "text": "Google AI takes 10 times as much electricity to process a result as a regular Google search, according to one analysis. Data centers, or large buildings filled with computer servers, already accounted for about 4% of energy use in the U.S. in 2022, with consumption expected to hit 6% by 2026, an increase driven in part by the boom in AI use. And there is a push to build more in California and across the country. Pacific Gas & Electric revealed in June that it had received 26 applications for new data centers that would use 3.5 gigawatts in total, Times’ reporter Melody Petersen recounted. That amount of power could support nearly 5 million homes. [...] “Theoretically, they could physically be at carbon zero by routing the workloads around the world. There are data centers all over the world. Since California has solar energy they can put the workload [during the day] here and at night they can move the computing to Europe. They could do this, but they do not because there is a lot of risk,” Ren said. Big Tech has the resources to curb its energy demands, but so far it has chosen not to. For example, there is no way for users to opt out of Google’s AI-generated search, forcing them to get the energy-intensive results even if they did not want them. That has to change. AI is only going to grow, and the companies behind the boom have a responsibility to ensure their technology doesn’t slow progress in fighting climate change. [](",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Undated; attributes the claim to 'one analysis' that is not named."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Vague attribution, no data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "ChatGPT query uses ~10x electricity of Google search (Goldman Sachs/IEA/EPRI figures: 2.9 ",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-4",
+          "page-6",
+          "page-8",
+          "page-10",
+          "page-12",
+          "page-14",
+          "page-18",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "10x figure is outdated/overestimated or poorly sourced (origin traced to 2023 estimates, E",
+        "pageIds": [
+          "page-7",
+          "page-9",
+          "page-11",
+          "page-15",
+          "page-16",
+          "page-17",
+          "page-19"
+        ]
+      }
+    ],
+    "roots": [
+      "page-7",
+      "page-9",
+      "page-16",
+      "page-19"
+    ],
+    "verifiableRoots": [
+      "page-7",
+      "page-9",
+      "page-16",
+      "page-19"
+    ],
+    "answerSourceIds": [
+      "page-9",
+      "page-19",
+      "page-7",
+      "page-16"
+    ],
+    "answerStatements": [
+      {
+        "text": "The \"10 times a Google search\" figure (about 3 Wh per ChatGPT query versus 0.3 Wh per search) is a commonly cited claim, but it traces back to a 2023 remark by Alphabet's chairman about cost, not a measured energy figure",
+        "sourceIds": [
+          "page-9",
+          "page-19",
+          "page-7"
+        ]
+      },
+      {
+        "text": "The search side of the comparison relies on a 2009 Google estimate of about 0.3 Wh per search, and the sources say this figure has not been updated",
+        "sourceIds": [
+          "page-7",
+          "page-9",
+          "page-19"
+        ]
+      },
+      {
+        "text": "Epoch AI estimates a typical GPT-4o ChatGPT query uses roughly 0.3 Wh, about ten times less than the older 3 Wh estimate, which would put it roughly on par with the 2009 Google search figure",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "The sources describe the 10x claim as a fair reading of 2023 estimates that does not hold for a short text prompt on current published numbers, so it is likely an overestimate today",
+        "sourceIds": [
+          "page-7",
+          "page-16",
+          "page-19"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "A ChatGPT query uses 10 times more electricity than a Google search",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 26,
+        "matchingResults": 26,
+        "uniquePagesAdded": 26,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": [
+          "page-2",
+          "page-4",
+          "page-10",
+          "page-11",
+          "page-12",
+          "page-18",
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-2": [
+            "perplexity"
+          ],
+          "page-4": [
+            "exa"
+          ],
+          "page-10": [
+            "perplexity"
+          ],
+          "page-11": [
+            "brave"
+          ],
+          "page-12": [
+            "exa"
+          ],
+          "page-18": [
+            "perplexity",
+            "exa"
+          ],
+          "page-19": [
+            "brave",
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "\"10 times more electricity\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 17,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-14",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "parallel",
+            "tavily"
+          ],
+          "page-14": [
+            "tavily"
+          ],
+          "page-20": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "\"A ChatGPT query uses 10 times more electricity than a Google search\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 20,
+        "matchingResults": 19,
+        "uniquePagesAdded": 13,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "parallel"
+        ],
+        "pageIds": [
+          "page-6",
+          "page-7",
+          "page-15"
+        ],
+        "pageProviders": {
+          "page-6": [
+            "perplexity"
+          ],
+          "page-7": [
+            "parallel"
+          ],
+          "page-15": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "ChatGPT query uses 10 times electricity Google search fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 39,
+        "matchingResults": 37,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-8",
+          "page-16",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-8": [
+            "tavily"
+          ],
+          "page-16": [
+            "tavily"
+          ],
+          "page-17": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "ChatGPT query uses 10 times electricity Google search study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 26,
+        "matchingResults": 24,
+        "uniquePagesAdded": 7,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": [
+          "page-9"
+        ],
+        "pageProviders": {
+          "page-9": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "ChatGPT query uses 10 times electricity Google search original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "ChatGPT query uses 10 times electricity Google search according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "ChatGPT query uses 10 times electricity Google search study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"ChatGPT query uses 10\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "ChatGPT query uses 10 times electricity Google search evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 3,
+    "summary": {
+      "totalPages": 17,
+      "independentOrigins": 4,
+      "verifiableOrigins": 4,
+      "echoPercentage": 6
+    },
+    "answer": "The \"10 times a Google search\" figure (about 3 Wh per ChatGPT query versus 0.3 Wh per search) is a commonly cited claim, but it traces back to a 2023 remark by Alphabet's chairman about cost, not a measured energy figure [1] [2] [3]. The search side of the comparison relies on a 2009 Google estimate of about 0.3 Wh per search, and the sources say this figure has not been updated [3] [1] [2]. Epoch AI estimates a typical GPT-4o ChatGPT query uses roughly 0.3 Wh, about ten times less than the older 3 Wh estimate, which would put it roughly on par with the 2009 Google search figure [2]. The sources describe the 10x claim as a fair reading of 2023 estimates that does not hold for a short text prompt on current published numbers, so it is likely an overestimate today [3] [4] [2].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 3,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7841,
+          "outputTokens": 341,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.019092
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 12091,
+          "outputTokens": 2246,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.046642
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2439,
+          "outputTokens": 365,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.008528
+        }
+      ],
+      "stageMs": {
+        "search": 3062,
+        "extract": 6944,
+        "grouping": 3498,
+        "judgment": 14393,
+        "answer": 3504,
+        "total": 31405
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "perplexity": 4,
+          "brave": 4,
+          "parallel": 3,
+          "exa": 4,
+          "tavily": 2
+        }
+      },
+      "usd": {
+        "claude": 0.074262,
+        "tavily": 0.024,
+        "telem": 0.113,
+        "total": 0.211262
+      }
+    }
+  }
+}

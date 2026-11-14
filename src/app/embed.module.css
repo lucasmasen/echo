@@ -1,0 +1,46 @@
+/* /embed (embed-view.tsx): Echo in the browser extension's side panel, 360–480 px wide. The wait card, the error
+   banner and the Check these sources card keep their own styles; this file only fits them into a narrow column. */
+.shell { width: 100%; max-width: 560px; margin: 0 auto; padding: 0 14px 28px; }
+.top { display: flex; align-items: center; justify-content: space-between; height: 46px; border-bottom: 1px solid rgba(44, 76, 68, 0.12); }
+.brand { color: var(--ink); font-size: 20px; font-weight: 750; letter-spacing: -1.1px; text-decoration: none; }
+.brand span { color: var(--teal); }
+.kicker { color: #758781; font-size: 9px; font-weight: 750; letter-spacing: 1.5px; }
+
+.form { margin-top: 12px; }
+.label { display: block; margin: 0 0 6px; color: #647871; font-size: 9px; font-weight: 750; letter-spacing: 1.35px; }
+.row { display: flex; gap: 8px; }
+.claim { flex: 1 1 auto; width: 100%; min-width: 0; height: 44px; padding: 0 12px; color: #223d39; border: 1px solid #dfe8e1; border-radius: 7px; outline: none; background: #fbfcf9; font-size: 13px; }
+.claim:focus { border-color: #87ada2; box-shadow: 0 0 0 3px rgba(77, 137, 130, 0.11); }
+.run { flex: 0 0 auto; min-height: 44px; padding: 0 14px; color: #fff; border: 0; border-radius: 7px; background: var(--teal-deep); font-size: 12px; font-weight: 700; cursor: pointer; }
+.run:disabled { background: #a8bdb6; cursor: default; }
+.claimText { margin: 12px 0 0; padding: 10px 12px; border: 1px solid #e1e9e3; border-radius: 8px; background: var(--card); color: var(--ink); font-size: 13px; font-weight: 600; line-height: 1.45; overflow-wrap: anywhere; }
+.claimText span { display: block; margin-bottom: 3px; color: #8b9a93; font-size: 9px; font-weight: 750; letter-spacing: 1.35px; }
+
+.note { margin: 10px 0 0; padding: 9px 11px; border: 1px dashed #c9dcd0; border-radius: 7px; background: #fbfdf9; color: #5f7a72; font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; }
+.note code { font-size: 10px; }
+
+.result { margin-top: 12px; }
+.eyebrow { display: block; color: #718780; font-size: 9px; font-weight: 750; letter-spacing: 1.5px; }
+.verdict { padding: 15px 14px; border: 1px solid #d8e7dc; border-radius: 10px; background: var(--card); box-shadow: var(--shadow); }
+.verdict h2 { margin: 6px 0 0; font-size: 19px; font-weight: 640; line-height: 1.2; letter-spacing: -0.5px; }
+.breakdown { margin: 8px 0 0; color: #5f7a72; font-size: 11px; line-height: 1.5; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 12px; }
+.stats div { padding: 8px 6px; border: 1px solid #e3ebe4; border-radius: 7px; background: #f7faf6; text-align: center; }
+.stats strong { display: block; font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stats span { display: block; margin-top: 2px; color: #6f817b; font-size: 10px; line-height: 1.3; }
+.plain { margin-top: 10px; padding: 10px 12px; border: 1px solid #dbe9de; border-left: 3px solid #548b79; border-radius: 7px; background: #fbfdf9; color: #30524e; }
+.plainPrimary { margin: 4px 0 0; font-size: 12px; font-weight: 650; line-height: 1.45; }
+.plainDetail { margin: 4px 0 0; color: #5f7a72; font-size: 11px; line-height: 1.5; }
+.answer { margin-top: 10px; padding: 12px; border: 1px solid #e1e9e3; border-radius: 8px; background: var(--card); }
+.answer p { margin: 6px 0 0; color: #30524e; font-size: 12px; line-height: 1.6; }
+.receipt { margin: 10px 0 0; color: #84928b; font-size: 10px; line-height: 1.5; }
+.full { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 42px; margin-top: 12px; border: 1px solid #c9dcd0; border-radius: 8px; background: #fbfdf9; color: var(--teal-deep); font-size: 12px; font-weight: 700; text-decoration: none; }
+.full:hover { border-color: #87ada2; }
+.again { display: block; width: 100%; min-height: 36px; margin-top: 8px; border: 0; background: none; color: var(--muted); font-size: 12px; font-weight: 650; cursor: pointer; }
+.again:hover { color: var(--ink); text-decoration: underline; }
+
+/* The shared cards, narrowed: the wait card, the error banner and the Check these sources card. */
+.shell :global(.loading-card) { margin-top: 12px; padding: 16px 14px; }
+.shell :global(.error-banner) { margin-top: 12px; }
+.shell :global(.progress-track) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; overflow: visible; }
+.shell section[aria-label="Supplied sources result"] { margin-top: 0; padding: 14px 12px; }

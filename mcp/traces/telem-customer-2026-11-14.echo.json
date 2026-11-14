@@ -1,0 +1,776 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T20:34:25.603Z",
+  "analysis": {
+    "claim": "It costs 5 times more to acquire a new customer than to keep an existing one",
+    "createdAt": "2026-11-14T20:34:25.602Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "The Value of Keeping the Right Customers",
+        "url": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers",
+        "domain": "hbr.org",
+        "publishedDate": "2014-10-29",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://hbr.org/resources/images/apple-touch-icon.png",
+        "text": "[SKIP TO CONTENT](#main) [Marketing](/topic/subject/marketing)|The Value of Keeping the Right Customers [Subscribe](/subscriptions?ab=topbar-subtout&tpcc=houseads.site.topbar-subtout) [Marketing](/topic/subject/marketing) # The Value of Keeping the Right Customers by [Amy Gallo](/search?term=Amy Gallo) October 29, 2014 * [![](/assets-mfe-articles/_next/static/media/Twitter.2ht2cms5y_jst.svg)Post](https://twitter.com/intent/tweet?&original_referer=&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&tw_p=tweetbutton&url=) * [![](/assets-mfe-articles/_next/static/media/BuyCopy.41629sloaw1es.svg)Buy Copies](/product/the-value-of-keeping-the-right-customers/H012GE-PDF-ENG) [Leer en español](/2014/10/the-value-of-keeping-the-right-customers?language=es)[Ler em português](/2014/10/the-value-of-keeping-the-right-customers?language=pt) * [![](/assets-mfe-articles/_next/static/media/Twitter.2ht2cms5y_jst.svg)Post](https://twitter.com/intent/tweet?&original_referer=&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&tw_p=tweetbutton&url=) * [![](/assets-mfe-articles/_next/static/media/BuyCopy.41629sloaw1es.svg)Buy Copies](/product/the-value-of-keeping-the-right-customers/H012GE-PDF-ENG) Depending on which study you believe, and what industry you’re in, acquiring a new customer is anywhere from five to 25 times more expensive than retaining an existing one. It makes sense: you don’t have to spend time and resources going out and finding a new client — you just have to keep the one you have happy. If you’re not convinced that retaining customers is so valuable, consider [research done by Frederick Reichheld of Bain & Company](http://www.bain.com/Images/BB_Prescription_cutting_costs.pdf) (the inventor of the [net promoter score](http://www.netpromoter.com/why-net-promoter/know/)) that shows increasing customer retention rates by 5% increases profits by 25% to 95%. * [![](/assets-mfe-articles/_next/static/media/Twitter.2ht2cms5y_jst.svg)Post](https://twitter.com/intent/tweet?&original",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "HBR article by Amy Gallo, the earliest dated page; the 5-25x range is attributed to experts and Bain, and later pages cite it."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Journalistic piece citing experts, no inspectable data in the passage."
+      },
+      {
+        "id": "page-2",
+        "title": "How Much More Does It Cost to Acquire a New Customer vs Retaining One? | Post Affiliate Pro",
+        "url": "https://www.postaffiliatepro.com/faq/customer-acquisition-vs-retention-cost",
+        "domain": "postaffiliatepro.com",
+        "publishedDate": "2025-11-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.postaffiliatepro.com/favicon.ico",
+        "text": "The fundamental principle that acquiring a new customer costs significantly more than retaining an existing one has become a cornerstone of modern business strategy. Research from Bain & Company and industry leaders consistently demonstrates that acquiring a new customer can cost between 5 and 25 times more than retaining an existing one. This dramatic difference stems from multiple interconnected factors that directly impact your marketing budget, sales operations, and overall business profitability. Understanding these cost drivers is essential for any business looking to optimize its marketing spend and improve its bottom line. ## The Primary Cost Drivers of Customer Acquisition ### Marketing and Advertising Expenses [...] Discover why acquiring new customers costs 5-25x more than retention. Learn cost-effective retention strategies to maximize customer lifetime value, also known as Customer Lifetime Value (CLV), means in affiliate marketing. Discover how to calculate, use, and maximize LTV to guide business growth, marketing strategy, and customer retention.\") and boost profitability. ## How much more does it cost to acquire a new customer compared to keeping an existing one? Acquiring a new customer typically costs 5 to 25 times more than retaining an existing one. This significant cost difference makes customer retention strategies far more efficient for boosting long-term revenue and profitability. ## Understanding the Cost Disparity Between Acquisition and Retention",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Attributes the 5-25x range to Bain and industry leaders without linking page-1; no added data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Named research without data."
+      },
+      {
+        "id": "page-3",
+        "title": "Does It Still Cost 5x More To Create A New Customer Than Retain An Old One?",
+        "url": "https://www.forbes.com/sites/blakemorgan/2019/04/29/does-it-still-cost-5x-more-to-create-a-new-customer-than-retain-an-old-one",
+        "domain": "forbes.com",
+        "publishedDate": "2019-04-29",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2019/04/29",
+        "extractionSource": "Search snippet",
+        "text": "The selling world is much different ... get a new customer, but in doing so, they lose focus on what really matters—connecting with customers and delivering value - now and in the future....",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Search snippet only; title questions the 5x claim, with no visible source relationship or data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-5",
+        "title": "56+ Must-Know Customer Retention Statistics to Keep ...",
+        "url": "https://firework.com/blog/customer-retention-statistics",
+        "domain": "firework.com",
+        "publishedDate": "2025-09-04",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/671c6ad0b13ddb124475654d_firework-webclip.png",
+        "text": "Discover how leading fashion brands are leveraging video commerce to drive engagement, boost conversions, and create immersive shopping experiences. Download the 2025 Fashion & Apparel Video Commerce Playbook to unlock key insights and strategies shaping the future of fashion retail. ## The Value of Customer Retention: Why It Matters More Than Acquisition Increasing Retention by 5% Boosts Profits by 25-95% A 5% increase in customer retention can lead to a 25-95% increase in profits, proving that keeping customers is more profitable than acquiring new ones. Acquiring New Customers Costs 5x More than Retaining Existing Ones It’s 5 times more expensive to acquire a new customer than it is to retain an existing one, making retention a cost-effective business strategy. [...] # 56+ Must-Know Customer Retention Statistics to Keep Your Business Thriving in 2025 Akash Cillanki Director of Demand Generation Share this post Explore AI Summary Table of Contents h2 h3 Example H3 h4 Example H4 h5 Example H5 h6 Example H6 Customer retention is more cost-effective than acquiring new customers, and it directly impacts a company’s long-term success. To maximize your retention strategy, here are 56+ essential customer retention statistics that will help you understand trends and improve loyalty in 2025.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Statistics listicle repeats the 5x figure and 25-95% profit stat with no visible source or data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Asserts statistics without supporting data."
+      },
+      {
+        "id": "page-6",
+        "title": "How to optimize in-force management to improve retention",
+        "url": "https://www.montoux.com/blog/how-to-optimize-in-force-management-to-improve-retention",
+        "domain": "montoux.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.prod.website-files.com/5e3c616067f69d488e271237/5e3c616067f69d07fc2712d2_Favicon_Blue_Square_256.png",
+        "text": "# How to optimize in-force management to improve retention # How to optimize in-force management to improve retention Many are familiar with the following statistic: it costs 5 times more to acquire a new customer than to keep an existing one. But you may not be aware that, in financial services, a 5 percent increase in customer retention leads to an over 25 percent increase in profit according to research by Frederick Reichheld of Bain & Company. [...] Being able to answer these kinds of questions unlocks the ability to transform your approach to retention as well as your optimal in force management. Beyond the benefits being able to address these questions brings to your customers, it doesn’t make sense from a business perspective not to prioritize retention, especially given how much it costs to acquire a new customer.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Undated; repeats the 5x statistic and credits Reichheld/Bain for the retention-profit figure, nothing added."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Cites research without showing data."
+      },
+      {
+        "id": "page-8",
+        "title": "Creating Customers for Life",
+        "url": "https://portal.gainscoconnect.com/ContentImages/GAINSCO_FF_Guide_Support_Keeping_Customers_For_Life_SE_03302015.pdf",
+        "domain": "portal.gainscoconnect.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "text": "r Collect email addresses from every new customer and use them to keep in touch. Also, use every contact opportunity to ask for updated phone and address information. 10 REASONS TO FOCUS ON CUSTOMER LOYALTY n A loss of one customer is more than just one policy — it’s the loss of all policies the customer might ever purchase from you. This is known as Customer Lifetime Value. o It costs 5 times more to acquire a new customer than to keep an existing one. p A 2% increase in customer retention has the same effect on profits as cutting costs by 10%. q An average company loses 10% of its customers each year – and the rate is much higher in the insurance industry. r A 5% reduction in customer loss can increase profits by 25–125%. [...] s Customer profitability tends to increase over the life of a retained customer. t Loyal customers refer their family and friends, which greatly multiplies the potential value. u On average, agents keep only 40% of non-standard customers to the end of their first 6-month policy cycle. v GAINSCO agents who work on retention can keep 50% or more non-standard customers. w Keeping just 20% more of your non-standard customers can result in a significant increase in commissions.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Undated list of loyalty stats including the 5x claim, without a source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bare assertions, though the page includes GAINSCO's own agent retention figures."
+      },
+      {
+        "id": "page-9",
+        "title": "Why should I create a member card program for my busine — tixMondo",
+        "url": "https://tixmondo.ro/support/faq/question/en/why-create-member-card-program",
+        "domain": "tixmondo.ro",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Discover why a member card program boosts revenue by 67% and why it's 5x cheaper to retain customers than acquire new ones.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "Snippet-only, undated; restates the 5x claim with no source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-10",
+        "title": "Revealed: The True Cost Of A Loyalty Program",
+        "url": "https://www.lightspeedhq.com/au/blog/true-cost-loyalty-program",
+        "domain": "lightspeedhq.com",
+        "publishedDate": "2021-09-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.lightspeedhq.com/apple-touch-icon.png?v=2",
+        "text": "Mecca’s Beauty Loop does this really well. In their tiered program, higher value customers receive more elaborate gift-boxes direct to their home address as a thank you. There are lots of different ways to generate buzz and engagement for your loyal customers. Run VIP campaigns like Double Points Days, or event-specific offers. Think about what your customers respond to, and don’t be afraid to deliver the warm fuzzies! | | | Did you know? More than half (53%) of loyalty members say they are interested in incentives to earn extra points or status levels. | ### 4. They act as a cost-effective marketing channel We know two things: 1. It costs 5 times more to acquire a new customer than to keep an existing one. 2. 80% of profits come from 20% of customers (i.e., your regulars). [...] Yet still many retailers are spending too much on acquisition and not enough on customer marketing. That’s not because they’ve made a conscious, strategic decision to allocate budget in this way, it’s simply because they don’t have visibility over the right data. Marketing suites like Lightspeed Advanced Marketing can wrap around your entire marketing strategy, with tools like a loyalty program, email campaigns, social media posting, SMS messaging, Google Review management and more. With software like this, you can see the return on all your marketing activities, and make adjustments to optimize your spend and resulting sales. ### 5. They mitigate price perception",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "States the 5x claim as a known fact with no source or data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Stock statistic asserted without data."
+      },
+      {
+        "id": "page-11",
+        "title": "Customer retention | Firstsource Glossary",
+        "url": "http://www.firstsource.com/insights/glossary/customer-retention",
+        "domain": "firstsource.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.firstsource.com/sites/default/files/favicon_1.png",
+        "text": "## Why it matters The economics consistently favor retention over acquisition, and by a wide enough margin that most companies' actual budget allocation looks misaligned with the data. Existing customers also convert at dramatically higher rates and spend more per transaction, which compounds the case for treating retention as a primary growth lever rather than a secondary defensive metric. The headline figures make the point. Acquiring a new customer costs 5 to 25 times more than retaining an existing one, and a 5% improvement in customer retention can boost profits by 25% to 95%, yet only about 18% of companies focus more on retention than acquisition. That gap between what the data supports and where budgets go is the opportunity. [...] Because the cost of acquiring a replacement customer is so much higher than the cost of keeping an existing one that even a modest reduction in churn compounds significantly over time: fewer replacement acquisitions needed, more cumulative lifetime revenue per retained customer, and lower servicing costs for customers who've been with a company longer and require less onboarding support. ### What is a save desk and how does it fit into customer retention? A save desk is a specialized team or workflow focused specifically on engaging customers who've signaled intent to cancel, typically equipped with retention-specific offers and greater discretion than a standard service agent, precisely because this moment carries outsized impact on the retention rate.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-1",
+          "confidence": 40,
+          "evidence": "Undated glossary repeats the 5-25x and 25-95% figures shared with HBR, but chronology is unknown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Statistics without supporting data."
+      },
+      {
+        "id": "page-12",
+        "title": "Customer Acquisition: What You Need To Know",
+        "url": "https://extension.psu.edu/customer-acquisition-what-you-need-to-know",
+        "domain": "extension.psu.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://extension.psu.edu/media/favicon/stores/2/Favicon.png",
+        "text": "The next step is to think strategically about how to efficiently create a branding and marketing campaign to let targeted customers know how to find a product. The dollars it takes to create a new loyal customer, or \"customer acquisition cost\" (CAC), is often an invisible cost to a small business, and often a line item in the marketing budget of a large business. A general rule of thumb is that it costs a business five times more to acquire a new customer than it does to retain a current one. Consider the true cost of time and resources it takes to attract new customers versus what it takes to keep them. A simple way to determine your CAC is to calculate the total cost of advertising over a year (including time spent) and divide that by the number of new customers you acquired that year. [...] ## It Pays to Keep that Customer!",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Undated; calls 5x a general rule of thumb with no source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data supports the rule of thumb."
+      },
+      {
+        "id": "page-13",
+        "title": "Customer Acquisition vs Retention Cost: Full Guide",
+        "url": "https://www.yotpo.com/blog/cost-of-customer-acquisition-vs-retention",
+        "domain": "yotpo.com",
+        "publishedDate": "2025-10-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.yotpo.com/apple-touch-icon.png",
+        "text": "Frequently Asked Questions Winning a new customer almost always costs more than keeping one you already have, and Harvard Business Review puts the gap at anywhere from five to 25 times depending on the industry. Repeat buyers also convert more easily and tend to spend more. Below you’ll find both costs side by side, the formulas for CAC, CLV and the CLV:CAC ratio, and ways loyalty programs and reviews help you keep customers. ## Key Takeaways: Customer Acquisition vs. Retention [...] Acquisition costs more: According to Harvard Business Review, a new customer typically costs 5 to 25 times more to win than an existing one costs to keep, and where you land in that range depends on your industry. Retention drives profit: Bain & Company research, cited by Harvard Business Review, links a 5% increase in retention to profits rising by 25% to 95%, because loyal customers keep buying and are cheaper to serve. Existing customers are easier to sell to: The Marketing Centre puts your odds with a current customer at about 60% to 70%, while a brand-new prospect converts only 5% to 20% of the time.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 90,
+          "evidence": "Links to and credits the HBR page for the 5-25x claim and the Bain finding, and it is dated later."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://hbr.org/2014/10/the-value-of-keeping-the-right-customers"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats cited figures without data."
+      },
+      {
+        "id": "page-14",
+        "title": "The Cost of Customer Acquisition vs Customer Retention",
+        "url": "https://uplandsoftware.com/kapost/resources/blog/customer-acquisition-versus-customer-retention",
+        "domain": "uplandsoftware.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://uplandsoftware.com/wp-content/themes/upland/assets/images/favicons/apple-touch-icon.png",
+        "text": "Marketing / Content operations # The Cost of Customer Acquisition vs. Customer Retention # The Cost of Customer Acquisition vs. Customer Retention 5 minute read Resource right rail card Marketing Sales Kapost Blogs Whether you’re a startup gearing to accelerate growth or a mature corporation looking to gain market share, one stat still matters… It costs 5x more to obtain a new customer than to keep an existing one. Why the crazy difference between these costs? Because the barrier to entry is much higher for top-of-funnel prospects. And here’s the cold hard truth—customers don’t buy from brands they don’t trust. ## Why You Should Value Customer Retention [...] #1: Current customers are more willing to try your new product. Existing customers are 50% more likely to try new products and spend 31% more, on average, when compared to new customers, which translates to cross sells and upsells. #2: You have the ear of your customer already, so they’ll be willing to truly listen to what you have to offer. The probability of selling to an existing customer is 60 – 70%, while the probability of selling to a new prospect is just 5-20%. > The probability of selling to an existing customer is 60 – 70%, while the probability of selling to a new prospect is just 5-20%.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Undated blog repeats the 5x stat and other stats without a named source; shared wording with page-17 is only a title phrase."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Unsourced statistics."
+      },
+      {
+        "id": "page-15",
+        "title": "The Retention Math: Why Keeping a Customer Beats Winning a New One | Telebridge Blog",
+        "url": "https://telebridge.ca/blog/customer-retention-vs-acquisition-math",
+        "domain": "telebridge.ca",
+        "publishedDate": "2026-08-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://telebridge.ca/favicon.ico",
+        "text": "## #The math inverts how most owners spend Set that against the cost of the alternative. Acquiring a new customer costs 5 to 25 times more than keeping an existing one, depending on your industry. And your odds are completely different: the probability of selling to an existing customer is 60–70%, versus just 5–20% for a cold prospect. So why does nearly every marketing dollar point outward, at people who do not know you yet? Because new customers are visible and celebrated; quiet renewals are ignored. Growth targets are set in new logos. It feels like progress. But it is the most expensive growth you can buy, and it gets more expensive every year — acquisition costs have climbed sharply since 2023 as ad competition and tracking changes bite. [...] Telebridge Rogers Business Paystone # The Retention Math: Why Keeping a Customer Beats Winning a New One ## The short version In the 1990s a Bain & Company consultant named Frederick Reichheld ran the numbers on something most businesses treated as an afterthought: what happens to profit when you simply keep more of the customers you already have. The answer became one of the most-cited findings in business — and most owners still budget as if they had never heard it. A 5% increase in customer retention raises profit by 25% to 95% (Bain & Company, published in Harvard Business Review). Not revenue — profit. And it compounds, because a retained customer spends more over time while costing almost nothing extra to serve. ## #The math inverts how most owners spend",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Repeats the 5-25x range and the Reichheld/Bain story with no cluster citation."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Restated statistics without data."
+      },
+      {
+        "id": "page-16",
+        "title": "It costs 5X more to acquire a new customer than to retain ...",
+        "url": "https://www.linkedin.com/posts/olsonkelly_it-costs-5x-more-to-acquire-a-new-customer-activity-7493663938031546368-lNaI",
+        "domain": "linkedin.com",
+        "publishedDate": "2026-08-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca",
+        "text": "##### Transcript There is a visibility problem underneath the budget problem. Leadership usually allocates resources toward what it can see clearly. New business has pipeline stages, forecasts, conversion rates, and acquisition costs. Existing relationships are often reduced to renewal dates and booked revenue. That makes acquisition look more measurable while post-sales looks softer than it really is. But relationship health affects expansion, referrals, future demand, and the trust the business carries into the next conversation. Giving post-sales a seat at the table is partly about making that future value visible before planning starts. The budget follows the visibility. [...] → Auditing the CRM for the gaps: where it tracks new business well but leaves existing clients invisible → Mapping onboarding and handoffs end to end, to find exactly where clients lose momentum or context gets dropped between teams → Documenting where Sales, CS, and Marketing incentives are misaligned, before compensation conversations happen → Building out CLTV and CAC by client segment, so the numbers are already there when leadership asks Post-sales isn't just retention. It's a growth function. But it only gets budget and attention in planning season if the data and the case are ready ahead of time. This founder is doing the prep work now, so when 2027 planning starts, she's not scrambling. She's presenting a plan and knows exactly where to point resources.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "LinkedIn post whose title uses the 5x claim; the visible transcript is the author's own argument about budget visibility, with no cited source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Opinion with no data."
+      },
+      {
+        "id": "page-17",
+        "title": "Paid Customer Acquisition vs Retention: Which is Cost-Effective? – 5X Growth",
+        "url": "https://5xgrowth.com/blog/paid-customer-acquisition-vs-retention-which-is-more-cost-effective",
+        "domain": "5xgrowth.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://5xgrowth.com/wp-content/uploads/2023/09/cropped-5x512-1-180x180.png",
+        "text": "# Paid Customer Acquisition vs Retention: Which is Cost-Effective? paid customer acquisition As a business, you know that paid customer acquisition is a crucial part of your strategy. Without a steady stream of new customers, it’s hard to grow and thrive. But there’s a common misconception that paid customer acquisition is much more expensive than customer retention. Is that really true? You might have heard that it costs 5 times more to acquire a new customer than to keep an existing one. However, when we look more closely, this isn’t always the case. The cost of attracting new customers can vary depending on the industry and the specific business. So, it’s difficult to make broad claims about the cost without taking into account the context. [...] Acquiring new customers has a lot of benefits beyond just the cost. It can increase brand awareness, expand your customer base, and lead to more significant market share. These factors can ultimately lead to greater revenue growth and increased profitability, even if the cost of customer acquisition is higher than that of retention. It’s important to note that there are hidden costs associated with customer acquisition, such as discounts, onboarding, and servicing costs. Additionally, negative word-of-mouth and the loss of referrals can significantly impact a business’s reputation and lead to a decrease in sales.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Undated; questions the 5x claim with a general argument about context, not derived from any cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "General argument without data."
+      },
+      {
+        "id": "page-18",
+        "title": "What It Really Costs to Acquire a New Customer - Eller Media",
+        "url": "https://ellermedia.com/blog/what-it-really-costs-to-acquire-a-new-customer",
+        "domain": "ellermedia.com",
+        "publishedDate": "2026-06-29",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "http://ellermedia.com/favicon.svg",
+        "text": "## How much more does it cost to acquire a new customer than to keep one? Acquiring a new B2B customer costs roughly 5 to 25 times more than retaining an existing one. The figure traces to Bain and Harvard Business Review, so treat the exact multiple as direction, not law. A new account has no trust, a long evaluation cycle, and a sales process to fund. An existing one already bought and already sees value. [...] ## Key takeaways Customer acquisition cost is your fully loaded sales and marketing spend divided by the customers you won. Most teams undercount it badly. Acquiring a new B2B customer runs 5 to 25 times more than retaining one, and the cost has climbed roughly 60 percent over the past five years. A lifetime-value to acquisition-cost ratio near 3 to 1 is the benchmark, with payback inside about 12 months for healthy companies. You lower CAC by improving targeting and conversion, not by spending more. Referred customers alone retain 37 percent better and carry 16 percent higher lifetime value. The durable fix is a system that points spend at real demand and multiplies output from a lean team, not another headcount or retainer.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Attributes 5-25x to Bain and HBR without a link, adding only other stats without data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No inspectable data shown."
+      },
+      {
+        "id": "page-19",
+        "title": "The optimal ratio of acquisition and retention costs",
+        "url": "https://link.springer.com/article/10.1057/palgrave.jt.5740142?code=a3e2cb2c-fad1-4ba1-88b4-34a8a254910d&error=cookies_not_supported",
+        "domain": "link.springer.com",
+        "publishedDate": "2005-01-01",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Published: 01 January 2005”",
+        "extractionSource": "Search snippet",
+        "text": "The optimal ratio of acquisition and retention costs | Journal of Targeting, Measurement and Analysis for Marketing # The optimal ratio of acquisition and retention costs - Published: 01 January 2005 - Opinion - Cite this article - Volume 13, pages 179–188, (2005) Download PDF Journal of Targeting, Measurement and Analysis for Marketing ## Abstract It is often said that the cost to acquire a new customer is five times (5X) the cost of retaining an existing one, and therefore firms should spend more money on customer retention. The purpose of this paper is explore whether, in fact, a firm should spend more money on customer retention if its cost to acquire a new customer is 5X the cost of retaining an existing one. Under the assumptions of the Blattberg and Deighton model, the answer depends on whether the costs in question are average or marginal. If the 5X ratio refers to average costs, then a 5X ratio does not necessarily imply the firm should spend more on retention. If the 5X ratio…",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Journal paper analyzing the 5x claim with the Blattberg-Deighton model."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Original model-based analysis in the peer-reviewed abstract, though only a snippet."
+      },
+      {
+        "id": "page-20",
+        "title": "Customer Acquisition Costs vs. Retention Costs | Optimove",
+        "url": "https://www.optimove.com/resources/learning-center/customer-acquisition-vs-retention-costs",
+        "domain": "optimove.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.optimove.com/apple-icon.png?apple-icon.14ipp9dquzrf8.png?dpl=dpl_eKPuy5gEhASMfvSi3oDC2Bb9ywcz",
+        "text": "The cost of acquiring a new customer can be as much as five times higher than retaining an existing one. Customer Acquisition Costs (CAC) are typically higher than Customer Retention Costs due to the extensive marketing and advertising efforts required to attract new customers. Acquisition involves broad strategies such as digital advertising, content marketing, social media campaigns, and more, which are aimed at reaching a broad audience to find potential customers. These activities often require significant investment in both time and money. On the other hand, retention costs focus on maintaining and deepening relationships with existing customers through email marketing, customer service, loyalty programs, and personalized offers. Since these efforts are directed at an already engaged [...] ## Why Do Marketers Prefer Retention Over Acquisition? Data shows the retaining existing customers is equally, if not more important than acquiring new customers. The cost of acquiring new customers is five times higher than the cost of retaining existing customers. While acquisition allows you to increase the amount of customers you have, customer retention allows you to maximize the value of customers you have already captured. ## Optimove’s Customer Acquisition & Retention Software",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Undated vendor page asserting 'as much as five times' with no source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Unsupported assertion."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Acquiring a new customer costs 5x more than retaining one (including pages questioning the",
+        "pageIds": [
+          "page-3",
+          "page-5",
+          "page-6",
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-12",
+          "page-14",
+          "page-16",
+          "page-17",
+          "page-19",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Acquiring a new customer costs 5 to 25 times more than retaining one (Bain/HBR origin)",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-11",
+          "page-13",
+          "page-15",
+          "page-18"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-19"
+    ],
+    "verifiableRoots": [
+      "page-19"
+    ],
+    "answerSourceIds": [
+      "page-19",
+      "page-1"
+    ],
+    "answerStatements": [
+      {
+        "text": "A 2005 paper in the Journal of Targeting, Measurement and Analysis for Marketing says it is often claimed that acquiring a new customer costs five times as much as retaining an existing one",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "The same paper examines whether that 5X ratio should lead firms to spend more on retention, and finds that under the Blattberg and Deighton model the answer depends on whether the costs are average or marginal",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "If the 5X ratio refers to average costs, the paper says it does not necessarily imply that a firm should spend more on retention",
+        "sourceIds": [
+          "page-19"
+        ]
+      },
+      {
+        "text": "The available excerpts do not establish that acquiring a customer actually costs 5 times more than retaining one; the 5X figure is presented as a common saying, and the other page's provided text does not address it",
+        "sourceIds": [
+          "page-19",
+          "page-1"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "It costs 5 times more to acquire a new customer than to keep an existing one",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 35,
+        "matchingResults": 32,
+        "uniquePagesAdded": 31,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-5",
+          "page-12",
+          "page-13",
+          "page-3",
+          "page-15",
+          "page-14",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "exa",
+            "parallel",
+            "brave",
+            "perplexity"
+          ],
+          "page-2": [
+            "tavily",
+            "brave"
+          ],
+          "page-5": [
+            "perplexity"
+          ],
+          "page-12": [
+            "exa",
+            "tavily"
+          ],
+          "page-13": [
+            "tavily",
+            "brave"
+          ],
+          "page-3": [
+            "brave",
+            "exa",
+            "parallel",
+            "tavily"
+          ],
+          "page-15": [
+            "parallel"
+          ],
+          "page-14": [
+            "perplexity",
+            "exa"
+          ],
+          "page-20": [
+            "tavily",
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "\"5 times more to\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 27,
+        "uniquePagesAdded": 25,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-6",
+          "page-16"
+        ],
+        "pageProviders": {
+          "page-6": [
+            "exa"
+          ],
+          "page-16": [
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "\"It costs 5 times more to acquire a new customer than to keep an existing one\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 40,
+        "matchingResults": 37,
+        "uniquePagesAdded": 20,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-8",
+          "page-9",
+          "page-10",
+          "page-17"
+        ],
+        "pageProviders": {
+          "page-8": [
+            "exa"
+          ],
+          "page-9": [
+            "brave"
+          ],
+          "page-10": [
+            "perplexity"
+          ],
+          "page-17": [
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "costs 5 times acquire new customer keep existing fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 27,
+        "uniquePagesAdded": 13,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "tavily",
+          "parallel"
+        ],
+        "pageIds": [
+          "page-11",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-11": [
+            "parallel"
+          ],
+          "page-18": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "costs 5 times acquire new customer keep existing study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 27,
+        "matchingResults": 22,
+        "uniquePagesAdded": 12,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "perplexity",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-19": [
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "costs 5 times acquire new customer keep existing original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "costs 5 times acquire new customer keep existing according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "costs 5 times acquire new customer keep existing study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"acquire a new customer\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "costs 5 times acquire new customer keep existing evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 2,
+    "summary": {
+      "totalPages": 18,
+      "independentOrigins": 2,
+      "verifiableOrigins": 1,
+      "echoPercentage": 6
+    },
+    "answer": "A 2005 paper in the Journal of Targeting, Measurement and Analysis for Marketing says it is often claimed that acquiring a new customer costs five times as much as retaining an existing one [1]. The same paper examines whether that 5X ratio should lead firms to spend more on retention, and finds that under the Blattberg and Deighton model the answer depends on whether the costs are average or marginal [1]. If the 5X ratio refers to average costs, the paper says it does not necessarily imply that a firm should spend more on retention [1]. The available excerpts do not establish that acquiring a customer actually costs 5 times more than retaining one; the 5X figure is presented as a common saying, and the other page's provided text does not address it [1] [2].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 6944,
+          "outputTokens": 947,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.023358
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 10949,
+          "outputTokens": 2225,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.044148
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 1742,
+          "outputTokens": 311,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.006594
+        }
+      ],
+      "stageMs": {
+        "search": 3180,
+        "extract": 3369,
+        "grouping": 8082,
+        "judgment": 14962,
+        "answer": 2701,
+        "total": 32298
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "exa": 4,
+          "perplexity": 5,
+          "tavily": 4,
+          "brave": 3,
+          "parallel": 4
+        }
+      },
+      "usd": {
+        "claude": 0.0741,
+        "tavily": 0.032,
+        "telem": 0.124,
+        "total": 0.2301
+      }
+    }
+  }
+}

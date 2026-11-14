@@ -1,0 +1,530 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-12T04:13:58.718431Z",
+  "analysis": {
+    "claim": "Goldfish have a 3-second memory",
+    "createdAt": "2026-11-12T04:13:58.716Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Do Goldfish Really Have A 3-Second Memory? » ScienceABC",
+        "url": "https://www.scienceabc.com/nature/animals/do-goldfish-really-have-a-3-second-memory",
+        "domain": "scienceabc.com",
+        "publishedDate": "2022-11-11",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scienceabc.com/wp-content/uploads/2015/04/favicon.ico",
+        "text": "> The “goldfish has a 3-second memory” claim is a myth. Controlled experiments going back to the 1960s have shown that goldfish can remember objects and feeding cues for weeks, learn to push levers for food, and use visual landmarks to find their way around. A 2022 study at Ben-Gurion University even trained goldfish to “drive” a wheeled tank toward a target on land, a feat that requires much more than three seconds of working memory. Have you ever walked into a room, and then completely forgotten what you came in for? We often compare this frustrating experience to the life of a goldfish, as though they are always forgetting what they were just doing. But do goldfish actually have a 3-second memory? The short answer is NO. [...] Researchers upped the ante by restricting the time when the food would be accessible to them. Instead of pressing the lever whenever they wanted food, goldfish only went towards the lever at the available time. While this data doesn’t argue for Einstein-like intelligence, it shows that fish can certainly remember things for more than 3 seconds.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "The explainer summarizes experiments without naming or copying any earlier cluster page, and the shared wording is trivial."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It describes past studies in general terms without presenting the underlying data."
+      },
+      {
+        "id": "page-2",
+        "title": "MythBuster: Goldfish Have a 3-Second Memory — STEAM Ahead",
+        "url": "https://www.westeamahead.org/blog/2025/8/7/mythbuster-goldfish-have-a-3-second-memory",
+        "domain": "westeamahead.org",
+        "publishedDate": "2025-08-07",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's datePublished meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://assets.squarespace.com/universal/default-favicon.ico",
+        "text": "Scientific studies have shown that goldfish can learn tasks, recognize patterns, and even anticipate routines. In one experiment, goldfish were trained to push a lever at a specific time each day to receive food. The kicker? They remembered how to do it weeks later. That’s a long way from three seconds. ### Busting the Myth So where did the three-second memory myth come from? No one knows for sure, but it likely started as a way to justify the use of small bowls and under-stimulating environments for pet goldfish. If they forget everything every few seconds, the logic goes, they won’t notice or care where they live. [...] In one study, goldfish were trained to respond to full pieces of classical music. They learned to tell the difference between two very different composers—J.S. Bach and Igor Stravinsky. Over time, the fish reacted differently depending on which piece was playing, showing they could distinguish between musical styles. That’s a big leap from forgetting everything after a blink. ### Why It Matters Believing that goldfish have only a three-second memory might seem harmless, but it has real consequences. It affects how people care for these animals and whether they’re given proper stimulation, space, and respect. If we underestimate an animal’s intelligence, we’re less likely to provide for its needs.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The page repeats common lever-experiment claims without citing a source, and the shared wording is minimal."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It gives general summaries of studies without data."
+      },
+      {
+        "id": "page-3",
+        "title": "Do goldfish really have a 3-second memory? | Live Science",
+        "url": "https://www.livescience.com/goldfish-memory.html",
+        "domain": "livescience.com",
+        "publishedDate": "2021-05-22",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.livescience.com/favicon.ico",
+        "text": "(Image credit: Shutterstock) Facebook X Reddit Pinterest Flipboard Share this article Join the conversation Follow us Add us as a preferred source on Google Subscribe to our newsletter Goldfish are known for their orange hues and terrible memories. One common saying even claims that these creatures have a mere 3-second recall. However, this is a complete myth that, despite its lack of scientific backing, has spread widely and remained largely undisputed by the public for decades. \"What is baffling is that it's pretty much the same wherever you go in the world,\" Culum Brown, an expert in fish cognition at Macquarie University in Australia, told Live Science. \"In some places, it's 2 seconds, and in others, it's 10 — but it's always short.\" [...] Goldfish are also good problem-solvers and have been taught to escape nets and navigate mazes, Brown said. They can even remember how to repeat these tasks weeks, and even months, later, Brown said. Other evidence suggests that goldfish can recognize and remember other individuals, even after long periods of separation, Brown said. On top of these findings, there is a wealth of anecdotal evidence from goldfish owners who often observe complex behaviors in their pets when interacting with them. Some even claim that their goldfish can recognise them apart from other people.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Live Science quotes a fish cognition expert (Culum Brown) in its own reporting, with no citation of other cluster pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It relies on an expert quotation and anecdotes, not inspectable data."
+      },
+      {
+        "id": "page-4",
+        "title": "Do Goldfish Really Have a 3-Second Memory?",
+        "url": "https://www.orangepet.in/blogs/posts/do-goldfish-really-have-a-3-second-memory",
+        "domain": "orangepet.in",
+        "publishedDate": "2025-09-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.orangepet.in/cdn/shop/files/favicon_96x96.png?v=1649050889",
+        "text": "In short, science has demolished the three-second myth. ## How Good Is a Goldfish’s Memory? While exact limits are still being studied, here’s what we know: Goldfish can remember cues for months. They can recognize shapes, colors, and even sounds. Some studies suggest their memory may last up to a year or more, much like their close relatives, carp. They even show signs of spatial intelligence, learning to measure distances and navigate environments with surprising accuracy. That’s a far cry from forgetting things in three seconds. ## Why This Myth Still Exists So why has the myth stuck around? [...] We’ve all heard it. Some of us have even used it as an insult: “You’ve got the memory of a goldfish.” But is it true? Do goldfish really forget everything after three seconds? Let’s dive in and bust this myth once and for all. ## The Three-Second Myth The idea that goldfish only remember things for three seconds has been repeated so often that it’s become a cultural “fact.” It’s even been reinforced in popular media.. think of Dory from Finding Nemo. But here’s the truth: goldfish have memories that last far longer than three seconds. Not just hours or days, but weeks, months, and in some cases, even up to a year. ## What Science Really Says Decades of research have proved that goldfish are smarter than we once thought.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The page is a generic myth-busting piece with no citations or distinctive overlapping wording."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes assertions without data."
+      },
+      {
+        "id": "page-5",
+        "title": "So, a goldfish has a 3 second memory, but they know when feeding time is. : r/Goldfish",
+        "url": "https://www.reddit.com/r/Goldfish/comments/1ipoa8o/so_a_goldfish_has_a_3_second_memory_but_they_know",
+        "domain": "reddit.com",
+        "publishedDate": "2025-10-29",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.redditstatic.com/shreddit/assets/favicon/152x152.png",
+        "text": "Image 8: u/PiesAteMyFace avatar PiesAteMyFace •2y ago Even my Betta can remember faces. I would imagine goldfish are orders of magnitude smarter. []( marlee_dood •2y ago Image 9: Profile Badge for the Achievement Top 1% CommenterTop 1% Commenter They do! They can even be taught tricks and can recognize faces. Most animals are smarter than humans give them credit for []( sugahack •2y ago They recognize individuals. They've been taught to drive. They're smarter than some people I've met [deleted] •2y ago golfish have a memory of 3 months not 3sec Image 10: u/AutoModerator avatar AutoModerator •2y ago G'day, I noticed you're asking about tank dietary requirements for goldfish. Here is a great guide for feeding your fish. [...] Skip to main contentSo, a goldfish has a 3 second memory, but they know when feeding time is. : r/Goldfish Open menu Open navigation . They know that the snails aren't good after the first day of trying to eat their shells, so now they just chill together. They barely even go for the shrimp these days, after a few hours of learning they're too fast to catch, so they basically ignore them. They form specific bonds with other goldfish, and sleep together in the same corner of the tank. []( Dracox96 •2y ago Who told you that baloney? [deleted] •2y ago Its actually 4 seconds Image 7: u/theo_the_trashdog avatar theo_the_trashdog •2y ago 1 it's always feeding time 2 their love of food overrides the laws of nature Image 8: u/PiesAteMyFace avatar PiesAteMyFace •2y ago",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "The Reddit thread contains user anecdotes and the date is only an estimate."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The anecdotal comments are not systematic evidence."
+      },
+      {
+        "id": "page-6",
+        "title": "Fact Check: Goldfish only have a memory span of 3 seconds. | AI Fact Checker | AI Fact Checker",
+        "url": "https://factscheckerai.com/fact/goldfish-only-have-a-memory-span-of-3-seconds",
+        "domain": "factscheckerai.com",
+        "publishedDate": "2024-11-30",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Search snippet",
+        "favicon": "https://img6.wsimg.com/ux-assets/favicon/apple-icon-144x144.png",
+        "text": "## Sources Conflicts goldfish have a longer memory span than 3 seconds aquariumsphere.com Conflicts a goldfish’s memory lasts far longer than just seven seconds blogs.iu.edu Conflicts Scientists have proven that goldfish memory spans are nowhere near as short as three seconds economictimes.indiatimes.com Conflicts the myth of the 3-second goldfish memory is debunked thegoldfishtank.com Conflicts [...] Conflicts Goldfishes actually have memories that can last for weeks, months and even years. www.livescience.com Conflicts Goldfish can definitely remember for longer than 3 seconds. www.scienceabc.com ## Similar Statements The Earth is round. Factuality Score95.0% Water boils at 100 degrees Celsius. Factuality Score98.0% The sky is blue. Factuality Score90.0% The sky is blue. Factuality Score90.0% The sky is blue. Factuality Score90.0% The sky is blue. Factuality Score90.0% [...] ## Analysis The statement that goldfish only have a memory span of 3 seconds is incorrect. Multiple sources indicate that goldfish have memory spans that can last for weeks, months, and even years. Research has shown that goldfish can remember things for at least five months, and their cognitive abilities are more complex than the myth suggests. Therefore, the overwhelming evidence contradicts the claim of a mere 3-second memory span, making the statement factually incorrect. ## Sources",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-1",
+          "confidence": 0,
+          "evidence": "At least one publication date is a search-provider estimate, so Echo cannot confirm the direction of this proposed link."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain primary evidence not shown here."
+      },
+      {
+        "id": "page-7",
+        "title": "Do goldfish really only have a 3 second memory? | Discover Wildlife",
+        "url": "https://www.discoverwildlife.com/animal-facts/fish/goldfish-memory",
+        "domain": "discoverwildlife.com",
+        "publishedDate": "2026-01-14",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://d2rj6cu2ik1biv.cloudfront.net/thumbnails/f347d34d-c1a6-4a00-b570-b78c2dcb3211/web_kiosk_favicon_1.ico?appId=f347d34d-c1a6-4a00-b570-b78c2dcb3211",
+        "text": "Do goldfish really only have a 3 second memory? # Do goldfish really only have a 3 second memory? Goldfish are far more intelligent than their reputation suggests... Telescope eye goldfish from the side, with a black background. Debbie Graham The prevalent myth that goldfish only have a three-second memory does goldfish a great disservice, says Ellen Husain. In fact, goldfish can retain memories for at least three months, can be trained, and can also tell the time. In experiments at Plymouth University, the diminutive members of the carp family learned to push a lever in order to get food. When the experiment was adjusted so ti lever worked for only one hou each day, the fish learned to nudge it at the right time. [...] Do fish make friends? How do fish breathe? Can fish see in colour? How do 'flying fish' fly? Most people are surprised in evolutionary terms that goldfish would remember where, when and how to get food - a process called time-place learning. Studies at St Andrews University also suggest that minnows are as intelligent as rats. Social fish often inspect threats from predators together; if one hangs back, leaving another in danger, that individual will no longer be trusted in future. Ellen Husain Author avatar Debbie Graham ## You may also like ### Discover Wildlife ### We all know fish can swim but can they actually walk? 9/28/2026 Some fish can 'walk' across the seabed says Laurie Jackson. Here's some of them... Show more animal-facts fish apple-news",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The magazine piece summarizes Plymouth and St Andrews studies without links, and its relationship to other pages is unclear."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It reports study outcomes secondhand without data."
+      },
+      {
+        "id": "page-8",
+        "title": "Do Goldfish Only Have a 3-Second Memory?",
+        "url": "https://www.youtube.com/watch?v=p4wieQEBCt4&vl=en",
+        "domain": "youtube.com",
+        "publishedDate": "2023-12-11",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Posted: 2023-12-11”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "# Do Goldfish Only Have a 3-Second Memory? ## Channel: ScienceABC II 32.4K subscribers 34 likes ### Description 2,344 views Posted: 2023-12-11 You've probably heard that goldfish have a memory span of just 3 seconds, making them the poster child for forgetfulness. But is this widely repeated claim actually true? Spoiler: it's one of the biggest myths in the animal kingdom. In this video, we explain why the 3-second goldfish memory myth is completely wrong, explore real experiments that prove goldfish can remember things for weeks and even months, and look at the surprising cognitive abilities of these common household pets. [...] ### Transcript [0:04] Have you ever walked into a room, only to completely forget your reason for entering ? Such experiences, generally regarded as odd and frustrating, are often compared with the life and mind of a goldfish. [0:16] The notion is that goldfish always and nearly immediately forget about their previous activities . However, does the widely held belief that goldfish have a 3-second memory bear any truth? [0:27] The answer, quite simply, is NO. So, what's the accurate memory span of goldfish, and why do so many people still jest at the expense of this seemingly innocent creature?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 60,
+          "evidence": "The video is from the ScienceABC channel and its transcript mirrors the article's framing, including the 'walked into a room' opener and the 'The answer is NO' line."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The transcript is a narrated summary with no original data."
+      },
+      {
+        "id": "page-9",
+        "title": "Scientists have proved goldfish do have good memories and are able to navigate their surroundings. A team from Oxford University trained nine fish to travel 70cm (2.3ft) and back, receiving a food reward at the end. The study disproves the long-held belief goldfish have little or no memory. : r/science",
+        "url": "https://www.reddit.com/r/science/comments/y30ixz/scientists_have_proved_goldfish_do_have_good",
+        "domain": "reddit.com",
+        "publishedDate": "2022-11-10",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.redditstatic.com/shreddit/assets/favicon/152x152.png",
+        "text": "Image 22: u/Tripper-Harrison avatar Tripper-Harrison •4y ago Are you trying to tell me Ted is wROnG?!? Ted Lasso is NEVER wrong!!! Image 50 r/HFY•4y ago ### But Does It Scale? (23) 386 upvotes ·18 comments ELI5: How do scientists know that fish only have three second memory spans?Image 51 r/explainlikeimfive•13y ago ### ELI5: How do scientists know that fish only have three second memory spans? 5 comments Why do people say ‘memory like a goldfish’ when goldfish actually have exceptional memories?Image 52 r/NoStupidQuestions•2y ago ### Why do people say ‘memory like a goldfish’ when goldfish actually have exceptional memories? 5 comments [...] Book Now booking.com Image 5: Clickable image which will reveal the video player: Elige entre más de 28 millones de alojamientos alrededor del mundo 🌍 Collapse video player Image 6: u/airbnb avataru/airbnb•Ad Not sure where to travel next? With 7M stays, odds are pretty good that you'll figure it out. Book Now airbnb.com Image 7: Clickable image which will reveal the video player: Not sure where to travel next? With 7M stays, odds are pretty good that you'll figure it out. Collapse video player Sort by: Best Open comment sort options Best Top New Controversial Old Q&A # Comments Section Image 8: u/AutoModerator avatar AutoModerator •4y ago Moderator Announcement Read More »",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-11",
+          "confidence": 0,
+          "evidence": "At least one publication date is a search-provider estimate, so Echo cannot confirm the direction of this proposed link."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is a link-share thread with no original data."
+      },
+      {
+        "id": "page-10",
+        "title": "Can Goldfish Really Only Remember for 3 Seconds?",
+        "url": "https://www.youtube.com/watch?v=ktSfQmdEc0E",
+        "domain": "youtube.com",
+        "publishedDate": "2026-07-13",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "[6:31] Some experiments have gone a step further, teaching goldfish to respond to sounds or lights before a reward [6:38] appears. These behaviors require more than instinct. They involve learning, remembering, and adapting based on [6:46] previous experiences, that's a far cry from the absent-minded image we've been taught to believe. [6:56] So, if scientists have known this for years, why do so many people still believe the myth? Part of the answer is [7:04] that simple ideas spread easily. The goldfish has a 3-second memory, is short, funny, and easy to repeat. It [7:14] became a cultural cliche long before most people had access to scientific research. Another reason is that fish are often underestimated. [...] [4:40] begin anticipating the meal. They may become active shortly beforehand, swimming near the surface or gathering [4:47] where food usually appears. This isn't random behavior. It's a learned routine based on memory. They remember that [4:56] certain events happen at predictable times or after certain cues. Whether it's lights turning on, footsteps [5:03] approaching the tank, or the opening of a food container. Goldfish can connect those signals with what comes next. [5:10] That's a basic form of learning shared by many animals, including dogs, birds, and even humans. [5:22] From an evolutionary standpoint, memory is incredibly valuable. Wild goldfish and their close relatives don't live in",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The video has only an estimated date and general content, with just a stock phrase shared with page-8."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is a narrated explainer with no data."
+      },
+      {
+        "id": "page-11",
+        "title": "Oxford University: Goldfish do have good memories, scientists find",
+        "url": "https://www.bbc.com/news/uk-england-oxfordshire-63242200",
+        "domain": "bbc.com",
+        "publishedDate": "2022-10-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+        "text": "# Oxford University: Goldfish do have good memories, scientists find Scientists have proved goldfish do have good memories and are able to navigate their surroundings. A team from Oxford University trained nine fish to travel 70cm (2.3ft) and back, receiving a food reward at the end. Researchers said it showed the fish could accurately estimate distance. The study disproves the long-held belief goldfish have little or no memory. Getty Images Finding Nemo The university's department of biology scientists wanted to find out if fish have ways of navigating similar to land-based animals. They used a narrow tank covered with a repeating pattern of vertical stripes every 2cm. [...] On reaching the set distance, the fish were prompted by an external cue - such as a researcher waving their hand - to turn around and swim back to the start position. The researchers then tested if the fish would swim the same distance if the starting position was changed and the cue was removed They also tested if goldfish would swim the same distance when the background pattern was altered. They found eight of the nine fish accurately remembered when to turn back to get their reward of food, without being prompted. Dr Cait Newport Goldfish used in the experiment The fish also continued to swim the correct distance even when their start position was shifted forwards.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "The BBC reports the Oxford study's details, including nine fish, a 70cm distance, and eight of nine succeeding."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It describes the experimental design and results directly, though as a news report on the study."
+      },
+      {
+        "id": "page-12",
+        "title": "A method to study short-term memory (STM) in the goldfish.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/935220",
+        "domain": "pubmed.ncbi.nlm.nih.gov",
+        "publishedDate": "1976-04-01",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://pubmed.ncbi.nlm.nih.gov/favicon.ico",
+        "text": "Twenty-one common goldfish (13-15.5 cm long) were randomly divided into alcohol (A) and nonalcohol (NA) groups and were trained in an alcohol solution of 400 mg/100 ml or in water, respectively. All alcohol fish were placed in an alcohol solution of 400 mg/100 ml for 3 hr before training in the same alcohol concentration. Fish were trained on a position discrimination task for 2 consecutive days. The door used for training was that opposite to each fish's spontaneous preference. Savings in relearning on Day 2 was taken as a measure of long term memory strength. Only fish which reached criterion on both days were immediately given 10 forced reversal trails in the opposite direction (i.e., a fish trained on right door was forced to choose the left door.) A and NA subjects were then tested [...] # A method to study short-term memory (STM) in the goldfish. R S Ryback Pharmacology, biochemistry, and behavior · 1976-04-01 · 4(4):489-91 · DOI: 10.1016/0091-3057(76)90070-8 · PMID: 935220 Publication type: Journal Article, Research Support, U.S. Gov't, P.H.S. ## Abstract",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "The PubMed abstract describes the original experiment with 21 goldfish and an alcohol versus non-alcohol design."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It records the original study's methods directly."
+      },
+      {
+        "id": "page-13",
+        "title": "why do fishes have a 3 second memory is it because they are stupid????? – Ruthenium Zone",
+        "url": "https://archive.imascientist.org.uk/rutheniumm13-zone/question/why-do-fishes-have-a-3-second-memory-is-it-because-they-are-stupid/index.html",
+        "domain": "archive.imascientist.org.uk",
+        "publishedDate": "2013-03-20",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “answered on 20 Mar 2013”",
+        "extractionSource": "Tavily extraction",
+        "text": "I'm a Scientist [I'm a Scientist](/ \"I'm a Scientist home\") [![Ruthenium Zone](/wp-content/themes/ias2/img/template.gif)](../../index.html \"Go to Zone home\") [Skip to content](index.html#content \"Skip to content\") * > 0 > > # **Question**: why do fishes have a 3 second memory is it because they are stupid????? > > + Keywords: > - [fish](../../q-keyword/fish/index.html), > - [memory](../../q-keyword/memory/index.html) > > Asked by [mikunandluke](../../profile/mikunandluke/index.html \"Link to profile of mikunandluke - Student\") to [Ed](../../profile/edwardbovill.html \"Link to profile of Ed - Scientist\"), [Hayley](../../profile/hayleyeversking.html \"Link to profile of Hayley - Scientist\"), [Jason](../../profile/jasonking.html \"Link to profile of Jason - Scientist\"), [Nathan](../../profile/nathangreen.html \"Link to profile of Nathan - Scientist\"), [Sophie](../../profile/sophieholles.html \"Link to profile of Sophie - Scientist\") on 20 Mar 2013. This question was also asked by [juneoct2233](../../profile/juneoct2233/index.html \"Link to profile of juneoct2233 - Student\"). + [![Photo: Hayley Evers-King](/wp-content/uploads/2017/10/hayleyeversking.jpg)](../../profile/hayleyeversking.html \"Link to profile of Hayley - Scientist\") 0 **[Hayley Evers-King](../../profile/hayleyeversking.html \"Link to profile of Hayley - Scientist\")** answered on 20 Mar 2013: --- This is a bit of a myth.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Only a Q&A page header is visible with no answer text, so independence cannot be assessed."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The passage shows only the question and navigation, with no data or reporting."
+      },
+      {
+        "id": "page-14",
+        "title": "Ted Lasso Fans Community | How do they know a goldfish has a 10-second memory | Facebook",
+        "url": "https://www.facebook.com/groups/tedlassofanscommunity/posts/864785418036165",
+        "domain": "facebook.com",
+        "publishedDate": "2023-11-06",
+        "publishedDateSource": "Tavily estimate",
+        "publishedDateEvidence": "Search provider's estimate; it may reflect a later update",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.facebook.com/favicon.ico",
+        "text": "[Log in](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=%2Fgroups%2Ftedlassofanscommunity%2Fposts%2F864785418036165) Log in [Forgotten account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar) [](https://www.facebook.com/groups/438852513962793/?__cft__[0]=AZg1PwMYzlRpcXIpfUwaJ5iilrXAxLKTvjlHQgOTGF17cGbW9KpozXI04EV_XOCWLgxVxM2bqejYfbTFhsSh_YN6-1Hw7autqBv4fjMJdq9YzQHVvPpiW8PiXkmI_ShujN9LMdp85s8-9LcQ-6ZYblidSnyW2SDVoirkGkr33w4jQr5gsHpfMw&__tn__=%3C%3C%2CP-R) ## [Ted Lasso Fans Community](https://www.facebook.com/groups/438852513962793/?__cft__[0]=AZg1PwMYzlRpcXIpfUwaJ5iilrXAxLKTvjlHQgOTGF17cGbW9KpozXI04EV_XOCWLgxVxM2bqejYfbTFhsSh_YN6-1Hw7autqBv4fjMJdq9YzQHVvPpiW8PiXkmI_ShujN9LMdp85s8-9LcQ-6ZYblidSnyW2SDVoirkGkr33w4jQr5gsHpfMw&__tn__=-UC%2CP-R) · Join Lizbeth Hoover · Wednesday 27 September 2023 at 00:57 [27 September 2023](https://www.facebook.com/groups/438852513962793/?multi_permalinks=864785418036165&hoisted_section_header_type=recently_seen&__cft__[0]=AZg1PwMYzlRpcXIpfUwaJ5iilrXAxLKTvjlHQgOTGF17cGbW9KpozXI04EV_XOCWLgxVxM2bqejYfbTFhsSh_YN6-1Hw7autqBv4fjMJdq9YzQHVvPpiW8PiXkmI_ShujN9LMdp85s8-9LcQ-6ZYblidSnyW2SDVoirkGkr33w4jQr5gsHpfMw&__tn__=%2CO%2CP-R) · How do they know a goldfish has a 10-second memory? ![Image 1](blob:http://localhost/520c193f0276d495fb772a9afb8b220d) ![Image 2](blob:http://localhost/85d8b181a20aeb64a3afc2f1c39d2480) All reactions: 46 62 comments Like Comment Share Most relevant [](https://www.facebook.com/groups/tedlassofanscommunity/posts/864785418036165#) Paula Marie Young Mythbusters did an experimental test of this. Busted myth. * [3y](https://www.facebook.com/groups/tedlassofanscommunity/posts/864785418036165/?comment_id=865046478010059&__cft__[0]=AZg1PwMYzlRpcXIpfUwaJ5iilrXAxLKTvjlHQgOTGF17cGbW9KpozXI04EV_XOCWLgxVxM2bqejYfbTFhsSh_YN6-1Hw7autqBv4fjMJdq9YzQHVvPpiW8PiXkmI_ShujN9LMdp85s8-9LcQ-6ZYblidSnyW2SDVoirkGkr33w4jQr5gsHpfMw&__tn__=R]-R) View 1 reply [](https://www.facebook.com/groups/tedlassof",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The Facebook group post is a Ted Lasso fan discussion with no sourcing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is a social post with no data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "Goldfish 3-second memory is a myth; they remember for weeks to months",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-8",
+          "page-10",
+          "page-13"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Oxford study: goldfish trained to navigate distance show good memory",
+        "pageIds": [
+          "page-9",
+          "page-11"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Goldfish short-term memory experiment (alcohol and training study)",
+        "pageIds": [
+          "page-12"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "Goldfish have a 10-second memory (Ted Lasso reference)",
+        "pageIds": [
+          "page-14"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-3",
+      "page-11",
+      "page-12"
+    ],
+    "verifiableRoots": [
+      "page-11",
+      "page-12"
+    ],
+    "answerSourceIds": [
+      "page-11"
+    ],
+    "answerStatements": [
+      {
+        "text": "The claim is not supported: an Oxford University study found goldfish have good memories and can estimate distance, disproving the long-held belief that they have little or no memory",
+        "sourceIds": [
+          "page-11"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "Goldfish have a 3-second memory",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 8,
+        "uniquePagesAdded": 8,
+        "pageIds": [
+          "page-4",
+          "page-1",
+          "page-2",
+          "page-8",
+          "page-3",
+          "page-5",
+          "page-7",
+          "page-11"
+        ]
+      },
+      {
+        "query": "\"3-second memory\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 7,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-13"
+        ]
+      },
+      {
+        "query": "\"Goldfish have a 3-second memory\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 8,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "Goldfish have 3-second memory fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 6,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-6"
+        ]
+      },
+      {
+        "query": "Goldfish have 3-second memory study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 7,
+        "uniquePagesAdded": 2,
+        "pageIds": [
+          "page-10",
+          "page-12"
+        ]
+      },
+      {
+        "query": "Goldfish have 3-second memory original source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 6,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "Goldfish have 3-second memory according to",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 6,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "Goldfish have 3-second memory study finds",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 7,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-9"
+        ]
+      },
+      {
+        "query": "\"Goldfish 3-second memory\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 5,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "Goldfish have 3-second memory evidence",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 10,
+        "matchingResults": 7,
+        "uniquePagesAdded": 1,
+        "pageIds": [
+          "page-14"
+        ]
+      },
+      {
+        "query": "Goldfish have a 3-second memory",
+        "depth": "advanced",
+        "status": "searched",
+        "totalResults": 8,
+        "matchingResults": 8,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "\"3-second memory\"",
+        "depth": "advanced",
+        "status": "searched",
+        "totalResults": 8,
+        "matchingResults": 6,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      },
+      {
+        "query": "\"Goldfish have a 3-second memory\"",
+        "depth": "advanced",
+        "status": "searched",
+        "totalResults": 8,
+        "matchingResults": 8,
+        "uniquePagesAdded": 0,
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 14,
+      "independentOrigins": 4,
+      "verifiableOrigins": 2,
+      "echoPercentage": 7
+    },
+    "answer": "The claim is not supported: an Oxford University study found goldfish have good memories and can estimate distance, disproving the long-held belief that they have little or no memory [1].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data."
+  }
+}

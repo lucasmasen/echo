@@ -1,0 +1,29 @@
+.card { margin-top: 12px; padding: 16px 18px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); box-shadow: var(--shadow); }
+.head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.kicker { color: var(--teal-deep); font-size: 9px; font-weight: 750; letter-spacing: 2px; }
+.title { margin: 4px 0 0; color: var(--ink); font-size: 17px; letter-spacing: -0.3px; font-variant-numeric: tabular-nums; }
+.counts { margin: 3px 0 0; color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.play { min-height: 34px; padding: 0 14px; border: 1px solid var(--teal-deep); border-radius: 999px; background: var(--teal-deep); color: #fff; font-size: 12px; font-weight: 700; cursor: pointer; }
+.play:focus-visible { outline: 3px solid var(--lime); outline-offset: 2px; }
+.chart { display: block; width: 100%; height: auto; margin-top: 8px; overflow: visible; }
+.lane { stroke: var(--line); stroke-width: 1; }
+.laneLabel { fill: var(--muted); font-size: 12px; text-anchor: end; }
+.tick { stroke: #eef3ef; stroke-width: 1; }
+.tickLabel { fill: var(--quiet); font-size: 11px; text-anchor: middle; font-variant-numeric: tabular-nums; }
+.link { fill: none; stroke: #9fbdb8; stroke-width: 1.4; opacity: 0.8; }
+.cursor { stroke: var(--amber); stroke-width: 2; stroke-dasharray: 4 4; }
+.dot { stroke: #fff; stroke-width: 2; cursor: pointer; transition: r 120ms ease; }
+.dot:hover, .dot:focus-visible { r: 9; outline: none; stroke: var(--ink); }
+.origin { fill: #2e6f68; }
+.derived { fill: #7d9fa4; }
+.unclear { fill: #fff5dd; stroke: #c99746; }
+/* A year- or month-only date: hollow and dashed, since its place within that year or month is not known. */
+.coarse { fill-opacity: 0.18; stroke-dasharray: 3 2; }
+.coarse.origin { stroke: #2e6f68; }
+.coarse.derived { stroke: #5f8489; }
+.selected { stroke: var(--ink); stroke-width: 3; }
+.dotGroup { transform-box: fill-box; transform-origin: center; animation: appear 260ms ease-out; }
+.more { fill: var(--muted); font-size: 11px; font-weight: 700; font-variant-numeric: tabular-nums; pointer-events: none; }
+.note { margin: 6px 0 0; color: var(--quiet); font-size: 10px; line-height: 1.5; }
+@keyframes appear { from { opacity: 0; transform: scale(0.4); } to { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .dotGroup { animation: none; } .dot { transition: none; } }

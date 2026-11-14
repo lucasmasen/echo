@@ -1,0 +1,790 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:29:30.094Z",
+  "analysis": {
+    "claim": "93% of communication is nonverbal",
+    "createdAt": "2026-11-14T21:29:30.093Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Here's What Percentage of Communication is Nonverbal",
+        "url": "https://www.scienceofpeople.com/body-language-percentage",
+        "domain": "scienceofpeople.com",
+        "publishedDate": "2024-09-24",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scienceofpeople.com/apple-touch-icon.webp",
+        "text": "But here’s the thing: it turns out they’re mostly myths! In this post, we’re going to unpack these popular body language percentages, trace their origins, and separate fact from fiction. ## Is Body Language Really 93% of Communication? You’ve probably heard the claim that a whopping 93% of communication is nonverbal. But it’s not entirely accurate. This oft-quoted statistic stems from a misinterpretation of Albert Mehrabian’s research. In fact, Albert Mehrabian actually conducted two studies that would unknowingly spark a communication revolution. [...] Here’s where things get interesting: 1. Mehrabian’s studies were super narrow in focus. We’re talking 137 college students (hardly a diverse sample) and in one study, participants only heard a single word: “maybe.” Not exactly a comprehensive look at human communication! 2. The famous percentages (7-38-55 or 7% verbal, 38% tone, 55% facial expression) only applied when people were talking about feelings and attitudes, and when these signals conflicted. 3. Mehrabian never meant for these findings to be applied to all communication. In fact, he’s spent years trying to correct this misunderstanding! How Did We Get It So Wrong? Someone heard about the study, simplified it, and passed it on. Before you know it, “93% of communication is nonverbal” became accepted wisdom.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Debunk retelling Mehrabian's two studies (137 students, the word 'maybe') without a named source in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes studies without presenting data."
+      },
+      {
+        "id": "page-2",
+        "title": "The myths of body language (and why you shouldn't worry about them) | Research | Uni of Herts",
+        "url": "https://www.herts.ac.uk/research/centres/research-blogs/psychology-and-sport-sciences/the-myths-of-body-language",
+        "domain": "herts.ac.uk",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "#### Myth #1: 93% of our communication is nonverbal You may well have heard of the statistic that “93% of everything we communicate is nonverbal”. When people hear this, they’re often surprised and don’t quite believe it. As it turns out, they’re right not to. This myth originally came from a series of studies from a psychologist, Albert Mehrabian. He gathered some people around to listen to a person speak, and then asked them how they thought this person was feeling. This person, however, only said a single word. That’s it. One word. Now, in that situation – that really specific situation – yes, you could argue that 93% of what that person communicated was nonverbal, simply because there wasn’t an awful lot of verbal content to go on. However, everyday conversations aren’t really like that; when we talk to people, we would generally say more than a single word in a conversation with them. Because of this, we cannot apply the findings of this study to everyday interactions and assume…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Snippet of a stock debunk (single word, feelings) with no date and no sources."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-3",
+        "title": "MIVS2: Nonverbal Communication",
+        "url": "https://introtocommopensource.ridgewater.edu/ModuleIV/ModIVSect2.html",
+        "domain": "introtocommopensource.ridgewater.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "text": "--- Although verbal communication, what we say to each other, is most often what we think of when discussing how humans interact, in reality, the vast majority of messages we send are communicated nonverbally. As mentioned earlierAlbert Mehrabian: 7% verbal and 93% nonverbal. See Module I, Section 1. , nonverbal communication is upwards of 93% of our communication package. Our use of expressions, gestures, body language, space, and time far outweigh verbal communication in sheer quantity. Furthermore, while we know it is easy to tell a lie, it is far more difficult to show a lie; thus, nonverbal communication is far more believable than verbal. Nonverbal communication is a significant and powerful venue of communication. It is a large, all encompassing area, and accordingly the [...] us a sense of just how angry the person is. The verbal communication points the listener in the direction of the speaker's thoughts, but the nonverbal \"paints the picture,\" adding the richness and nuances of what they mean. Nonverbal is more believable. Realistically, telling a lie verbally is quite easy; however, demonstrating a lie with all our nonverbal traits is far more difficult. Hence, we tend to assume that when we receive a mixed message, the nonverbal communication is the true or accurate message. Nonverbal communication is upwards of 93% of our communication package, so the sheer amount of nonverbal can overwhelm the verbal. | | | | Image 1 | Nonverbal is more culturally specific. Languages can change from culture to culture, but nonverbal communication changes",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Attributes 7/93 to Mehrabian by cross-reference to an earlier module, with no date and no added data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Asserts the figure without any supporting data."
+      },
+      {
+        "id": "page-4",
+        "title": "The Body Language Myth | Psychology Today",
+        "url": "https://www.psychologytoday.com/us/blog/surprise/202003/the-body-language-myth",
+        "domain": "psychologytoday.com",
+        "publishedDate": "2020-03-08",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Posted March 8, 2020”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn2.psychologytoday.com/theme-assets/favicon/favicon.ico",
+        "text": "Posted March 8, 2020 | Reviewed by Hara Estroff Marano Share on Facebook Share on X Share on Bluesky Share on LinkedIn Share via Email cc0-icon CC0 Public Domain It’s often said that more than 93% of all communication is nonverbal. Given the effort we put into choosing our words (i.e., our verbal communication), can this statistic really be accurate? Let’s start by reviewing the history of this widely quoted finding. Though few know it’s origin, it comes from a study conducted by Mehrabian and Wiener in 1967. In their experiment, researchers read participants a list of words (like “dear,” “honey,” “really,” “brute,” and “scram”) in a neutral, negative, or positive tone and showed photos of a variety of matching or incongruent facial expressions. [...] Judging by the sound of the words and emotions depicted in the photos, they asked participants to identify the intention behind the words. They found that only 7% of the judgement was based on the actual words, 38% was based on tone, and 55% was based on facial expressions (i.e., a total 93% nonverbal judgement). Given the methodology of this study, it is no wonder that participants largely disregarded the words (since they knew they were scripted) and, instead, paid close attention to paralinguistic cues. Does this mean nonverbal communication doesn’t carry as much weight as many of us thought? The answer depends on whether we perceive people’s words to match their intentions.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Gives details of the 1967 Mehrabian and Wiener study (word list, tones, photos), but no firsthand data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Describes the study without inspectable data."
+      },
+      {
+        "id": "page-5",
+        "title": "This is why “93% of communication is nonverbal” is a myth | Donders Wonders",
+        "url": "https://blog.donders.ru.nl/this-is-why-93-of-communication-is-nonverbal-is-a-myth?lang=en",
+        "domain": "blog.donders.ru.nl",
+        "publishedDate": "2020-07-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://blog.donders.ru.nl/wp-content/uploads/cropped-52164971_2300657920210249_3785525814678781952_n-32x32.png",
+        "text": "One problem is that the rule only looks at three things: the words, the tone of voice and the facial expression. But when we communicate with each other, a lot of other nonverbal signals also play a role. During conversations, we use our hands to point at things, we nod when we agree with something, we move our bodies backwards when we are surprised… The percentages for these other signals from the hands, head, mouth, eyes, and body, are not included in the rule. [...] Donders Wonders Over hersenen en wetenschap – On Brains and Science Dutch English # This is why “93% of communication is nonverbal” is a myth Have you ever heard of the claim that 93% of communication is nonverbal? This often-repeated claim states that 55% of what you communicate comes from your facial expressions, 38% from your tone of voice, and the words you speak are only responsible for 7%. Although non-verbal communication is of course important, these numbers are not true at all. What is wrong with them? And where do they come from? This post is also available in Dutch . Where does the 55-38-7 rule come from?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Blog post by researchers that analyzes the rule's flaws (omitted signals, origins) with its own argument."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Argument without new data."
+      },
+      {
+        "id": "page-6",
+        "title": "Nonverbal Communication: Types, Examples, and the 93% Myth",
+        "url": "https://www.rock.so/blog/nonverbal-communication",
+        "domain": "rock.so",
+        "publishedDate": "2026-08-30",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.prod.website-files.com/62d94a65a0e0d82eb695e9b9/62d950b549c0126580c7a5c5_Webclip.png",
+        "text": "## Is 93% of communication really nonverbal? No. The figure comes from two 1967 experiments by psychologist Albert Mehrabian, and it does not say what most articles quoting it say. The \"7-38-55 rule\" as usually quoted How it gets sold: a general law that 93% of all communication is nonverbal, so words barely matter. What was measured: people guessing the feeling behind single spoken words, in a lab, when the tone and the word contradicted each other. [...] There is no fixed percentage. The widely quoted 93% misreads Albert Mehrabian's 1967 experiments, which measured how people judged feelings behind single spoken words when tone and word conflicted. The share varies by situation; the reliable finding is that when words and cues disagree, people believe the cues. Body language is the subset that involves the body: expressions, gestures, posture and eye contact. Nonverbal communication is broader and also covers the voice, touch, distance, timing, dress and the physical environment.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Standard debunk of the 1967 experiments, with no new data or named source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data presented."
+      },
+      {
+        "id": "page-7",
+        "title": "5.3 Four Pillars of Communication",
+        "url": "https://mpdc.dc.gov/sites/default/files/dc/sites/mpdc/publication/attachments/5.3%20Four%20Pillars%20of%20Communication%20FINAL.pdf",
+        "domain": "mpdc.dc.gov",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://mpdc.dc.gov/favicon.ico",
+        "text": "to discuss  Verbal Communication - Commands  Non-Verbal Communication  Chain of Command  Tactical Communication – Radio Communication  Emotion Management  Professional Demeanor  Body Language  Barriers in Communication  Active Listening  Customer Service  Communication with Partner  Communication with Technology  Criticism/Feedback/Direction  Attitude  Commitment 5.3.2 Identify the types of communication Communication is the act of conveying a message through both verbal and non-verbal means. According to Albert Mehrabian, a professor of psychology at UCLA, 93% of communication is non-verbal. This includes body language, which makes up 55% of communication, and the tone and inflection of one’s voice, which makes up 38% of communication. The last 7% of communication is left [...] fear are similar throughout the world. Gestures Deliberate movements and signals are an important way to communicate meaning without using words. Common gestures include waving, pointing, and using fingers to indicate numeric amounts. Other gestures can be arbitrary and related to culture. In courtroom settings, lawyers have been known to utilize different nonverbal signals to attempt to sway juror opinions. For example, an attorney might glance at his watch to suggest that the opposing lawyer’s argument is tedious or might even roll his eyes at the testimony offered by an opposing witness in an Body Language 55% Voice Tone / Inflection 38% Words 7% Communication 93% Non-Verbal Communication 7% Verbal Communication 5.3 Four Pillars of Communication Page 4 of 10 attempt to undermine his or",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Repeats the Mehrabian 93% figure with the 55/38/7 breakdown, with no date and no added data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "States percentages with no underlying data."
+      },
+      {
+        "id": "page-8",
+        "title": "Nonverbal Communication: An Essential Skill in the Workplace - Jennifer Phillips, 1993",
+        "url": "https://journals.sagepub.com/doi/10.1177/183335839302300406",
+        "domain": "journals.sagepub.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Nonverbal Communication: An Essential Skill in the Workplace Jennifer Phillips View all authors and affiliations Volume 23 , Issue 4 https://doi.org/10.1177/183335839302300406 Contents * Abstract ... Communication is carried on at many levels and through many channels simultaneously, and interpretation of a verbal message is dependent upon the manner in which it is conveyed and the gestures and expressions which accompany it. Nonverbal communication has been claimed to account for up to 93% of the impact of any verbal message. There are many types of nonverbal communication, most of which are usually used unconsciously and may be interpreted in many ways, often being regarded as a more reliable source of information than the spoken word, particularly regarding emotion. The following paper will examine the major types of nonverbal communication and their role in day to day human interaction in the workplace.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Snippet says nonverbal 'has been claimed' to account for up to 93%, with no date and no source shown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-9",
+        "title": "Experts Say… Is Communication Really Only 7% Verbal? Truth vs. Marketing",
+        "url": "https://medium.com/@neurodatalab/experts-say-is-communication-really-only-7-verbal-truth-vs-marketing-9a8e7428fd0f",
+        "domain": "medium.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://medium.com/favicon.ico",
+        "text": "Finally, Google search using the key words “communication 93 percent nonverbal” results in 493,000 links. Back in 2007 there were 263,000 results, and when researchers analysed the first 100 links, out of 79 websites that included a reference to communication being 93% nonverbal, only 16 identified Mehrabian as the source for these numbers (Lapakko, 2007). Today the situation is better — you occasionally meet the word “myth” in the headings. [...] Jacob H, Kreifelts B, Nizielski S, Schütz A, Wildgruber D (2016). Effects of Emotional Intelligence on the Impression of Irony Created by the Mismatch between Verbal and Nonverbal Cues. PLoS ONE 11(10): e0163211. doi:10.1371/journal.pone.0163211 Iwasaki, M., & Noguchi, Y. (2016). Hiding true emotions: Micro-expressions in eyes retrospectively concealed by mouth movements. _Scientific Reports_, _6_(October 2015), 1–10. Konstantinova, M., Kazimirova, E., Perepelkina, O. (2018). Recognition of mixed facial emotion has correlates in eye movement parameters. ESCAN 2018 (Leiden). DOI:10.13140/RG.2.2.26400.28167 Lapakko, D. (2007). Communication is 93% Nonverbal: An Urban Legend Proliferates. Communication and Theater Association of Minnesota Journal. 34(2007).",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Surveys the literature with a reference list and Google result counts, and cites Lapakko (2007)."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Compiles secondary references only."
+      },
+      {
+        "id": "page-10",
+        "title": "The 7% rule revisited",
+        "url": "https://doi.org/10.1145/3289281",
+        "domain": "doi.org",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Have you ever heard the adage that communication is only 7 percent verbal and 93 percent non-verbal, i.e. body language and vocal variety? You probably have, and if you have any sense at all, you have ignored it. ... The whole objective of most speeches is to convey information, or to defend or rally people to a point of view. Certainly, proper vocal variety and body language can aid the process. But by their very nature, these ancillary activities can convey only emphasis or emotion, not the message itself. ... In the 1960s Professor Albert Mehrabian and colleagues at the UCLA (University of California at Los Angles) conducted studies into human communication patterns. When their results were published in professional journals in 1967, they were widely circulated across mass media in abbreviated form. Because the figures were so easy to remember, most people forgot about what they really meant. Hence, the myth that communication is only 7 percent verbal and 93 percent non-verbal was…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Snippet of an article debunking the 7% rule with background on the 1967 studies, undated."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-11",
+        "title": "93% of Communication is Non-Verbal? Not Quite! Debunking the Mehrabian Myth",
+        "url": "https://www.youtube.com/watch?v=UsI6WmPOry0",
+        "domain": "youtube.com",
+        "publishedDate": "2025-02-27",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's datePublished meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.youtube.com/favicon.ico",
+        "text": "“Nonverbal communication accounts for 93% of all communication”—this claim is one of the most misleading statements repeated in books, articles, and communication training sessions. But where does this idea come from? In this video, I explain famous Mehrabian study and that it’s not about whether communication comes from verbal or nonverbal sources. Rather, it’s about recognizing incongruencies between the two, which can help us better understand what others truly mean. Would you like to transform the communication culture in your company? Let’s connect and explore meaningful change. I offer workshops on business communication, presentations, data storytelling, and more. [...] ### Transcript [0:00] nonverbal communication accounts for 93% of all communication this claim is one of the most misleading statements [0:09] repeated in books articles and communication trainings but where does this idea come from it all started with [0:17] Professor Albert mcan's study to understand the real context of this study we need to go back to the [0:24] 1960s Albert mahaban a psychology professor at the University of California Los Angeles conducted a [0:33] series of experiments on nonverbal communication his research focused on how people interpret contradictory [0:42] messages situations where verbal content of a message conflicted with the tone of voice or facial expression mban",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Video explainer of the Mehrabian study with nothing beyond the stock debunk."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "No data."
+      },
+      {
+        "id": "page-12",
+        "title": "Professional Communication and Team Collaboration - Patient Safety and Quality - NCBI Bookshelf",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK2637",
+        "domain": "ncbi.nlm.nih.gov",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "What Are Communication and Team Collaboration? Webster’s Dictionary defines communication as “the imparting or interchange of thoughts, opinions, or information by speech, writing, or signs.” It is important to consider that communication is not just verbal in form. One study states that 93 percent of communication is more affected by body language, attitude, and tone, leaving only 7 percent of the meaning and intent based on the actual words said. 4 Whereas the spoken words contain the crucial content, their meaning can be influenced by the style of delivery, which includes the way speakers stand, speak, and look at a person. 1 However, critical information is often transmitted via handwritten notes, e-mails, or text messages, which can lead to serious consequences if there is miscommunication. ... At its best, good communication encourages collaboration, fosters teamwork, and helps prevent errors. Barriers to Effective Communication",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Snippet says 'one study states' 93% with a footnote, with no date and no data shown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-13",
+        "title": "small-talk-statistics-traced-2026.csv",
+        "url": "https://smalltalkmaster.com/data/small-talk-statistics-traced-2026.csv",
+        "domain": "smalltalkmaster.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://smalltalkmaster.com/favicon.ico",
+        "text": "claim\\_id,claim\\_as\\_quoted,verdict,source\\_traced,source\\_link,what\\_it\\_measured,say\\_instead,checked 1,\"93% of communication is nonverbal: 7% words, 38% tone, 55% face.\",Stretched,Mehrabian & Wiener (1967); Mehrabian & Ferris (1967); Mehrabian's own page on Silent Messages, on how people read feelings and attitudes (like or dislike). Mehrabian: \"\"Unless a communicator is talking about their feelings or attitudes, these equations are not applicable.\"\"\",\"In Mehrabian's 1967 experiments on liking, when words and tone disagreed, people leaned on tone and face. It does not apply to ordinary information.\",2026-11-04 2,People form a first impression of you in 7 seconds.,No source found,\"No study found. Real research: Willis & Todorov (2006), Psychological Science\", to a \"\"Harvard Study of [...] (2006), Psychological Science\", to a \"\"Harvard Study of Communications\"\" no one has located. Willis & Todorov: judgments of faces after 100 milliseconds matched judgments made without a time limit.\",\"People make trait judgments from a stranger's face within a tenth of a second, and more time mostly adds confidence (Willis & Todorov, 2006).\",2026-11-04 3,\"Women speak 20,000 words a day and men 7,000.\",Wrong,\"Mehl, Vazire, Ramirez-Esparza, Slatcher & Pennebaker (2007), Science\", people wore voice recorders for several days. Women and men both spoke about 16,000 words a day. The 20,000/7,000 line was repeated in The Female Brain (2006).\",\"Women and men both speak about 16,000 words a day (Mehl et al., 2007, 396 people).\",2026-11-04 4,Top performers talk 43% of the time and listen",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Traces the claim to Mehrabian and Wiener 1967 and Mehrabian's own page, quoting his caveat, in a structured fact-check table."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Fact-check with a quotation, not data."
+      },
+      {
+        "id": "page-14",
+        "title": "How to Make the Right Impression & Master Non Verbal Signals",
+        "url": "https://www.tonyrobbins.com/es/blog/are-you-sending-the-wrong-signals",
+        "domain": "tonyrobbins.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.tonyrobbins.com/favicon.ico",
+        "text": "Did you know that the way you communicate could be turning others off — without you ever saying a word? According to Tony Robbins, “The quality of your life is the quality of your communication,” and that includes what you're communicating without speaking. In fact, research suggests that up to 93% of communication is nonverbal. That means your facial expressions, posture, gestures, and tone of voice are all speaking for you — sometimes louder than your words. If your nonverbal signals don't align with your intentions, you could be losing trust, respect, and influence. Prepare your body and mind for peak performance with Tony’s daily routine ## Why Nonverbal Communication Matters (More Than You Think) [...] Nonverbal cues convey powerful subconscious messages about who you are — confident or unsure, engaged or indifferent, trustworthy or not. As Tony Robbins teaches in his seminars, “People are constantly judging — consciously and unconsciously — based on energy, tone, body language, and the emotions you project.” That’s why mastering body language is one of the fastest ways to upgrade your relationships and success. Don't make another important decision before you listen to Tony's free audio lesson Here are 10 nonverbal mistakes that could be holding you back — and how to correct them using proven Tony Robbins principles of peak communication: ## Related Posts take responsibility and watch your whole life change ### Take responsibility and watch your whole life change",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Says 'research suggests' up to 93% with no named source and no date."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Vague assertion without data."
+      },
+      {
+        "id": "page-15",
+        "title": "What Percentage Of Communication Is Nonverbal? 93% Is A Myth",
+        "url": "https://www.spring.org.uk/2023/02/what-percentage-communication-nonverbal.php",
+        "domain": "spring.org.uk",
+        "publishedDate": "2023-02-14",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.spring.org.uk/favicon.ico",
+        "text": "From these, and similar experiments, Mehrabian claimed the face conveyed 55 percent of the information, the voice 38 percent and the words just 7 percent. ## Criticism of nonverbal communication study The criticism of these experiments is pretty obvious. Although they are interesting, they don’t provide an effective analogue for real social situations. This is what psychologists call a lack of ecological validity. It’s not often we use just one word on its own (unless you count swearing). 12.5 times more powerful? A social psychologist, Michael Argyle, tried to address the problems with Mehrabian’s work. In his studies whole passages of text were acted out in positive, negative and neutral tones. [...] PsyBlog PsyBlog PsyBlog # What Percentage Of Communication Is Nonverbal? 93% Is A Myth The idea that 93 percent of communication is nonverbal is a myth deriving from studies by Albert Mehrabian and others. The idea that 93 percent of communication is nonverbal is a myth deriving from studies by Albert Mehrabian and others. The idea that the vast majority of communication occurs nonverbally is quoted everywhere from advertising to popular psychology articles. In fact the original experiments from which these findings derive only applied to communicating attitudes and feelings. That hasn’t stopped them being applied universally. Even just considering attitudes and feelings though, these studies on what percentage of communication is nonverbal have been questioned.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Standard critique of Mehrabian with a mention of Argyle's studies, with no new data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Summarizes studies without data."
+      },
+      {
+        "id": "page-16",
+        "title": "How Much of Communication is Really Nonverbal? An Extensive Breakdown | The Nonverbal Group",
+        "url": "https://www.nonverbalgroup.com/general/how-much-of-communication-is-really-nonverbal-an-extensive-breakdown",
+        "domain": "nonverbalgroup.com",
+        "publishedDate": "2021-11-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.nonverbalgroup.com/favicon.ico",
+        "text": "My first reaction was, “Why the hell would so many media outlets be linking to this piece of shit article?” Then I started to actually look at the text. There are dozens of statements that link to the article like this: “According to the Nonverbal Group, 93% of communication is nonverbal.” “Blake Eastman, Nonverbal Behavioral Expert found that...” “What we say accounts for only 7% of the message while the other 93% is encoded in facial expressions and other non-verbal cues.” “According to several studies, only 7 percent of a message is delivered through words.” The link descriptions fell into mainly 3 categories. [...] The Nonverbal Group Content Lab / Articles # How Much of Communication is Really Nonverbal? An Extensive Breakdown Author : Blake Eastman Updated : October 9, 2026 First published : 2011 Read time : 8 min read Sections : 03 For the robots : View as Markdown → Key pointsNote: This article will go into extensive detail about the above. 1. 01 93% of communication is not nonverbal and the 55% body language, 38% tone, and 7% vocal “rule” is not at all true. The number was based on 2 studies and a summary in a book by Dr. Albert Mehrabian who absolutely never said this was a rule and his statements have been taken out of context. 2. 02",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Firsthand account of tracing how outlets linked to its own article, plus its own extended breakdown."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Examines actual inbound link statements and descriptions."
+      },
+      {
+        "id": "page-17",
+        "title": "The Power of Nonverbal Communication: Saying Everything Without Saying Anything",
+        "url": "https://globalforum.diaglobal.org/issue/october-2018/the-power-of-nonverbal-communication-saying-everything-without-saying-anything",
+        "domain": "globalforum.diaglobal.org",
+        "publishedDate": "2018-09-18",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://globalforum.diaglobal.org/wp-content/uploads/2019/12/cropped-dia-logo-favicon-19-new-180x180.jpg",
+        "text": "Now imagine this same flight, this same turbulence, and these same words. But this time your flight attendants clutch and hold onto each other and cry. Loudly. In 1971, Albert Mehrabian, a professor at UCLA, published a book called Silent Messages. He claimed that 93 percent of what we say to people, we say without words; more specifically, 55 percent of communication is done through body language and 38 percent through tone. Only the remaining seven percent of what we say is said with spoken words. [...] This “seven percent rule” is generally accepted as the starting point for any conversation about the power of nonverbal communication. Nonverbal communication is a subtle, yet profound form of social messaging, and it affects nearly every part of our daily lives. It is important that we learn and understand the impact of our tone and body language on people around us, and how to control that impact.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Retells Mehrabian's Silent Messages (1971) 55/38/7 claim, a source not in the cluster, with nothing added."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Reports the claim from Mehrabian's book without the underlying data."
+      },
+      {
+        "id": "page-18",
+        "title": "[PDF] UNDERSTANDING NONVERBAL COMMUNICATION 1 ...",
+        "url": "https://uvu.contentdm.oclc.org/digital/api/collection/UVUTheses/id/674/download",
+        "domain": "uvu.contentdm.oclc.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://uvu.contentdm.oclc.org/digital/favicon.ico?v=113",
+        "text": "body movements. 38% of communication is vocal tone. 7% of communication is verbal (Kurien, 2010, p. 30) (Rane, 2010, p. 17) (Duncan, 2014a). Therefore, 93% of communication is agreed to be nonverbal, because “as many times, words are inadequate” (Rane, 2010, p. 17). Management consultant Nancy Austin as cited in Rane (2010) stressed the importance of body language: “When people do not know whether to believe what they are hearing or what they are seeing, they go with the body language – it tells the truth. You can play fast and loose with words. However, it is much more difficult to do that with gestures” (p. 18). Psychologist Paul Ekman as cited in Rane (2010) stated “we talk with our vocal cords, but we communicate with our facial expressions, our tone of voice and our whole body” (p. [...] (Manasa & Showry, 2012, p. 42). Nonverbal communication constitutes the majority of interpersonal interactions (Taute, Heiser, & McArthur, 2011). This includes kinesics, facial expressions, personality, and tone of voice. Kinesics is defined as the study of physical movement of the body (Rane, 2010). In social psychology, research suggests that nonverbal signals account for 60% to 93% of communication (Taute et al., 2011). Rane (2010) concurs with Taute et al.’s (2011) estimation of 93% in his nonverbal research. The empirical nature of these conclusions alludes to its significant potential if applied in business. If miscommunication leads to suffering relationships, effective communication can lead to stronger relationships. Stronger business relationships through effective communication",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Student paper citing Kurien, Rane and Duncan for the percentages; no date and the sources are not in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Secondary citations only, with no data."
+      },
+      {
+        "id": "page-19",
+        "title": "Nonverbal Communication From The Other Side: Speaking Body Language",
+        "url": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/28cc7638-6f08-45a0-8345-c531447370b9/content",
+        "domain": "scholarspace.manoa.hawaii.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://scholarspace.manoa.hawaii.edu/assets/scholarspace/images/favicons/apple-touch-icon.png",
+        "text": "8. In discussions of the importance of nonverbal communication, the most quoted statistic is that 93 % of a message is from the nonverbal part of the communication. This statistic is usually traced to an article written by Albert Mehrabian. See Mehrabian, Communication Without Words, PSYCHOLOGY TODAY, Sept. 1968, at 52, Mehrabian's research showed only 7 % from the verbal channel, 38 % from the vocal channel, and 55% from the facial channel. To a degree, this statistic is an exaggeration. It is seldom mentioned that Mehrabian's research focused on how feelings were being communicated, not how the content of the message was communicated. For example, it is unlikely that at an appellate argument, where the focus is on the law, that such a high percentage of the message would be derived from [...] Interestingly, Mehrabian never actually said in his article that 93 % of a message is nonverbal. The 93% figure comes from articles and speeches by other people who quote Mehrabian's research when they discuss the importance of nonverbal communication. Ninety-three percent is the sum of the 38% vocal channel and the 55% facial channel. Other writers and researchers offer different estimates for the percentage of nonverbal conmunication. See R. BIRDWHISTELL, KINESICS AND CONTEXT 157-58 (1970) (65-70% is nonverbal); J. TANFORD. THE TRIAL PROCESS 29 (1983) (at least 60% of all important messages are passed nonverbally); R. BOLTON, PEOPLE SKILLS 39 (1979). 9. V. RICHMOND, J. MCCROSKEY & S. PAYNE, supra note 4, at 3; P. WAT-ZLAWICK, J. BEAVIN & D. JACKSON, supra note 4, at 49.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "Legal article footnote that traces the statistic to Mehrabian's 1968 Psychology Today piece and notes the 93% is a sum; includes its own analysis."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Traces the source with no new data."
+      },
+      {
+        "id": "page-20",
+        "title": "\"Communication is 93% Nonverbal: An Urban Legend ...",
+        "url": "https://cornerstone.lib.mnsu.edu/ctamj/vol34/iss1/2",
+        "domain": "cornerstone.lib.mnsu.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cornerstone.lib.mnsu.edu/favicon.ico",
+        "text": "Perhaps the best-known numbers within the communication field are those that claim the total meaning of a message is “7 percent verbal, 38 percent vocal, and 55 percent facial.” Despite the fact that this finding is derived from two 1967 studies with serious methodological limitations, these percentages have appeared in a wide variety of communication textbooks. This study takes the investigation a step further, beyond the academic environment, to determine if the 7-38-55 “formula” has now become the equivalent of an “urban legend” about communication in our society-at-large. Overall, this article finds that the formula in question has been widely disseminated across the Internet, and in ways that show little or no understanding of the research that generated these numbers. Given the [...] of the research that generated these numbers. Given the widespread ignorance reflected in how these numbers are used—and abused—we as communication educators must consider how we should respond and what we can do to correct such misperceptions.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 65,
+          "evidence": "Lapakko's study examining how the 7-38-55 formula spreads online, with its own method."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Its own investigation of web usage."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "93% of communication is nonverbal (stated as established fact)",
+        "pageIds": [
+          "page-3",
+          "page-7",
+          "page-8",
+          "page-12",
+          "page-14",
+          "page-17",
+          "page-18"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "93% nonverbal is a myth: misreading of Mehrabian's 1967 studies on feelings",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-4",
+          "page-5",
+          "page-6",
+          "page-9",
+          "page-10",
+          "page-11",
+          "page-13",
+          "page-15",
+          "page-16",
+          "page-19",
+          "page-20"
+        ]
+      }
+    ],
+    "roots": [
+      "page-5",
+      "page-9",
+      "page-13",
+      "page-16",
+      "page-19",
+      "page-20"
+    ],
+    "verifiableRoots": [
+      "page-16",
+      "page-20"
+    ],
+    "answerSourceIds": [
+      "page-20"
+    ],
+    "answerStatements": [
+      {
+        "text": "The 93% figure comes from a 7% verbal, 38% vocal, 55% facial split drawn from two 1967 studies that had serious methodological limitations",
+        "sourceIds": [
+          "page-20"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "93% of communication is nonverbal",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 25,
+        "matchingResults": 23,
+        "uniquePagesAdded": 22,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "brave",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-2",
+          "page-1",
+          "page-3",
+          "page-10",
+          "page-4",
+          "page-16",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-2": [
+            "exa"
+          ],
+          "page-1": [
+            "brave",
+            "exa"
+          ],
+          "page-3": [
+            "perplexity"
+          ],
+          "page-10": [
+            "exa"
+          ],
+          "page-4": [
+            "brave",
+            "perplexity",
+            "exa"
+          ],
+          "page-16": [
+            "brave"
+          ],
+          "page-20": [
+            "perplexity",
+            "exa"
+          ]
+        }
+      },
+      {
+        "query": "\"93% of communication is\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 43,
+        "matchingResults": 42,
+        "uniquePagesAdded": 33,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-5",
+          "page-6",
+          "page-7",
+          "page-11",
+          "page-12",
+          "page-13",
+          "page-17",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-5": [
+            "exa"
+          ],
+          "page-6": [
+            "parallel"
+          ],
+          "page-7": [
+            "perplexity"
+          ],
+          "page-11": [
+            "tavily"
+          ],
+          "page-12": [
+            "parallel"
+          ],
+          "page-13": [
+            "perplexity"
+          ],
+          "page-17": [
+            "tavily"
+          ],
+          "page-18": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"93% of communication is nonverbal\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 43,
+        "matchingResults": 41,
+        "uniquePagesAdded": 15,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-8",
+          "page-14",
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-8": [
+            "parallel"
+          ],
+          "page-14": [
+            "perplexity"
+          ],
+          "page-19": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "93% communication nonverbal fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 38,
+        "matchingResults": 32,
+        "uniquePagesAdded": 8,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-9",
+          "page-15"
+        ],
+        "pageProviders": {
+          "page-9": [
+            "tavily"
+          ],
+          "page-15": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "93% communication nonverbal study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 22,
+        "matchingResults": 17,
+        "uniquePagesAdded": 4,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "93% communication nonverbal original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "93% communication nonverbal according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "93% communication nonverbal study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"93% of communication\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "93% communication nonverbal evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 6,
+      "verifiableOrigins": 2,
+      "echoPercentage": 0
+    },
+    "answer": "The 93% figure comes from a 7% verbal, 38% vocal, 55% facial split drawn from two 1967 studies that had serious methodological limitations [1].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 2,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7423,
+          "outputTokens": 697,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.021816
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 12178,
+          "outputTokens": 2500,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.049356
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 3577,
+          "outputTokens": 395,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.011104
+        }
+      ],
+      "stageMs": {
+        "search": 5046,
+        "extract": 6155,
+        "grouping": 5985,
+        "judgment": 15244,
+        "answer": 3677,
+        "total": 36110
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "exa": 5,
+          "brave": 5,
+          "perplexity": 5,
+          "tavily": 3,
+          "parallel": 3
+        }
+      },
+      "usd": {
+        "claude": 0.082276,
+        "tavily": 0.016,
+        "telem": 0.143,
+        "total": 0.241276
+      }
+    }
+  }
+}

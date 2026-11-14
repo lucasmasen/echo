@@ -1,0 +1,854 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:32:50.957Z",
+  "analysis": {
+    "claim": "It takes 21 days to form a habit",
+    "createdAt": "2026-11-14T21:32:50.957Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "How Long Does It Really Take to Form a Habit? | Scientific American",
+        "url": "https://www.scientificamerican.com/article/how-long-does-it-really-take-to-form-a-habit",
+        "domain": "scientificamerican.com",
+        "publishedDate": "2024-01-24",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.scientificamerican.com/favicon.ico",
+        "text": "## Habit formation can range from a few weeks to a couple of months The origin of the “three-week theory” has nothing to do with habits, per se. It apparently originated from the 1960 self-help bookPsycho-Cybernetics, in which plastic surgeon Maxwell Maltz observed that it took his patients about 21 days to get used to their new appearance after surgery. No formal experiment was conducted to verify this, but the book applied this 21-day timeline to self-transformation in many other wide-ranging aspects of life. For instance, the book also set three weeks as the time needed for people to get used to a new house or change their mind about their beliefs. [...] Even without much solid research, the 21-day myth became widely accepted. It likely persisted because it seems like such a reasonable amount of time, Camerer explains. Establishing a regular exercise habit in just three days feels seems too quick and implausible, for example, and a year seems too long and daunting. Camerer says people might easily see 21 days as a realistic and achievable time frame.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Scientific American quotes researcher Camerer and describes Maltz's book observation with details, with no link to other cluster pages."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It describes the book's observation and cites no inspectable data."
+      },
+      {
+        "id": "page-2",
+        "title": "Ask ACE: What Does It Really Take to Change Your Habits?",
+        "url": "https://www.acefitness.org/continuing-education/certified/may-2025/8864/ask-ace-what-does-it-really-take-to-change-your-habits",
+        "domain": "acefitness.org",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.acefitness.org/apple-touch-icon-144x144.png",
+        "text": "A myth can be defined as an untrue explanation for a natural phenomenon. Unfortunately, numerous myths remain pervasive and deeply engrained in the health and fitness world. The belief that it takes 21 days to form a new habit originated back in the 1950 and 1960s and was based upon various observations made by a cosmetic surgeon named Dr. Maxwell Maltz. After performing a procedure, Dr. Maltz noticed it took his patients about 21 days to get used to their new facial features. He also observed in his own life that it usually took about 21 days to form a new habit. These various observations were subsequently published by Dr. Maltz in his book, Psycho-Cybernetics. In the ensuing decades, what was once lore became truth and people accepted the idea that 21 days was the new habit-forming [...] accepted the idea that 21 days was the new habit-forming timeline, despite the fact that these were simply observations made by Dr. Maltz and not based upon formal scientific inquiry.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Undated page with a Maltz narrative similar to page-1 but no citation, and little shared wording (0.05)."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It only restates Maltz's observations with no data."
+      },
+      {
+        "id": "page-3",
+        "title": "How many days does it actually take to form a habit: why the 21-day rule doesn't work and how to change your life",
+        "url": "https://www.online.ua/en/guide/how-many-days-does-it-actually-take-to-form-a-habit-why-the-21-day-rule-doesnt-work-and-how-to-change-your-life-905721",
+        "domain": "online.ua",
+        "publishedDate": "2026-11-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://online.ua/favicon-32x32.png",
+        "text": "Читати українською Start running in the morning, read every day, eat right, or use your phone less. Usually, we take on a new habit with great enthusiasm: we install an app, make a schedule, and promise ourselves not to miss a single day. But two weeks pass, the initial inspiration disappears, and the desired behavior still requires effort. The familiar thought appears: “I guess I just don’t have enough willpower.” In fact, the problem may not be discipline at all. The widespread belief that any habit can be formed in 21 days has no proper scientific support. Studies show that habit formation can take anywhere from a few weeks to many months. In a famous study by University College London, the typical time was 66 days, but individual estimates ranged from 18 to 254 days. [...] With regular repetition, the evening situation can gradually encourage her to pick up a book. However, a habit does not necessarily involve a perceived reward after each performance. As behavior becomes more automatic, the role of constant reflection and motivation may diminish. ## Why does everyone say it takes 21 days to form a habit? The popular three-week rule is often associated with American plastic surgeon Maxwell Moltz. In the book Psycho-Cybernetics , published in 1960, he described his own observations of how people adapted to changes in appearance after surgeries. Moltz suggested that it takes at least about 21 days to get used to a new self-image. Over time, this idea began to spread in self-development literature.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Ukrainian outlet summarizing the UCL 66-day study and Maltz without its own reporting."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It gives study figures with no inspectable data."
+      },
+      {
+        "id": "page-4",
+        "title": "CU- 5 Science Backed Resources on Habit Formation - James Clear",
+        "url": "https://jamesclear.com/wp-content/uploads/2016/05/CU-5-Science-Backed-Resources-on-Habit-Formation.pdf",
+        "domain": "jamesclear.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://jamesclear.com/wp-content/uploads/2020/11/cropped-icon-180x180.png",
+        "text": "JamesClear.com 5 Science Backed Resources on Habit Formation JAMES CLEAR The 21-­‐Day Myth In 1960, Maxwell Maltz published a book called Psycho-Cybernetics. The book claims that it takes 21 days to form a habit. Psycho-Cybernetics went on to become a blockbuster hit, selling more than 30 million copies. And that’s how society started spreading the common myth that it takes 21 days to form a new habit (or 30 days or some other magic number). It’s remarkable how often these timelines are quoted as statistical facts. Dangerous lesson: If enough people say something enough times, then everyone else starts to believe it. Phillippa Lally is a health psychology researcher at University College London. In a study published in the European Journal of Social Psychology, Lally, and her research team [...] Journal of Social Psychology, Lally, and her research team decided to figure out just how long it takes to form a habit. Lally discovered that on average, it takes more than two months before a new behavior becomes automatic — 66 days to be exact. Below are five great resources that share more science-backed information about habit formation. Five Science Based Resources on Habit Forma=on We've All Been Wrong About Willpower. And That's Ok. By Steven M. Ledbetter and Omar Ganai This in-depth article addresses the tidal shift that is happening in the way psychologists understand willpower. JamesClear.com How the Brain Controls Our Habits By Anne Trafton This article discusses a 2012 study conducted by MIT neuroscientists. The authors of the study found that a small region of the brain’s",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Undated James Clear handout restating Maltz and the Lally 66-day study without showing the data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It states the 66-day finding without supporting data."
+      },
+      {
+        "id": "page-5",
+        "title": "How long does it take to form a habit? 66 days, on average — Katika Care",
+        "url": "https://katikacare.com/blog/how-long-to-form-a-habit",
+        "domain": "katikacare.com",
+        "publishedDate": "2026-08-31",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "http://katikacare.com/favicon.ico",
+        "text": "Does it really take 21 days to form a habit? No. The figure traces back to Maxwell Maltz's 1960 book Psycho-Cybernetics, where he observed that his surgical patients took about 21 days to adjust to a changed appearance. He described it as a minimum adjustment period, not a habit-formation law, and the qualifier fell away as the idea spread. When researchers actually measured daily behaviours, the average landed near 66 days, with wide variation between people. How long does it take to break a habit? [...] You are three weeks into a new routine, it still feels like work, and somewhere in the back of your mind is the idea that it should have clicked by now. That idea has a source, and the source is not a study. The 21-day rule came from a plastic surgeon’s observations about how long patients took to get used to a new nose. So how long does it take to form a habit? Longer than three weeks, far more variable than any single number suggests, and considerably more forgiving than the version you have been holding yourself to. Here is what the research found, and what to do with it. ## Where the 21-day rule actually came from It came from a book about self-image, published before the research existed.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "It links to the PMC review and restates the Maltz origin and 66-day figure, with no distinct data."
+        },
+        "citations": [
+          {
+            "pageId": "page-7",
+            "how": "link",
+            "quote": "This page's HTML links to https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It states figures without supporting data."
+      },
+      {
+        "id": "page-6",
+        "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/pdf/healthcare-12-02488.pdf",
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "# Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants Four studies reported the median or mean times to reach habit formation, ranging from 59–66 days (median) and 106–154 days (means), with substantial individual variability (4–335 days). ... **Conclusions:** Emerging evidence on health-related habit formation indicates that while habits can start forming within about two months, the time required varies significantly across individuals. ... Maxwell Maltz, suggests that new habits can be formed with just 21 days of repetition \\[12\\]. ... summary, our results here, along with findings from others \\[5\\], clearly refute the popular notion that habits can be formed in approximately 21 days \\[45\\]. ... Brief 21-day challenges or kickstarts are unlikely to be sufficient to firmly ingrain new habits. Individuals should anticipate a timeframe of at least two to five months to develop automaticity in new health habits, rather…",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-7",
+          "confidence": 45,
+          "evidence": "Undated search snippet of the same systematic review as page-7, with matching text."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It reports meta-analysis results (59–66 day medians, 4–335 day range)."
+      },
+      {
+        "id": "page-7",
+        "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623",
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "publishedDate": "2024-12-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's citation_publication_date meta tag (issue month only), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://pmc.ncbi.nlm.nih.gov/favicon.ico",
+        "text": "A widely cited idea in popular culture, stemming from the book Psycho-Cybernetics by Maxwell Maltz, suggests that new habits can be formed with just 21 days of repetition . However, this proposed timeline has been questioned, and the period necessary for the establishment of habits is thought to differ based on factors such as the specific behaviour and the individual . The time and effort required for these behaviours to transform into ingrained habits likely varies widely, with multiple factors influencing the overall habit formation process. Practical strategies are believed to aid in the establishment of new healthy habits. One effective approach is to integrate novel habits with pre-existing ones, thereby creating a routine [2,13]. This entails linking a new habit to an existing one, [...] There was a wide range of durations required for the formation of health habits. For example, the median and mean habit acquisition times ranged between 59 and 66 days and 106 and 154 days, respectively. In addition, substantial variance emerged at the individual level, with the durations for individuals to form habits ranging from 4 to 335 days [5,22]. In summary, our results here, along with findings from others , clearly refute the popular notion that habits can be formed in approximately 21 days . This is likely dependent on not only personal factors but also the habit you are trying to form . While we considered guidance documents from experts such as Gardner and colleagues , the complexity and heterogeneous nature of habit research meant that identifying relevant studies remained",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "Published the same day as ncbi.nlm.nih.gov with largely identical text; Echo counts them as one origin. Claude's note: The PMC paper is the systematic review and meta-analysis itself, with its own pooled data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It reports meta-analysis results with ranges of habit formation times."
+      },
+      {
+        "id": "page-8",
+        "title": "No Magic Number for Time It Takes to Form Habits\n     - \n    \n    www.caltech.edu",
+        "url": "https://www.caltech.edu/about/news/no-magic-number-for-time-it-takes-to-form-habits",
+        "domain": "caltech.edu",
+        "publishedDate": "2023-04-17",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's og:article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.caltech.edu/static/core/img/favicon-128.png?v=7.3.1",
+        "text": "\"You may have heard that it takes about 21 days to form a habit, but that estimate was not based on any science,\" Camerer says. \"Our works supports the idea that the speed of habit formation differs according to the behavior in question and a variety of other factors.\" [...] skip to main content Caltech Home / About / News / No Magic Number for Time It Takes to Form Habits # No Magic Number for Time It Takes to Form Habits April 17, 2023 New machine learning study finds different habits take varying amounts of time to take root Putting on your workout clothes and getting to the gym can feel like a slog at first. Eventually, you might get in the habit of going to the gym and readily pop over to your Zumba class or for a run on the treadmill. A new study from social scientists at Caltech now shows how long it takes to form the gym habit: an average of about six months. The same study also looked at how long it takes health care workers to get in the habit of washing their hands: an average of a few weeks.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 70,
+          "evidence": "Caltech press release on its own machine learning study, with Camerer quoted directly."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It reports the institution's own study results (gym habit about six months, handwashing a few weeks)."
+      },
+      {
+        "id": "page-9",
+        "title": "Habit Formation: How Long It Takes and How to Start Now",
+        "url": "https://www.healthline.com/health/how-long-does-it-take-to-form-a-habit",
+        "domain": "healthline.com",
+        "publishedDate": "2019-10-24",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://images-prod.healthline.com/hlcmsresource/images/frontend-static/favicon/v1/apple-touch-icon.png",
+        "text": "According to a 2024 systematic review, emerging evidence suggests that it can take approximately 2 months (around 60 days) to form a new habit. However, it varies significantly among individuals and the complexity of the habit. Some people are more adept at forming new habits than others. A consistent routine of any kind isn’t for everyone, and that’s OK. »More on this:Why do forming new habits even matter? ## How the myth of ‘21 days’ took off If asked how long it takes to form a habit, many people will respond “21 days.” This idea can be traced back to Dr. Maxwell Maltz’s book “Psycho-Cybernetics,” published in 1960. Maltz didn’t make this claim but rather referenced this number as an observable metric in both himself and his patients at this time. [...] Maltz wrote: “These, and many other commonly observed phenomena, tend to show that it requires a minimum of about 21 days for an old mental image to dissolve and a new one to gel.” As the book gained popularity and millions of copies were sold, this situational observation became widely accepted as fact. ## The psychology of forming a habit According to an older 2012 study, habits are actions triggered automatically in response to cues associated with their performance. For example, when you get into your car, you automatically put on your seat belt. Most people don’t think about doing it or why. That might sound simple, but habits are multifaceted, not simple stimulus-response behaviors, and involve multiple signaling mechanisms in the brain.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Healthline quotes Maltz's text directly and gives its own account of the myth's origin, with no cluster citation."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It quotes the original passage from Maltz's book."
+      },
+      {
+        "id": "page-10",
+        "title": "[PDF] wendy wood - USC Dornsife",
+        "url": "https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/5_habit_myths.WashingtonPost.2015.pdf",
+        "domain": "dornsife.usc.edu",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://dornsife.usc.edu/wp-content/uploads/2023/06/cropped-Favicon_Monogram_Gold-Black-180x180.png",
+        "text": "There is, they wrote, “little evidence . . . that [apps] are bridging that gap.” In my research, I’ve found that certain types of planning and monitoring actually get in the way of creating new habits, perhaps because they focus our attention on things that are irrelevant to behavior change. Some people might like these devices. But until there’s broader evidence of effectiveness, I recommend that most people don’t bother with them. 3. It takes 21 days to form a new habit. This idea stems from a popular 1960s book by Maxwell Maltz, and it’s often repeated today. Self-help books promise that you can fix your marriage, jump-start your exercise routine or cure your money woes in just three weeks. In truth, there’s no magic number when it comes to establishing habits. They are created slowly [...] it comes to establishing habits. They are created slowly as people repeat behaviors in a stable context. Some simple health behaviors, such as drinking a glass of water before each meal, had to be repeated for only 18 days before people did them without thinking, according to one recent study. Others, such as exercise, needed closer to a year of repetition. Researchers found that it took an average of 66 days for a new habit to form. For most people, more important than repeating an action for a certain number of days is establishing a routine. Doing something at the same location or time of day (like putting on sunscreen before you leave the house every morning) can help outsource control of the action. In a study of regular exercisers, for example, almost 90 percent had a location or",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Undated essay by researcher Wendy Wood, who refers to the 18-day vs year study without presenting data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It cites a study but gives no data."
+      },
+      {
+        "id": "page-11",
+        "title": "How Long Does It Take to Form a Habit? (Not 21 Days)",
+        "url": "https://addicted2success.com/success-advice/how-long-does-it-take-to-form-a-habit",
+        "domain": "addicted2success.com",
+        "publishedDate": "2026-11-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://addicted2success.com/wp-content/uploads/2023/04/cropped-WhatsApp-Image-2023-04-03-at-5.12.27-PM-180x180.jpeg",
+        "text": "## Where the 21-day myth came from Stephen also took apart the 21-day idea. He traced it to a surgeon’s observation that got “blown up” until people ran off with it. The UCL behavioral science team tracked it to the preface of Psycho-Cybernetics by plastic surgeon Maxwell Maltz. Maltz wrote that it usually takes “a minimum of about 21 days” for an old mental image to change, using examples like patients getting used to a new face or the feeling of a phantom limb after an amputation. That’s about getting used to a change, not building a habit. And notice the word “minimum.” Somewhere along the way, a floor turned into a deadline. [...] ### Is the 21-day habit rule true? No. It traces back to plastic surgeon Maxwell Maltz, who wrote that people take a minimum of about 21 days to adjust to a change like a new face. He wasn’t measuring habit formation. ### Does missing one day ruin a habit? No. The 66-day study found missing one opportunity didn’t materially affect habit formation. Stephen Guise’s rule is to never miss two days in a row. ### What is a mini habit? It’s a positive behavior so small you can do it every day, even on your worst day, like one push-up. Stephen Guise says the point is to always have enough willpower to meet it. ### How many habits should you build at once?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "Attributes the Maltz origin to UCL and Stephen Guise, whose sources are outside the cluster, with a quote of Maltz."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It relays others' findings with no data of its own."
+      },
+      {
+        "id": "page-12",
+        "title": "Scientists Bust the Myth: Healthy Habits Require More Than 21 Days To Stick",
+        "url": "https://scitechdaily.com/scientists-bust-the-myth-healthy-habits-require-more-than-21-days-to-stick",
+        "domain": "scitechdaily.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://scitechdaily.com/favicon.ico",
+        "text": "“At the beginning of the year, many of us are setting goals and making plans for the months ahead –things like being more active, cutting back on sugar, or making healthier food choices – but while common wisdom suggests that it takes just 21 days to form such habits, these claims are not evidence-based. “In our research, we’ve found that habit formation starts within around two months, but there is significant variability, with formation times ranging from four days to nearly a year. “So, it’s important for people who are hoping to make healthier habits not to give up at that mythical three-week mark.” #### Practical Tips for Building Healthy Habits The study of more than 2600 participants also found that certain factors can influence successful habit formation. [...] Exercise Man Weight Lifting Research from the University of South Australia indicates that forming new healthy habits takes longer than traditionally believed, with habit formation beginning within two months but potentially taking up to nearly a year. This discovery highlights the importance of persistence in adopting new behaviors, especially considering their impact on preventing chronic diseases like diabetes and heart disease. ### Healthy habits take 2 months to a year to form, not 21 days. Success depends on persistence, enjoyment, timing, and planning.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-7",
+          "confidence": 45,
+          "evidence": "SciTechDaily relays UniSA researcher quotes about the same review, but its date is missing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It quotes researchers without presenting the data."
+      },
+      {
+        "id": "page-13",
+        "title": "Forget 21 days. Most healthy new habits take at least two months to stick | CNN",
+        "url": "https://edition.cnn.com/2025/01/27/health/healthy-habits-longer-intl-scli/index.html",
+        "domain": "edition.cnn.com",
+        "publishedDate": "2025-01-27",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/01/27",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://edition.cnn.com/media/sites/cnn/apple-touch-icon.png",
+        "text": "For years, popular wisdom has held that it takes just 21 days to add a new habit to your daily routine. But according to recent research from the University of South Australia (UniSA), new habits typically take around two months to engrain, and can take up to almost a year. The researchers reached this conclusion after conducting a meta-analysis of 20 earlier studies, published between 2008 and 2023, and involving more than 2,600 participants. These studies measured habitual behavior to find an overall trend in the length of time taken for healthy habits to form. Habits included exercise, drinking water, taking vitamins and flossing. Related article Samo Trebizan/Adobe Stock How to restart our New Year’s resolutions [...] “Sometimes we found that the simple behaviors, (like) if someone wanted to start flossing each day, might take someone a week to get into their routine,” Singh explained, “but more complex behaviors such as changing someone’s diet and physical activity can take a lot longer.” He explained that the 21-days myth stems from the 1960 book “Psycho-Cybernetics” by plastic surgeon Maxwell Maltz, in which the author observed that his patients typically took around 21 days to get used to their new appearance following surgery. Video Ad Feedback Wharton professor explains how to really achieve your goals 2:40 • Source: CNN Wharton professor explains how to really achieve your goals 2:40",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "CNN article with an interview with Singh and details of the UniSA meta-analysis, but it is the same date as page-17, with 0.86 overlap."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It reports study results secondhand with an interview, not the data."
+      },
+      {
+        "id": "page-14",
+        "title": "The 21-day habit rule is a lie — here's what science really says | YourStory",
+        "url": "https://yourstory.com/2025/04/habit-formation-66-days-vs-21-day-myth",
+        "domain": "yourstory.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://yourstory.com/favicon.ico",
+        "text": "## Where Did the 21-Day Myth Come From? The idea of forming a habit in 21 days can be traced back to Dr. Maxwell Maltz, a plastic surgeon in the 1960s. He noted that it took his patients around 21 days to adjust to changes in their physical appearance after surgery. But here’s the catch: Dr. Maltz was talking about physical recovery, not the process of changing behavior. Over time, this concept morphed into the widely accepted \"21-day rule\" for habit formation — a simplification that doesn’t take into account the psychological, emotional, and behavioral complexities of creating lasting habits. ## The Surprising Truth: It Takes 66 Days (On Average) [...] ## Where Did the 21-Day Myth Come From? The idea of forming a habit in 21 days can be traced back to Dr. Maxwell Maltz, a plastic surgeon in the 1960s. He noted that it took his patients around 21 days to adjust to changes in their physical appearance after surgery. But here’s the catch: Dr. Maltz was talking about physical recovery, not the process of changing behavior. Over time, this concept morphed into the widely accepted \"21-day rule\" for habit formation — a simplification that doesn’t take into account the psychological, emotional, and behavioral complexities of creating lasting habits. ## The Surprising Truth: It Takes 66 Days (On Average)",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-15",
+          "confidence": 35,
+          "evidence": "Undated page with Maltz-origin wording similar to page-15 ('can be traced back to... plastic surgeon in the 1960s'), so the direction is uncertain."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It only repeats the origin story and 66-day figure."
+      },
+      {
+        "id": "page-15",
+        "title": "Forming new habits can take longer than you think. Here are 8 tips to help you stick with them",
+        "url": "https://theconversation.com/forming-new-habits-can-take-longer-than-you-think-here-are-8-tips-to-help-you-stick-with-them-255118",
+        "domain": "theconversation.com",
+        "publishedDate": "2025-04-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's published <time> element, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
+        "text": "If you’ve ever tried to build a new habit – whether that’s exercising more, eating healthier, or going to bed earlier – you may have heard the popular claim that it only takes 21 days to form a habit. It’s a neat idea. Short, encouraging and full of promise. But there’s just one problem: it’s not true. The 21-day myth can be traced back to Maxwell Maltz, a plastic surgeon in the 1960s, who observed it took about three weeks for his patients to adjust to physical changes. This idea was later picked up and repeated in self-help books, eventually becoming accepted wisdom. But as psychologists and behavioural scientists have since discovered, habit formation is much more complex. ## How long does it really take? [...] ## Why the 21-day myth matters Believing habits form in 21 days sets many people up to fail. When change doesn’t “click” within three weeks, it’s easy to feel like you’re doing something wrong. This can lead to frustration, guilt and giving up entirely. By contrast, understanding the real timeline can help you stay motivated when things feel slow. Evidence shows habit formation usually takes at least two months, and sometimes longer. But it also shows change is possible. Our research and other evidence confirm that repeated, intentional actions in stable contexts really do become automatic. Over time, new behaviours can feel effortless and deeply ingrained.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-1",
+          "confidence": 70,
+          "evidence": "The Conversation links to the Scientific American article (earlier) and repeats the Maltz patient-adjustment origin without adding anything."
+        },
+        "citations": [
+          {
+            "pageId": "page-1",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.scientificamerican.com/article/how-long-does-it-really-take-to-form-a-habit"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It repeats the origin story and cites no data."
+      },
+      {
+        "id": "page-16",
+        "title": "r/getdisciplined on Reddit: [Advice] Always remember the 21/90 rule: It takes 21 days to build a habit, and 90 days to build a lifestyle.",
+        "url": "https://www.reddit.com/r/getdisciplined/comments/cs319i/advice_always_remember_the_2190_rule_it_takes_21",
+        "domain": "reddit.com",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "Myth busted: Healthy habits take ... its kind, researchers found that new habits can begin forming within about two months (median of 59–66 days) but can take up to 335 days to establish....",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 30,
+          "evidence": "Snippet only of a Reddit post asserting a 21/90 rule, with no sourcing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-17",
+        "title": "Forget 21 days. Most healthy new habits take at least two months to stick | CNN",
+        "url": "https://www.cnn.com/2025/01/27/health/healthy-habits-longer-intl-scli",
+        "domain": "cnn.com",
+        "publishedDate": "2025-01-27",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/01/27",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+        "text": "For years, popular wisdom has held that it takes just 21 days to add a new habit to your daily routine. But according to recent research from the University of South Australia (UniSA), new habits typically take around two months to engrain, and can take up to almost a year. The researchers reached this conclusion after conducting a meta-analysis of 20 earlier studies, published between 2008 and 2023, and involving more than 2,600 participants. These studies measured habitual behavior to find an overall trend in the length of time taken for healthy habits to form. Habits included exercise, drinking water, taking vitamins and flossing. woman running STOCK How to restart our New Year’s resolutions [...] “Sometimes we found that the simple behaviors, (like) if someone wanted to start flossing each day, might take someone a week to get into their routine,” Singh explained, “but more complex behaviors such as changing someone’s diet and physical activity can take a lot longer.” He explained that the 21-days myth stems from the 1960 book “Psycho-Cybernetics” by plastic surgeon Maxwell Maltz, in which the author observed that his patients typically took around 21 days to get used to their new appearance following surgery. lbb ny resolutions katy lbb ny resolutions katy Singh said people held onto the idea of a “quick fix” as motivation. So, is there a danger that the new research will make them more reluctant to try to establish new habits in the first place?",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Same CNN article as page-13 at a different URL, with the same date, so neither is strictly earlier."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It reports study results secondhand with an interview, not the data."
+      },
+      {
+        "id": "page-18",
+        "title": "Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11641623",
+        "domain": "ncbi.nlm.nih.gov",
+        "publishedDate": "2024-12-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's citation_publication_date meta tag (issue month only), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "http://www.ncbi.nlm.nih.gov/favicon.ico",
+        "text": "A widely cited idea in popular culture, stemming from the book Psycho-Cybernetics by Maxwell Maltz, suggests that new habits can be formed with just 21 days of repetition . However, this proposed timeline has been questioned, and the period necessary for the establishment of habits is thought to differ based on factors such as the specific behaviour and the individual . The time and effort required for these behaviours to transform into ingrained habits likely varies widely, with multiple factors influencing the overall habit formation process. Practical strategies are believed to aid in the establishment of new healthy habits. One effective approach is to integrate novel habits with pre-existing ones, thereby creating a routine [2,13]. This entails linking a new habit to an existing one, [...] There was a wide range of durations required for the formation of health habits. For example, the median and mean habit acquisition times ranged between 59 and 66 days and 106 and 154 days, respectively. In addition, substantial variance emerged at the individual level, with the durations for individuals to form habits ranging from 4 to 335 days [5,22]. In summary, our results here, along with findings from others , clearly refute the popular notion that habits can be formed in approximately 21 days . This is likely dependent on not only personal factors but also the habit you are trying to form . While we considered guidance documents from experts such as Gardner and colleagues , the complexity and heterogeneous nature of habit research meant that identifying relevant studies remained",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Published within days of pmc.ncbi.nlm.nih.gov with largely identical text, so Echo treats them as one co-published origin instead of guessing which copied which."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It contains the meta-analysis results."
+      },
+      {
+        "id": "page-19",
+        "title": "‎The 21 Days Challenge App - App Store",
+        "url": "https://apps.apple.com/us/app/the-21-days-challenge/id1485458184",
+        "domain": "apps.apple.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://apps.apple.com/assets/favicon/favicon-32.png",
+        "text": "Create your ideal life with life changing habits. It is estimated that it takes people 21 days to form a new habit. So it’s a perfect amount of time to change or introduce something new in your life. Choose the best challenge for you and do it for 21 days and you’re going to see how the habit becomes part of your lifestyle day by day. Starting a healthy lifestyle, taking a break away from the internet, practicing gratitude, trying to be more productive, simple practices to find happiness and calm in your life, how to study effectively for all the students, ways to spread kindness and positivity, tips for fixing your sleeping schedule and daily positive affirmations are some of the challenges that you can find in the app. Once you complete your daily task, you can mark as completed and [...] # The 21 Days Challenge Introduce life changing habits Free · In‑App Purchases · Designed for iPad. Not verified for macOS. 575 Ratings Age Rating 13+ In-App Controls Kati Pereira EN 133.7 MB",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "This page retells the claim without reporting or data of its own, and the source it relies on is not among the retrieved pages, so Echo does not count it as an independent origin."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes an unsourced claim with no data."
+      },
+      {
+        "id": "page-20",
+        "title": "Myth or Fact - Does it Take 21 Days to Build a Habit?",
+        "url": "https://www.drinkhydrant.com/blogs/news/myth-or-fact-does-it-take-21-days-to-build-a-habit",
+        "domain": "drinkhydrant.com",
+        "publishedDate": "2021-01-12",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Page HTML",
+        "text": "The new year is here, and we all know what happens on January 1: We decide to overhaul our lives, establish new and healthy habits, and make this new year “our year.” If you’ve ever tried to start and stick with a new habit, there’s a good chance you’ve heard that it’ll take you 21 days to build it into your routine. Is there any truth to this statement, though? Is it a myth or fact that it takes 21 days to form a habit? Read on to find out! # Myth! Let’s cut right to the chase.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "This page retells the claim without reporting or data of its own, and the source it relies on is not among the retrieved pages, so Echo does not count it as an independent origin."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes an assertion with no data."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "21-day rule originated from Maxwell Maltz's Psycho-Cybernetics observations of surgery pat",
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-4",
+          "page-5",
+          "page-9",
+          "page-11",
+          "page-14",
+          "page-15"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Research finds habits take about two months (59-66 days median) with wide individual varia",
+        "pageIds": [
+          "page-3",
+          "page-6",
+          "page-7",
+          "page-12",
+          "page-13",
+          "page-17",
+          "page-18"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "There is no magic number; 21 days is an unscientific myth and habit time varies",
+        "pageIds": [
+          "page-8",
+          "page-10",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "It takes 21 days to build a habit (asserted as true)",
+        "pageIds": [
+          "page-16",
+          "page-19"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-7",
+      "page-8",
+      "page-9",
+      "page-18"
+    ],
+    "verifiableRoots": [
+      "page-7",
+      "page-8",
+      "page-9",
+      "page-18"
+    ],
+    "coPublishedRootGroups": [
+      [
+        "page-7",
+        "page-18"
+      ]
+    ],
+    "answerSourceIds": [
+      "page-7",
+      "page-9",
+      "page-8"
+    ],
+    "answerStatements": [
+      {
+        "text": "The 21-day idea is popularly traced to Maxwell Maltz's 1960 book Psycho-Cybernetics, but the timeline has been questioned and the time needed is thought to vary by behaviour and individual",
+        "sourceIds": [
+          "page-7",
+          "page-9"
+        ]
+      },
+      {
+        "text": "A Caltech researcher said the estimate that it takes about 21 days to form a habit was not based on any science, and that habit formation speed differs by behavior and other factors",
+        "sourceIds": [
+          "page-8"
+        ]
+      },
+      {
+        "text": "A systematic review and meta-analysis found a wide range of habit formation times, with median times of 59 to 66 days and mean times of 106 to 154 days",
+        "sourceIds": [
+          "page-7"
+        ]
+      },
+      {
+        "text": "The Caltech study found an average of about six months to form a gym habit, which contradicts a fixed 21-day rule",
+        "sourceIds": [
+          "page-8"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "It takes 21 days to form a habit",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 36,
+        "matchingResults": 36,
+        "uniquePagesAdded": 36,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-2",
+          "page-8",
+          "page-9",
+          "page-7",
+          "page-10",
+          "page-15",
+          "page-16",
+          "page-17",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "exa",
+            "brave",
+            "parallel",
+            "perplexity"
+          ],
+          "page-2": [
+            "perplexity"
+          ],
+          "page-8": [
+            "exa"
+          ],
+          "page-9": [
+            "brave"
+          ],
+          "page-7": [
+            "parallel",
+            "exa"
+          ],
+          "page-10": [
+            "perplexity"
+          ],
+          "page-15": [
+            "exa"
+          ],
+          "page-16": [
+            "brave"
+          ],
+          "page-17": [
+            "parallel"
+          ],
+          "page-18": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "\"21 days to form\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 28,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "perplexity",
+          "brave"
+        ],
+        "pageIds": [
+          "page-3",
+          "page-11",
+          "page-12",
+          "page-19"
+        ],
+        "pageProviders": {
+          "page-3": [
+            "tavily"
+          ],
+          "page-11": [
+            "tavily"
+          ],
+          "page-12": [
+            "perplexity"
+          ],
+          "page-19": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "\"It takes 21 days to form a habit\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 33,
+        "matchingResults": 32,
+        "uniquePagesAdded": 17,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-4",
+          "page-13",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-4": [
+            "perplexity"
+          ],
+          "page-13": [
+            "parallel"
+          ],
+          "page-20": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "takes 21 days form habit fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 33,
+        "matchingResults": 33,
+        "uniquePagesAdded": 12,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "parallel",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-5",
+          "page-14"
+        ],
+        "pageProviders": {
+          "page-5": [
+            "tavily"
+          ],
+          "page-14": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "takes 21 days form habit study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 25,
+        "matchingResults": 23,
+        "uniquePagesAdded": 10,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "parallel"
+        ],
+        "pageIds": [
+          "page-6"
+        ],
+        "pageProviders": {
+          "page-6": [
+            "perplexity"
+          ]
+        }
+      },
+      {
+        "query": "takes 21 days form habit original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 21 days form habit according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 21 days form habit study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 21 days form habit statistics source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "takes 21 days form habit evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 0,
+    "summary": {
+      "totalPages": 20,
+      "independentOrigins": 4,
+      "verifiableOrigins": 3,
+      "echoPercentage": 5
+    },
+    "answer": "The 21-day idea is popularly traced to Maxwell Maltz's 1960 book Psycho-Cybernetics, but the timeline has been questioned and the time needed is thought to vary by behaviour and individual [1] [2]. A Caltech researcher said the estimate that it takes about 21 days to form a habit was not based on any science, and that habit formation speed differs by behavior and other factors [3]. A systematic review and meta-analysis found a wide range of habit formation times, with median times of 59 to 66 days and mean times of 106 to 154 days [1]. The Caltech study found an average of about six months to form a gym habit, which contradicts a fixed 21-day rule [3].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7149,
+          "outputTokens": 897,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.023268
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 13436,
+          "outputTokens": 2618,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.053052
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2882,
+          "outputTokens": 295,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.008714
+        }
+      ],
+      "stageMs": {
+        "search": 4408,
+        "extract": 1800,
+        "grouping": 7582,
+        "judgment": 16416,
+        "answer": 2781,
+        "total": 32989
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "tavily": 3,
+          "brave": 5,
+          "parallel": 4,
+          "perplexity": 5,
+          "exa": 1
+        }
+      },
+      "usd": {
+        "claude": 0.085034,
+        "tavily": 0.032,
+        "telem": 0.084,
+        "total": 0.201034
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trace with Echo: settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <p class="kicker">TRACE WITH ECHO</p>
+    <h1>Which Echo should it open?</h1>
+    <p class="lede">Select a claim on any page and click the <b>echo. Trace</b> button next to it: Echo traces it in the side panel. Or right-click it and choose <b>Trace with Echo</b> to open Echo in a new tab with the claim filled in; nothing is traced there until you press <b>Trace sources</b>.</p>
+    <form id="site-form" novalidate>
+      <label for="site">Echo address</label>
+      <div class="row">
+        <input autocomplete="url" id="site" inputmode="url" name="site" placeholder="http://localhost:3000" spellcheck="false" type="text" aria-describedby="site-help status">
+        <button type="submit">Save</button>
+        <button class="secondary" id="reset" type="button">Use localhost</button>
+      </div>
+      <p class="help" id="site-help">Your own Echo, for example <code>http://localhost:3000</code> while running <code>npm run dev</code>, or a deployed address such as <code>https://echo.example</code>. Only the site part is kept. For a deployed address, the browser asks once to let the side panel use your Echo sign-in there.</p>
+      <p aria-live="polite" class="status" id="status" role="status"></p>
+    </form>
+
+    <h2>The pop-up next to a selection</h2>
+    <form id="popup-form" class="toggle-form" novalidate>
+      <label class="check" for="popup"><input id="popup" type="checkbox" checked> Show the Echo button when I select text on a page</label>
+      <p class="help">It appears at the end of a selection of 8 characters or more (never in text fields), and goes away when you scroll, click elsewhere or press Escape. <b>Trace</b> runs the selection as a claim; <b>Check links</b> (when the selection has links) checks them.</p>
+      <p class="help" id="shortcut-help">Shortcut: <kbd id="shortcut">Alt+Shift+E</kbd> traces the selected text the same way. <button class="link" id="shortcut-change" type="button">Change it</button></p>
+      <p aria-live="polite" class="status" id="popup-status" role="status"></p>
+    </form>
+
+    <h2>Let Echo start runs from the side panel</h2>
+    <form class="toggle-form" novalidate>
+      <p class="help">Echo starts a run from the side panel only for an extension it lists. Add this line to Echo's <code>.env.local</code> (or the deployment's environment) and restart Echo:</p>
+      <div class="row"><code class="origin" id="origin-line">ECHO_EXTENSION_ORIGINS=chrome-extension://…</code><button class="secondary" id="origin-copy" type="button">Copy</button></div>
+      <p class="help">Until then the side panel cannot show Echo; use the right-click menu, which opens Echo in a tab.</p>
+    </form>
+
+    <h2>What it can see</h2>
+    <ul>
+      <li>Only what you select or right-click: the selected text and the links inside it, or the page or link address for <b>Find claims in this page</b>. The pop-up's script reads the selection on the page to place its button; nothing leaves the page until you click it.</li>
+      <li>It sends that text to the Echo address above only: in the address of the Echo tab it opens (at most 500 characters), or to the Echo page in the side panel after you click the pop-up or press the shortcut.</li>
+      <li>It stores two settings, the Echo address and the pop-up switch, in your browser's extension storage, and the last pop-up click for two minutes in session storage.</li>
+    </ul>
+  </main>
+  <script src="echo-link.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

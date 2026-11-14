@@ -1,0 +1,45 @@
+/* /origins, "How stable is a score": two saved runs of one claim side by side (stability.tsx). Matches the cards in origins.module.css. */
+.card { margin-top: 30px; padding: 26px 28px 24px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); box-shadow: var(--shadow); scroll-margin-top: 14px; }
+.kicker { margin: 0 0 8px; color: var(--teal-deep); font-size: 10px; font-weight: 750; letter-spacing: 1.8px; }
+.title { max-width: 980px; margin: 0; color: var(--ink); font-size: clamp(19px, 2.2vw, 26px); font-weight: 620; line-height: 1.25; letter-spacing: -0.6px; }
+.lede { max-width: 860px; margin: 10px 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
+.rows { display: grid; gap: 0; margin: 18px 0 0; padding: 0; list-style: none; }
+.row { padding: 16px 0 18px; border-top: 1px solid var(--line); }
+.row:last-child { border-bottom: 1px solid var(--line); }
+.claimLine { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
+.claim { color: var(--ink); font-size: 17px; font-weight: 640; line-height: 1.3; letter-spacing: -0.3px; }
+.gap { color: var(--ink-soft); font-size: 13px; white-space: nowrap; }
+.gap b { color: var(--ink); font-size: 20px; font-weight: 720; font-variant-numeric: tabular-nums; }
+.pair { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) minmax(0, 1.7fr); align-items: start; gap: 12px; margin-top: 12px; }
+.run { display: flex; min-width: 0; flex-direction: column; gap: 7px; padding: 12px 14px 13px; border: 1px solid var(--line); border-radius: 12px; background: #f6f5f0; }
+.runTag { color: #718780; font-size: 9px; font-weight: 750; line-height: 1.5; letter-spacing: 1.3px; }
+.scoreLine { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 9px; }
+/* The same three tones as the score chips on the tabs. */
+.scoreThin, .scoreMid, .scoreStrong { display: inline-block; min-width: 52px; padding: 3px 11px 4px; border-radius: 15px; background: #fffefa; font-size: 26px; font-weight: 750; line-height: 1.1; letter-spacing: -0.8px; font-variant-numeric: tabular-nums; text-align: center; }
+.scoreThin { color: #b23b2e; box-shadow: inset 0 0 0 1px #e9c4bd; }
+.scoreMid { color: #8a5a0a; box-shadow: inset 0 0 0 1px #e6cf9f; }
+.scoreStrong { color: #0b6b4a; box-shadow: inset 0 0 0 1px #b9d8cc; }
+.scoreLine em { color: var(--ink-soft); font-size: 12px; font-style: normal; }
+.run small { color: var(--muted); font-size: 11px; line-height: 1.45; }
+.arrow { align-self: center; color: var(--quiet); font-size: 18px; }
+.shared dt { white-space: nowrap; }
+.shared { display: grid; align-content: start; gap: 7px; margin: 0; padding: 2px 0 0 4px; }
+.shared div { display: grid; grid-template-columns: 158px minmax(0, 1fr); gap: 10px; }
+.shared dt { color: #718780; font-size: 9px; font-weight: 750; line-height: 1.75; letter-spacing: 1.3px; }
+.shared dd { margin: 0; color: var(--ink-soft); font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.shared dd b { color: var(--ink); font-weight: 720; font-variant-numeric: tabular-nums; }
+.why { max-width: 980px; margin: 12px 0 0; padding: 10px 14px 11px; border-left: 4px solid var(--teal-deep); border-radius: 6px; background: #f1f7f3; color: var(--ink); font-size: 14px; line-height: 1.5; }
+.why > span { display: block; margin-bottom: 3px; color: var(--teal-deep); font-size: 9px; font-weight: 750; letter-spacing: 1.4px; }
+.why > small { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+.note { max-width: 980px; margin: 14px 0 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+@media (max-width: 980px) { .pair { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); } .shared { grid-column: 1 / -1; padding-left: 0; } }
+@media (max-width: 720px) { .card { padding: 18px 16px 20px; } }
+@media (max-width: 560px) { .pair { grid-template-columns: minmax(0, 1fr); } .arrow { justify-self: center; transform: rotate(90deg); } .shared div { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+
+/* ---- Identity pass (Nov 14): the page's shared kicker and headline style. ---- */
+.kicker { font-size: 11px; font-weight: 800; letter-spacing: 1.6px; }
+.kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 8px; border-radius: 2px; background: #0b8a5f; }
+.title { font-size: clamp(24px, 3vw, 38px); font-weight: 780; line-height: 1.1; letter-spacing: -1.2px; }
+.lede { font-size: 15.5px; }
+.card { border: 2px solid var(--ink); border-radius: 18px; }
+@media (max-width: 720px) { .card { padding: 18px 16px 20px; overflow-x: hidden; } .card * { min-width: 0; overflow-wrap: anywhere; } }

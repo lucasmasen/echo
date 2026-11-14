@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "Trace with Echo",
+  "short_name": "Echo",
+  "version": "0.2.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxh5vytZAGqKZj7lhg6aHS0g9n30KEsl1WxTL7q+r06kHmXObELghyAsVQRDPVHH6o60dge/+x0/fwdaArAG5KlIdmaiYLYAtmahOh8DxJDBKWgtL8llM9GJKG3YWLcquqL0ya7OK7tmbEwqCeKqOOMw0a9a/g4g6GKbWvTZUadD+VYDG60P+AvDsPkERGgJuAeAVdVjQXQkf8x2jD4m3gnv+pHV+GtPF6+/qmIVZTDJBOSHeJVU5xHF2jmyDuBow0M1gfmcY/trsaN0kKrcYeFviuWNxW3DCspFW1tG0EeiHjUylQCdiBcuHddIGY4vWI+fA3o4gbXMtVKl6V74XTQIDAQAB",
+  "description": "Select a claim on any page and click the Echo button next to it: Echo traces it in the side panel. Right-click menus open Echo filled in.",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "sidePanel"
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "echo-link.js",
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "commands": {
+    "trace-selection": {
+      "suggested_key": {
+        "default": "Alt+Shift+E",
+        "mac": "Alt+Shift+E"
+      },
+      "description": "Trace the selected text with Echo in the side panel"
+    }
+  },
+  "action": {
+    "default_title": "Open Echo",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}

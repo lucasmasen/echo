@@ -1,0 +1,45 @@
+/* /origins: every saved run in one table (batch-table.tsx) and the card it sits in. */
+.card { margin-top: 30px; padding: 26px 28px 24px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); box-shadow: var(--shadow); }
+.kicker { margin: 0 0 8px; color: var(--teal-deep); font-size: 10px; font-weight: 750; letter-spacing: 1.8px; }
+.title { max-width: 980px; margin: 0; color: var(--ink); font-size: clamp(19px, 2.2vw, 26px); font-weight: 620; line-height: 1.25; letter-spacing: -0.6px; }
+.lede { max-width: 860px; margin: 10px 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; }
+.action, .actionMain { min-height: 34px; padding: 0 15px; border: 1px solid #d6e4da; border-radius: 17px; background: #fffefa; color: var(--teal-deep); font: inherit; font-size: 13px; font-weight: 650; cursor: pointer; }
+.action:hover { border-color: #87ada2; }
+.actionMain { border-color: var(--teal-deep); background: var(--teal-deep); color: #fffefa; }
+.actionMain:hover { filter: brightness(1.08); }
+.action:focus-visible, .actionMain:focus-visible, .sort:focus-visible, .sortOn:focus-visible { outline: 2px solid var(--teal-deep); outline-offset: 2px; }
+.actionNote { margin-left: 4px; color: var(--muted); font-size: 12px; }
+/* A wide table scrolls sideways inside its card on a small screen; the page itself never does. */
+.wrap { margin-top: 14px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.table { width: 100%; min-width: 880px; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.table th, .table td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); text-align: right; vertical-align: top; }
+.table th:last-child, .table td:last-child { padding-right: 0; }
+.table thead th { padding-top: 0; vertical-align: bottom; }
+.table td { color: var(--ink); font-size: 15px; white-space: nowrap; }
+.table .textCol { text-align: left; }
+.table td.textCol { color: var(--ink-soft); font-size: 13px; white-space: normal; }
+.sort, .sortOn { display: inline-flex; align-items: flex-end; gap: 5px; padding: 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; line-height: 1.3; text-align: inherit; text-transform: uppercase; cursor: pointer; }
+.sort:hover, .sortOn { color: var(--teal-deep); }
+.arrow { font-size: 9px; opacity: 0.55; }
+.sortOn .arrow { opacity: 1; }
+.table tbody th.claim { width: 34%; min-width: 230px; color: var(--ink); font-size: 14px; font-weight: 620; line-height: 1.3; text-align: left; }
+.claim small { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; font-weight: 500; }
+.origins { color: var(--teal-deep); font-weight: 720; }
+.scoreThin, .scoreMid, .scoreStrong { display: inline-block; min-width: 30px; padding: 1px 7px; border-radius: 9px; background: #fffefa; font-size: 13px; font-weight: 750; text-align: center; }
+.scoreThin { color: #b23b2e; box-shadow: inset 0 0 0 1px #e9c4bd; }
+.scoreMid { color: #8a5a0a; box-shadow: inset 0 0 0 1px #e6cf9f; }
+.scoreStrong { color: #0b6b4a; box-shadow: inset 0 0 0 1px #b9d8cc; }
+.scoreWord { display: inline-block; min-width: 52px; margin-left: 6px; color: var(--muted); font-size: 11px; text-align: left; }
+.note { max-width: 980px; margin: 12px 0 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; border: 0; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 720px) { .card { padding: 18px 16px 20px; } .actionNote { width: 100%; margin-left: 0; } }
+
+/* ---- Identity pass (Nov 14): the page's shared kicker and headline style. ---- */
+.kicker { font-size: 11px; font-weight: 800; letter-spacing: 1.6px; }
+.kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 8px; border-radius: 2px; background: #0b8a5f; }
+.title { font-size: clamp(24px, 3vw, 38px); font-weight: 780; line-height: 1.1; letter-spacing: -1.2px; }
+.lede { font-size: 15.5px; }
+.card { border: 2px solid var(--ink); border-radius: 18px; }
+/* Keep visually hidden helpers inside the scrolling box, so they cannot widen the page on a phone. */
+.wrap { position: relative; }

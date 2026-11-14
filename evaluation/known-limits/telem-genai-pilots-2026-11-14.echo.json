@@ -1,0 +1,903 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T20:37:17.613Z",
+  "analysis": {
+    "claim": "95% of generative AI pilots fail",
+    "createdAt": "2026-11-14T20:37:17.613Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Beware the AI Experimentation Trap",
+        "url": "https://hbr.org/2025/08/beware-the-ai-experimentation-trap",
+        "domain": "hbr.org",
+        "publishedDate": "2025-08-29",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://hbr.org/resources/images/apple-touch-icon.png",
+        "text": "han Furr](/search?term=Nathan Furr) and [Andrew Shipilov](/search?term=Andrew Shipilov) August 29, 2025 ![](/resources/images/article_assets/2025/08/Aug25_28_AndyGoodman.jpg) Illustration by Andy Goodman * [![](/assets-mfe-articles/_next/static/media/Twitter.2ht2cms5y_jst.svg)Post](https://twitter.com/intent/tweet?&original_referer=&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&tw_p=tweetbutton&url=) * [![](/assets-mfe-articles/_next/static/media/BuyCopy.41629sloaw1es.svg)Buy Copies](/product/beware-the-ai-experimentation-trap/H08VTT-PDF-ENG) ## Summary. The MIT Media Lab’s finding that 95% of generative AI investments have produced no measurable returns highlights a familiar pitfall: Leaders are repeating the mistakes of the digital... [Leer en español](/2025/08/beware-the-ai-experimentation-trap?language=es)[Ler em português](/2025/08/beware-the-ai-experimentation-trap?language=pt) * [![](/assets-mfe-articles/_next/static/media/Twitter.2ht2cms5y_jst.svg)Post](https://twitter.com/intent/tweet?&original_referer=&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&tw_p=tweetbutton&url=) * [![](/assets-mfe-articles/_next/static/media/BuyCopy.41629sloaw1es.svg)Buy Copies](/product/beware-the-ai-experimentation-trap/H08VTT-PDF-ENG) Earlier this month, the MIT Media Lab/Project NANDA released a [new report](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/) that found that 95% of investments in gen AI have produced zero returns. The headline is just the latest to feed a wave of skepticism that AI will produce results at scale. The [underwhelming launch of OpenAI’s GPT-5](https://www.ft.com/content/d01290c9-cc92-4c1f-bd70-ac332cd40f94) has provided fodder to the view that AI’s progress is slowing. Gartner has suggested that generative AI is entering its “[trough of disillusionment](https://www.economist.com/business/2025/05/21/welcome-to-the-ai-trough-of-disillusionment)” era—the third step in the firm’s [five-phase hype c",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-10",
+          "confidence": 85,
+          "evidence": "HBR links to the Fortune article for the 95% finding and adds only commentary, and is dated after Fortune."
+        },
+        "citations": [
+          {
+            "pageId": "page-10",
+            "how": "link",
+            "quote": "ier this month, the MIT Media Lab/Project NANDA released a [new report](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/) that found that 95% of investments in gen AI ha"
+          }
+        ],
+        "linkedPageIds": [
+          "page-10"
+        ],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It restates the MIT figure with no data of its own."
+      },
+      {
+        "id": "page-2",
+        "title": "Olern AI for Business",
+        "url": "https://jerryilao.com/",
+        "domain": "jerryilao.com",
+        "publishedDate": "2026-09-25",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.jerryilao.com/favicon.ico",
+        "text": "Oliver RosemarieGoogle review ★★★★★ > “Sir Jerry Ilao and the Olern team is very professional and well-known their craft. I basically learned Ai to this team first time. True indeed that \"Your next competitive edge isn't a tool – it's how fast your people can adapt (Jerry Ilao). Thanks Sir for an eye opener. Ai is the new era now. God bless! More clients and learning!” PMG AdminGoogle review Latest thinking ## Plain-language AI, one idea at a time Level 1 ### Top 5 AI Adoption Mistakes Filipino Businesses Make (And How to Fix Them) Most AI pilots fail from human and process mistakes, not bad tools. Here are five common AI adoption mistakes Filipino businesses make and how to fix them. Level 1 ### Your Competitor Is Already on a Bicycle [...] Where should my business start? Take the free 5-minute assessment. It tells you which of the four levels your business is at today, where the gaps are, and what your 90-day plan looks like. In Jerry's own 4A Assessment data (151 businesses and teams, August to October 2026), 68% were at Level 1 and nearly one in five had not started using AI for work yet. That's the majority, not behind. How much does it cost to get started? Nothing. The assessment and the toolkit are free and ungated. Paid work like corporate training, keynotes, and AI agents only makes sense after you know your level. How is this different from other AI seminars?",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "The page is a business site's promotional content, with its own assessment data (151 businesses) and generic advice."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It reports its own assessment data, though it does not relate to the 95% claim."
+      },
+      {
+        "id": "page-3",
+        "title": "Does 95% of AI pilot projects really fail? | Arctyk Labs",
+        "url": "https://www.arctyklabs.com/insights/fact-check/95-percent-ai-pilots-fail",
+        "domain": "arctyklabs.com",
+        "publishedDate": "2026-08-12",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.arctyklabs.com/favicon.svg",
+        "text": "## Where the number came from The source is The GenAI Divide: State of AI in Business 2025, a July 2025 report from MIT Project NANDA. Its research combined interviews with representatives from 52 organizations, survey responses from 153 senior leaders at four industry conferences, and a review of more than 300 publicly disclosed AI initiatives. The executive summary says that 95% of organizations were getting zero return from enterprise GenAI investment and that only 5% of integrated AI pilots were extracting substantial value. Later, the report describes a 95% failure rate for enterprise AI solutions and says only 5% of custom enterprise AI tools reached production. So the number was not invented by a headline writer. The problem is what happened after the number left the report. [...] Skip to content ← Research & insights Fact check # Does 95% of AI pilot projects really fail? The number came from a real MIT-affiliated report. The version circulating online drops the denominator, the definition of success, and nearly every caveat that makes the finding useful. MatFounder & Principal Engineer ·8 min read The short answer The 95% figure is directionally grounded for custom enterprise GenAI implementations in one preliminary study. It is not a universal failure rate for every AI pilot, company, tool, or use case. ## Where the number came from",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "The page reads the primary MIT report directly and gives its own method and denominator analysis, with no citation of a cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It cites the report's specific sample sizes and quotes its executive summary."
+      },
+      {
+        "id": "page-4",
+        "title": "Why 95% of Generative AI Pilots Are Failing — And How Data-Quality Is the Missing Link - Congruity 360",
+        "url": "https://www.congruity360.com/blog/why-95-of-generative-ai-pilots-are-failing",
+        "domain": "congruity360.com",
+        "publishedDate": "2025-10-28",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.congruity360.com/wp-content/uploads/2024/07/globe-icon-400x375.png",
+        "text": "The MIT study analysed over 300 public AI deployments, conducted 150 executive interviews and surveyed 350 employees. (Computing) Only ~5 % of GenAI pilots achieved rapid revenue growth; the remaining ~95 % stalled in pilot mode or delivered little measurable impact. (AiNews.com) The study emphasises that it’s not primarily the model technology that is failing, but the integration into workflows, organisational alignment, and underlying data readiness. (The Financial Express) One of the key findings: many organizations allocate more than half of their GenAI budgets to sales and marketing tools, while the highest ROI lies in back-office automation (document processing, compliance, internal workflows), suggesting a mismatch of use case and value. (Business Matters) [...] Models produce inaccurate or misleading outputs (hallucinations or bias) because they’ve been trained on dirty or unrepresentative data. organizations spend time and money validating, correcting, or discarding outputs — the so-called “verification tax” — wiping out promised efficiency gains. (ninetwothree.co) Pilots may show promise on a small scope/dataset, but fail to scale because data volume, variety, or velocity is inadequate for production. Poor data management leads to loss of stakeholder trust, increased risk (compliance, bias, legal), and inability to utilize the AI in business workflows. The mismatch of use-case and data readiness means investment is misapplied — leading to stalled pilots.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-9",
+          "confidence": 70,
+          "evidence": "This page (2025-10-28) cites computing.co.uk by link, and a page cannot cite something published after it, so computing.co.uk's missing date does not block the link."
+        },
+        "citations": [
+          {
+            "pageId": "page-12",
+            "how": "name and year",
+            "quote": "e AI Pilots Are Failing — And How Data-Quality Is the Missing Link October 28, 2025 In the latest report from Massachusetts Institute of Technology (MIT), titled The GenAI Divide: State of AI in Business 2025 , the sta"
+          },
+          {
+            "pageId": "page-9",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.computing.co.uk/news/2025/ai/mit-report-95pc-corporate-generative-ai-pilots-fail"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It aggregates secondhand figures from other outlets and presents no original data."
+      },
+      {
+        "id": "page-5",
+        "title": "GTA Retail Tech",
+        "url": "https://gtaretailtech.org/",
+        "domain": "gtaretailtech.org",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "- [2026-09-18 · Posted · 12 reactions] [MIT's NANDA initiative found that 95% of generative AI pilots fail...](https://www.linkedin.com/posts/gta-retail-tech_mits-nanda-initiative-found-that-95-of-activity-7506667071712350208-wV97) > MIT's NANDA initiative found that 95% of generative AI pilots fail to produce a measurable financial return once they move beyond initial testing. Most retail leaders will recognise why. The conditions of a pilot are difficult to recreate across an entire retail estate, where the technology has to deal with different systems, stores, teams and ways of working. > > That came through clearly at NRF Retail's Big Show Europe this year. The floor covered assortment and pricing platforms at head office, electronic shelf labels and computer vision in stores, and newer entries such as AI agents and virtual try-on in the Innovators Showcase. Companies with very different histories were often working on similar retail problems and presenting increasingly similar…",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 40,
+          "evidence": "The snippet is a partial LinkedIn post whose date is not given, and it repeats the claim without naming a source page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-6",
+        "title": "AI statistics 2026: widely quoted figures checked at the source",
+        "url": "https://www.ai-first.company/evidence/ai-statistics",
+        "domain": "ai-first.company",
+        "publishedDate": "2026-11-10",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.ai-first.company/favicon.ico",
+        "text": "Evidence # AI statistics, checked 28 widely quoted figures about AI in business, each traced to its primary source. Each line gives who published the figure and when, the verdict, and links to the full check and to the source. On this page ## AI project failure rates In July 2024, Gartner, which sells research and advice to IT leaders, predicted that “at least 30%” of generative AI projects would be abandoned after proof of concept by the end of 2025. In January 2026, Gartner said that at least 50% had been abandoned, from its analysis of “hundreds of GenAI implementations”. Gartner published no method for either figure. [...] Szczęsny, P. “30% of generative AI projects will be abandoned after proof of concept (Gartner)”. Claim check, ai-first.company, 20 October 2026. The verdicts follow how the site rates evidence. The checks are also open data under CC BY 4.0; credit them as “Data: CC BY 4.0, Paweł Szczęsny, ai-first.company”. Checks of frameworks and commentary, which give no figure, are among all claim checks. Start Practices Tools and evidence About this site © 2026 AI-first company",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "The page is a roundup that traces Gartner's figures to their primary sources and cites only its own earlier claim checks."
+        },
+        "citations": [
+          {
+            "pageId": "page-8",
+            "how": "name and year",
+            "quote": "e AI projects will be abandoned after proof of concept (Gartner)”. Claim check, ai-first.company, 20 October 2026. The verdicts follow how the site rates evidence. The checks are also open data under CC BY 4.0; credit"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It gives dated Gartner statements and notes that no method was published."
+      },
+      {
+        "id": "page-7",
+        "title": "MIT Finds 95% Of GenAI Pilots Fail Because Companies Avoid Friction",
+        "url": "https://www.forbes.com/sites/jasonsnyder/2025/08/26/mit-finds-95-of-genai-pilots-fail-because-companies-avoid-friction",
+        "domain": "forbes.com",
+        "publishedDate": "2025-08-26",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/08/26",
+        "extractionSource": "Search snippet",
+        "text": "Editors' Pick Leadership CMO Network MIT Finds 95% Of GenAI Pilots Fail Because Companies Avoid Friction By Jason Snyder , Contributor. Forbes contributors publish independent expert analyses and insights. Jason Alan Snyder is a technologist covering AI and innovation. Follow Author Aug 26, 2025, 01:22pm EDT Aug 26, 2025, 05:10pm EDT Friction keeps the system moving. MIT’s research shows that 5% of GenAI pilots succeed by embracing resistance, both human and organizational, as well as technical, as the crucible of adaptation and ROI. getty 95% of GenAI Pilots Fail Friction isn’t failure.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "The Forbes contributor commentary is a snippet that credits MIT research, and no cluster parent is clearly shown."
+        },
+        "citations": [
+          {
+            "pageId": "page-12",
+            "how": "name and year",
+            "quote": "butors publish independent expert analyses and insights. Jason Alan Snyder is a technologist covering AI and innovation. Follow Author Aug 26, 2025, 01:22pm EDT Aug 26, 2025, 05:10pm EDT Friction keeps the system moving."
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-8",
+        "title": "“95% of generative AI pilots at companies are failing (MIT)” · AI-first company",
+        "url": "https://www.ai-first.company/evidence/claim-checks/mit-95-percent-of-ai-pilots-fail",
+        "domain": "ai-first.company",
+        "publishedDate": "2026-10-13",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.ai-first.company/favicon.ico",
+        "text": "## The claim > 95% of generative AI pilots at companies are failing, according to MIT. ## What the primary source says The report is The GenAI Divide: State of AI in Business 2025, dated July 2025, from Project NANDA at the MIT Media Lab. Its notes page calls it “Preliminary Findings from AI Implementation Research from Project NANDA”. How it was done. The authors reviewed over 300 AI initiatives that companies had made public. They interviewed people from 52 organizations. They collected 153 survey answers from senior leaders at four industry conferences. The research ran from January to June 2025. Where the 95% appears. The summary says “95% of organizations are getting zero return”. A later section speaks of “the 95% failure rate for enterprise AI solutions”. [...] ## When the claim comes up Before “95% of generative AI pilots at companies are failing (MIT)” goes into a deck or a board paper, use the wording under “What to cite instead”. If someone in the room quotes it, correct the claim, not the person. You could say: > That 95% is often read as a count of failed pilots, but it is not one. A preliminary MIT report, based on 52 interviews and 153 survey answers collected at conferences, estimated that 5% of organizations had task-specific generative AI tools in production. ## Read next",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "The page works from the primary report (its notes page and quoted wording) and builds its own claim check."
+        },
+        "citations": [
+          {
+            "pageId": "page-10",
+            "how": "link",
+            "quote": "This page's HTML links to https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It cites the report's method details and quotes its own text."
+      },
+      {
+        "id": "page-9",
+        "title": "MIT report: 95% of corporate generative AI pilots fail to ...",
+        "url": "https://www.computing.co.uk/news/2025/ai/mit-report-95pc-corporate-generative-ai-pilots-fail",
+        "domain": "computing.co.uk",
+        "publishedDate": null,
+        "extractionSource": "Search snippet",
+        "text": "# MIT report: 95% of corporate generative AI pilots fail to deliver returns ... **A new study from the Massachusetts Institute of Technology has revealed that the vast majority of corporate generative AI pilots are failing to generate meaningful financial returns, despite widespread investment.** The report, *The GenAI Divide: State of AI in Business 2025*, published by MIT’s NADA initiative, found that 95% of pilots stall at early stages and never progress to scaled adoption. Only 5% of projects achieved rapid revenue growth. Based on 150 interviews with business leaders, a survey of 350 employees and an analysis of 300 public AI deployments, the study highlights a growing divide between successful AI integrations and those that remain stuck in experimental mode.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-10",
+          "confidence": 50,
+          "evidence": "The snippet has no date and closely mirrors Fortune's figures (150 interviews, 350 employees, 300 deployments), so the order cannot be established."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "unclear",
+        "primaryEvidenceReason": "Only a search snippet was available; the full page may contain evidence of its own not shown here."
+      },
+      {
+        "id": "page-10",
+        "title": "MIT report: 95% of generative AI pilots at companies are failing | Fortune",
+        "url": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo",
+        "domain": "fortune.com",
+        "publishedDate": "2025-08-18",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2025/08/18",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://fortune.com/apple-touch-icon.png",
+        "text": "The GenAI Divide: State of AI in Business 2025, a new report published by MIT’s NANDA initiative, reveals that while generative AI holds promise for enterprises, most initiatives to drive rapid revenue growth are falling flat. Despite the rush to integrate powerful new models, about 5% of AI pilot programs achieve rapid revenue acceleration; the vast majority stall, delivering little to no measurable impact on P&L. The research—based on 150 interviews with leaders, a survey of 350 employees, and an analysis of 300 public AI deployments—paints a clear divide between success stories and stalled projects. To unpack these findings, I spoke with Aditya Challapally, the lead author of the report, and a research contributor to project NANDA at MIT. [...] But for 95% of companies in the dataset, generative AI implementation is falling short. “The 95% failure rate for enterprise AI solutions represents the clearest manifestation of the GenAI Divide,” the report states. The core issue? Not the quality of the AI models, but the “learning gap” for both tools and organizations. While executives often blame regulation or model performance, MIT’s research points to flawed enterprise integration. Generic tools like ChatGPT excel for individuals because of their flexibility, but they stall in enterprise use since they don’t learn from or adapt to workflows, Challapally explained.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 85,
+          "evidence": "Fortune interviewed the report's lead author Aditya Challapally and is the earliest dated page in the cluster."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It contains firsthand interview reporting and direct quotations from the report."
+      },
+      {
+        "id": "page-12",
+        "title": "MIT Finds 95% of Enterprise AI Pilots Fail to Boost Revenues - Tech.co",
+        "url": "https://tech.co/news/mit-enterprise-ai-pilots-fail-revenues",
+        "domain": "tech.co",
+        "publishedDate": "2025-08-20",
+        "publishedDateSource": "page text",
+        "publishedDateEvidence": "Page says “Published on   August 20, 2025”",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://tech.co/wp-content/themes/techco/dist/img/favicon/apple-touch-icon.png",
+        "text": "facebook twitter-x instagram linkedin # MIT Finds 95% of Enterprise AI Pilots Fail to Boost Revenues Poor resource allocation and an unavoidable \"learning gap\" might be keeping generative AI from living up to its promise. Written by Published on August 20, 2025 The large majority of generative AI pilot programs deliver little or no measurable impact on company revenues. That’s according to a new MIT report that examined over 300 public corporate AI implementations, surveyed 350 employees, and talked to 150 industry leaders to find that just 5% of AI pilots earn their companies significant growth. That’s a dismal success rate for the highly-hyped generative AI technology, and could easily be considered yet another sign that the AI hype bubble is reaching a tipping point. [...] > “Some large companies’ pilots and younger startups are really excelling with generative AI. [Startups led by 19- or 20-year-olds] have seen revenues jump from zero to $20 million in a year. It’s because they pick one pain point, execute well, and partner smartly with companies who use their tools.” -Challapally ## AI Resource Allocation Is Part of the Problem Poor resource allocation is another issue, according to the report. More than half of generative AI pilots are operating with sales and marketing tools. But that isn’t where AI can be most effective, MIT found. Instead, the biggest ROIs revealed themselves in behind-the-scenes automation: “Eliminating business process outsourcing, cutting external agency costs, and streamlining operations,” as Fortune summed it up.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-10",
+          "confidence": 80,
+          "evidence": "The page links to the Fortune article, repeats its methodology figures and quotes Challapally, and is dated two days later."
+        },
+        "citations": [
+          {
+            "pageId": "page-10",
+            "how": "link",
+            "quote": "This page's HTML links to https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The quotes and figures appear to come from Fortune's reporting."
+      },
+      {
+        "id": "page-13",
+        "title": "Is it true that 95 per cent of AI pilots fail? · Rahim Hirji - SuperSkills",
+        "url": "https://thesuperskills.com/research/is-it-true-that-95-per-cent-of-ai-pilots-fail",
+        "domain": "thesuperskills.com",
+        "publishedDate": "2026-09-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://thesuperskills.com/assets/favicon-180.png",
+        "text": "MIT NANDA's report The GenAI Divide, July 2025, is the source, and its sentence is: 'Despite $30 to 40 billion in enterprise investment into GenAI, this report uncovers a surprising result in that 95% of organizations are getting zero return.' The method is 52 structured interviews, 153 survey responses gathered from senior leaders at four conferences, and a review of more than 300 publicly disclosed initiatives, over the first half of 2025. The report is marked as a preliminary version and is not peer-reviewed. Its own limitations line reads: the percentages 'reflect our interview sample of 52 organizations and may not represent broader market patterns'. Anyone quoting 95 per cent without the 52 is quoting a headline, and 'zero return' is the authors' phrase for no measurable P&L impact, [...] ### Where does the 95 per cent figure come from? MIT NANDA's preliminary report The GenAI Divide, July 2025, which states that '95% of organizations are getting zero return' on generative AI. The figure rests on 52 structured interviews, 153 survey responses gathered at conferences and a review of 300 public initiatives, and the authors write that the percentages 'reflect our interview sample of 52 organizations and may not represent broader market patterns'. ### Where does the 80 per cent figure come from?",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "The page quotes the report's own sentences and limitations line directly and names no cluster source."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It quotes the original report's methodology and its limitations statement."
+      },
+      {
+        "id": "page-14",
+        "title": "Why 95% of GenAI Pilots Fail: The Hidden Data Crisis | Dawiso Blog",
+        "url": "https://www.dawiso.com/blog-post/why-95-percent-of-genai-pilots-fail",
+        "domain": "dawiso.com",
+        "publishedDate": "2025-11-25",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://dawiso.com/apple-touch-icon.svg",
+        "text": "A new MIT study has been making headlines everywhere, for good reason. It reveals that 95% of enterprise generative AI pilots never make it past the pilot phase, leaving companies with sunk costs and little measurable impact. This finding is especially striking given the billions already invested: enterprises have poured an estimated $30–40 billion into generative AI, yet only about 5% of projects manage to create real value. ‍ [...] ‍ 4. Lack of Executive Sponsorship (Rating: 6.5/10): Without clear leadership support and strategic direction, GenAI pilots often become scattered experiments that lack focus and resources to achieve meaningful impact. ‍ 5. Challenging Change Management (Rating: 6.5/10): Organizations struggle to integrate AI tools into existing workflows and processes, creating friction that prevents successful adoption and scaling. ‍ MIT report: Why GenAI pilots fail Source: The GenAI Divide: State of AI in Business 2025, a new report published by MIT’s NANDA initiative ‍ ### The Core Data Issues Behind GenAI Pilot Failures The barriers above reflect deeper data-related problems that prevent GenAI pilots from succeeding: ‍",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": "page-10",
+          "confidence": 55,
+          "evidence": "The page uses the same source line as Fortune ('a new report published by MIT's NANDA initiative') but does not cite it by link, and it is dated later."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It repeats the figures and shows no original data."
+      },
+      {
+        "id": "page-15",
+        "title": "Why 95% of AI Pilots Fail, and What the Other 5% Do | GMWARE",
+        "url": "https://gmware.com/blog/why-ai-pilots-fail",
+        "domain": "gmware.com",
+        "publishedDate": "2026-05-15",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://gmware.com/favicon.ico",
+        "text": "Your AI pilot will probably fail, and the model won’t be the reason. MIT’s NANDA research found that roughly 95% of enterprise GenAI pilots produce no measurable P&L impact: not disappointing returns, no measurable impact at all. Gartner is just as blunt about where this goes next: more than 40% of agentic AI projects will be canceled by the end of 2027, mostly over rising costs and unclear business value. [...] ## What counts as a failed AI pilot A failed AI pilot rarely crashes. It runs fine, demos well, earns a slide in the quarterly review, and changes nothing a CFO can see. That’s the precise sense in which 95% of GenAI pilots fail in MIT’s data: no movement in revenue, cost, or cycle time that anyone can attribute to the system. The second flavor is quieter. The project never reaches a verdict at all: Gartner expects 60% of AI projects through 2026 to be abandoned for lack of AI-ready data. Those pilots don’t fail a test. They stall in the swamp between kickoff and evaluation, then the sponsor changes jobs. Either way, the pattern is operational. In our experience the model is usually the most reliable component in the whole project. ## The four failure modes",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "The page links to Trullion but mainly cites MIT NANDA and Gartner generally, so the source relationship is not clear."
+        },
+        "citations": [
+          {
+            "pageId": "page-18",
+            "how": "link",
+            "quote": "This page's HTML links to https://trullion.com/blog/why-95-of-ai-projects-fail-and-why-the-5-that-survive-matter"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes assertions without inspectable data."
+      },
+      {
+        "id": "page-16",
+        "title": "An MIT report claims that 95% of AI pilots at companies are failing.",
+        "url": "https://www.linkedin.com/posts/matanfeldman_mit-report-95-of-generative-ai-pilots-at-activity-7364060745514295298-HACm",
+        "domain": "linkedin.com",
+        "publishedDate": "2025-08-20",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca",
+        "text": ". . . MIT’s latest study shows: 📊 95% of generative AI initiatives fail to produce measurable impact. . . Key takeaways: • ❌ the failures are not about the technology, the models are well-trained • ⚙️ the gap is in the integration to the complex workflows in many large companies • 🤝 partnering with external domain experts can double success rates • 💡 \"Backend\" automation (like Operations) can deliver higher ROI • ⚠️ \"Shadow\" AI is rising. . .unofficial (and sometimes non-approved) usage of various GenAI tools to increase productivity is increasing, but it also creates risk as sensitive materials are often involved... Lessons learned = focus on specific use cases, workflow integration, and external expertise to move from pilot to real value proposition. 💬 How is your organization [...] Matan Feldman 4w Edited Report this post An MIT report claims that 95% of AI pilots at companies are failing. Two insights from the report for any org trying to get productivity out of AI: Buy > Build Off-the-shelf AI tools from specialized vendors succeed twice as often as in-house custom builds. Yet most enterprises - particularly in finance - keep trying to roll out their own LLMs (and failing). Role and Workflow Based > Centralized Deployment Central AI teams are unsuccessful at driving adoption. Success happens when frontline managers embed AI directly into workflows. Image 2: MIT report: 95% of generative AI pilots at companies are failing MIT report: 95% of generative AI pilots at companies are failing fortune.com Image 3Image 4Image 5 735 Comments LikeComment",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-10",
+          "confidence": 75,
+          "evidence": "The LinkedIn post embeds and links the Fortune article and repeats its key takeaways."
+        },
+        "citations": [
+          {
+            "pageId": "page-10",
+            "how": "title",
+            "quote": "ss happens when frontline managers embed AI directly into workflows. Image 2: MIT report: 95% of generative AI pilots at companies are failing MIT report: 95% of generative AI pilots at companies are failing fortune.co"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It is a social post summarizing the Fortune article."
+      },
+      {
+        "id": "page-17",
+        "title": "The 95% Statistic: What the MIT GenAI Report Actually Says | DevXen",
+        "url": "https://www.devxen.ai/insights/what-the-mit-95-percent-statistic-actually-says",
+        "domain": "devxen.ai",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://devxen.ai/apple-touch-icon.png",
+        "text": "It measures custom and vendor-sold enterprise deployments. The pipeline reported for task-specific tools is 60% of organisations evaluating, 20% reaching pilot, and 5% reaching production. General-purpose chatbots showed a pilot-to-implementation rate of roughly 83%. So the accurate sentence is: in the deployments this report examined, about 95% of custom enterprise generative AI efforts produced no measurable P&L impact. That is not the same as \"95% of AI fails.\" ## The finding that matters more than the headline The report is explicit that the barrier is not what most people assume. Listed among five myths it sets out to correct: [...] ## What the 95% figure measures From the executive summary: despite 30 to 40 billion dollars of enterprise investment in generative AI, \"95% of organizations are getting zero return,\" with just 5% of integrated pilots extracting millions in value while \"the vast majority remain stuck with no measurable P&L impact.\" Three qualifications matter. It measures generative AI specifically, not machine learning, forecasting, workflow automation, or the rules-based integration work that quietly runs most operations. It measures measurable profit and loss impact, not usefulness. The report notes separately that general tools like ChatGPT and Copilot are widely adopted and do improve individual productivity. They just do not show up in the accounts.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "The page analyzes the report's funnel (60/20/5%) and quotes the executive summary directly; it has no date, but no cited cluster page."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It reports specific pipeline figures and quotes the report directly."
+      },
+      {
+        "id": "page-18",
+        "title": "Why 95% of GenAI projects fail — and why the 5% that survive matter | Trullion",
+        "url": "https://trullion.com/blog/why-95-of-ai-projects-fail-and-why-the-5-that-survive-matter",
+        "domain": "trullion.com",
+        "publishedDate": "2025-09-08",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://trullion.com/wp-content/themes/theme/dist/images/favicons/apple-touch-icon.png",
+        "text": "The new MIT report validates this lens with hard data. When we plot their findings onto the matrix, the patterns are clear: This last quadrant is where MIT finds success rates nearly 2× higher than other approaches. It’s also where ROI lives — and where the real story behind the “5% that succeed” begins. ## Why the 5% matters It’s easy to fixate on the 95% of failures. But the lesson from MIT’s study is that the 5% that succeed matter far more. These survivors: ## Our point of view Just as Gartner showed that nearly half of agentic AI projects stall, MIT states that 95% of AI pilots fail. AI doesn’t fail because the technology is flawed. Rather, it fails when it’s misapplied. [...] Nav arrow # Why 95% of GenAI projects fail — and why the 5% that survive matter Emily Zhang Content Marketing Manager Domain-specific, workflow-integrated AI for finance and compliance — the profile MIT’s data says actually scales. ## Beyond the 95% headline The MIT State of AI in Business 2025 report has been widely quoted for one shocking stat: 95% of generative AI pilots fail to deliver measurable impact on the P&L. On its own, the number suggests AI is all hype. But just like the Gartner study we explored in part 1 — where over 40% of agentic AI projects stall — the real lesson isn’t about failure. It’s about survivability. The MIT study shows us exactly where the ROI lives, and the conditions that separate collapse from scale. Key takeaways from the MIT study include:",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "The page discusses the MIT report and its 95% stat, but no specific cluster source is cited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It makes claims about the MIT data without showing any of the data."
+      },
+      {
+        "id": "page-19",
+        "title": "Why 95% of AI Pilots Fail: Is the Wrong Number ?",
+        "url": "https://www.aipersonalization.cloud/enterprise-ai-agents-95-percent-statistic",
+        "domain": "aipersonalization.cloud",
+        "publishedDate": "2026-04-01",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.aipersonalization.cloud/favicon.ico",
+        "text": "## 1. The statistic that moved markets In August 2025, a report from MIT’s Project NANDA, The GenAI Divide: State of AI in Business 2025, said that despite $30–40 billion in enterprise generative-AI spending, 95% of organizations were getting no measurable return. Fortune’s coverage turned that into a headline about pilots failing. The number then spread through business media and became a standard line in “AI is overhyped” arguments. I traced it back to what the report says about its own method. The picture is less dramatic, and more useful. [...] On ROI, the same pattern holds. A 2026 WRITER survey of 2,400 executives and employees reports only 29% see significant ROI from generative AI and 23% from agents. That’s a vendor survey, so weight it accordingly, but it lines up with McKinsey’s picture far better than “80% report measurable ROI” claims do. A rule I now apply. Before using any AI adoption number, ask four questions. (1) What’s the denominator: all companies, companies that tried, or companies that responded? (2) What’s the definition of “deployed” or “success”? (3) What’s the time window? (4) Who funded or sells against the finding? If the source can’t answer all four, don’t cite it. ## 5. Klarna: what is documented, and what isn’t Klarna is the most-cited agent case, and the one most often retold wrongly.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "The page links to Fortune but claims to have traced the number back to the report's own method, and it adds a WRITER survey figure."
+        },
+        "citations": [
+          {
+            "pageId": "page-10",
+            "how": "link",
+            "quote": "This page's HTML links to https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "It describes the report's method without reproducing the underlying data."
+      },
+      {
+        "id": "page-20",
+        "title": "The \"95% of AI pilots fail\" number is wrong | Agent Playbooks",
+        "url": "https://playbooks.anodizelabs.com/brief",
+        "domain": "playbooks.anodizelabs.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "text": "Now compare that with the description that circulated. Secondhand write-ups characterised the study as 150 interviews with leaders, a survey of 350 employees, and an analysis of 300 public AI deployments. The paper says 52 and 153. The methodology most people can recite for this statistic is not the methodology of the paper the statistic comes from. ### What the 95% actually measures The report describes a funnel for custom or vendor-sold, task-specific generative AI tools: 60% of organisations evaluated one, 20% piloted, and 5% reached production. That is where 95% comes from. It is a production rate for a narrow category of build, measured six months out. [...] 1. The 95% figure. It traces to a July 2025 preliminary paper from Project NANDA at the MIT Media Lab, based on 52 structured interviews, 153 survey responses and a review of 300-plus public initiatives. The widely circulated description of its method (150 interviews, a 350-person employee survey, 300 deployments) does not match the document. The 95% is also a production rate for one narrow category of tool, not a failure rate for AI. 2. Self-reported time savings are not evidence. In a randomised trial, experienced developers were 19% slower when allowed to use AI while estimating afterwards that they had been 20% faster. That single result retires the hours-saved survey, which is the instrument most boards are currently shown.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 55,
+          "evidence": "The page compares secondhand descriptions with the paper's own method (52 interviews and 153 survey responses) and explains the funnel itself."
+        },
+        "citations": [
+          {
+            "pageId": "page-12",
+            "how": "name and year",
+            "quote": "f 26 July 2026. Colorado SB 24-205 (signed 17 May 2024), SB 25B-004 (28 August 2025), and SB 26-189, the Automated Decision-Making Technology Act (signed 14 May 2026). Verified 26 July 2026. Executive Order 14365, Ensu"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "It cites the paper's specific figures and the discrepancy with the secondhand versions."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "MIT NANDA report: 95% of generative AI pilots fail / yield no measurable return",
+        "pageIds": [
+          "page-1",
+          "page-4",
+          "page-5",
+          "page-7",
+          "page-9",
+          "page-10",
+          "page-12",
+          "page-14",
+          "page-15",
+          "page-16",
+          "page-18"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Origin and methodology of the 95% figure: small sample, preliminary report, narrow measure",
+        "pageIds": [
+          "page-3",
+          "page-8",
+          "page-13",
+          "page-17",
+          "page-19",
+          "page-20"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "Gartner: 30% to 50% of GenAI projects abandoned after proof of concept",
+        "pageIds": [
+          "page-6"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "AI pilots fail mainly from human and process mistakes (generic adoption advice)",
+        "pageIds": [
+          "page-2"
+        ]
+      }
+    ],
+    "roots": [
+      "page-2",
+      "page-3",
+      "page-6",
+      "page-8",
+      "page-10",
+      "page-13",
+      "page-17",
+      "page-20"
+    ],
+    "verifiableRoots": [
+      "page-2",
+      "page-3",
+      "page-6",
+      "page-8",
+      "page-10",
+      "page-13",
+      "page-17",
+      "page-20"
+    ],
+    "answerSourceIds": [
+      "page-3",
+      "page-8",
+      "page-13",
+      "page-17",
+      "page-20",
+      "page-10"
+    ],
+    "answerStatements": [
+      {
+        "text": "The 95% figure comes from The GenAI Divide: State of AI in Business 2025, a preliminary July 2025 report from MIT's Project NANDA. Its executive summary says 95% of organizations were getting zero return from enterprise GenAI investment",
+        "sourceIds": [
+          "page-3",
+          "page-8",
+          "page-13"
+        ]
+      },
+      {
+        "text": "The report is based on 52 organization interviews, 153 senior-leader survey responses, and a review of more than 300 public initiatives. It is preliminary and not peer-reviewed, and its authors say the percentages may not represent broader market patterns",
+        "sourceIds": [
+          "page-3",
+          "page-13"
+        ]
+      },
+      {
+        "text": "The 95% figure is narrower than 'AI fails'. It refers to custom or vendor-sold enterprise tools, of which about 5% reached production, and 'zero return' means no measurable P&L impact. General-purpose chatbots showed a pilot-to-implementation rate of roughly 83%",
+        "sourceIds": [
+          "page-17",
+          "page-20",
+          "page-13"
+        ]
+      },
+      {
+        "text": "Fortune's coverage headlined the claim as '95% of generative AI pilots at companies are failing', and its description of the study's method differs from the paper's own (150 interviews and 350 employees, versus 52 and 153). So the blanket claim is not established as stated",
+        "sourceIds": [
+          "page-10",
+          "page-20"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "95% of generative AI pilots fail",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 19,
+        "uniquePagesAdded": 19,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-2",
+          "page-3",
+          "page-4",
+          "page-7",
+          "page-10",
+          "page-15",
+          "page-16"
+        ],
+        "pageProviders": {
+          "page-2": [
+            "exa"
+          ],
+          "page-3": [
+            "parallel"
+          ],
+          "page-4": [
+            "tavily"
+          ],
+          "page-7": [
+            "parallel",
+            "tavily"
+          ],
+          "page-10": [
+            "tavily"
+          ],
+          "page-15": [
+            "parallel"
+          ],
+          "page-16": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "\"95% of generative AI\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 19,
+        "uniquePagesAdded": 12,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-17",
+          "page-18"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "parallel",
+            "tavily"
+          ],
+          "page-17": [
+            "parallel"
+          ],
+          "page-18": [
+            "tavily"
+          ]
+        }
+      },
+      {
+        "query": "\"95% of generative AI pilots fail\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 26,
+        "uniquePagesAdded": 14,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-5",
+          "page-12"
+        ],
+        "pageProviders": {
+          "page-5": [
+            "exa"
+          ],
+          "page-12": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "95% generative AI pilots fail fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 29,
+        "uniquePagesAdded": 24,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "parallel"
+        ],
+        "pageIds": [
+          "page-6",
+          "page-13",
+          "page-8",
+          "page-14",
+          "page-19",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-6": [
+            "perplexity"
+          ],
+          "page-13": [
+            "perplexity"
+          ],
+          "page-8": [
+            "brave",
+            "perplexity"
+          ],
+          "page-14": [
+            "parallel"
+          ],
+          "page-19": [
+            "brave"
+          ],
+          "page-20": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "95% generative AI pilots fail study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 24,
+        "matchingResults": 24,
+        "uniquePagesAdded": 13,
+        "router": "telem",
+        "providers": [
+          "perplexity",
+          "brave",
+          "exa"
+        ],
+        "pageIds": [
+          "page-9"
+        ],
+        "pageProviders": {
+          "page-9": [
+            "perplexity",
+            "brave"
+          ]
+        }
+      },
+      {
+        "query": "95% generative AI pilots fail original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "95% generative AI pilots fail according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "95% generative AI pilots fail study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"95% of generative\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "95% generative AI pilots fail evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 1,
+    "summary": {
+      "totalPages": 19,
+      "independentOrigins": 8,
+      "verifiableOrigins": 8,
+      "echoPercentage": 21
+    },
+    "answer": "The 95% figure comes from The GenAI Divide: State of AI in Business 2025, a preliminary July 2025 report from MIT's Project NANDA. Its executive summary says 95% of organizations were getting zero return from enterprise GenAI investment [1] [2] [3]. The report is based on 52 organization interviews, 153 senior-leader survey responses, and a review of more than 300 public initiatives. It is preliminary and not peer-reviewed, and its authors say the percentages may not represent broader market patterns [1] [3]. The 95% figure is narrower than 'AI fails'. It refers to custom or vendor-sold enterprise tools, of which about 5% reached production, and 'zero return' means no measurable P&L impact. General-purpose chatbots showed a pilot-to-implementation rate of roughly 83% [4] [5] [3]. Fortune's coverage headlined the claim as '95% of generative AI pilots at companies are failing', and its description of the study's method differs from the paper's own (150 interviews and 350 employees, versus 52 and 153). So the blanket claim is not established as stated [6] [5].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7784,
+          "outputTokens": 1033,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.025898
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 14809,
+          "outputTokens": 2593,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.055548
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 4366,
+          "outputTokens": 439,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.013122
+        }
+      ],
+      "stageMs": {
+        "search": 5717,
+        "extract": 4151,
+        "grouping": 8335,
+        "judgment": 16236,
+        "answer": 4135,
+        "total": 38576
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "perplexity": 2,
+          "brave": 2,
+          "parallel": 4,
+          "exa": 4,
+          "tavily": 3
+        }
+      },
+      "usd": {
+        "claude": 0.094568,
+        "tavily": 0.032,
+        "telem": 0.099,
+        "total": 0.225568
+      }
+    }
+  }
+}

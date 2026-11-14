@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-labelledby="echo-arch-title echo-arch-desc" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="echo-arch-title">How Echo works</title>
+  <desc id="echo-arch-desc">A claim goes in. Echo plans the searches. Telem routes each search to search engines: Perplexity, Brave, Exa, Parallel and Tavily. The pages are read with Tavily. Claude judges which pages copy which. The origin layer then gives a score, the origins, the engines needed and a shared name. Four ways out: the app at /origins, the echo_check MCP tool, GET /api/echo-check and the command line.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#17302a"/>
+    </marker>
+  </defs>
+
+  <!-- Light card, so the picture reads the same on a light or a dark page -->
+  <rect x="1" y="1" width="1198" height="518" rx="16" fill="#fffefa" stroke="#d9d3c1" stroke-width="2"/>
+
+  <text x="40" y="44" font-size="21" font-weight="700" fill="#17302a">Echo: from one claim to counted origins</text>
+  <text x="40" y="68" font-size="13.5" fill="#17302a" opacity="0.8">Search engines count sources. Echo counts origins.</text>
+
+  <!-- Row one: the run -->
+  <g font-size="15" font-weight="700" fill="#17302a" text-anchor="middle">
+    <rect x="40" y="100" width="120" height="120" rx="10" fill="#ffffff" stroke="#17302a" stroke-width="1.5"/>
+    <text x="100" y="152">A claim</text>
+    <text x="100" y="176" font-size="11.5" font-weight="400">one sentence</text>
+
+    <rect x="186" y="100" width="180" height="120" rx="10" fill="#ffffff" stroke="#17302a" stroke-width="1.5"/>
+    <text x="276" y="138">Echo plans</text>
+    <text x="276" y="158">the searches</text>
+    <text x="276" y="184" font-size="11.5" font-weight="400">the claim as asked</text>
+    <text x="276" y="200" font-size="11.5" font-weight="400">and Echo's other searches</text>
+
+    <rect x="392" y="100" width="190" height="120" rx="10" fill="#fbf1dd" stroke="#c47f12" stroke-width="2"/>
+    <text x="487" y="138">Telem</text>
+    <text x="487" y="158">routes each search</text>
+    <text x="487" y="184" font-size="11.5" font-weight="400">and records which engine</text>
+    <text x="487" y="200" font-size="11.5" font-weight="400">returned each page</text>
+
+    <rect x="602" y="87" width="132" height="146" rx="14" fill="none" stroke="#c47f12" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <g font-size="12.5" font-weight="600">
+      <rect x="608" y="94" width="120" height="22" rx="11" fill="#ffffff" stroke="#c47f12" stroke-width="1.5"/>
+      <text x="668" y="109.5">Perplexity</text>
+      <rect x="608" y="121.5" width="120" height="22" rx="11" fill="#ffffff" stroke="#c47f12" stroke-width="1.5"/>
+      <text x="668" y="137">Brave</text>
+      <rect x="608" y="149" width="120" height="22" rx="11" fill="#ffffff" stroke="#c47f12" stroke-width="1.5"/>
+      <text x="668" y="164.5">Exa</text>
+      <rect x="608" y="176.5" width="120" height="22" rx="11" fill="#ffffff" stroke="#c47f12" stroke-width="1.5"/>
+      <text x="668" y="192">Parallel</text>
+      <rect x="608" y="204" width="120" height="22" rx="11" fill="#ffffff" stroke="#c47f12" stroke-width="1.5"/>
+      <text x="668" y="219.5">Tavily</text>
+    </g>
+
+    <rect x="754" y="100" width="160" height="120" rx="10" fill="#e8eefb" stroke="#4474cf" stroke-width="2"/>
+    <text x="834" y="138">Pages</text>
+    <text x="834" y="158">read with Tavily</text>
+    <text x="834" y="184" font-size="11.5" font-weight="400">pages about the claim</text>
+    <text x="834" y="200" font-size="11.5" font-weight="400">are kept</text>
+
+    <rect x="940" y="100" width="220" height="120" rx="10" fill="#e8eefb" stroke="#4474cf" stroke-width="2"/>
+    <text x="1050" y="138">Claude judges</text>
+    <text x="1050" y="158">which pages copy which</text>
+    <text x="1050" y="184" font-size="11.5" font-weight="400">origin page, copy,</text>
+    <text x="1050" y="200" font-size="11.5" font-weight="400">or not tied to an origin</text>
+  </g>
+
+  <g stroke="#17302a" stroke-width="1.8" fill="none" marker-end="url(#arrow)">
+    <line x1="160" y1="160" x2="184" y2="160"/>
+    <line x1="366" y1="160" x2="390" y2="160"/>
+    <line x1="582" y1="160" x2="600" y2="160"/>
+    <line x1="734" y1="160" x2="752" y2="160"/>
+    <line x1="914" y1="160" x2="938" y2="160"/>
+    <line x1="1050" y1="220" x2="1050" y2="268"/>
+  </g>
+
+  <!-- Row two: the origin layer -->
+  <rect x="40" y="270" width="1120" height="112" rx="12" fill="#e6f4ee" stroke="#0b8a5f" stroke-width="2"/>
+  <text x="60" y="296" font-size="15" font-weight="700" fill="#0b8a5f">Origin layer</text>
+  <text x="156" y="296" font-size="12" fill="#17302a">worked out by rule from the saved run: no search, no model call</text>
+  <g font-size="14" font-weight="700" fill="#17302a" text-anchor="middle">
+    <rect x="60" y="310" width="254" height="58" rx="8" fill="#ffffff" stroke="#0b8a5f" stroke-width="1.5"/>
+    <text x="187" y="334">Echo Score</text>
+    <text x="187" y="354" font-size="11.5" font-weight="400">rates the evidence base, not truth</text>
+
+    <rect x="335" y="310" width="254" height="58" rx="8" fill="#ffffff" stroke="#0b8a5f" stroke-width="1.5"/>
+    <text x="462" y="334">Independent origins</text>
+    <text x="462" y="354" font-size="11.5" font-weight="400">counted, each with its type</text>
+
+    <rect x="610" y="310" width="254" height="58" rx="8" fill="#ffffff" stroke="#0b8a5f" stroke-width="1.5"/>
+    <text x="737" y="334">Engines needed</text>
+    <text x="737" y="354" font-size="11.5" font-weight="400">by this run's record</text>
+
+    <rect x="885" y="310" width="254" height="58" rx="8" fill="#ffffff" stroke="#c47f12" stroke-width="1.5"/>
+    <text x="1012" y="334">Shared name</text>
+    <text x="1012" y="354" font-size="11.5" font-weight="400">a document search did not return</text>
+  </g>
+
+  <!-- Row three: four ways out -->
+  <g stroke="#17302a" stroke-width="1.8" fill="none" marker-end="url(#arrow)">
+    <line x1="170" y1="382" x2="170" y2="418"/>
+    <line x1="457" y1="382" x2="457" y2="418"/>
+    <line x1="743" y1="382" x2="743" y2="418"/>
+    <line x1="1030" y1="382" x2="1030" y2="418"/>
+  </g>
+  <text x="600" y="405" font-size="12" font-weight="600" fill="#17302a" text-anchor="middle">Four ways out</text>
+  <g font-size="14" font-weight="700" fill="#17302a" text-anchor="middle">
+    <rect x="40" y="420" width="260" height="62" rx="10" fill="#ffffff" stroke="#17302a" stroke-width="1.5"/>
+    <text x="170" y="446">The app</text>
+    <text x="170" y="466" font-size="12" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">/origins</text>
+
+    <rect x="327" y="420" width="260" height="62" rx="10" fill="#ffffff" stroke="#17302a" stroke-width="1.5"/>
+    <text x="457" y="446">MCP tool</text>
+    <text x="457" y="466" font-size="12" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">echo_check</text>
+
+    <rect x="613" y="420" width="260" height="62" rx="10" fill="#ffffff" stroke="#17302a" stroke-width="1.5"/>
+    <text x="743" y="446">Plain HTTP</text>
+    <text x="743" y="466" font-size="12" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">GET /api/echo-check</text>
+
+    <rect x="900" y="420" width="260" height="62" rx="10" fill="#ffffff" stroke="#17302a" stroke-width="1.5"/>
+    <text x="1030" y="446">Command line</text>
+    <text x="1030" y="466" font-size="12" font-weight="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">node mcp/echo-cli.mjs</text>
+  </g>
+
+  <text x="40" y="505" font-size="11.5" fill="#17302a" opacity="0.8">One run per claim. The score rates the evidence base a run found, not whether the claim is true.</text>
+</svg>

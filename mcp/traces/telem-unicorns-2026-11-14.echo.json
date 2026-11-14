@@ -1,0 +1,634 @@
+{
+  "format": "echo-trace",
+  "version": 1,
+  "exportedAt": "2026-11-14T21:09:01.484Z",
+  "analysis": {
+    "claim": "Only 1% of venture-backed startups become unicorns",
+    "createdAt": "2026-11-14T21:09:01.484Z",
+    "mode": "live",
+    "claimSlot": "live",
+    "pages": [
+      {
+        "id": "page-1",
+        "title": "Unicorn probability varies by year, peaks in 1998 | Ilya Strebulaev posted on the topic | LinkedIn",
+        "url": "https://www.linkedin.com/posts/ilyavcandpe_while-the-absolute-number-of-unicorns-has-activity-7390779743001899008-_krd",
+        "domain": "linkedin.com",
+        "publishedDate": "2025-11-02",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca",
+        "text": "Mirtunjaya Goswami 1mo Report this comment Ilya Strebulaev It’s funny the more we “democratized” entrepreneurship, the rarer the miracles became. In 1998, a startup had a 6% shot at becoming a unicorn; by 2021, that fell below 1%. We built faster funding pipelines, bigger venture funds, and infinite pitch decks yet the conversion rate to greatness collapsed. Perhaps the market didn’t get more competitive; it just got more crowded with belief. Like Reply 3 Reactions 4 Reactions Christian Pobbig 4w Report this comment The data you’ve shared raises an interesting question: are we likely to see a resurgence in unicorn probabilities, or has the startup landscape fundamentally shifted to favour smaller exits over time? Like Reply 1 Reaction Marina L. 1mo [...] While the absolute number of unicorns has increased in recent years, the probability for any individual startup to reach unicorn status has become increasingly rare. Our analysis tracks the percentage of startups that received first VC funding in a specific year that later reached unicorn status: • 1998 had the highest probability (6.2%) of startups becoming unicorns • While 2021 saw the most new unicorns (353), the probability of becoming one was low (0.65%) After peaking in the late 1990s, unicorn probability dropped in the early 2000s The rates for recent years are biased downward since it typically takes several years after initial funding for startups to reach unicorn status. Thank you to the Stanford University Graduate School of Business Venture Capital Initiative for support.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 75,
+          "evidence": "Ilya Strebulaev's post presents his own analysis of unicorn probability by first-funding year (6.2% in 1998, 353 unicorns in 2021)."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Gives year-by-year results from the author's own analysis, though without the full dataset."
+      },
+      {
+        "id": "page-3",
+        "title": "VC Due Diligence Math: 3,226 Startups per Outlier | Alex Samson",
+        "url": "http://saalse.com/vc/due-diligence-math",
+        "domain": "saalse.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://saalse.com/favicon.ico",
+        "text": "## Why 3,226 applications# We all know that 90% of startups fail. In April 2024, 60x angel investor and LP Rem Darbinyan at STAN's webinar added that another 6.9% become self-sustaining businesses that don't deliver the returns VCs need to cover failures. So basically, 3.1% of the 1% of invested startups outperform. Donut chart of startup outcomes: 90% fail, 6.9% become self-sustaining, 3% exit through IPO or M&A, 0.1% become unicorns This means a VC has to review 3,226 startup applications per year (1 ÷ (1% × 3.1%)) to get a chance at one outlier. [...] Key numbers: 1% of deal flow gets funded, 3.1% of funded startups outperform, so one outlier takes about 3,226 applications and 323 due diligences a year. The first week at the VC Lab Venture Institute gave me two key insights: 1. Seek opportunities for 10-100x returns, rather than just investing in any new tech business that can earn a profit or be acquired with at least 2x returns. 2. 1% of startups in deal flow get funded, which requires reviewing 1,000 applications to make 10 investments per year. Out of 500 applications, about 50 make it to a first call, 10 to due diligence, and one gets funded. ## Why 3,226 applications#",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "Claude was unsure this page is an independent origin (50 of 100) and it shows no data of its own, so Echo leaves it unresolved instead of counting it as a root. Claude's reason: Builds its own funnel calculation (3,226 applications per outlier) from a webinar claim and VC Lab course figures; the date is missing."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Uses secondhand percentages from a webinar, not inspectable data."
+      },
+      {
+        "id": "page-4",
+        "title": "Startup Failure Rate: How Many Startups Fail and Why in 2026?",
+        "url": "https://www.failory.com/blog/startup-failure-rate",
+        "domain": "failory.com",
+        "publishedDate": "2026-01-12",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.failory.com/apple-icon.png?apple-icon.0-bjhhdreaplp.png",
+        "text": "Understanding why startups fail is a survival skill. In this article, we’ll break down the latest failure rates, the most common reasons behind them, and what today’s founders can learn to avoid becoming another statistic. ## Startup Failure Statistics 9 out of 10 startups fail (source: Startup Genome - the 2019 report claims 11 out of 12 fail). 7.5 out of 10 venture-backed startups fail (source: Shikhar Ghosh). 2 out of 10 new businesses fail in the first year of operations (source: Bureau of Labor). Only 1% of startups become unicorn firms like Uber, Airbnb, Slack, Stripe, and Docker (source: CB Insights). The success percentage for first-time founders is 18% (source: Exploding Topics). [...] This means their failure rates would be lower than those of early-stage startups. Harvard Business School lecturer Shikhar Ghosh says in a WSJ article that 75% of venture-backed companies never return cash to investors and in 30-40% of the cases, investors lose their initial investment (he works with a dataset of 2000 venture-backed startups). That said, only 0.05% of startups get VC funding (Source: Fundable), so this statistic does not apply to the vast majority of new businesses, especially if they are in the early idea stage. ### Failure Rates of All Startups: Early-stage (idea stage) startups bear the highest risk and failure rates. It’s hard to claim accuracy about failure rate statistics for those kinds of projects because a large chunk fly below the radar.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-8",
+          "confidence": 85,
+          "evidence": "Attributes the 1% unicorn figure and the Uber/Airbnb/Slack/Stripe/Docker list to CB Insights and links to page-8."
+        },
+        "citations": [
+          {
+            "pageId": "page-8",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.cbinsights.com/research/venture-capital-funnel-2"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeats a number from CB Insights with no data of its own."
+      },
+      {
+        "id": "page-5",
+        "title": "Welcome back to the Unicorn Club, 10 years later | TechCrunch",
+        "url": "https://techcrunch.com/2024/01/18/welcome-back-to-the-unicorn-club-10-years-later",
+        "domain": "techcrunch.com",
+        "publishedDate": "2024-01-18",
+        "publishedDateSource": "URL date",
+        "publishedDateEvidence": "URL path /2024/01/18",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+        "text": "## A deeper dive on where we are today ### Unicorns ballooned 14x in the past decade This herd is worth a staggering $1.5 trillion in aggregate value (versus $260 billion in 2013). But becoming a unicorn is still not easily done: Less than 1% of VC-backed startups go on to become worth more than $1 billion. An ideal candidate is five times more likely to get into Stanford, Harvard or MIT than to found a unicorn. Unicorns now also span a wider array of sectors (we’re tracking 19!). Most of these sectors weren’t on our 2013 list (social, commerce and general enterprise dominated back then). Click the gallery below to learn more about the most valuable companies in each sector. The most valuable companies are in very different sectors compared to 2013. [...] In 2013, Cowboy Ventures had just gotten started. To inform our investment strategy, we assembled and studied a dataset of U.S.-based, VC-backed startups that had grown to be worth more than $1 billion within 10 years, using the term “unicorn” as a shorthand to capture how magical these companies seemed. Our original analysis found only 39 unicorns out of the thousands of startups that had been founded by then. Some highlights:",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 0,
+          "evidence": "The proposed parent is not dated earlier than this page, so Echo removed the directional link."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "States 'less than 1%' without showing the underlying dataset or method."
+      },
+      {
+        "id": "page-6",
+        "title": "Founder First, Unicorn Second: Fixing the Broken Model of Venture Capital",
+        "url": "https://wildfirelabs.substack.com/p/founder-first-unicorn-second-fixing",
+        "domain": "wildfirelabs.substack.com",
+        "publishedDate": "2025-04-29",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://wildfirelabs.substack.com/favicon.ico",
+        "text": "## The Power Law Reality — And Why It Persists The Power Law dominates venture capital. Recent Y Combinator stats reveal 75% of returns come from 5% of investments. A 2023 Pitchbook analysis found only 1.3% of venture-backed startups reach valuations above $1 billion. This model emerged when Silicon Valley legends like Intel and Apple flourished from significant bets, but it persists due to subtle biases and entrenched incentives. Consider investor ego. A big win is intoxicating, and investors become addicted to it. Herd mentality makes VCs pile onto trendy sectors, amplifying hype but ignoring quieter opportunities. Rarely discussed is the fear among them—fear of missing the next Airbnb—even though chasing that fear blinds them to profitable, stable ventures. [...] \"But what about the next Google or Facebook?\" These outliers represent less than 0.1% of startups. Building a system around extreme ones makes little sense for the ecosystem. Many tech giants like Microsoft and Apple achieved scale with modest initial investment—Microsoft's only venture round was $1 million from David Marquardt in 1981. A balanced approach doesn't eliminate moonshot potential; it doesn't sacrifice the other 99.9% of companies to pursue it. \"Don't traditional VCs provide valuable expertise and connections?\"",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Cites a 2023 PitchBook analysis for the 1.3% figure and adds nothing of its own."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Named report cited for a number without the supporting data."
+      },
+      {
+        "id": "page-8",
+        "title": "The Venture Capital Funnel - CB Insights",
+        "url": "https://www.cbinsights.com/research/venture-capital-funnel-2",
+        "domain": "cbinsights.com",
+        "publishedDate": "2018-09-06",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://public-pages.cbinsights.com/public-site/686590/_next/static/public/favicon.ico",
+        "text": "Not surprisingly the odds of becoming a unicorn remained low in our new analysis, hovering around 1% (1.07%), with 12 companies reaching that status. Some of these companies are the most-hyped tech companies of the decade, including Uber, Airbnb, Slack, Stripe, and Docker. 13 companies exited for over $500M, including leading companies within their categories like Instagram, Zendesk, and Twilio. [...] ### Learn Knowledge Center About us Customer success stories Webinars ### What's new New this month Recent product updates Recent research AI Research Hub Pricing Start free trial Contact sales Log in CB Insights # Venture Capital Funnel Shows Odds Of Becoming A Unicorn Are About 1% The venture capital funnel highlights the natural selection inherent in the venture capital process. September 6, 2018 September 6, 2018 Anecdotally, it’s known that most startups fail. But looking at the data, we can see the hard truth in the numbers and better understand where in the funding lifecycle startups begin to lose traction. We followed a cohort of over 1,100 startups from the moment they raised their first seed investment to see what happens to them empirically.",
+        "hasPrimaryEvidence": true,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 90,
+          "evidence": "CB Insights reports its own cohort analysis (1,100+ startups, 1.07% became unicorns, 12 companies)."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "found",
+        "primaryEvidenceReason": "Presents results from its own tracked cohort of over 1,100 seed-funded startups with concrete counts and percentages."
+      },
+      {
+        "id": "page-9",
+        "title": "Cowboy Ventures | Welcome Back to the Unicorn Club, 10 Years Later",
+        "url": "https://www.cowboy.vc/news/welcome-back-to-the-unicorn-club-10-years-later",
+        "domain": "cowboy.vc",
+        "publishedDate": "2024-01-18",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's \"article-date\" element on the page, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://cdn.prod.website-files.com/637b4cb8358cda71cbd984d9/63b436a4a930148b26304fef_webclip.png",
+        "text": "‍ Read on dear reader, for deeper insights, explanations and predictions. ‍ ## 1. Unicorns ballooned 14x in the past decade, from 39 to 532 #### ‍This herd is worth $1.5T in aggregate value (vs. $260B in 2013). ‍ It’s still really rare and improbable - less than 1% of VC-backed startups became unicorns. It’s 5x more likely for an exceptional candidate to get into Stanford, Harvard or MIT than to found a unicorn. Unicorns in 2023 innovate across an array of sectors ‍ Unicorns now span a wider array of sectors (we’re tracking 19!). Most sectors weren’t on our 2013 list (social, commerce, general enterprise dominated). Click below for more about the most valuable companies in each sector. ‍ {{slidedeck}} ‍ [...] ### ‍ ### A refresher on 2013 Cowboy Ventures had just gotten started. To inform our investment strategy, we assembled and studied a dataset of US-based, VC-backed startups that had grown to be worth $1B+ within ten years,using ‘unicorn’ as a shortener to capture their magic.1 ### ‍ The most successful VC-backed US tech companies less than 10 years old in 2013 ### ‍ Our original analysis found just 39 unicorns out of thousands of startups funded. Some highlights:",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "origin",
+          "parentId": null,
+          "confidence": 60,
+          "evidence": "Cowboy Ventures speaks as the author of the original unicorn dataset and the 10-year update, with no outside source credited."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "The 'less than 1%' figure is stated without the supporting data in the passage."
+      },
+      {
+        "id": "page-11",
+        "title": "1,200+ Unicorns in 2026: Only 20% Exit at $1B+",
+        "url": "http://valueaddvc.com/blog/what-is-a-unicorn-startup-the-definition-history-and-current-data-on-1b-companies",
+        "domain": "valueaddvc.com",
+        "publishedDate": "2026-05-27",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://valueaddvc.com/apple-touch-icon.png",
+        "text": "Extremely hard. Fewer than 1% of VC-backed startups ever reach unicorn status. The median time from founding to $1B valuation is 7-8 years, though AI-era companies have compressed this. Of the roughly 300 new unicorns minted in 2021 alone, a significant portion have since been marked down below the $1B threshold. Most unicorns do not exit at or above their peak valuation. Studies of VC-backed unicorns show fewer than 20% IPO or are acquired at a price that delivers full unicorn-level returns to all shareholders. Many become 'zombie unicorns' — companies that can't exit but won't die, trapped between a high private valuation and a skeptical public market. [...] # What Is a Unicorn Startup? The Definition, History, and Current Data on $1B+ Companies A unicorn startup is a privately held company valued at $1 billion or more. The term was rare enough in 2013 to feel mythical. Today there are over 1,200 of them — and the real story is how few ever deliver on the valuation. Trace Cohen Quick Answer A unicorn startup is a privately held company valued at $1 billion or more. The term was coined by Aileen Lee in 2013, when only 39 companies qualified. As of 2026, roughly 1,200 unicorns exist globally — with the US (~600), China (~200), and India (~100) leading. Less than 1% of VC-backed startups ever reach unicorn status, and fewer than 20% of unicorns exit at or above their peak private valuation.",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Says 'fewer than 1%' of VC-backed startups reach unicorn status without citing a source or data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Repeated assertion with no data shown."
+      },
+      {
+        "id": "page-13",
+        "title": "Startup Failure Rate Statistics 2026: What Percentage of Startups Fail?",
+        "url": "https://eltexsoft.com/blog/startup-failure-rate-statistics",
+        "domain": "eltexsoft.com",
+        "publishedDate": "2026-10-23",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://eltexsoft.com/favicon.ico",
+        "text": "What percentage of VC-backed startups fail? It depends on the definition. In Harvard Business School research on more than 2,000 companies that raised at least $1 million in venture capital from 2004 to 2010, as many as 75% never returned cash to investors and 30 to 40% liquidated with investors losing everything. Counted as shutdowns, PitchBook data show 1,981 US venture-backed companies failed in 2025. CB Insights found about 1% of seed-funded startups reach unicorn status and 67% end up dead or self-sustaining. ## Related posts Founder POV The MVP Builder Promise, and What Actually Ships an MVP 6 min read Founder POV Rapid MVP Development: Speed Is the Cheap Part 5 min read Founder POV Minimum Ate Viable: What an MVP in Software Actually Is 6 min read [...] fit, 29% hit wrong timing or macro conditions (CB Insights, March 2026, 385 shutdowns since 2023 with identifiable reasons). 6. The famous \"42% fail from no market need\" is CB Insights' October 2014 figure from 101 post-mortems; its 2021 edition put the equivalent at 35% and the 2026 edition replaced it. 7. As many as 75% of venture-backed companies never return cash to investors and 30 to 40% liquidate with investors losing everything (Shikhar Ghosh, Harvard Business School, 2012, more than 2,000 companies funded 2004 to 2010). 8. About 1% of seed-funded US tech startups become unicorns and 67% end up dead or self-sustaining (CB Insights venture capital funnel, 2008 to 2010 seed cohort, analysis published September 2018). 9. 81% of founders had pivoted, 42% wished they had pivoted sooner",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "derived",
+          "parentId": "page-8",
+          "confidence": 85,
+          "evidence": "Credits 'CB Insights found about 1% of seed-funded startups reach unicorn status' and links to page-8."
+        },
+        "citations": [
+          {
+            "pageId": "page-5",
+            "how": "name and year",
+            "quote": "ure narrower slices and point the same way: 966 startups on Carta shut down in 2024 , up 25.6% from 769 in 2023 ( Carta data via TechCrunch, January 2025 ). The count covers US Carta customers that left for bankruptcy o"
+          },
+          {
+            "pageId": "page-8",
+            "how": "link",
+            "quote": "This page's HTML links to https://www.cbinsights.com/research/venture-capital-funnel-2"
+          }
+        ],
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Restates the CB Insights figure without data of its own."
+      },
+      {
+        "id": "page-16",
+        "title": "Startup statistics for 2026: A comprehensive analysis",
+        "url": "https://www.revenuememo.com/p/startup-statistics",
+        "domain": "revenuememo.com",
+        "publishedDate": "2026-02-04",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's article:published_time meta tag, read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "text": "For venture-backed startups, the statistics are more challenging: 75% of venture-backed startups fail to return investors' capital Only 1% of startups become unicorns First-time founders have an 18% success rate Founders who failed previously have a 20% success rate Founders with a prior successful startup have approximately a 30% success rate ## Why startups fail: Key factors CB Insights' analysis of 111+ startup post-mortems has identified the primary reasons startups fail: [...] Unicorn creation accelerated in 2025, fueled by the AI boom. Over 100 new tech unicorns were minted during the year, with AI startups accounting for over half of all new billion-dollar companies, among them LangChain after its $125 million Series B. AI-native unicorns are reaching the $1 billion milestone faster, achieving it in an average of 6 years versus the typical 7 years. Some generative AI startups reached unicorn status in as little as 8 months. ## Startup failure: Understanding the odds The widely cited statistic that 90% of startups fail requires careful interpretation. Data from the U.S. Bureau of Labor Statistics reveals a more nuanced picture for private sector businesses: 21.5% fail within their first year 48.4% fail within five years 65.1% fail within ten years",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "States 'Only 1% of startups become unicorns' in a list of statistics with no source or data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Bare assertion with no data or source."
+      },
+      {
+        "id": "page-18",
+        "title": "What Is a Unicorn Startup? Definition, Meaning & Examples",
+        "url": "https://www.evalyze.ai/blog/unicorn-startup",
+        "domain": "evalyze.ai",
+        "publishedDate": "2026-02-26",
+        "publishedDateSource": "page metadata",
+        "publishedDateEvidence": "Publisher's schema.org datePublished (JSON-LD), read from the page itself",
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.evalyze.ai/favicon.ico",
+        "text": "Only a very small fraction of venture-backed startups reach unicorn status. Estimates suggest well under 1% achieve a $1 billion private valuation, making it statistically exceptional despite the growing total number of unicorns worldwide. ## More Articles Micro VCs vs. Traditional VCs: Which Is Right for Early-Stage Founders? ### Micro VCs vs. Traditional VCs: Which Is Right for Early-Stage Founders? A practical founder guide to choosing micro VCs vs traditional VC funds, check size, speed, follow-on support, and a simple decision worksheet. December 16, 2025How to Adapt Your Pitch Deck for Virtual Investor Meetings ### How to Adapt Your Pitch Deck for Virtual Investor Meetings Practical tips to make your online pitch clear, engaging, and investor-ready from any screen. [...] Explore more: Best Incubators for Tech Startups in the Seed Stage ## What Makes a Company a Unicorn? A company becomes a unicorn based on its private market valuation. This is different from its public stock price, total revenue, or even its profitability. It is an important distinction to understand. What Makes a Company a Unicorn The main requirements for a company to qualify are simple: 1. It must be privately held (meaning it has not yet had an IPO or been acquired by another company). 2. Its valuation must be $1 billion or higher. ### The Role of Venture Capital Venture capital is essential to this process. Most startups would never reach a $1 billion value without VC-backed funding rounds, such as Seed, Series A, B, and C. These rounds are important for two reasons:",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 50,
+          "evidence": "Vague 'estimates suggest well under 1%' with no named source or data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Generic assertion with no inspectable data."
+      },
+      {
+        "id": "page-20",
+        "title": "Startup Failure Statistics with Insights and Solutions | Codeventures",
+        "url": "https://www.codeventures.com/startup-failure",
+        "domain": "codeventures.com",
+        "publishedDate": null,
+        "extractionSource": "Tavily extraction",
+        "favicon": "https://www.codeventures.com/favicon.ico",
+        "text": "# Startup failure statistics 1. Home 2. Startup Guide CodeventuresImg Img Startups emerge with innovative ideas and grand plans, but the journey to success is difficult. The success rate of startups is low, with 11 out of 12 startups failing and more than 7 out of 10 venture-backed startups failing. Only a meager 1% raise over 100 million dollars and even fewer go on to become unicorn firms like Uber and Airbnb. This article aims to shed light on the question of startup failure by exploring the data and the experiences of successful and failed startups through research curated over the years. You will gain insights into the prevalence of startup failures, the leading causes, and how you can avoid them. 01. ## What Percentage of Startups Fail? [...] Only very few startups reach the 30-60 million funding stage of Series B and Series C. Only 1% of this 1% ever go on to reach unicorn status. There is a meager success rate but every entrepreneur will attest to the fact that benefits far outweigh the risk.(Source) Services Img ### Startup failures Based on industry",
+        "hasPrimaryEvidence": false,
+        "judgment": {
+          "kind": "unclear",
+          "parentId": null,
+          "confidence": 45,
+          "evidence": "Undated; repeats funding-stage statistics with an unspecified '(Source)' and no data."
+        },
+        "linkedPageIds": [],
+        "primaryEvidenceStatus": "not found",
+        "primaryEvidenceReason": "Assertions with no data or named source in the passage."
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster-1",
+        "label": "About 1% (or under 1%) of VC-backed startups become unicorns",
+        "pageIds": [
+          "page-4",
+          "page-5",
+          "page-8",
+          "page-9",
+          "page-11",
+          "page-13",
+          "page-16",
+          "page-18"
+        ]
+      },
+      {
+        "id": "cluster-2",
+        "label": "Unicorn probability varies by year (6% in 1998 to under 1% in 2021)",
+        "pageIds": [
+          "page-1"
+        ]
+      },
+      {
+        "id": "cluster-3",
+        "label": "1.3% of VC-backed startups reach $1B+ valuation (PitchBook)",
+        "pageIds": [
+          "page-6"
+        ]
+      },
+      {
+        "id": "cluster-4",
+        "label": "Only 0.1% of startups become unicorns (1% funded, 3.1% outperform)",
+        "pageIds": [
+          "page-3"
+        ]
+      },
+      {
+        "id": "cluster-5",
+        "label": "1% of startups raise over $100M, even fewer become unicorns",
+        "pageIds": [
+          "page-20"
+        ]
+      }
+    ],
+    "roots": [
+      "page-1",
+      "page-8",
+      "page-9"
+    ],
+    "verifiableRoots": [
+      "page-1",
+      "page-8"
+    ],
+    "answerSourceIds": [
+      "page-8",
+      "page-1"
+    ],
+    "answerStatements": [
+      {
+        "text": "CB Insights' 2018 venture capital funnel analysis found the odds of becoming a unicorn were about 1% (1.07%), with 12 companies reaching that status",
+        "sourceIds": [
+          "page-8"
+        ]
+      },
+      {
+        "text": "The 1% figure is a rough approximation that varies by dataset and cohort: a LinkedIn post by Ilya Strebulaev (a comment on it) states a startup had about a 6% chance of becoming a unicorn in 1998, falling below 1% by 2021",
+        "sourceIds": [
+          "page-1"
+        ]
+      },
+      {
+        "text": "The claim of exactly 1% is therefore not precise; the origins support 'about 1%' or 'around or below 1%' rather than a fixed 'only 1%'",
+        "sourceIds": [
+          "page-1",
+          "page-8"
+        ]
+      }
+    ],
+    "answerStatus": "generated",
+    "searchAudit": [
+      {
+        "query": "Only 1% of venture-backed startups become unicorns",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 5,
+        "uniquePagesAdded": 5,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-1",
+          "page-5",
+          "page-6",
+          "page-9",
+          "page-11"
+        ],
+        "pageProviders": {
+          "page-1": [
+            "tavily"
+          ],
+          "page-5": [
+            "parallel"
+          ],
+          "page-6": [
+            "tavily"
+          ],
+          "page-9": [
+            "parallel"
+          ],
+          "page-11": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "\"1% of venture-backed startups\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 9,
+        "uniquePagesAdded": 8,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": [
+          "page-3"
+        ],
+        "pageProviders": {
+          "page-3": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "query": "\"Only 1% of venture-backed startups become unicorns\"",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 29,
+        "matchingResults": 6,
+        "uniquePagesAdded": 2,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "tavily"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "Only 1% venture-backed startups become unicorns fact check source",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 15,
+        "uniquePagesAdded": 11,
+        "router": "telem",
+        "providers": [
+          "tavily",
+          "brave",
+          "perplexity"
+        ],
+        "pageIds": [
+          "page-4",
+          "page-8",
+          "page-13",
+          "page-16",
+          "page-18",
+          "page-20"
+        ],
+        "pageProviders": {
+          "page-4": [
+            "brave"
+          ],
+          "page-8": [
+            "perplexity",
+            "brave"
+          ],
+          "page-13": [
+            "perplexity"
+          ],
+          "page-16": [
+            "perplexity"
+          ],
+          "page-18": [
+            "perplexity"
+          ],
+          "page-20": [
+            "brave"
+          ]
+        }
+      },
+      {
+        "query": "Only 1% venture-backed startups become unicorns study OR report OR paper",
+        "depth": "basic",
+        "status": "searched",
+        "totalResults": 28,
+        "matchingResults": 9,
+        "uniquePagesAdded": 2,
+        "router": "telem",
+        "providers": [
+          "exa",
+          "parallel",
+          "brave"
+        ],
+        "pageIds": []
+      },
+      {
+        "query": "Only 1% venture-backed startups become unicorns original source",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Only 1% venture-backed startups become unicorns according to",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Only 1% venture-backed startups become unicorns study finds",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "\"venture-backed startups become unicorns\"",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      },
+      {
+        "query": "Only 1% venture-backed startups become unicorns evidence",
+        "depth": "basic",
+        "status": "not searched",
+        "totalResults": 0,
+        "matchingResults": 0,
+        "uniquePagesAdded": 0,
+        "reason": "Stopped after collecting at least 20 distinct pages to conserve search credits.",
+        "router": "telem",
+        "pageIds": []
+      }
+    ],
+    "excludedPageCount": 8,
+    "summary": {
+      "totalPages": 12,
+      "independentOrigins": 3,
+      "verifiableOrigins": 2,
+      "echoPercentage": 17
+    },
+    "answer": "CB Insights' 2018 venture capital funnel analysis found the odds of becoming a unicorn were about 1% (1.07%), with 12 companies reaching that status [1]. The 1% figure is a rough approximation that varies by dataset and cohort: a LinkedIn post by Ilya Strebulaev (a comment on it) states a startup had about a 6% chance of becoming a unicorn in 1998, falling below 1% by 2021 [2]. The claim of exactly 1% is therefore not precise; the origins support 'about 1%' or 'around or below 1%' rather than a fixed 'only 1%' [2] [1].",
+    "echoContribution": "Echo excluded derived and unresolved pages from this answer. Their repetition was not treated as independent support; inspect them to see whether they add reporting or data.",
+    "costReceipt": {
+      "version": 1,
+      "tavily": {
+        "basicSearches": 0,
+        "advancedSearches": 0,
+        "extractRequests": 2,
+        "extractedUrls": 20,
+        "credits": 4,
+        "usdPerCredit": 0.008
+      },
+      "claude": [
+        {
+          "step": "grouping",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 7815,
+          "outputTokens": 1612,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.03175
+        },
+        {
+          "step": "judgment",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 9773,
+          "outputTokens": 2965,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.049196
+        },
+        {
+          "step": "answer",
+          "model": "claude-sonnet-5-5",
+          "inputTokens": 2164,
+          "outputTokens": 264,
+          "cacheWriteTokens": 0,
+          "cacheReadTokens": 0,
+          "usd": 0.006968
+        }
+      ],
+      "stageMs": {
+        "search": 4188,
+        "extract": 11888,
+        "grouping": 11386,
+        "judgment": 20622,
+        "answer": 3398,
+        "total": 51482
+      },
+      "telem": {
+        "searches": 5,
+        "advancedSearches": 0,
+        "providerRuns": {
+          "tavily": 4,
+          "brave": 2,
+          "perplexity": 1,
+          "exa": 4,
+          "parallel": 4
+        }
+      },
+      "usd": {
+        "claude": 0.087914,
+        "tavily": 0.032,
+        "telem": 0.099,
+        "total": 0.218914
+      }
+    }
+  }
+}

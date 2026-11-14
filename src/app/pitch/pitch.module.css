@@ -1,0 +1,133 @@
+/* /pitch: the finalist slides, one on screen at a time (pitch-deck.tsx draws the frame, page.tsx the slides).
+   Every size hangs off --u, about 1% of a 16:9 stage, so the type fills a projector and a laptop alike.
+   Page kinds use the origin graphic's three colours: origin #0b8a5f, confirmed copy #4474cf, not tied #c47f12 on #fffaf0. */
+.deck { --u: max(6px, min(1vw, 1.78vh)); --origin: #0b8a5f; --copy: #4474cf; --unplaced: #c47f12; position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; overflow: hidden; background: radial-gradient(ellipse at 82% 0%, rgba(221, 235, 224, 0.75), transparent 62%), var(--paper); color: var(--ink); user-select: none; }
+.stage { display: grid; flex: 1 1 auto; min-height: 0; align-items: center; justify-items: center; padding: calc(var(--u) * 2.6) calc(var(--u) * 6) calc(var(--u) * 0.8); overflow: auto; cursor: pointer; }
+.slide { width: 100%; max-width: calc(var(--u) * 88); animation: slideIn 240ms ease both; }
+/* The slide only moves into place; it is never hidden, so a stalled animation (a background tab) still shows every word. */
+@keyframes slideIn { from { transform: translateY(calc(var(--u) * 0.8)); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .slide { animation: none; } }
+
+/* The frame under the slide: progress line, brand, the no-request note, and the controls. */
+.progress { flex: 0 0 auto; height: 3px; background: var(--line); }
+.progressFill { display: block; height: 100%; background: var(--teal-deep); transition: width 200ms ease; }
+.bar { display: flex; flex: 0 0 auto; align-items: center; justify-content: space-between; gap: calc(var(--u) * 1.5); padding: calc(var(--u) * 0.9) calc(var(--u) * 6) calc(var(--u) * 1.1); color: var(--muted); font-size: max(11px, calc(var(--u) * 0.95)); }
+.brand { color: var(--ink); font-size: max(15px, calc(var(--u) * 1.7)); font-weight: 750; letter-spacing: -0.05em; }
+.brandDot { color: var(--teal); }
+.barNote { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.controls { display: flex; flex: 0 0 auto; align-items: center; gap: calc(var(--u) * 0.5); }
+.control { min-width: max(30px, calc(var(--u) * 2.6)); height: max(28px, calc(var(--u) * 2.4)); padding: 0 max(10px, calc(var(--u) * 0.9)); border: 1px solid #d6e4da; border-radius: 999px; background: #fffefa; color: var(--ink-soft); font-size: inherit; font-weight: 650; cursor: pointer; }
+.control:hover:not(:disabled) { border-color: #87ada2; }
+.control:disabled { opacity: 0.35; cursor: default; }
+.counter { min-width: max(48px, calc(var(--u) * 4.4)); color: var(--ink-soft); font-size: max(12px, calc(var(--u) * 1.15)); font-weight: 700; font-variant-numeric: tabular-nums; text-align: center; }
+
+/* Type shared by the slides. */
+.kicker { margin: 0 0 calc(var(--u) * 1.2); color: var(--teal-deep); font-size: calc(var(--u) * 1.05); font-weight: 750; letter-spacing: 0.16em; }
+.title { margin: 0; font-size: calc(var(--u) * 7.4); font-weight: 560; line-height: 1.02; letter-spacing: -0.045em; }
+.title em { display: block; color: var(--teal-deep); font-style: normal; font-weight: 680; }
+.oneLine { max-width: calc(var(--u) * 66); margin: calc(var(--u) * 3.2) 0 0; color: var(--ink-soft); font-size: calc(var(--u) * 2.5); line-height: 1.3; letter-spacing: -0.015em; }
+.oneLine b { display: block; color: var(--ink); font-weight: 700; }
+.foot { margin: calc(var(--u) * 3.4) 0 0; color: var(--muted); font-size: calc(var(--u) * 1.3); line-height: 1.45; }
+.claim { margin: 0 0 calc(var(--u) * 1.6); color: var(--ink-soft); font-size: calc(var(--u) * 2.3); font-weight: 560; line-height: 1.2; letter-spacing: -0.02em; }
+.headline { margin: 0; font-size: calc(var(--u) * 5); font-weight: 560; line-height: 1.06; letter-spacing: -0.04em; }
+.headline b { font-weight: 700; font-variant-numeric: tabular-nums; }
+.headline em { display: block; color: var(--teal-deep); font-style: normal; font-weight: 680; }
+.headlineSmall { max-width: calc(var(--u) * 76); margin: 0; font-size: calc(var(--u) * 3.3); font-weight: 560; line-height: 1.12; letter-spacing: -0.035em; }
+.headlineSmall em { display: block; color: var(--teal-deep); font-style: normal; font-weight: 680; }
+.missing { margin: 0; color: var(--ink-soft); font-size: calc(var(--u) * 2.2); }
+
+/* One pill per page the run kept, coloured by where Echo placed it. */
+.pillBlock { margin: calc(var(--u) * 2.4) 0 0; }
+.pills { display: flex; flex-wrap: wrap; gap: calc(var(--u) * 0.55); }
+.pillOrigin, .pillCopy, .pillUnplaced { display: inline-block; flex: 0 0 auto; width: calc(var(--u) * 3.3); height: calc(var(--u) * 1.5); border-radius: 999px; }
+.pillOrigin { background: var(--origin); }
+.pillCopy { background: var(--copy); }
+.pillUnplaced { border: max(1.5px, calc(var(--u) * 0.14)) solid var(--unplaced); background: #fffaf0; }
+.legend { display: flex; flex-wrap: wrap; gap: calc(var(--u) * 0.4) calc(var(--u) * 2); margin: calc(var(--u) * 0.9) 0 0; padding: 0; color: var(--ink-soft); font-size: calc(var(--u) * 1.2); list-style: none; }
+.legend li { display: flex; align-items: center; gap: calc(var(--u) * 0.55); }
+.legend .pillOrigin, .legend .pillCopy, .legend .pillUnplaced { width: calc(var(--u) * 1.8); height: calc(var(--u) * 0.85); }
+
+/* A row of big figures, each with a label and an optional note. */
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(var(--u) * 1.2); margin: calc(var(--u) * 2.4) 0 0; padding: 0; list-style: none; }
+.fact { display: flex; min-width: 0; flex-direction: column; gap: calc(var(--u) * 0.35); padding: calc(var(--u) * 1.3) calc(var(--u) * 1.6) calc(var(--u) * 1.4); border: 1px solid var(--line); border-radius: calc(var(--u) * 1.2); background: var(--card); box-shadow: var(--shadow); }
+.factValue { color: var(--ink); font-size: calc(var(--u) * 5.2); font-weight: 620; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+.factLabel { color: var(--ink); font-size: calc(var(--u) * 1.5); font-weight: 650; line-height: 1.25; }
+.factNote { color: var(--muted); font-size: calc(var(--u) * 1.2); line-height: 1.35; }
+.toneOrigin .factValue { color: var(--origin); }
+.toneUnplaced .factValue { color: #a5670c; }
+.toneThin .factValue { color: #b23b2e; }
+.toneMid .factValue { color: #8a5a0a; }
+.toneStrong .factValue { color: #0b6b4a; }
+
+/* The contrast slide: figures and pills on the left, Echo's saved answer on the right, one line under both. */
+.split { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr); align-items: start; gap: calc(var(--u) * 3); }
+.split .facts { margin-top: 0; }
+.answer { margin: 0; padding: calc(var(--u) * 1.4) calc(var(--u) * 1.8) calc(var(--u) * 1.6); border-left: calc(var(--u) * 0.4) solid var(--teal-deep); border-radius: calc(var(--u) * 0.6); background: #f1f7f3; color: var(--ink); font-size: calc(var(--u) * 1.72); line-height: 1.42; }
+.answerLabel { display: block; margin-bottom: calc(var(--u) * 0.7); color: var(--teal-deep); font-size: calc(var(--u) * 0.95); font-weight: 750; letter-spacing: 0.14em; }
+.answer b { font-weight: 720; }
+.punch { margin: calc(var(--u) * 2.6) 0 0; font-size: calc(var(--u) * 3.7); font-weight: 560; line-height: 1.08; letter-spacing: -0.035em; }
+.punch em { color: var(--teal-deep); font-style: normal; font-weight: 680; }
+
+/* What Telem makes possible: one row per claim, one dot per origin, numbered with the engines that reached it. */
+.reach { display: grid; margin: calc(var(--u) * 2.2) 0 0; padding: 0; list-style: none; }
+.reachRow { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) auto; align-items: center; gap: calc(var(--u) * 2); padding: calc(var(--u) * 1.05) 0; border-bottom: 1px solid #d3dfd6; }
+.reachDense .reachRow { padding: calc(var(--u) * 0.42) 0; }
+.reachDense .reachClaim { font-size: calc(var(--u) * 1.5); }
+.reachDense .reachNeeded { font-size: calc(var(--u) * 1.3); }
+.reachDense .reachNeeded b { font-size: calc(var(--u) * 2.2); }
+.reachDense .reachDots i { transform: scale(0.82); transform-origin: left center; margin-right: calc(var(--u) * -0.35); }
+.reachRow:first-child { border-top: 1px solid #d3dfd6; }
+.reachClaim { color: var(--ink); font-size: calc(var(--u) * 2.05); font-weight: 620; line-height: 1.2; letter-spacing: -0.02em; }
+.reachDots { display: flex; flex-wrap: wrap; gap: calc(var(--u) * 0.6); }
+.reachNone { color: var(--muted); font-size: calc(var(--u) * 1.4); font-style: normal; }
+.dot, .dotLone { display: inline-grid; width: calc(var(--u) * 2.9); height: calc(var(--u) * 2.9); place-items: center; border-radius: 50%; color: #fffefa; font-size: calc(var(--u) * 1.45); font-style: normal; font-weight: 750; font-variant-numeric: tabular-nums; }
+.dot { background: var(--origin); }
+.dotLone { background: var(--unplaced); }
+.reachNeeded { color: var(--ink-soft); font-size: calc(var(--u) * 1.6); text-align: right; white-space: nowrap; }
+.reachNeeded b { color: var(--ink); font-size: calc(var(--u) * 3.4); font-weight: 720; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.totals { margin: calc(var(--u) * 1.6) 0 0; color: var(--ink); font-size: calc(var(--u) * 1.6); font-weight: 600; line-height: 1.4; letter-spacing: -0.01em; }
+.totals b { font-weight: 760; font-variant-numeric: tabular-nums; }
+.note { margin: calc(var(--u) * 0.7) 0 0; color: var(--ink-soft); font-size: calc(var(--u) * 1.3); line-height: 1.45; }
+
+/* Where it goes: three short lines on the left, the ask on the right. */
+.goes { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: stretch; gap: calc(var(--u) * 2.4); margin: calc(var(--u) * 2) 0 0; }
+.lines { display: grid; gap: calc(var(--u) * 0.9); margin: 0; padding: 0; list-style: none; }
+.line { min-width: 0; padding: calc(var(--u) * 1) calc(var(--u) * 1.5) calc(var(--u) * 1.1); border: 1px solid var(--line); border-radius: calc(var(--u) * 1.2); background: var(--card); box-shadow: var(--shadow); }
+.lineTag { display: block; margin-bottom: calc(var(--u) * 0.35); color: var(--teal-deep); font-size: calc(var(--u) * 0.95); font-weight: 750; letter-spacing: 0.14em; }
+.lineText { display: block; color: var(--ink); font-size: calc(var(--u) * 1.85); font-weight: 650; line-height: 1.2; letter-spacing: -0.02em; }
+.chips { display: flex; flex-wrap: wrap; gap: calc(var(--u) * 0.55); margin-top: calc(var(--u) * 0.65); }
+.chip { padding: calc(var(--u) * 0.32) calc(var(--u) * 0.95); border: 1px solid #b9d8cc; border-radius: 999px; background: #f0f8f4; color: var(--ink); font-size: calc(var(--u) * 1.25); font-weight: 650; }
+.lineNote { display: block; margin-top: calc(var(--u) * 0.55); color: var(--muted); font-size: calc(var(--u) * 1.1); line-height: 1.4; }
+.ask { display: flex; min-width: 0; flex-direction: column; justify-content: center; gap: calc(var(--u) * 1.5); padding: calc(var(--u) * 2.2) calc(var(--u) * 2.4); border-radius: calc(var(--u) * 1.4); background: var(--teal-deep); color: #fffefa; box-shadow: var(--shadow); }
+.askTag { color: #cfe6dd; font-size: calc(var(--u) * 0.95); font-weight: 750; letter-spacing: 0.16em; }
+.askMain { margin: 0; font-size: calc(var(--u) * 2.5); font-weight: 620; line-height: 1.18; letter-spacing: -0.025em; }
+.askSecond { margin: 0; color: #e4f1ec; font-size: calc(var(--u) * 1.75); font-weight: 500; line-height: 1.3; letter-spacing: -0.01em; }
+.signoff { margin: calc(var(--u) * 0.6) 0 0; padding-top: calc(var(--u) * 1.3); border-top: 1px solid rgba(255, 254, 250, 0.28); font-size: calc(var(--u) * 1.6); font-weight: 720; letter-spacing: -0.02em; }
+
+/* Ten or more claims on the Telem slide. */
+.reachTight .reachRow { padding: calc(var(--u) * 0.16) 0; }
+.reachTight .reachClaim { font-size: calc(var(--u) * 1.22); }
+.reachTight .reachNeeded { font-size: calc(var(--u) * 1.1); }
+.reachTight .reachNeeded b { font-size: calc(var(--u) * 1.7); }
+.reachTight .reachDots i { transform: scale(0.68); margin-right: calc(var(--u) * -0.7); }
+
+/* Where it broke: three steps left to right, each a big figure with a tag above and one line under. */
+.steps { counter-reset: step; margin-top: calc(var(--u) * 1.2); }
+.steps .fact { gap: calc(var(--u) * 0.5); }
+.stepTag { color: var(--teal-deep); font-size: calc(var(--u) * 0.95); font-weight: 750; letter-spacing: 0.14em; }
+.stepTag::before { counter-increment: step; content: counter(step) " · "; }
+.stepOf { color: var(--ink-soft); font-size: 0.42em; font-weight: 600; letter-spacing: 0; }
+
+/* ---- Identity pass (Nov 14): the same heavy headlines and origin mark as /origins. Weights only, so nothing reflows. ---- */
+.title { font-weight: 780; }
+.title em { font-weight: 820; }
+.headline, .headlineSmall, .punch { font-weight: 760; }
+.headline b { font-weight: 840; }
+.headline em, .headlineSmall em, .punch em { font-weight: 800; }
+.claim { color: var(--ink); font-weight: 700; }
+.factValue { font-weight: 820; }
+.lineText { font-weight: 780; }
+.askMain { font-weight: 760; }
+.oneLine b { font-weight: 800; }
+.kicker { font-weight: 800; }
+.kicker::before { content: ""; display: inline-block; width: 0.8em; height: 0.8em; margin-right: 0.7em; border-radius: 0.18em; background: #0b8a5f; }
