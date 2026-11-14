@@ -18,63 +18,206 @@ Pitch script: `~/AI Infrastructure Claude/company/pitch/3min-judges-echo-searchh
 
 ## Origin layer (added Sat Nov 14; optional, off by default on the result page)
 
-The slots and every step below are unchanged with it off.
+The slots and every step below are unchanged with it off. Every number in this section is from the saved runs
+(`mcp/traces/telem-*.echo.json`, plus the limit run in `evaluation/known-limits/` and the look-up saved in
+`src/app/origin-upstream-saved.json`), recomputed offline at about 1:40pm on Nov 14. If the screen and this page
+disagree, the screen wins: it computes its numbers from the runs.
 
-- **Fastest way to show it: open `/origins`** (for example `http://localhost:3000/origins`). One address, no file to
-  pick, nothing to switch on, no request sent. Four tabs, all live Telem runs from today (phones 11:02am; body heat,
-  brain myth and goldfish about 11:48am). Top to bottom: how Echo fits with Telem (three steps), the Echo Score with
-  its meter (each tab also shows its score), a before-and-after block (the flat list search hands an agent, and the
-  origins Echo hands it), the flow from search engines to pages to independent origins (point at a page to read Echo's
-  saved note on it), what each engine added with the run's search bill and "Engines this claim needed", what each
-  search added, how the claim travelled, the token bars (phones tab only: the other three have no saved comparison),
-  and at the bottom the **engine scorecard** across the four claims.
-- **The engine scorecard, as measured:** across 4 claims Telem billed **85 engine runs (about $0.52 of search)** and
-  Echo confirmed **13 independent origins; 6 of them were reached through only one engine** (3 through Perplexity, 3
-  through Parallel). Say it as a contrast, with figures that do not depend on the order of the engine list: on the phone claim
-  **every one of the five engines reached the one origin (engines needed: 1 of 5)**; on the body-heat claim (**Echo
-  Score 86, 7 origins, 7 publishers**) **no single engine reached all seven; it took 3 of the 5, and 4 origins came
-  through one engine only**. Brain myth needed 2 of 4; goldfish 1 of 5 (only Parallel reached both). And Echo's own
-  searches: on body heat the plain search reached 3 of the 7 origins and Echo's follow-up searches the other 4 (the
-  "study OR report OR paper" search is the one that returned both papers).
-  "Echo tells a router which case it is in." Four claims, one run each: never rank the engines from it.
-- **Scores move with what a run retrieves.** Today's Telem runs score brain myth 10 (3 origins, none with evidence of
-  its own) and goldfish 6 (2 origins, none with evidence). The older Tavily-captured goldfish backup scores 72 because
-  that run retrieved a PubMed study and a BBC report; today's did not. If a judge asks why the same claim scores
-  differently: "the score describes the pages this run found, and that difference is exactly what the engine
-  scorecard is for."
-- **On a result page:** click an empty part of the page and press **Shift+O**. The same graphic appears under WHAT ECHO
-  PROCESSED (Shift+O again hides it; the choice is remembered in this browser, so press it once before recording and
-  check the panel is there). To open the Telem run there: on any result, **More → Open trace file** and pick
-  `mcp/traces/telem-phones-2026-11-14.echo.json`.
-- **The Telem run, as measured (live, 11:02am today, 32 s, about $0.25):** Echo Score 18, "Thin evidence base". 5
-  searches through Telem, 23 engine runs billed, about $0.14 of search at list price. Of the 19 pages about the claim:
-  **2 origin pages that are one origin** (Asurion's Nov 2019 press release, on asurion.com and PR Newswire), **4
-  confirmed copies**, and **13 pages Echo could not tie to any origin**. All five engines (Perplexity, Brave, Exa,
-  Parallel, Tavily) returned pages that lead back to that one origin: any one engine would have reached it (engines needed: 1 of
-  5). Do not say "18 of 23 engine runs added nothing": that figure depended on list order and is gone from the screen. Same question to Claude with all 19 pages vs the 1 origin: **9,304 vs 971 input
-  tokens (−90%)**.
-- **One caveat on every engine figure (found 12:24pm, on screen in the fine print):** the trace credits an engine with a
-  page for the search that FIRST returned that page; an engine that returned the same page only in a later search is
-  not credited. So "every one of the five engines reached the origin" is solid (it is positive evidence), while "no
-  single engine reached all seven", "needed 3 of 5" and "6 origins through one engine only" are **what this run
-  recorded**. Say "by this run's record" once when you use them, and never "Brave cannot find X".
-- **Telem's routing is on screen** in "What each search added": each search row lists the engines Telem sent it to
-  and how many of that search's new pages each returned (body heat: the plain claim went to Tavily, Brave and
-  Perplexity; the exact-phrase follow-up to four engines; the rest to all five).
-- **Say it this way (these are the corrections from today's review; do not improvise past them):**
-  - "Six of the nineteen pages lead back to one press release. Thirteen Echo could not place, and it says so." Never
-    "all nineteen pages are copies" or "everything leads back to one origin".
-  - "Five engines, one origin" is true of the pages Echo could place. The engines returned 174 results in all; 19 is
-    what Echo kept as about the claim.
-  - The score rates the evidence base behind a claim, not whether the claim is true. On body heat (86): "seven
-    independent origins weigh in, two papers and BBC reporting among them. A strong evidence base, and what those
-    origins say is that the claim is not supported." Never call the goldfish or head-heat claim "well supported" or
-    "well sourced".
-  - Token saving: "ninety percent fewer input tokens on this run". The origins-only context drops the 4 copies and the
-    13 unplaced pages. Claude's stated confidence was high with every page and medium with the origin only, and both
-    answers trace the number to the one Asurion survey. Do not say Echo corrected Claude or that search fooled it: the
-    origins-only context tells Claude what Echo found, so it is not a blind test. One measurement.
-  - Origin types (press release, primary document…) are read by rule from the page address and passage.
+**Lead with this: Echo finds the source that is not in the results.** Do not pitch Echo as a fact-checker or as a
+way to shrink context. The video and the pitch are built around three moments, in this order.
+
+1. **The reveal: the real source is not in the results.** Open the brain tab. "Humans use only 10% of their brains."
+   Echo kept 20 pages and counted 3 origins. All 3 origin publishers name William James. No page of the run is from
+   him. Then the dark card above the tabs, and the other five names: Maxwell Maltz (21-day habit), the Food and
+   Nutrition Board (8 glasses of water), Malcolm Gladwell (10,000 hours), Albert Mehrabian (93% nonverbal), Robin
+   Dunbar (150 friendships). Found by rule, with no model call. It is a lead to go and look, not a finding. (The site
+   counts for each name are in the table below. Leave them out of the video: there is no time for them.)
+2. **The confession: "Where Echo was wrong".** The last tab. "95% of generative AI pilots fail" scored 98 from 8
+   origins. They were mostly write-ups of one MIT report that was not among the pages. Echo flags the shared name,
+   sends one more search through Telem, finds a copy of the report and folds 6 of the 8. 98 goes to 67. That is still
+   too high. Say so plainly.
+3. **The gift to the host.** Say it to Telem directly: "For the phone claim, any one of your engines was enough. For
+   body heat it took three. That is by each run's record. Echo can tell a router which case it is in."
+
+Then the venture lines, said as guesses:
+
+- "My first guess at who needs this: teams shipping AI answers with citations. Their product shows five citations
+  that can really be one source."
+- "The problem, as I guess it: they cannot tell today."
+- "My pricing guess: per check, like the search APIs it sits on."
+- "My guess at the edge: it needs per-engine provenance, which a router like Telem records."
+- "Nobody has been asked yet. That is next week."
+
+Then one line each, and stop:
+
+- **Tokens.** "With one page per origin instead of every page, Claude took 51% to 90% fewer input tokens. One
+  measurement per run, and not a blind test."
+- **Label agreement.** "On fifteen older saved runs of four claims, Echo's verdict matched a model's label 151 times
+  out of 211, about 72%. A model wrote the labels, not a person." Read the figures off the card if they differ.
+
+**Timing.** Said in full, the three moments, the venture lines, the two closing lines and the ranking line come to
+about 320 words (re-counted). At 150 words a minute that is about 2:10. If the video must end at 2:00, cut about 20
+words: say the five names without their claims (the card shows them). If you add a sentence, cut one.
+
+**The ranking line** (the Telem criterion names ranking). Say it once, at the top of `/origins`: "Echo re-ranks
+results by independence, not relevance. Origins first, confirmed copies folded under them, pages it could not place
+set aside."
+
+**The numbers to know.** Sixteen claims traced live through Telem today, one Telem run per claim. 80 searches, **320
+engine runs billed, about $1.99 of search** at list price (Echo's own pricing of each engine run). **285 pages kept**:
+74 origin pages, 18 confirmed copies, 193 Echo could not tie to an origin. **67 independent origins counted, 32 with
+evidence of their own, 31 with only one engine on record.** Engines needed, by each run's record: 5 claims needed one,
+3 needed two, 7 needed three, 1 needed all five (93% nonverbal).
+
+| Tab | Echo Score | Pages kept | Origins (with own evidence) | Engines needed | Name the pages point at |
+| --- | ---: | ---: | --- | --- | --- |
+| Phone checks | 18 | 19 | 1 (1) | 1 of 5 | none |
+| Body heat and the head | 86 | 18 | 7 (3) | 3 of 5 | none |
+| The brain myth | 10 | 20 | 3 (0) | 2 of 4 | William James, 6 of 20 sites |
+| Goldfish memory | 6 | 18 | 2 (0) | 1 of 5 | none |
+| Startups failing | 52 | 19 | 4 (2) | 3 of 5 | none |
+| Cost of a new customer | 50 | 18 | 2 (1) | 1 of 5 | none |
+| Days to form a habit | 72 | 19 | 4 (2) | 2 of 5 | Maxwell Maltz, 11 of 19 sites |
+| Attention span | 81 | 14 | 5 (3) | 3 of 5 | none |
+| Becoming a unicorn | 50 | 12 | 3 (2) | 3 of 4 | none |
+| ChatGPT and a search | 90 | 17 | 4 (4) | 3 of 5 | none |
+| Hours on social media | 55 | 12 | 4 (2) | 2 of 5 | none |
+| Glasses of water | 49 | 20 | 5 (1) | 1 of 5 | Food and Nutrition Board, 6 of 20 sites |
+| Hours to mastery | 81 | 20 | 5 (3) | 3 of 5 | Malcolm Gladwell, 16 of 20 sites |
+| Nonverbal communication | 70 | 20 | 6 (2) | 5 of 5 | Albert Mehrabian, 9 of 20 sites |
+| Number of friendships | 89 | 20 | 7 (5) | 3 of 5 | Robin Dunbar, 7 of 19 sites |
+| Swallowing spiders | 49 | 19 | 5 (1) | 1 of 5 | none |
+
+The origins themselves share the name on three of these: William James (3 of 3 origin publishers), Maxwell Maltz (3 of
+4) and Malcolm Gladwell (4 of 5). On the other three names the origins do not share it.
+
+**Six rules that cover most mistakes.**
+
+- The Echo Score rates the evidence base one run found. It does not rate truth. A debunked claim can score high.
+- Origins are "counted". Pages are "the pages Echo kept".
+- Any sentence that says an engine did not reach something ends with "by this run's record". One Telem run per
+  claim, so never rank the engines.
+- The missing source is "a lead to go and look", not a finding. A shared name means the origin count "may be too
+  high". The shared-name rule fires when "at least half" of the origins name it.
+- The accuracy card is "agreement with a model's labels", never "how often Echo is right".
+- The venture lines are guesses and are said as guesses. No market size. Never "customers", "users" or "revenue"
+  ("their users" is fine).
+
+### The live-claim drill (only if you want one live run in the video)
+
+A live run spends about $0.25 and takes about half a minute (the phone run today took 32 s). The saved runs carry the
+demo without it. If you do one:
+
+1. Before you press record: the home page is open in one browser tab and `/origins` in the next. On the claim box the
+   **Standard | Deep** toggle is on **Standard**. Deep takes one to two minutes and costs more. Do not use it on
+   camera.
+2. On any result page, check the pill in the result toolbar reads **Origin layer: on**. If it reads off, click it
+   once. The choice is remembered in this browser.
+3. Type the claim and start the trace. Use a claim you have not traced in the last 15 minutes, or the cached result
+   opens at once and does not look live.
+4. Do not watch it load. Switch to the `/origins` tab, click the brain tab, and talk the reveal: "While that runs,
+   here is the same thing saved earlier today. Three origins. All three name William James. No page is from him."
+5. Switch back. If the result is there, read the Echo Score, the origin count and "Engines this claim needed" off the
+   screen. Do not predict them. A live run can differ from the saved one: two same-day re-runs scored phones 23
+   against 18 and habit 83 against 72.
+6. **Exit line**, if it is not back when the reveal ends: "Live runs take about half a minute and this one is still
+   going. Everything else I show is a saved run from earlier today." Then carry on with `/origins` and do not wait.
+   Do not press **Stop** on the wait card: it holds about $0.06 of the day's caps until midnight Pacific.
+
+### Q&A lines (saved today, not on the page, in none of the totals)
+
+- **"Would it score the same if you ran it again?"** "Not exactly. I re-ran two claims the same day. Phones scored 23
+  against 18 on the page. Habit scored 83 against 72." The files are in `evaluation/reruns/`.
+- **"What if it read more pages?"** "I ran the 10,000-hours claim once in Deep mode. 416 results, 50 pages kept, 10
+  origins counted, score 96 against 81 on the page. More pages gave more commentary counted as origins, and 8 of the
+  10 name Malcolm Gladwell. So that higher count may be too high." The file is in `evaluation/deep/`. One
+  run. A Q&A line, not a headline.
+
+### `/origins`, top to bottom (the fastest way to show it)
+
+Open `http://localhost:3012/origins` (today's dev server is on port 3012; a fresh `npm run dev` uses 3000). One address, no file to pick, nothing to switch on, no request sent. Left and
+right arrow keys move between tabs once a tab is clicked. Each tab has a row of jump buttons at the top.
+
+| On screen | Say | Never say |
+| --- | --- | --- |
+| Headline, three steps, the row of five figures | "Telem tells you which engines answered. Echo tells you whether they told you anything new. Echo re-ranks results by independence, not relevance: origins first, confirmed copies folded under them, pages it could not place set aside." | That Echo replaces Telem or beats a search engine. Not tested. |
+| **Show this first after the top:** the dark card "The source that is not in the results", above the tabs | "A dedup or fact-check tool can only look at the pages it was handed. Echo also reads what those pages keep pointing at. On six of these sixteen claims the pages name a source that no page comes from. William James, on 6 of the 20 sites Echo kept for the brain myth. Maxwell Maltz, on 11 of 19 for the 21-day habit. The Food and Nutrition Board, on 6 of 20 for 8 glasses of water. Malcolm Gladwell, on 16 of 20 for 10,000 hours. Albert Mehrabian, on 9 of 20 for 93% nonverbal. Robin Dunbar, on 7 of 19 for 150 friendships. Found by rule, no model call." | That the name is the claim's source, or that Echo found the document. It is a lead to go and look. Never "fact-checker", never "saves context". |
+| The tabs (eighteen: sixteen Telem claims, "Check a list of links", "Where Echo was wrong") | "Sixteen claims people repeat, each traced through Telem earlier today, one run each. The number on a tab is that run's Echo Score." | That a high number means the claim is true. |
+| Echo's answer, written from the origins only | "Echo wrote this from the origin pages only." Body heat: "it calls the claim a myth." | That the answer is a fact check. On the brain and goldfish tabs Echo says the origins are too thin to answer from. |
+| Before and after | Phones: "Nineteen pages Echo kept, read as nineteen sources. Traced, Echo counts one independent origin. Six pages lead back to it. Thirteen it could not place." | "All nineteen pages are copies", or that the nineteen "are" one origin. Thirteen of them Echo could not place, and it says so. |
+| Echo Score and "How this score was built" | Body heat: "86, a strong evidence base. Seven independent origins weigh in, and what they say is that the claim is not supported." | "Well supported" or "well sourced", for any claim. |
+| The flow (engines to pages to origins; it draws itself) | "Follow any page to the right. Dashed lines are possible links Echo could not confirm. They are never counted." | That a dashed line is a copy. |
+| A name the origins share (brain: William James, 3 of 3; habit: Maxwell Maltz, 3 of 4; hours: Malcolm Gladwell, 4 of 5) | "A rule, no model call. At least half of these origins' publishers mention one outside name, and no page of this run comes from that source. So the origin count may be too high." | That one page copied another. Say the origins "may share a source". |
+| Echo went looking (same block; saved for the brain and habit runs, not for the hours run) | "One more search through Telem for that document, and one model call to decide which origins rest on it. Here it found no page that is the document and folded nothing." | That it fixed the count. On brain and habit it changed nothing. |
+| What each engine added (the search bill, "Engines this claim needed: N of M") | Phones: "Every one of the five engines reached the one origin. Needed: 1 of 5." Body heat: "By this run's record, no single engine reached all seven. It took 3 of the 5." | "Brave cannot find X", or any ranking of engines. |
+| What each search added | Body heat: "The claim as asked reached 3 of the 7 origins. Echo's other searches reached the other 4." | That Echo searched again afterwards. Its searches go out together. |
+| How the claim travelled | "The sentence on the origin, then the sentence on each confirmed copy, and how much of the wording it keeps." | That wording drift proves who copied whom. |
+| Same question, two contexts | Phones: "9,304 input tokens with every page, 971 with the origin only. Ninety percent fewer on this run." | That Echo corrected Claude, or that this is a blind test. The origins-only prompt also tells the model what Echo found. One measurement per run. |
+| The record a search router could take back | "This is the shape of what Echo could hand back to a router. It is JSON on this page and it is sent nowhere." Then, to Telem: "For the phone claim any one engine was enough. For body heat it took three, by each run's record. Echo can tell a router which case it is in." | That Telem receives it today, or that Echo knows before the search how many engines a claim needs. It is hindsight on one run. |
+| Engine scorecard (one dot per origin) | "The number in a dot is how many engines reached that origin. Amber dots have one engine on record: 31 of the 67." | Which engine is best. Sixteen runs, one per claim. |
+| Every saved run in one table | "Every saved run, one row each. It downloads as CSV." | That rows are comparable across days as a benchmark. |
+| How stable is a score | "Same claim, two occasions. Goldfish scored 72 in an older run and 6 today. The older run kept a PubMed study and a BBC report. Today's kept neither." | That one route is better. Both the day and the route changed. |
+| How often Echo agrees with a model's labels | "Label checks on older saved runs. A model wrote the labels, and the wrong verdicts are on the card. It is agreement with those labels." Read the numbers off the card. | "How often Echo is right", or "accuracy" as if a person had checked it. Today's Telem runs are not in it. |
+| A limit Echo hit today | See "What breaks?" below. | That the look-up solved it. |
+| One check, six kinds of work | "Where I think the same check applies, each with a real saved run. My first guess at who needs it: teams shipping AI answers with citations. Nobody has been asked yet. That is next week." | A market size, or that anyone has agreed to pay. Never "customers", "users" or "revenue". It is a guess. |
+| Five ways into Echo | "The app, the links check, and three ways to call the check: an MCP tool, a GET address, a command line. Those three answer from saved runs only, offline. There is a tool definition too." | That it is deployed. It runs on this laptop today. The repo is public at github.com/lucasmasen/echo. One card in this block still says "The repo is not public yet": that line is stale, so do not read it out. |
+
+**The two tabs that are not Telem claims.**
+
+- **Check a list of links.** Say: "No AI answer produced these links. I pasted them in by hand, the way you would
+  paste the citations under an answer." Five links, one independent origin. No search was run, so it has no engine
+  blocks, and it is out of every figure above.
+- **Where Echo was wrong.** The limit run, with a red banner and no score on its tab. Out of every figure above. (The
+  card lower down still says the run is "kept out of the tabs". That line is older than the tab.)
+
+### "What breaks?" (the stage answer)
+
+"Here is one from today. '95% of generative AI pilots fail' scored 98 with 8 origins. That is wrong. Most of those
+origins are separate write-ups of one MIT report, and the report was not among the pages Echo kept, so each write-up
+looked like an origin. Echo now flags it by rule: 6 of the 7 publishers mention MIT. Then Echo went looking. One more search
+through Telem found a copy of the report. 6 of the 8 origins fold into it. Origins go from 8 to 3 and the score from
+98 to 67. That is still too high, because two of the three origins left are pages that mention neither the report nor
+the 95% figure. So it is
+a first version, and the page says so."
+
+- The copy of the report is hosted at mlq.ai, not on MIT's own site. Say "a copy of the report".
+- A model decides which origins fold. One measurement, saved once.
+- On the brain and habit runs the look-up found no page that is the document and folded nothing.
+- Never say the limit is fixed, and never say 67 is the right score.
+
+### The first-return caveat (on screen in the fine print)
+
+The run credits an engine with a page only for the search that first returned it. An engine that returned the same
+page in another search gets no credit. So "every one of the five engines reached the origin" is solid, because it is
+positive evidence. "No single engine reached all seven", "needed 3 of 5" and "31 origins with one engine on record"
+are what the runs recorded. Say "by this run's record" once when you use them.
+
+### Switching the origin layer on for a live result
+
+It is off by default. On any result page, click **Origin layer: off** in the result toolbar. It then reads **Origin
+layer: on** and the graphic appears under WHAT ECHO PROCESSED. **Shift+O** does the same (click an empty part of the
+page first). The choice is remembered in this browser, so switch it on once before recording and check the panel is
+there. To open a Telem run there: on any result, **More → Open trace file** and pick
+`mcp/traces/telem-phones-2026-11-14.echo.json`.
+
+### The slides
+
+`http://localhost:3012/pitch` today (port 3000 on a fresh `npm run dev`). Right and left arrow keys move through them (space or Enter also goes forward), and
+**f** switches full screen. Every number on them is computed from the saved runs. The page is not linked from
+anywhere in the app.
+
+### The phone run, as measured (live, 11:02am today, 32 s, about $0.25)
+
+Echo Score 18, "Thin evidence base". 5 searches through Telem, 23 engine runs billed, about $0.14 of search at list
+price. The searches returned 174 results and Echo kept 19 as about the claim: **2 origin pages that are one origin**
+(Asurion's Nov 2019 press release, on asurion.com and PR Newswire), **4 confirmed copies**, and **13 pages Echo could
+not tie to any origin**. All five engines (Perplexity, Brave, Exa, Parallel, Tavily) returned pages that lead back to
+that one origin (engines needed: 1 of 5). Same question to Claude with all 19 pages against the 1 origin: **9,304
+against 971 input tokens (90% fewer)**. Origin types (press release, primary document and so on) are read by rule
+from the page address and passage.
+
+### The MCP moment, live runs and the freeze gate (kept from this morning)
+
 - **MCP moment (optional, checked today in a real Claude Code session):** the tool is added for every folder
   (`claude mcp add --scope user echo -- node ~/Projects/echo/mcp/echo-mcp.mjs`, done once). In a new Claude session
   ask "Do Americans really check their phones 96 times a day? Use echo_check first." It answers from the saved Telem
@@ -88,7 +231,7 @@ The slots and every step below are unchanged with it off.
   d3b055b). Cause: its live-run pages open in a far-off timezone after 3am Pacific, where the saved check's capture day
   reads Nov 14, and the test insisted on Nov 13. The test now expects the date in the zone it opened the page in.
 
-## Recording the demo video (Sat Nov 14: stop building about 2pm, code freeze 4:15pm)
+## Recording the demo video (Sat Nov 14: record about 3pm, about 2 minutes; Devpost due 4:15pm PT)
 
 1. Same steps as "The night before" below, on the branch you will record from (`main`).
 2. Browser at 1920×1080 (or your screen's native size), zoom 100%, a clean profile with no extensions or bookmarks bar,
@@ -97,10 +240,18 @@ The slots and every step below are unchanged with it off.
 4. Retakes of a live run: the same claim within 15 minutes opens the cached result instantly and for free (it will not
    look like a live run). **Run fresh search** spends about $0.23–0.25 (phones, 11/13, measured with Tavily search; see "Telem" below). A Check these sources retake
    can be a new live run (about $0.04): the browser does not keep those results as saved runs (the bundled **Saved
-   check: 5 links → 1 origin** opens the 11/13 run of the example's links for free). Avoid the wait card's **Stop**: it holds about
+   check: 5 links → 1 origin** opens the 11/13 run of the example's links for free). Avoid the wait card's **Stop**: it holds
    about $0.06 of the day's caps (Claude's and Tavily's, or Telem's) until midnight Pacific.
 5. Say "possible copies" for copy hunt, "a citation names a source, not proof", and never "better than Google" (not tested).
 6. Slots open saved live runs; say so if you show them ("a run saved on Nov 10").
+7. If the video shows `/origins`: it costs nothing and sends nothing, so retakes are free. Two minutes fits the three moments, in order: the brain tab and the dark card (William James, then the other five
+   names), then "Where Echo was wrong" (98 to 67, still too high), then the engines needed on the phone tab (1 of 5)
+   against the body-heat tab (3 of 5, by this run's record), said to Telem. Close with the venture guesses, one line on
+   tokens and one on label agreement. Say
+   "saved runs from earlier today", not "live" (the first ran at 11:02am, the limit run at 12:37pm).
+8. If the video shows the origin layer on a result page: switch **Origin layer** on before you press record and check
+   the panel is there.
+9. `/pitch` is there if you want a slide on screen: arrow keys, **f** for full screen.
 
 ## The night before (10 minutes)
 

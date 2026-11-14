@@ -2,30 +2,62 @@
 
 ## Judges: start here
 
-Echo takes one claim, finds the pages that repeat it, and works out which pages copy which, so you can see how many
-independent origins sit behind it. Search engines count sources. Echo counts origins.
+Echo finds the source that is not in the results. It takes one claim, traces the pages that repeat it back to their
+independent origins, and reads what those pages keep naming: on six of today's sixteen claims the pages name a source
+that no page of the run comes from. Search engines count sources. Echo counts origins.
 
-![How Echo works: a claim, Echo's searches, Telem routing each search to five engines, pages read with Tavily, Claude judging which pages copy which, the origin layer, and four ways out](docs/architecture.svg)
+The repo is public: <https://github.com/lucasmasen/echo>. The app is not deployed. It runs on your machine.
+
+![How Echo works: a claim, Echo's searches, Telem routing each search to five engines, pages read with Tavily, Claude judging which pages copy which, the origin layer, then the app and three ways to call the check](docs/architecture.svg)
 
 **The two-minute tour, with no API key.** Every step reads saved runs. None sends a search or a model call.
 
 1. `npm ci`
 2. `npm run dev`
-3. Open <http://localhost:3000/origins>. Nine tabs: eight claims traced live through Telem on Nov 14, plus a check of
-   a pasted list of links.
-4. Open <http://localhost:3000/pitch> for the slides.
+3. Open <http://localhost:3000/origins>. First, above the tabs, the dark card "The source that is not in the
+   results". Then eighteen tabs: sixteen claims traced live through Telem on Nov 14, a check of a pasted list of
+   links, and last a run Echo got wrong, marked "Where Echo was wrong".
+4. Open <http://localhost:3000/pitch> for the slides (arrow keys to move, `f` for full screen).
 5. `curl "http://localhost:3000/api/echo-check?claim=Goldfish%20have%20a%203-second%20memory"` is the free endpoint.
 6. `node mcp/echo-cli.mjs "It takes 21 days to form a habit"` is the command line (`--list` prints every saved claim).
 
-**How Echo uses Telem.** Telem routed every search of today's eight runs, choosing among Perplexity, Brave, Exa,
+**Three things to look at, in this order.**
+
+1. **The source that is not in the results.** Open the brain tab. All 3 origin publishers name William James, and no
+   page of the run is from him. The dark card above the tabs has the other five names: Maxwell Maltz, the Food and
+   Nutrition Board, Malcolm Gladwell, Albert Mehrabian and Robin Dunbar.
+2. **Where Echo was wrong.** The last tab. Echo scored a claim 98 from 8 origins, and most of them were write-ups of
+   one MIT report. Echo flags the shared name, sends one more search through Telem, finds a copy of the report and
+   folds 6 of the 8. The score goes from 98 to 67. That is still too high, and the page says so.
+3. **What a search router could take back.** For the phone claim any one engine was enough. For body heat it took
+   three. That is by each run's record, and it is on every Telem tab.
+
+**Many pages, few independent origins.** On the phone claim Echo kept 19 pages. 6 of them lead back to one press
+release, the other 13 Echo could not place, and the Echo Score is 18.
+
+**The source that is not in the results.** A tool that removes duplicates or checks facts can only look at the pages
+it was handed. Echo also reads what those pages keep pointing at. On six of the sixteen claims the pages name a source that no page of the run comes from:
+William James on the brain claim (named on 6 of the 20 sites Echo kept, and by 3 of the 3 origin publishers), Maxwell
+Maltz on the 21-day habit (11 of 19 sites, 3 of 4 origin publishers), the Food and Nutrition Board on 8 glasses of
+water (6 of 20 sites), Malcolm Gladwell on 10,000 hours (16 of 20 sites, 4 of 5 origin publishers), Albert Mehrabian
+on the 93% nonverbal claim (9 of 20 sites) and Robin Dunbar on 150 friendships (7 of 19 sites). It is found by matching names across the saved
+passages, by rule, with no model call (`pageNames` in `src/lib/echo/upstream.ts`). It is a lead to go and look, not a
+finding: a name many pages share can be a person or a body the claim is about. When at least half of the origins share
+the name, the origin count may be too high, and Echo can go looking for the document through Telem (see "Where it was
+wrong today").
+
+**How Echo uses Telem.** Telem routed every search of today's sixteen runs, choosing among Perplexity, Brave, Exa,
 Parallel and Tavily, and its reply says which engine returned each page (`src/lib/echo/telem.ts`). Echo saves that
 record and adds three things on top (`src/lib/echo/origin-flow.ts`): the origins each engine's pages lead back to, the
-fewest engines that reach every origin by this run's record, and the engines that answered each search. Across the
-eight runs: 162 engine runs billed, about $1.01 of search at list price, 145 pages kept, 28 independent origins
-counted, 15 of them with only one engine on record. An engine is credited with a page only for the search that first
-returned it.
+fewest engines that reach every origin by this run's record, and the engines that answered each search. That is a
+signal a search router could take back: how many engines each claim needed. By each run's record, 5 of the sixteen
+claims needed one engine, 3 needed two, 7 needed three and 1 needed all five. Echo re-ranks results by independence, not relevance: origins first, confirmed copies folded under them, pages it could not place set aside.
+Across the sixteen runs: 80 searches, 320 engine runs billed, about $1.99 of search at list price (Echo's own pricing
+of each engine run), 285 pages kept, 67 independent origins counted, 32 of them with evidence of their own, 31 with
+only one engine on record. An engine is
+credited with a page only for the search that first returned it. One Telem run per claim.
 
-| Claim (one run each, Nov 14) | Echo Score | Pages | Origins | Engines needed |
+| Claim (one run each, Nov 14) | Echo Score | Pages kept | Origins | Engines needed |
 | --- | ---: | ---: | ---: | --- |
 | Americans check their phones 96 times a day | 18 | 19 | 1 | 1 of 5 |
 | You lose most of your body heat through your head | 86 | 18 | 7 | 3 of 5 |
@@ -35,26 +67,48 @@ returned it.
 | It costs 5 times more to acquire a new customer than to keep an existing one | 50 | 18 | 2 | 1 of 5 |
 | It takes 21 days to form a habit | 72 | 19 | 4 | 2 of 5 |
 | The average human attention span is 8 seconds | 81 | 14 | 5 | 3 of 5 |
+| Only 1% of venture-backed startups become unicorns | 50 | 12 | 3 | 3 of 4 |
+| A ChatGPT query uses 10 times more electricity than a Google search | 90 | 17 | 4 | 3 of 5 |
+| The average person spends 2.5 hours a day on social media | 55 | 12 | 4 | 2 of 5 |
+| You need to drink 8 glasses of water a day | 49 | 20 | 5 | 1 of 5 |
+| It takes 10,000 hours to master a skill | 81 | 20 | 5 | 3 of 5 |
+| 93% of communication is nonverbal | 70 | 20 | 6 | 5 of 5 |
+| Humans can only maintain 150 friendships | 89 | 20 | 7 | 3 of 5 |
+| People swallow 8 spiders a year in their sleep | 49 | 19 | 5 | 1 of 5 |
 
-The Echo Score rates the evidence base a run found, not whether the claim is true. "Engines needed" is by each run's
+The Echo Score rates the evidence base one run found, not whether the claim is true. A debunked claim can score high:
+body heat scores 86 and Echo's own answer for that run calls the claim a myth. "Engines needed" is by each run's
 record, out of the engines whose pages Echo kept.
 
 **Where it was wrong today.** One more run from today, "95% of generative AI pilots fail", scored 98 with 8 origins
-counted from 19 pages. Reading the judge's saved notes, most of them are separate write-ups of one report, and that
-report was not among the pages search returned. The run is kept in `evaluation/known-limits/`, out of the tabs and out
-of every figure above. A rule written afterwards (`src/lib/echo/upstream.ts`) now flags it: 6 of the 7 publishers
-among its origins name "MIT" in the passage Echo saved, and no page of the run is that source. The rule flags the run.
-It does not correct the count.
+counted from 19 pages. Reading the judge's saved notes, most of them are separate write-ups of one MIT report, and
+that report was not among the pages Echo kept. The run is in `evaluation/known-limits/`, out of every figure above,
+and it is the last tab on `/origins`, marked as wrong. Two things were built after it:
 
-**Built before today, and built today** (see `git log --date=short`). Before Nov 14: the tracing app (search, read,
-group, judge, source tree, an answer written from root pages), the check of pasted links, and Telem routing of the
-searches (committed Nov 13). On Nov 14: the origin layer (score, origin types, engines needed, shared name),
-`/origins`, `/pitch`, the eight Telem runs and the known-limit run, and `echo_check` as an MCP tool, a GET endpoint
-and a command line.
+- A rule (`src/lib/echo/upstream.ts`, no model call) flags it: 6 of the 7 publishers among its origins mention "MIT"
+  in the passage Echo saved, and no page of the run comes from that source. The rule fires when at least half of the
+  origin publishers name it.
+- Echo then went looking (`src/lib/echo/upstream-fold.ts`, `npm run origin:upstream`): one more search through Telem
+  found a copy of the report, hosted at mlq.ai and not on MIT's own site. A model judged which origins rest on it. 6
+  of the 8 fold into it, so origins go from 8 to 3 and the score from 98 to 67. That is still too high: the two
+  origins left standing are pages that mention neither the report nor the 95% figure. One measurement, saved once.
 
-**Honest limits.** One run per claim, so nothing here ranks the engines. A model (Claude) judges which pages copy
-which, so each link is a judgment, not a measurement. 105 of the 145 pages could not be tied to any origin, and Echo
-says so. Without keys you see saved runs only: a new claim needs your own keys and spends on search and Claude.
+The same rule flags three of the sixteen runs: the brain claim (William James, 3 of 3 origin publishers), the habit
+claim (Maxwell Maltz, 3 of 4) and the hours claim (Malcolm Gladwell, 4 of 5). On the brain and habit runs the look-up
+found no page that is the document and folded nothing. No look-up is saved for the hours run.
+
+**Supporting detail.** Asked the same question with one page per origin instead of every page Echo kept, Claude took
+51% to 90% fewer input tokens across the sixteen runs. One measurement per run, and the origins-only prompt also tells
+the model what Echo found, so it is not a blind test. `/origins` also has a card on how often Echo agrees with a
+model's labels on older saved runs.
+
+**Honest limits.** One Telem run per claim, so nothing here ranks the engines. The same claim can score differently on
+another day: goldfish scored 72 in an older saved run and 6 today, and `/origins` shows why. It can differ on the same
+day too: two re-runs saved in `evaluation/reruns/` (not on the page) scored phones 23 against 18 and habit 83 against
+72. A model (Claude) judges
+which pages copy which, so each link is a judgment, not a measurement. 193 of the 285 pages could not be tied to any
+origin, and Echo says so. Everything runs on this machine today: the app is not deployed.
+Without keys you see saved runs only: a new claim needs your own keys and spends on search and Claude.
 How the repo maps to the judging criteria: [docs/JUDGES.md](docs/JUDGES.md).
 
 ---
@@ -93,109 +147,118 @@ Each item is described in detail further down. Figures are from single live runs
 
 ## Origin layer (Nov 14, opt-in)
 
-Search engines count sources. Echo counts origins, and this layer scores them and draws where every page leads. It sits
-on top of a finished trace and is **off by default** on the result page: press **Shift+O** on a result to switch it on
-in this browser (Shift+O again switches it off), or build with `NEXT_PUBLIC_ECHO_ORIGIN_LAYER=1`. No link or address
-can switch it on. With it off the result page is exactly as before. The same graphic, always on, shows the saved runs
-at **`/origins`** (a static page: opening it sends no search or model request). Everything except the token comparison
-is computed in the browser from the trace: no request, no cost.
+Echo finds the source that is not in the results. This layer counts and scores the independent origins of a finished
+trace, draws where every page leads, and flags a name the pages keep pointing at when no page comes from it. It sits
+on top of a finished trace and is **off by default** on the result page. To switch it on, click **Origin layer: off**
+in the result toolbar (it then reads **Origin layer: on**), or press **Shift+O**. The choice is kept in this browser.
+A build with `NEXT_PUBLIC_ECHO_ORIGIN_LAYER=1` starts with it on. No link or address can switch it on. With it off the
+result page is exactly as before. The same graphic, always on, shows the saved runs at **`/origins`** (a static page:
+opening it sends no search or model request). Everything except the token comparison is computed in the browser from
+the trace: no request, no cost.
 
 How it fits with Telem, in one line: **Telem tells you which engines answered. Echo tells you whether they told you
-anything new.**
+anything new.** Echo re-ranks results by independence, not relevance: origins first, confirmed copies folded under them, pages it could not place set aside.
 
-`/origins` shows eight live Telem runs from Nov 14 as tabs (`mcp/traces/telem-*.echo.json`: phones, body heat, brain
-myth, goldfish, startups, cost of a new customer, habit, attention span) and, under them, the **engine scorecard**: the per-engine counts added up over those runs
-(`engineScorecard` in `src/lib/echo/origin-flow.ts`). As measured: 8 claims, 162 engine runs billed (about $1.01 of
-search at list price), 28 independent origins, 15 of them reached through only one engine. On the phone claim every
-one of the five engines reached the one origin (engines needed: 1 of 5); on the body-heat claim (score 86, 7 origins)
-no single engine reached them all and it took 3 of the 5. "Engines needed" is the fewest engines whose pages together
-reach every origin of a run, found by trying every set (`originFlow(...).needed`); `/origins` also shows what each
-of Echo's searches was first to reach (`originFlow(...).searches`). One run per
-claim: the table shows the measurement, it does not rank engines. Scores move with what a run retrieves: today's Telem
-runs score the brain myth 10 and goldfish 6 (no origin with evidence of its own was retrieved), where the older
-Tavily-captured goldfish run, which found a PubMed study and a BBC report, scores 72.
+### What `/origins` shows
 
-- **Echo Score (0–100).** `100 × (1 − e^(−W / 1.5))`, where W adds one weight per independent publisher among the
-  origins: primary document 1.0, original reporting 0.8, official statement 0.6, press release 0.3, anonymous source
-  0.3, social post 0.2 (a page whose type is unclear is one that shows no evidence of its own, so it counts 0.05, not a
-  type weight). Two rules keep it honest: an origin whose saved passage shows **no evidence of
-  its own** counts 0.05 whatever its type, and **one publisher counts once**, as its earliest origin (a company's second
-  release is not a second independent source; a release on a wire service counts under the company, and two pages on
-  one platform, wire service or paper index are separate publishers). Labels: 0–30 "Thin evidence base", 31–60 "Moderate
-  evidence base", 61–100 "Strong evidence base". It rates the **evidence base behind a claim** (independent origins
-  with evidence of their own, whichever way they point), **not whether the claim is true**. On the bundled runs: phones
-  18 (13 pages, 2 origins, both asurion.com, the first a press release; 6 of the 13 pages could not be tied to any
-  origin), brain 23 (8 origins, none with evidence of its own), goldfish 72 and head heat 75. Those last two have a
-  strong evidence base and their own traces answer that the claim is not supported: the score counts the origins, it
-  does not take the claim's side.
-- **The live Telem run** (`mcp/traces/telem-phones-2026-11-14.echo.json`, Nov 14, 32 s, about $0.25): score 18. Of its
-  19 pages about the claim, 2 are origin pages (one origin: Asurion's 2019 release on its own site and on PR Newswire),
-  4 are confirmed copies and **13 could not be tied to any origin**. The layer says so in every sentence ("Every page
-  Echo could place leads back to one origin… 13 of the 19 pages could not be tied to any origin").
+Above the tabs, the dark card **The source that is not in the results** (`src/app/origins/upstream-map.tsx`). On six of the sixteen claims the pages name a source that no page of the run comes from:
+William James on the brain claim (named on 6 of the 20 sites Echo kept, and by 3 of the 3 origin publishers), Maxwell
+Maltz on the 21-day habit (11 of 19 sites, 3 of 4 origin publishers), the Food and Nutrition Board on 8 glasses of
+water (6 of 20 sites), Malcolm Gladwell on 10,000 hours (16 of 20 sites, 4 of 5 origin publishers), Albert Mehrabian
+on the 93% nonverbal claim (9 of 20 sites) and Robin Dunbar on 150 friendships (7 of 19 sites). A rule
+over the saved passages, with no model call. A tool that removes duplicates or checks facts can only look at the pages
+it was handed. Echo also reads what those pages keep pointing at. The card calls it a lead to go and look, not a
+finding.
+
+Eighteen tabs. Sixteen are claims traced live through Telem on Nov 14 (`mcp/traces/telem-*.echo.json`). One is "Check
+a list of links": no AI answer produced those links, they were pasted in by hand, and Echo read them with no search.
+The last, "Where Echo was wrong", is the run described under "Judges: start here". The number on a tab is that run's
+Echo Score. As measured over the sixteen, one Telem run per claim: 80 searches, 320 engine runs billed (about $1.99
+of search at list price, which is Echo's own pricing), 285 pages kept, 67 independent origins counted, 32 with
+evidence of their own, 31 with only one engine on record.
+
+Each tab, top to bottom:
+
+- **Echo's answer**, written from the origins only, or a note when the origins are too thin to answer from.
+- **Before and after.** The pages Echo kept as a flat list, then the same pages as independent origins.
+- **Echo Score (0–100)** with **How this score was built**. `100 × (1 − e^(−W / 1.5))`, where W adds one weight per
+  independent publisher among the origins: primary document 1.0, original reporting 0.8, official statement 0.6,
+  press release 0.3, anonymous source 0.3, social post 0.2. Two rules keep it honest: an origin whose saved passage
+  shows **no evidence of its own** counts 0.05 whatever its type, and **one publisher counts once**, as its earliest
+  origin. Labels: 0–30 "Thin evidence base", 31–60 "Moderate evidence base", 61–100 "Strong evidence base". It rates
+  the **evidence base one run found** (independent origins with evidence of their own, whichever way they point),
+  **not whether the claim is true**. Body heat scores 86 and Echo's answer for that run calls the claim a myth.
+- **Where the results lead (the flow).** Engines on the left, every page Echo kept in the middle, the independent
+  origins on the right. It draws itself. Green is an origin page, blue a confirmed copy, an amber outline a page not
+  tied to an origin. A dashed line is a possible link Echo could not confirm, and it is never counted. A table of the
+  same data sits under it.
+- **A name the origins share.** A rule with no model call (`src/lib/echo/upstream.ts`). It flags a run when at least
+  half of its origin publishers mention one outside name and no page of the run comes from that source: William James
+  on the brain claim (3 of 3), Maxwell Maltz on the habit claim (3 of 4), Malcolm Gladwell on the hours claim (4 of
+  5). When that happens the origin count may be
+  too high.
+- **Echo went looking.** For a flagged run, one more search through Telem for that document and one model call that
+  decides which origins rest on it (`src/lib/echo/upstream-fold.ts`, saved in `src/app/origin-upstream-saved.json`).
+  On the brain and habit runs it found no page and folded nothing. No look-up is saved for the hours run. On the limit run it folded 6 of 8 origins and the
+  score went from 98 to 67, which is still too high.
+- **What each engine added.** The run's search bill (searches, engine runs billed, list price) and "Engines this claim
+  needed: N of M": the fewest engines whose pages together reach every origin, found by trying every set
+  (`originFlow(...).needed`). It is by the run's record: an engine is credited with a page only for the search that
+  first returned it. On the phone claim every one of the five engines reached the one origin (1 of 5). On body heat no
+  single engine reached all 7 and it took 3 of the 5, by this run's record.
+- **What each search added.** The claim as asked and Echo's other searches, sent together, each with the engines that
+  answered it (`originFlow(...).searches`). On body heat the claim as asked reached 3 of the 7 origins and Echo's
+  other searches reached the other 4.
+- **How the claim travelled.** For each origin with a confirmed copy, its own sentence stating the claim, then the
+  sentence on each page confirmed as copying it, with the share of the wording it keeps.
+- **Same question, two contexts.** Claude answers the claim once with every page Echo kept and once with one page per
+  origin. Input tokens are the model's own counts, measured once per run: from 51% fewer (body heat, 8,133 to 4,003)
+  to 90% fewer (phones, 9,304 to 971) across the sixteen. The origins-only prompt also tells the model what Echo
+  found, so it is not a blind test. Saved in `src/app/origin-layer-saved.json`.
+- **The record a search router could take back.** The run's per-engine findings as JSON. It is sent nowhere.
+
+Below the tabs:
+
+- **Engine scorecard.** One dot per origin, numbered with how many engines reached it, and the engines needed for each
+  claim (`engineScorecard` in `src/lib/echo/origin-flow.ts`). One Telem run per claim. It shows the measurement and does not
+  rank engines.
+- **Every saved run in one table**, with a CSV download and a JSON copy.
+- **How stable is a score.** The same claim on two occasions, for the claims with two saved runs. Goldfish scored 72
+  in an older run searched through Tavily and 6 today: the older run kept a PubMed study and a BBC report, and today's
+  run kept neither. Phones scored 18 both times (`src/lib/echo/origin-stability.ts`).
+- **How often Echo agrees with a model's labels.** Label checks on older saved runs. The labels were written by a
+  model, not a person, and the wrong verdicts are shown. It measures agreement with those labels, nothing more.
+  Today's Telem runs have no label sheet yet.
+- **A limit Echo hit today.** The 95% run, the flag and the look-up, as under "Judges: start here".
+- **One check, six kinds of work.** Where the same check might apply, each shown with a saved run. Who might pay is a
+  guess. Nobody has been asked yet.
+- **Five ways into Echo**: the app, the links check, and three ways to call the check (the `echo_check` MCP tool, a
+  GET address and a command line). A tool definition for function-calling frameworks is in
+  `mcp/echo-check.tool.json`.
+
+### Details
+
 - **Origin types** are read by rule from each origin page's address, title and saved passage (a wire service, a
   `/press-releases/` path, "press release" in the title or a wire dateline at the top of the text is a press release;
   PubMed, a journal or a filing is a primary document; a `.gov` site is an official statement; an origin with evidence
   of its own is original reporting). An article that only mentions a press release is not one. No model call.
-- **Where the results lead (the flow graphic).** Search engines on the left (Telem-routed runs only), every page in
-  the middle, the independent origins on the right. Green is an origin page, blue a confirmed copy, an amber outline a
-  page not tied to an origin (a copy of a page that is itself not tied to an origin is drawn that way too). Pointing
-  at a page or an engine lights its lines; a table of the same data sits under it. Dates that are only a search
-  engine's estimate are named "search estimate", never printed as dates.
-- **What each engine added (Telem-routed runs).** Telem records which engine returned each page and bills each engine
-  run. Per engine the layer shows how many of the pages Echo kept it returned, how they split, how many origins they
-  lead back to, and how many of those no engine above it in the list had already reached. Above the rows: the run's
-  own receipt. On the Telem run: 5 searches, 23 engine runs billed, about $0.14 of search at list price, 1 independent
-  origin; "Perplexity returned the most of the pages Echo kept, and those already reached the one origin. The other 4
-  engines added 9 more pages and 0 new origins." One run, not an average. Counts are of the pages Echo kept, not of
-  every result the engines returned (174 on that run).
-- **How the claim travelled.** For each origin, its own sentence stating the claim, then the sentence on each page
-  confirmed as copying it, indented under the page it copied, with the share of that sentence's wording it keeps from
-  that named page. The copy that keeps the least is marked. Below: other figures pages give for the same quantity
-  ("352 times" beside the claim's "96 times"); a percentage counts only when the claim's own words follow it.
-- **Same question, two contexts.** Claude answers the claim once with every page Echo kept in context and once with
-  one page per independent origin. The graphic draws both input-token counts to scale, with both answers, each one's
-  stated confidence and how many sources it says support it. Measured once per saved run (`claude-sonnet-5-5`,
-  Nov 14): Telem phones 9,304 → 971 input tokens (−90%), bundled phones 6,977 → 1,536 (−78%), goldfish −72%, head heat
-  −70%, brain −49%. Read it for what it is: the origins-only context leaves out the confirmed copies **and** the pages
-  Echo could not place (13 of 19 on the Telem run), and it tells Claude what Echo found (each origin's type, whether it
-  shows evidence, how many pages repeat it). So a difference in stated confidence (high vs medium on both phones runs)
-  shows what Echo tells the model; it is not a blind test, and both phones answers trace the figure to the one Asurion
-  survey. `npm run origin:compare` prints each context's size and sends nothing; `npm run origin:compare -- --spend`
-  makes the two paid calls per trace (about 2–3 cents, through the daily cap) and saves the result in
-  `src/app/origin-layer-saved.json`. On any other trace the **Run the comparison** button asks the server
-  (`POST /api/compare`), which answers only when `ECHO_ORIGIN_LAYER=1` is set in `.env.local`. A trace with no
-  confirmed origin has nothing to compare, so no button is shown and the server refuses it.
-- **`echo_check` for agents (MCP).** `mcp/echo-mcp.mjs` is a small MCP server (stdio, no extra dependency) with one tool,
-  `echo_check(claim)`, returning `{echo_score, label, num_results, num_origins, num_publishers, pages: {origin_pages,
-  confirmed_copies, not_tied_to_an_origin}, summary, origins: [{name, type, url, date, own_evidence, repeated_by}],
-  warning, echo_answer}` (plus `engines` with `origins_only_this_engine_reached`, `engines_needed: {needed, of}` and
-  `engines_summary` on a Telem-routed run). `summary` states the page split
-  in one sentence so an agent cannot round "every page Echo could place" up to "every page". A saved run answers only
-  its own claim: the same figures (a spelled-out number counts as its digits) and the same key words, give or take one
-  word one side leaves out, in which case `wording_note` names the claim that was traced. A claim with a word swapped
-  ("3-month memory", "through your feet", "96 times an hour") is refused, as is every other claim unless the server is
-  started with `ECHO_MCP_LIVE=1`, in which case it asks the Echo app at `ECHO_URL` (default `http://localhost:3000`)
-  for a live trace (about $0.25). Add it to Claude Code for every folder:
+- **Counts are of the pages Echo kept**, not of every result the engines returned. On the phone run the searches
+  returned 174 results and Echo kept 19 as about the claim: 2 origin pages that are one origin (Asurion's 2019
+  release on its own site and on PR Newswire), 4 confirmed copies and 13 it could not tie to any origin.
+- **Running the token comparison.** `npm run origin:compare` prints each context's size and sends nothing;
+  `npm run origin:compare -- --spend` makes the two paid calls per trace (about 2–3 cents, through the daily cap). On
+  any other trace the **Run the comparison** button asks the server (`POST /api/compare`), which answers only when
+  `ECHO_ORIGIN_LAYER=1` is set in `.env.local`. A trace with no origin has nothing to compare, so no button is shown
+  and the server refuses it.
+- **`echo_check` for agents.** `mcp/echo-mcp.mjs` is a small MCP server (stdio, no extra dependency) with one tool,
+  `echo_check(claim)`. A saved run answers offline and free. Any other claim is refused unless the server is started
+  with `ECHO_MCP_LIVE=1`. The app is not deployed: it runs on your machine. Install lines, the GET
+  address, the command line and the fields that come back are in the next section.
 
-  ```bash
-  claude mcp add --scope user echo -- node /absolute/path/to/echo/mcp/echo-mcp.mjs
-  ```
-
-  or to Claude Desktop (`claude_desktop_config.json`, with the full path to `node` from `which node`):
-
-  ```json
-  { "mcpServers": { "echo": { "command": "/full/path/to/node", "args": ["/absolute/path/to/echo/mcp/echo-mcp.mjs"] } } }
-  ```
-
-  Try it without a client: `node mcp/echo-mcp.mjs --check "Goldfish have a 3-second memory"`. Checked on Nov 14 in a
-  real Claude Code session: it connected, called the tool and answered from the saved Telem run.
-
-`npm run check:origin-layer` (score, types, the publisher rule, the wording about unplaced pages, the copy tree, the
-contexts, the engine sentence, and the MCP tool over stdio including which claims it refuses) and
-`npm run check:origin-flow` (every page of every saved run in exactly one lane, engine rows that add up) are offline.
-`check:links` counts `/api/compare` among the paid routes no link can reach. The layer was reviewed on Nov 14 by four
-independent reviewers with a second reviewer per finding; all 20 verified findings (wording that overstated the trace,
-the publisher rule, claim matching, a dry run that was not dry) are fixed and covered by those two checks.
+Offline checks, each free: `npm run check:origin-layer`, `npm run check:origin-flow`, `npm run check:upstream`,
+`npm run check:origin-upstream`, `npm run check:origin-stability`, `npm run check:origin-batch` and
+`npm run check:echo-api`. `check:links` counts `/api/compare` among the paid routes no link can reach. The layer went
+through adversarial reviews on Nov 14, and the wording on screen follows their fixes.
 
 ## Call Echo from any agent
 

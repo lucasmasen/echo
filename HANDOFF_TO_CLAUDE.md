@@ -1,5 +1,39 @@
 # Echo handoff (current state, 2026-11-12 evening)
 
+> **Updated Sat 2026-11-14, about 1:45pm PT (SearchHack day). Everything below this block is the Nov 12 handoff and is
+> old.** The current handoff is `/Users/lucasmasen/AI Infrastructure Claude/HANDOFF-echo.md`. Read that first. Today's
+> state:
+>
+> - **The repo is public: <https://github.com/lucasmasen/echo>** (since about 1:20pm; commits carry a GitHub no-reply
+>   address). The "local only, no remote" line under "Where things are" is old. Push only when Lucas says so in that
+>   session. The app itself is not deployed.
+> - Sixteen claims traced live through Telem, saved in `mcp/traces/`: 80 searches, 320 engine runs billed, about $1.99
+>   of search at list price, 285 pages kept (74 origin pages, 18 confirmed copies, 193 not tied), 67 independent
+>   origins counted, 32 with evidence of their own, 31 with one engine on record.
+> - `/origins`: eighteen tabs (the sixteen claims, "Check a list of links", "Where Echo was wrong"). Above them the
+>   dark card "The source that is not in the results" with six names: William James, Maxwell Maltz, Food and Nutrition
+>   Board, Malcolm Gladwell, Albert Mehrabian, Robin Dunbar. Below: the engine scorecard, every saved run in one table,
+>   how stable a score is, agreement with a model's labels, the limit, use cases, ways to call it. The page was
+>   restyled (bold type, same text).
+> - The three moments the video and pitch follow: (1) the source that is not in the results (brain: all 3 origin
+>   publishers name William James, no page is from him); (2) "Where Echo was wrong": "95% of generative AI pilots
+>   fail" scored 98, the shared-name rule flags it, the look-up folds 6 of 8 origins, 8 to 3, score 98 to 67, still too
+>   high (`evaluation/known-limits/`, `src/lib/echo/upstream-fold.ts`); (3) the router signal, said to Telem: engines
+>   needed, by each run's record. Then the venture guesses, then one line each on tokens and label agreement.
+> - Saved today and not on the page, in none of the totals: same-day re-runs in `evaluation/reruns/` (phones 23
+>   against 18, habit 83 against 72) and one Deep-mode run of the hours claim in `evaluation/deep/` (416 results, 50
+>   pages kept, 10 origins, score 96). Q&A lines, not headlines.
+> - Interfaces, saved runs only, offline, on your machine: `echo_check` MCP, `GET /api/echo-check`,
+>   `mcp/echo-cli.mjs`, `mcp/echo-check.tool.json`. `/pitch` has the slides. The origin layer toggle is in the result
+>   toolbar, off by default.
+> - Freeze gate (`node scripts/check-freeze.mjs main`): GO on the design-pass commit (`f7c0b59` in `git log`). A run
+>   on the sixteen-claim commit was in progress when this was written. Check its result before calling it GO.
+> - Docs for today: README "Judges: start here", `docs/JUDGES.md`, `DEMO_DAY.md` "Origin layer". Every number in them
+>   comes from one facts sheet, `company/drafts/echo-facts-2026-11-14.md`, in the same folder as `HANDOFF-echo.md`.
+> - Wording that binds: the Echo Score rates the evidence base one run found, not truth; origins are "counted";
+>   engine negatives are "by this run's record"; never rank engines; the missing source is "a lead to go and look";
+>   the limit is never "fixed"; venture lines are guesses; never "customers", "users" or "revenue".
+
 Read this first in any new Claude Code session. It replaces the earlier Codex-to-Claude handoff.
 
 ## Start here (state at 2026-11-12 ~6:30pm PT)
