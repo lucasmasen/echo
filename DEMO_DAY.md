@@ -9,6 +9,11 @@ This page describes the Nov 14 saved-run showcase. It is not a record of when ev
 3. The additional **Check a list of links** tab loads a Nov 13 saved capture. The **Where Echo was wrong** tab loads a Nov 14 limit run from `evaluation/known-limits/`. Neither is part of the sixteen-run totals.
 4. `http://localhost:3000/explore` and `public/demo-traces/` retain the earlier Nov 10–13 captures with their original dates. The original demo slots and offline fallback still use those files.
 
+The two earlier demo slots on the home page still open these saved runs, and `scripts/check-freeze.mjs` checks the figures below against them:
+
+- Click **02 Zombie stat**. Headline: "13 pages → 2 independent origins", 31% echo.
+- Click **01 Ghost stat** (headline "No origin with its own evidence — this stat is a ghost.", 20 pages, 8 root pages, 8 independent origins, 15% echo).
+
 Opening saved runs requires no provider key and makes no paid request. A new live claim needs configured search and model credentials and can spend credits.
 
 ## Read the figures accurately

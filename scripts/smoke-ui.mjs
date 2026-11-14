@@ -3583,7 +3583,9 @@ process.stdout.write("\nLive-run feedback in view (mocked providers)\n");
       // Read at once with the card: this run finishes in about 5 s and then scrolls to its result.
       const claimBox = await page.evaluate(() => { const box = document.getElementById("claim-input")?.getBoundingClientRect(); return box ? { top: Math.round(box.top), bottom: Math.round(box.bottom), height: window.innerHeight } : null; });
       if (!fullyShown(card)) fail(`at ${size}, pressing Trace sources leaves the progress card off screen (${JSON.stringify(card)})`);
-      else if (width === 1920 && card.scrollY !== 0) fail(`at ${size} the progress card was already on screen, but the page scrolled ${card.scrollY}px`);
+      // Since the hero gained its Nov 14 showcase button (about 28 px taller), the card sits a little past 1080 and the
+      // page nudges to show it (27 px measured); more than 40 px would mean it scrolled further than the card needs.
+      else if (width === 1920 && card.scrollY > 40) fail(`at ${size} the progress card was already on screen, but the page scrolled ${card.scrollY}px`);
       else ok(`at ${size}, the progress card is on screen once the run starts (card ${card.top}–${card.bottom}px of ${height}, page scrolled ${card.scrollY}px)`);
       // The card names the claim, and on a laptop screen the page scrolls only far enough to show the card, so the claim
       // box stays in view above it and no screen of empty page is left below (it once scrolled the card to the top,
@@ -3751,7 +3753,7 @@ process.stdout.write("\nLive-run feedback in view (mocked providers)\n");
       const fitted = await placed(page, ".loading-card");
       if (grownBy === null || grownBy > 120) fail(`at ${size}, the search plan makes the card ${grownBy}px taller (at most 120)`);
       else if (!fullyShown(fitted)) fail(`at ${size}, with the plan and the sites the card does not fit on screen (${JSON.stringify(fitted)})`);
-      else if (width === 1920 && fitted.scrollY !== 0) fail(`at ${size}, the plan pushed the card past the screen, so the page scrolled ${fitted.scrollY}px`);
+      else if (width === 1920 && fitted.scrollY > 40) fail(`at ${size}, the plan pushed the card past the screen, so the page scrolled ${fitted.scrollY}px`);
       else ok(`at ${size}, the plan adds ${grownBy}px and the card fits on screen (${fitted.top}–${fitted.bottom}px of ${fitted.height}, page scrolled ${fitted.scrollY}px)`);
       if (width === 1280) {
         // The search stopped early (enough pages): once the run moves on, the variants it never needed show a dash.
