@@ -9,8 +9,8 @@ import { bundledCards, savedCheckCard, scoreSentence } from "./cards";
 import styles from "./explore.module.css";
 
 export const metadata: Metadata = {
-  title: "Explore real Echo traces",
-  description: "Viral claims traced to their sources: how many independent origins each has, and how many pages only repeat it. Plus one saved check of the links an AI answer cites.",
+  title: "Earlier Echo traces",
+  description: "Historical Echo captures from Nov 10–13, 2026, with their original dates, source trees and AI-made label checks.",
 };
 
 function capturedOn(iso: string) {
@@ -26,12 +26,13 @@ export default async function Explore() {
   return (
     <main className={styles.page}>
       <Link className={styles.back} href="/">← Echo</Link>
-      <p className={styles.kicker}>EXPLORE REAL TRACES</p>
-      <h1 className={styles.title}>Many pages, few sources: viral claims traced back.</h1>
+      <p className={styles.kicker}>EARLIER SAVED TRACES · NOV 10–13</p>
+      <h1 className={styles.title}>Earlier runs, as captured.</h1>
       <p className={styles.lede}>
-        Each card is a real Echo run, captured from the live web: how many pages repeat the claim, how many are
-        independent origins, and how many of those show evidence of their own. Open one to see the whole source tree. The
-        last card is different: a saved check of the links an AI answer cites, with no web search.
+        These real runs were saved between Nov 10 and Nov 13, 2026. Each card keeps its original capture date and shows
+        how many pages Echo found, how many independent origins it counted and how many showed evidence of their own.
+        Open one to see its source tree. The last card checks supplied links without a web search. For the separate
+        Nov 14 Telem cohort, <Link href="/origins">open the origin layer</Link>.
       </p>
       <ul className={styles.grid}>
         {cards.map(({ label, trace, link, analysis }) => {

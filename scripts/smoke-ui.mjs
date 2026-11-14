@@ -2439,7 +2439,7 @@ try {
   }
   {
     // /how, /explore and /anywhere open offline, by address and after a normal reload, with their own content.
-    const expected = { "/how": "Many pages, few sources, in four steps.", "/explore": "Many pages, few sources: viral claims traced back.", "/anywhere": "See a claim? Trace it where you read it." };
+    const expected = { "/how": "Many pages, few sources, in four steps.", "/explore": "Earlier runs, as captured.", "/anywhere": "See a claim? Trace it where you read it." };
     for (const [pathname, heading] of Object.entries(expected)) {
       const seen = [];
       await page.goto(`${base}${pathname}`).catch(() => undefined);

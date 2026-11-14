@@ -1,4 +1,6 @@
-# Echo demo-day runbook
+# Echo demo-day runbook (historical archive)
+
+This is the original Nov 10–14 runbook, retained for provenance. Its stage directions and screen descriptions may be outdated. For the current Nov 14 saved-run view, use [DEMO_DAY.md](../DEMO_DAY.md).
 
 Written 2026-11-10 after a stress test of the production build. On-screen wording and figures updated on the evening of
 2026-11-13 to match `main` (checked against the source, the smoke-test expectations and the bundled traces): the home

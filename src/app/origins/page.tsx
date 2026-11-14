@@ -46,7 +46,7 @@ const RUNS: Array<{ key: string; label: string; file: string }> = [
 ];
 
 /** One more tab, kept out of every figure above the tabs: a saved "Check these sources" run (links pasted in, no search). */
-const LINKS_RUN = { key: "links", label: "Check a list of links", file: "check-these-sources-phones.echo.json" };
+const LINKS_RUN = { key: "links", label: "Check a list of links · Nov 13", file: "check-these-sources-phones.echo.json" };
 
 async function readLinksRun(): Promise<EchoAnalysis | null> {
   try {
@@ -57,7 +57,7 @@ async function readLinksRun(): Promise<EchoAnalysis | null> {
   }
 }
 
-/** A run Echo got wrong today, shown as a limit. It is in evaluation/known-limits, outside the folders the tabs and the agent tool read. */
+/** A Nov 14 run Echo got wrong, shown as a limit. It is in evaluation/known-limits, outside the folders the tabs and the agent tool read. */
 async function readLimitRun(): Promise<EchoAnalysis | null> {
   try {
     return parsePortableTrace(JSON.parse(await fs.readFile(path.join(process.cwd(), "evaluation", "known-limits", "telem-genai-pilots-2026-11-14.echo.json"), "utf8")));
@@ -107,7 +107,7 @@ function routingOf(analyses: EchoAnalysis[]): { searches: number; min: number; m
   return { searches: answered.length, min: Math.min(...sizes), max: Math.max(...sizes), engines: new Set(answered.flat()).size };
 }
 
-// The ways into Echo that work today, shown at the foot of the page. The heading counts this list.
+// The ways into Echo shown at the foot of the page. The heading counts this list.
 const WAYS: Array<{ key: string; tag: string; title: string; text: string; code?: string; note?: string }> = [
   { key: "app", tag: "THE APP", title: "Trace a claim", text: "Type a claim. Echo traces it through the pages that repeat it, finds the independent origins and answers from those origins only." },
   { key: "links", tag: "AN AI ANSWER", title: "Check its links", text: "Paste an AI answer, or just its links, into Check these sources on the home page. Echo reads exactly those pages and counts the independent origins behind them." },
@@ -125,7 +125,7 @@ const WAYS: Array<{ key: string; tag: string; title: string; text: string; code?
     title: "One HTTP request",
     text: "A plain GET address returns the same check as JSON, so anything that can fetch a web address can call Echo. A JSON-Schema tool definition for function-calling frameworks sits next to it in the repo.",
     code: "GET /api/echo-check?claim={claim+}",
-    note: "Add it to the address Echo is running at. Local only today: the app is not deployed. Free and read-only: it answers from saved runs and nothing else, and it cannot start a search or call a model.",
+    note: "Add it to the address Echo is running at. This local setup is not deployed. Free and read-only: it answers from saved runs and nothing else, and it cannot start a search or call a model.",
   },
   {
     key: "cli",
@@ -270,19 +270,19 @@ export default async function Origins() {
       )}
 
       {limit && (
-        <section aria-label="A limit Echo hit today" className={styles.scorecard}>
-          <p className={styles.kicker}>A LIMIT ECHO HIT TODAY</p>
+        <section aria-label="A limit Echo hit on November 14" className={styles.scorecard}>
+          <p className={styles.kicker}>A LIMIT ECHO HIT · NOV 14</p>
           <h2 className={styles.scoreTitle}>On one more claim, Echo counted origins it should have folded together.</h2>
           <p className={styles.lede}>“{limit.claim}”: from {count(limit.pages, "page", "pages")}, Echo counted {count(limit.layer.origins.length, "independent origin", "independent origins")} and scored the run {limit.layer.score}. Reading the judge’s saved notes, most of those pages are separate write-ups of one report, and that report was not among the {limit.pages} pages Echo kept. With no page to trace them back to, each write-up looked like an origin, so that score overstates how independent the evidence is. Echo’s own answer for the run does name the one report.</p>
           <p className={styles.scoreNote}>This run has its own tab, marked as a limit, and is kept out of every aggregate figure above; the saved run is in evaluation/known-limits. {limit.shared ? ` Echo now flags runs like this by rule: here ${limit.shared.origins} of the ${limit.shared.of} publishers behind those ${limit.layer.origins.length} origins mention “${limit.shared.name}” in the passage Echo saved, and no page in the run comes from a site with that name.` : ""}{limit.looked && limit.looked.fold.folded.length > 0
-            ? ` Echo then went looking, which is new today: one more search through Telem ${limit.looked.record.upstream ? `found a copy of the document at ${limit.looked.record.upstream.domain}` : "found no page that is the document"}, ${limit.looked.fold.folded.length} of the ${limit.looked.fold.before.origins} origins fold into ${limit.looked.record.upstream ? "it" : "one document"}, and the score moves from ${limit.looked.fold.before.score} to ${limit.looked.fold.after.score}. A model judged which origins rest on the document.${limit.looked.unrelated > 0 ? ` It is a first version: ${count(limit.looked.unrelated, "origin it left standing is a page", "origins it left standing are pages")} the model found no mention of the document in, so the adjusted score is still too high.` : " It is a first version."}`
+            ? ` Echo then went looking: one more search through Telem ${limit.looked.record.upstream ? `found a copy of the document at ${limit.looked.record.upstream.domain}` : "found no page that is the document"}, ${limit.looked.fold.folded.length} of the ${limit.looked.fold.before.origins} origins fold into ${limit.looked.record.upstream ? "it" : "one document"}, and the score moves from ${limit.looked.fold.before.score} to ${limit.looked.fold.after.score}. A model judged which origins rest on the document.${limit.looked.unrelated > 0 ? ` It is a first version: ${count(limit.looked.unrelated, "origin it left standing is a page", "origins it left standing are pages")} the model found no mention of the document in, so the adjusted score is still too high.` : " It is a first version."}`
             : " The full fix is to fetch the document those pages cite and trace to it. That is not built yet."}</p>
         </section>
       )}
       <UseCases links={linksRun} linksLabel={LINKS_RUN.label} runs={runs} />
-      <section aria-label="Ways to use Echo today" className={styles.ways}>
+      <section aria-label="Ways to use Echo" className={styles.ways}>
         <p className={styles.kicker}>USE IT</p>
-        <h2 className={styles.waysTitle}>{capital(inWords(WAYS.length))} ways into Echo that work today</h2>
+        <h2 className={styles.waysTitle}>{capital(inWords(WAYS.length))} ways into Echo</h2>
         <ul>
           {WAYS.map((way) => (
             <li key={way.key}>

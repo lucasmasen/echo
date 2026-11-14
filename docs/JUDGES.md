@@ -6,7 +6,7 @@ repo. The repo is public: <https://github.com/lucasmasen/echo>. The app is not d
 
 Echo's app and original demo flows predate Nov 14. This document covers the Nov 14 Telem cohort; earlier dated captures and the original runbook remain in the repository. See [DEMO_DAY_ARCHIVE.md](DEMO_DAY_ARCHIVE.md) for the prior runbook.
 
-Every figure below comes from the sixteen runs traced live through Telem on Nov 14, saved in `mcp/traces/`. They are
+Cohort figures below come from the sixteen runs traced live through Telem on Nov 14, saved in `mcp/traces/`. They are
 recomputed offline from those files by `originFlow` and `engineScorecard` in `src/lib/echo/origin-flow.ts` and
 `originLayer` in `src/lib/echo/origin-layer.ts`. The Echo Score rates the evidence base one run found, not whether the
 claim is true. To see it running with no API key, follow the tour at the top of the
@@ -128,7 +128,7 @@ The next step is to ask teams who ship AI answers with citations. That has not b
 - **Echo went looking.** For a flagged run, one more search through Telem for that document, then one model call that
   decides which origins rest on it (`src/lib/echo/upstream-fold.ts`). On the brain and habit runs it found no page
   that is the document and folded nothing. No look-up is saved for the hours run.
-- **Showing the miss.** One more run from today, "95% of generative AI pilots fail", scored 98 with 8 origins counted
+- **Showing the miss.** One more run from Nov 14, "95% of generative AI pilots fail", scored 98 with 8 origins counted
   from 19 pages. Most of them are separate write-ups of one MIT report that was not among the pages Echo kept. The run
   is in `evaluation/known-limits/telem-genai-pilots-2026-11-14.echo.json`, out of every figure here, and it is the
   last tab on `/origins`, marked "Where Echo was wrong". The shared-name rule flags it (MIT, 6 of 7 publishers). Echo
@@ -145,7 +145,7 @@ The next step is to ask teams who ship AI answers with citations. That has not b
   (`src/app/api/echo-check/route.ts`) and the command line (`mcp/echo-cli.mjs`). The tool definition is a JSON-Schema
   file for function-calling frameworks (`mcp/echo-check.tool.json`). A claim with no saved run is refused, not
   guessed.
-- **Not deployed today.** The repo is public and the app runs on your machine. The three ways to call it answer from
+- **Local setup.** The repo is public and this app runs on your machine. The three ways to call it answer from
   saved runs, offline.
 - **Pure libraries.** `origin-layer.ts`, `origin-flow.ts`, `upstream.ts`, `upstream-fold.ts`, `origin-stability.ts`,
   `origin-batch.ts` and `saved-check.ts` in `src/lib/echo/` take a saved run and return data. They hold no network
@@ -157,7 +157,7 @@ The next step is to ask teams who ship AI answers with citations. That has not b
   numbers on screen are computed from the runs) and `npm run check:links` (no link can reach a route that spends).
 - **Runs with no key.** `/origins` and `/pitch` read saved files when the page is built. Opening them sends no search
   and no model call.
-- **Stack.** Next.js, React and TypeScript. Demo notes: `DEMO_DAY.md`.
+- **Stack.** Next.js, React and TypeScript. Current showcase notes: [DEMO_DAY.md](../DEMO_DAY.md).
 
 ## The sixteen runs
 

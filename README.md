@@ -3,7 +3,7 @@
 ## Judges: start here
 
 Echo finds the source that is not in the results. It takes one claim, traces the pages that repeat it back to their
-independent origins, and reads what those pages keep naming: on six of today's sixteen claims the pages name a source
+independent origins, and reads what those pages keep naming: on six of the sixteen Nov 14 claims the pages name a source
 that no page of the run comes from. Search engines count sources. Echo counts origins.
 
 The repo is public: <https://github.com/lucasmasen/echo>. The app is not deployed. It runs on your machine.
@@ -46,9 +46,9 @@ on the 93% nonverbal claim (9 of 20 sites) and Robin Dunbar on 150 friendships (
 passages, by rule, with no model call (`pageNames` in `src/lib/echo/upstream.ts`). It is a lead to go and look, not a
 finding: a name many pages share can be a person or a body the claim is about. When at least half of the origins share
 the name, the origin count may be too high, and Echo can go looking for the document through Telem (see "Where it was
-wrong today").
+wrong on Nov 14").
 
-**How Echo uses Telem.** Telem routed every search of today's sixteen runs, choosing among Perplexity, Brave, Exa,
+**How Echo uses Telem.** Telem routed every search of the sixteen Nov 14 runs, choosing among Perplexity, Brave, Exa,
 Parallel and Tavily, and its reply says which engine returned each page (`src/lib/echo/telem.ts`). Echo saves that
 record and adds three things on top (`src/lib/echo/origin-flow.ts`): the origins each engine's pages lead back to, the
 fewest engines that reach every origin by this run's record, and the engines that answered each search. That is a
@@ -82,7 +82,7 @@ The Echo Score rates the evidence base one run found, not whether the claim is t
 body heat scores 86 and Echo's own answer for that run calls the claim a myth. "Engines needed" is by each run's
 record, out of the engines whose pages Echo kept.
 
-**Where it was wrong today.** One more run from today, "95% of generative AI pilots fail", scored 98 with 8 origins
+**Where it was wrong on Nov 14.** One more run from Nov 14, "95% of generative AI pilots fail", scored 98 with 8 origins
 counted from 19 pages. Reading the judge's saved notes, most of them are separate write-ups of one MIT report, and
 that report was not among the pages Echo kept. The run is in `evaluation/known-limits/`, out of every figure above,
 and it is the last tab on `/origins`, marked as wrong. Two things were built after it:
@@ -108,7 +108,7 @@ another day: goldfish scored 72 in an older saved run and 6 in the Nov 14 cohort
 day too: two re-runs saved in `evaluation/reruns/` (not on the page) scored phones 23 against 18 and habit 83 against
 72. A model (Claude) judges
 which pages copy which, so each link is a judgment, not a measurement. 193 of the 285 pages could not be tied to any
-origin, and Echo says so. Everything runs on this machine today: the app is not deployed.
+origin, and Echo says so. This setup runs on the local machine; the app is not deployed.
 Without keys you see saved runs only: a new claim needs your own keys and spends on search and Claude.
 How the repo maps to the judging criteria: [docs/JUDGES.md](docs/JUDGES.md).
 
@@ -224,7 +224,7 @@ Below the tabs:
   claim (`engineScorecard` in `src/lib/echo/origin-flow.ts`). One Telem run per claim. It shows the measurement and does not
   rank engines.
 - **Nov 14 Telem runs**, one row per claim, with a CSV download and a JSON copy. Older saved runs and AI-made label checks remain in the historical demo and evaluation files; they are excluded from this cohort.
-- **A limit Echo hit today.** The 95% run, the flag and the look-up, as under "Judges: start here".
+- **A limit Echo hit on Nov 14.** The 95% run, the flag and the look-up, as under "Judges: start here".
 - **One check, six kinds of work.** Where the same check might apply, each shown with a saved run. Who might pay is a
   guess. Nobody has been asked yet.
 - **Five ways into Echo**: the app, the links check, and three ways to call the check (the `echo_check` MCP tool, a
@@ -311,7 +311,7 @@ command line have no live mode.
   and no page of the run is that source. Each entry is `{ name, origins_naming_it, of_origin_publishers,
   origin_names }`, and `shared_names_note` says what it means. Those origins may share a source that is not among the
   pages, so `num_origins` is then an upper bound. It is found by rule, with no model call: a hint to check, not a
-  finding. Say the origins "may share a source". Do not say one page is copied from another. On today's saved runs
+  finding. Say the origins "may share a source". Do not say one page is copied from another. On the Nov 14 saved runs
   the brain claim returns William James (all three origins) and the habit claim returns Maxwell Maltz (three of
   four). The command line prints it as a `Shared name` line.
 - The matching rule is the MCP tool's: the same figures and the same key words, give or take one word one side leaves
