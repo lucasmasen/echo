@@ -8,6 +8,8 @@ that no page of the run comes from. Search engines count sources. Echo counts or
 
 The repo is public: <https://github.com/lucasmasen/echo>. The app is not deployed. It runs on your machine.
 
+**Provenance.** The app and its original demo flows were developed before Nov 14. The `/origins` showcase uses sixteen Telem captures from Nov 14; it is a current-day view of work built over several days. Earlier captures from Nov 10–13 remain dated and accessible in the saved demo gallery and `public/demo-traces/`. Git history records when code was committed, not when every feature was written.
+
 ![How Echo works: a claim, Echo's searches, Telem routing each search to five engines, pages read with Tavily, Claude judging which pages copy which, the origin layer, then the app and three ways to call the check](docs/architecture.svg)
 
 **The two-minute tour, with no API key.** Every step reads saved runs. None sends a search or a model call.
@@ -99,11 +101,10 @@ found no page that is the document and folded nothing. No look-up is saved for t
 
 **Supporting detail.** Asked the same question with one page per origin instead of every page Echo kept, Claude took
 51% to 90% fewer input tokens across the sixteen runs. One measurement per run, and the origins-only prompt also tells
-the model what Echo found, so it is not a blind test. `/origins` also has a card on how often Echo agrees with a
-model's labels on older saved runs.
+the model what Echo found, so it is not a blind test. Older saved runs have separate AI-made label checks in the historical evaluation files; the Nov 14 cohort has no label sheet.
 
 **Honest limits.** One Telem run per claim, so nothing here ranks the engines. The same claim can score differently on
-another day: goldfish scored 72 in an older saved run and 6 today, and `/origins` shows why. It can differ on the same
+another day: goldfish scored 72 in an older saved run and 6 in the Nov 14 cohort; both captures retain their dates. It can differ on the same
 day too: two re-runs saved in `evaluation/reruns/` (not on the page) scored phones 23 against 18 and habit 83 against
 72. A model (Claude) judges
 which pages copy which, so each link is a judgment, not a measurement. 193 of the 285 pages could not be tied to any
@@ -222,13 +223,7 @@ Below the tabs:
 - **Engine scorecard.** One dot per origin, numbered with how many engines reached it, and the engines needed for each
   claim (`engineScorecard` in `src/lib/echo/origin-flow.ts`). One Telem run per claim. It shows the measurement and does not
   rank engines.
-- **Every saved run in one table**, with a CSV download and a JSON copy.
-- **How stable is a score.** The same claim on two occasions, for the claims with two saved runs. Goldfish scored 72
-  in an older run searched through Tavily and 6 today: the older run kept a PubMed study and a BBC report, and today's
-  run kept neither. Phones scored 18 both times (`src/lib/echo/origin-stability.ts`).
-- **How often Echo agrees with a model's labels.** Label checks on older saved runs. The labels were written by a
-  model, not a person, and the wrong verdicts are shown. It measures agreement with those labels, nothing more.
-  Today's Telem runs have no label sheet yet.
+- **Nov 14 Telem runs**, one row per claim, with a CSV download and a JSON copy. Older saved runs and AI-made label checks remain in the historical demo and evaluation files; they are excluded from this cohort.
 - **A limit Echo hit today.** The 95% run, the flag and the look-up, as under "Judges: start here".
 - **One check, six kinds of work.** Where the same check might apply, each shown with a saved run. Who might pay is a
   guess. Nobody has been asked yet.

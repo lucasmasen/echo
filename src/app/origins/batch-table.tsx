@@ -41,7 +41,7 @@ function Blank({ why }: { why: string }) {
 }
 
 /**
- * Every saved run as one row. Click a column heading to sort. The two buttons hand the same rows over as a CSV file or
+ * One run in the selected cohort per row. Click a column heading to sort. The two buttons hand the same rows over as a CSV file or
  * as JSON on the clipboard. Both are built in the browser from the rows on screen: nothing is requested or sent.
  */
 export default function BatchTable({ rows }: { rows: BatchRow[] }) {
@@ -103,7 +103,7 @@ export default function BatchTable({ rows }: { rows: BatchRow[] }) {
       </div>
       <div className={styles.wrap}>
         <table className={styles.table}>
-          <caption className={styles.hidden}>Every saved run, one row each. Each column heading is a button that sorts the table.</caption>
+          <caption className={styles.hidden}>November 14 Telem runs, one row each. Each column heading is a button that sorts the table.</caption>
           <thead>
             <tr>
               {COLUMNS.map((column) => {

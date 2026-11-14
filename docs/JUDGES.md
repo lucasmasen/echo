@@ -4,6 +4,8 @@ Echo finds the source that is not in the results. Search engines count sources. 
 what the pages keep naming when no page comes from it. This page maps the four judging criteria to what is in the
 repo. The repo is public: <https://github.com/lucasmasen/echo>. The app is not deployed.
 
+Echo's app and original demo flows predate Nov 14. This document covers the Nov 14 Telem cohort; earlier dated captures and the original runbook remain in the repository. See [DEMO_DAY_ARCHIVE.md](DEMO_DAY_ARCHIVE.md) for the prior runbook.
+
 Every figure below comes from the sixteen runs traced live through Telem on Nov 14, saved in `mcp/traces/`. They are
 recomputed offline from those files by `originFlow` and `engineScorecard` in `src/lib/echo/origin-flow.ts` and
 `originLayer` in `src/lib/echo/origin-layer.ts`. The Echo Score rates the evidence base one run found, not whether the
@@ -134,9 +136,7 @@ The next step is to ask teams who ship AI answers with citations. That has not b
   of the 8 origins fold into it, origins go from 8 to 3, and the score from 98 to 67. That is still too high: two of
   the three origins left are pages that mention neither the report nor the 95% figure. One measurement, and a model
   decided which origins fold.
-- **How stable a score is.** `/origins` puts two saved runs of the same claim side by side
-  (`src/lib/echo/origin-stability.ts`). Goldfish scored 72 in an older run and 6 today, and the card says why from the
-  data: the older run kept a PubMed study and a BBC report, and today's run kept neither.
+- **One dated cohort.** The `/origins` table contains the sixteen Nov 14 Telem captures only. Earlier Nov 10–13 demo captures remain in `public/demo-traces/` with their original dates; they are not part of the cohort figures.
 
 ## 4. Technical execution (20%)
 
@@ -150,9 +150,7 @@ The next step is to ask teams who ship AI answers with citations. That has not b
 - **Pure libraries.** `origin-layer.ts`, `origin-flow.ts`, `upstream.ts`, `upstream-fold.ts`, `origin-stability.ts`,
   `origin-batch.ts` and `saved-check.ts` in `src/lib/echo/` take a saved run and return data. They hold no network
   code.
-- **Measured against labels.** `/origins` has a card, "How often Echo agrees with a model's labels"
-  (`src/app/origins/accuracy.tsx`): label checks on older saved runs, with the wrong verdicts shown. A model wrote the
-  labels, not a person, so the card measures agreement with those labels. Today's Telem runs have no label sheet yet.
+- **Historical label checks.** `evaluation/` and `src/lib/echo/demo-scores.ts` preserve checks on older saved runs. A model wrote the labels, not a person, so these measure agreement with AI-made labels. The Nov 14 Telem cohort has no label sheet and makes no accuracy claim.
 - **Offline checks**, each free to run: `npm run check:origin-layer`, `npm run check:origin-flow`,
   `npm run check:upstream`, `npm run check:origin-upstream`, `npm run check:origin-stability`,
   `npm run check:origin-batch`, `npm run check:echo-api`, `npm run check:copy` (no typed figures in the app's copy:

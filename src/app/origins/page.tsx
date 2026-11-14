@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { batchRows, batchSummary } from "@/lib/echo/origin-batch";
+import { batchRows } from "@/lib/echo/origin-batch";
 import { engineScorecard } from "@/lib/echo/origin-flow";
 import { originLayer } from "@/lib/echo/origin-layer";
 import { parsePortableTrace } from "@/lib/echo/portable";
@@ -13,8 +13,6 @@ import type { EchoAnalysis } from "@/lib/echo/types";
 import { savedComparisonFor } from "../origin-saved";
 import { savedUpstreamFor } from "../origin-upstream";
 import BatchTable from "./batch-table";
-import Accuracy from "./accuracy";
-import Stability from "./stability";
 import UpstreamMap from "./upstream-map";
 import UseCases from "./use-cases";
 import batch from "./batch.module.css";
@@ -77,24 +75,6 @@ async function readRun(file: string): Promise<EchoAnalysis | null> {
   }
 }
 
-/** Every saved live run in public/demo-traces, by file name, for the one-row-per-run table. A file that does not read is skipped. */
-async function readDemoRuns(): Promise<Array<{ file: string; analysis: EchoAnalysis }>> {
-  try {
-    const dir = path.join(process.cwd(), "public", "demo-traces");
-    const names = (await fs.readdir(dir)).filter((name) => name.endsWith(".echo.json")).sort();
-    const read = await Promise.all(names.map(async (file) => {
-      try {
-        return { file, analysis: parsePortableTrace(JSON.parse(await fs.readFile(path.join(dir, file), "utf8"))) };
-      } catch {
-        return { file, analysis: null };
-      }
-    }));
-    return read.flatMap(({ file, analysis }) => (analysis && analysis.mode === "live" ? [{ file, analysis }] : []));
-  } catch {
-    return [];
-  }
-}
-
 function count(value: number, one: string, many: string): string {
   return `${value.toLocaleString("en-US")} ${value === 1 ? one : many}`;
 }
@@ -137,7 +117,7 @@ const WAYS: Array<{ key: string; tag: string; title: string; text: string; code?
     title: "Call echo_check",
     text: "An MCP tool: an agent asks for a claim’s independent origins before it answers. This line adds it to Claude Code:",
     code: "claude mcp add --scope user echo -- node ~/Projects/echo/mcp/echo-mcp.mjs",
-    note: "The repo is not public yet, so this runs on the machine in front of you. A claim with a saved run answers offline, at no cost. Any other claim runs only when live mode is switched on, and that run spends.",
+    note: "Run this on the machine in front of you. A claim with a saved run answers offline, at no cost. Any other claim runs only when live mode is switched on, and that run spends.",
   },
   {
     key: "http",
@@ -174,18 +154,10 @@ export default async function Origins() {
   const limitTab: ShowcaseRun[] = limitRun && limitRun.mode === "live" ? [{ key: "limit", label: "Where Echo was wrong", analysis: limitRun, warning: "Echo got this run wrong at first, and it is kept here as a limit. Most of the origins below are separate write-ups of one report that was not among the pages Echo kept, so the score overstates how independent the evidence is. Scroll to “A name the origins share” to see the rule that flags it and what Echo found when it went looking." }] : [];
   const tabs: ShowcaseRun[] = [...runs, ...(linksRun ? [{ key: LINKS_RUN.key, label: LINKS_RUN.label, analysis: linksRun }] : []), ...limitTab];
 
-  // Every saved run as one row: the Telem runs of the tabs, then each saved run in public/demo-traces (older Tavily
-  // runs and the links check). Rows and the sentence above them are computed here, on the server, from the traces.
-  const batchRuns = [...loaded.flatMap(({ file, analysis }) => (analysis && analysis.mode === "live" ? [{ file, analysis }] : [])), ...(await readDemoRuns())];
+  // This table is the Nov 14 Telem cohort only. Earlier bundled demos remain available elsewhere with their real dates.
+  const batchRuns = loaded.flatMap(({ file, analysis }) => (analysis && analysis.mode === "live" ? [{ file, analysis }] : []));
   const rows = batchRows(batchRuns.map((run) => ({ ...run, comparison: savedComparisonFor(run.analysis) })));
-  const inBatch = batchSummary(rows);
-  const batchLede = [
-    "These are the saved runs side by side, one row per run. Each was traced on its own; the table only lines them up.",
-    inBatch.tavily > 0 ? `${capital(inWords(inBatch.tavily))} ${inBatch.tavilyEarlier ? "older " : ""}${inBatch.tavily === 1 ? "run was" : "runs were"} searched through Tavily${inBatch.tavilyEarlier ? " on earlier days" : ""}, so ${inBatch.tavily === 1 ? "it has" : "they have"} no engine columns.` : "",
-    inBatch.links > 0 ? `${capital(inWords(inBatch.links))} ${inBatch.links === 1 ? "row is a set of pasted links" : "rows are sets of pasted links"}, read with no search.` : "",
-    inBatch.spread ? `Scores move with what a run retrieves: “${inBatch.spread.claim}” scores ${inBatch.spread.low} in one run and ${inBatch.spread.high} in another.` : "Scores move with what a run retrieves.",
-    "Read each row as what this run found.",
-  ].filter(Boolean).join(" ");
+  const batchLede = "One saved Telem run per claim in the Nov 14 cohort. Each row describes what that run found; these are not repeat measurements or a benchmark of engine quality.";
 
   // The opening sentence: how many runs loaded, whether Telem routed every one, and the day(s) they were captured.
   const stamps = runs.map((run) => run.analysis.createdAt).filter((iso) => capturedDay(iso)).sort();
@@ -288,22 +260,21 @@ export default async function Origins() {
       )}
 
       {rows.length > 0 && (
-        <section aria-label="Every saved run in one table" className={batch.card}>
-          <p className={batch.kicker}>EVERY SAVED RUN IN ONE TABLE</p>
+        <section aria-label="November 14 Telem runs" className={batch.card}>
+          <p className={batch.kicker}>NOV 14 TELEM RUNS</p>
           <h2 className={batch.title}>{capital(inWords(rows.length))} saved {rows.length === 1 ? "run, one row" : "runs, one row each"}</h2>
           <p className={batch.lede}>{batchLede}</p>
+          <p className={batch.lede}>Earlier captures from Nov 10–13 are kept with their original dates in the <Link href="/explore">historical trace gallery</Link>. They are outside this cohort.</p>
           <BatchTable rows={rows} />
         </section>
       )}
 
-      <Stability runs={batchRuns} />
-      <Accuracy />
       {limit && (
         <section aria-label="A limit Echo hit today" className={styles.scorecard}>
           <p className={styles.kicker}>A LIMIT ECHO HIT TODAY</p>
           <h2 className={styles.scoreTitle}>On one more claim, Echo counted origins it should have folded together.</h2>
           <p className={styles.lede}>“{limit.claim}”: from {count(limit.pages, "page", "pages")}, Echo counted {count(limit.layer.origins.length, "independent origin", "independent origins")} and scored the run {limit.layer.score}. Reading the judge’s saved notes, most of those pages are separate write-ups of one report, and that report was not among the {limit.pages} pages Echo kept. With no page to trace them back to, each write-up looked like an origin, so that score overstates how independent the evidence is. Echo’s own answer for the run does name the one report.</p>
-          <p className={styles.scoreNote}>This run is kept out of the tabs and of every figure above; the saved run is in evaluation/known-limits. {limit.shared ? ` Echo now flags runs like this by rule: here ${limit.shared.origins} of the ${limit.shared.of} publishers behind those ${limit.layer.origins.length} origins mention “${limit.shared.name}” in the passage Echo saved, and no page in the run comes from a site with that name.` : ""}{limit.looked && limit.looked.fold.folded.length > 0
+          <p className={styles.scoreNote}>This run has its own tab, marked as a limit, and is kept out of every aggregate figure above; the saved run is in evaluation/known-limits. {limit.shared ? ` Echo now flags runs like this by rule: here ${limit.shared.origins} of the ${limit.shared.of} publishers behind those ${limit.layer.origins.length} origins mention “${limit.shared.name}” in the passage Echo saved, and no page in the run comes from a site with that name.` : ""}{limit.looked && limit.looked.fold.folded.length > 0
             ? ` Echo then went looking, which is new today: one more search through Telem ${limit.looked.record.upstream ? `found a copy of the document at ${limit.looked.record.upstream.domain}` : "found no page that is the document"}, ${limit.looked.fold.folded.length} of the ${limit.looked.fold.before.origins} origins fold into ${limit.looked.record.upstream ? "it" : "one document"}, and the score moves from ${limit.looked.fold.before.score} to ${limit.looked.fold.after.score}. A model judged which origins rest on the document.${limit.looked.unrelated > 0 ? ` It is a first version: ${count(limit.looked.unrelated, "origin it left standing is a page", "origins it left standing are pages")} the model found no mention of the document in, so the adjusted score is still too high.` : " It is a first version."}`
             : " The full fix is to fetch the document those pages cite and trace to it. That is not built yet."}</p>
         </section>
