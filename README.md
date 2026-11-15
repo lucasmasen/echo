@@ -12,6 +12,10 @@ The repo is public: <https://github.com/lucasmasen/echo>. The app is not deploye
 
 ![How Echo works: a claim, Echo's searches, Telem routing each search to five engines, pages read with Tavily, Claude judging which pages copy which, the origin layer, then the app and three ways to call the check](docs/architecture.svg)
 
+**Open it without installing anything:** <https://echo-origins.vercel.app/origins>. This hosted copy has no API keys,
+so it shows the saved runs only and cannot start a new live trace. It was put up after the submission deadline, from
+this same `main` branch.
+
 **The two-minute tour, with no API key.** Every step reads saved runs. None sends a search or a model call.
 
 1. `npm ci`
